@@ -52,6 +52,12 @@ appear automatically, and the fallback notice disappears.
 
 The root language redirect (`_redirects`) is generated automatically for every language that has a home page.
 
+## Contact details and team names — `src/content/site.json`
+
+Single source of truth: `contact.email` (hello@organixevents.com), address, `social` (Instagram) and — optional, currently removed — `phone` / `whatsapp`, and
+`team.bryan.name` / `team.stephane.name`. Change a value there and every page (footer, enquiry page,
+About cards, structured data) updates on the next build.
+
 ## Partners — `src/content/site.json`
 
 Add the official logo file to `public/brand/partners/` and set `"logo": "brand/partners/julbo.svg"`.
@@ -69,3 +75,16 @@ French and German alt text per media key (English lives in `scripts/images.py`).
 
 Big headings shrink automatically when a single word would not fit its column (e.g. "Nordmazedonien" on a phone),
 so copy can be edited freely in any language.
+
+## Analytics (GA4) & consent
+Set `analytics.ga4Id` in `src/content/site.json` (e.g. `G-XXXXXXX`). Until it is set, no analytics code runs.
+When set, Consent Mode v2 starts with everything denied; Google's script loads only after the visitor clicks "Accept"
+in the consent card. The visitor can change the choice via "Cookie settings" in the footer.
+Events: page_view (+ destination), destination_view, enquiry_cta, enquiry_started, enquiry_submitted, language_change, partner_click, email_click.
+
+## Netlify form notifications
+Netlify › Site › Forms › Form notifications › Add notification › Email → hello@organixevents.com, form `enquiry`.
+The hidden `subject` field sets the email subject.
+
+## Legal pages
+`src/content/pages/legal.<lang>.json` and `privacy.<lang>.json` (sections with a heading and paragraphs). Must be legally validated before production.

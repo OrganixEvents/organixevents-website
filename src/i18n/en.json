@@ -12,7 +12,9 @@
     "skip": "Skip to content",
     "home": "OrganixEvents home",
     "language": "Language",
-    "mainNav": "Main navigation"
+    "mainNav": "Main navigation",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy"
   },
   "common": {
     "explore": "Explore",
@@ -46,7 +48,8 @@
     "yourIdea": "Your idea?",
     "tellUs": "Tell us",
     "gallery": "Photo gallery",
-    "breadcrumb": "Breadcrumb"
+    "breadcrumb": "Breadcrumb",
+    "price": "Price"
   },
   "footer": {
     "tagline": "Sport and adventure experiences, created, organised and hosted by Organix.",
@@ -54,7 +57,11 @@
     "company": "Company",
     "contact": "Contact",
     "rights": "All rights reserved.",
-    "preview": "Preview build — not the live website."
+    "preview": "Preview build — not the live website.",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "cookies": "Cookie settings",
+    "follow": "Follow us"
   },
   "enquiry": {
     "title": "Where next?",
@@ -70,12 +77,12 @@
       "north-macedonia": "Private snowcat freeride",
       "winter": "Georgia, Norway, the Alps",
       "summer": "Camps, wake, adventures",
-      "custom": "You dream it, we build it"
+      "custom": "You imagine it, we build it"
     },
     "step2": "A few details",
     "name": "Name",
     "email": "Email",
-    "phone": "Phone / WhatsApp",
+    "phone": "Phone",
     "people": "Number of people",
     "peopleHint": "Solo travellers welcome",
     "dates": "Preferred dates",
@@ -114,23 +121,36 @@
     "messageHint": "Anything that helps us understand your idea",
     "optional": "optional",
     "required": "required",
-    "consent": "We only use your details to reply to your enquiry.",
+    "consent": "We only use your details to reply to your enquiry. See our privacy policy.",
     "submit": "Send enquiry",
     "sending": "Sending…",
     "error": "Something went wrong. Please try again or email us directly.",
     "thanksTitle": "Thank you.",
-    "thanksLead": "Your enquiry has reached us. We'll get back to you personally to talk it through.",
+    "thanksLead": "Your enquiry has reached us. We'll get back to you personally within 48 hours.",
     "thanksBack": "Back to the homepage",
     "processTitle": "How booking works",
     "process": [
       "You send an enquiry",
       "We talk it through personally",
       "We send you the registration form",
-      "You complete your registration",
-      "We validate it",
-      "You pay Organix directly (CHF or EUR)",
-      "Your trip is confirmed"
+      "We confirm your place",
+      "OrganixEvents invoices you directly, in CHF or EUR"
     ],
-    "noCheckout": "No online payment. Every trip is confirmed personally."
+    "noCheckout": "Every trip is confirmed personally.",
+    "level": "Your level",
+    "levelOptions": [
+      "Good piste skier (red and black runs)",
+      "Some off-piste experience",
+      "Experienced freerider",
+      "Not sure"
+    ],
+    "subject": "New website enquiry"
+  },
+  "consent": {
+    "title": "Cookies",
+    "text": "We'd like to use analytics cookies (Google Analytics) to understand how the site is used. Nothing is loaded unless you agree.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "more": "Privacy policy"
   }
 }

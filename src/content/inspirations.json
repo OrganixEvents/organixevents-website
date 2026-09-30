@@ -1,8 +1,9 @@
 {
-  "_comment": "Custom inspiration — possibilities, NOT bookable fixed products. Shown on Home and Custom.",
+  "_comment": "Custom inspiration — possibilities, NOT bookable fixed products. Shown on Home and Custom. season: winter|summer.",
   "items": [
     {
       "slug": "greenland-ski-sail",
+      "season": "winter",
       "title": {
         "en": "Greenland Ski & Sail",
         "fr": "Groenland ski & voile",
@@ -17,6 +18,7 @@
     },
     {
       "slug": "iceland-ski-sail",
+      "season": "winter",
       "title": {
         "en": "Iceland Ski & Sail",
         "fr": "Islande ski & voile",
@@ -31,8 +33,9 @@
     },
     {
       "slug": "japan-powder",
+      "season": "winter",
       "title": {
-        "en": "Japan Powder Trip",
+        "en": "Japan Powder",
         "fr": "Poudreuse au Japon",
         "de": "Powder in Japan"
       },
@@ -45,6 +48,7 @@
     },
     {
       "slug": "turkey-heliski",
+      "season": "winter",
       "title": {
         "en": "Turkey Heliski",
         "fr": "Héliski en Turquie",
@@ -59,6 +63,7 @@
     },
     {
       "slug": "georgia-heliski",
+      "season": "winter",
       "title": {
         "en": "Georgia Heliski",
         "fr": "Héliski en Géorgie",
@@ -73,6 +78,7 @@
     },
     {
       "slug": "maldives-surf-boat",
+      "season": "summer",
       "title": {
         "en": "Maldives Surf & Boat",
         "fr": "Maldives surf & bateau",
@@ -86,7 +92,8 @@
       "image": null
     },
     {
-      "slug": "balkans-multi-sport",
+      "slug": "balkans-multisport",
+      "season": "summer",
       "title": {
         "en": "Balkans Multi-Sport",
         "fr": "Balkans multisport",
@@ -96,6 +103,66 @@
         "en": "Multi-sport",
         "fr": "Multisport",
         "de": "Multisport"
+      },
+      "image": null
+    },
+    {
+      "slug": "cycling-trips",
+      "season": "summer",
+      "title": {
+        "en": "Cycling Trips",
+        "fr": "Voyages à vélo",
+        "de": "Velo-Reisen"
+      },
+      "sport": {
+        "en": "Bike",
+        "fr": "Vélo",
+        "de": "Velo"
+      },
+      "image": null
+    },
+    {
+      "slug": "backpacking-trips",
+      "season": "summer",
+      "title": {
+        "en": "Backpacking Trips",
+        "fr": "Voyages sac au dos",
+        "de": "Backpacking-Reisen"
+      },
+      "sport": {
+        "en": "Trekking",
+        "fr": "Trek",
+        "de": "Trekking"
+      },
+      "image": null
+    },
+    {
+      "slug": "sailing-trips",
+      "season": "summer",
+      "title": {
+        "en": "Sailing / Boat Trips",
+        "fr": "Voyages en voilier / bateau",
+        "de": "Segel- / Bootsreisen"
+      },
+      "sport": {
+        "en": "Sail",
+        "fr": "Voile",
+        "de": "Segeln"
+      },
+      "image": null
+    },
+    {
+      "slug": "surf-trips",
+      "season": "summer",
+      "title": {
+        "en": "Surf Trips",
+        "fr": "Surf trips",
+        "de": "Surf-Trips"
+      },
+      "sport": {
+        "en": "Surf",
+        "fr": "Surf",
+        "de": "Surf"
       },
       "image": null
     }

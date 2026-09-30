@@ -1,17 +1,24 @@
 {
   "seo": {
     "title": "Sommererlebnisse — Jugendcamps, Wake in Portugal, Abenteuer | OrganixEvents",
-    "description": "Wenn der Schnee schmilzt, bleiben wir in Bewegung: Jugendcamps an Schweizer Seen, eine Wake-Woche in Portugal und flexible Sport- und Abenteuerreisen."
+    "description": "Wenn der Schnee schmilzt, bleiben wir in Bewegung: Sommercamps für Jugendliche am Lac de Joux und am Genfersee, eine Premium-Wake-Woche in Portugal, Velo und Trekking in Nordmazedonien."
   },
   "hero": {
     "eyebrow": "Sommer",
-    "title": ["Wenn der Schnee schmilzt,", "bleiben wir in Bewegung."],
-    "lead": "Camps für junge Rider, eine Woche auf dem Wasser in Portugal und Abenteuer, die mit einer Idee beginnen.",
+    "title": [
+      "Wenn der Schnee schmilzt,",
+      "bleiben wir in Bewegung."
+    ],
+    "lead": "Camps für Jugendliche, eine Premium-Wake-Woche in Portugal und Abenteuer, die mit einer Idee beginnen.",
     "image": "su-wake-jump",
     "imageMobile": "su-wake-jump"
   },
   "intro": "Sommer bei Organix ist nicht eine grosse Reise. Es sind drei verschiedene Arten, draussen zu bleiben.",
-  "areas": ["youth-camps", "portugal-wake", "summer-adventures"],
+  "areas": [
+    "youth-camps",
+    "portugal-wake",
+    "summer-adventures"
+  ],
   "final": {
     "title": "Eine Idee für den Sommer?",
     "lead": "Eine Velotour, eine Woche auf dem Wasser, ein Gruppenabenteuer – erzählen Sie uns, was Sie vorhaben.",

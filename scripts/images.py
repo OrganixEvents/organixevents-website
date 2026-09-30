@@ -24,17 +24,17 @@ NM = "01_NORTH_MACEDONIA/"
 NO = "02_NORWAY/"
 AL = "03_ALPS_WINTER/"
 SU = "04_SUMMER_ADVENTURE/"
+BR = "05_BROCHURE_IMAGES/"  # images extracted from Organix brochures / flyers
+DR = "06_DRIVE_2025_26/"   # OrganixEvents Drive, Photo 25/26
 
 # key: (source file, English alt text, focal point "x% y%" for object-position)
 MEDIA = {
     # North Macedonia
     "nm-snowcat-ridge":  (NM + "09A967B5-2716-44A7-A615-977A19BBF548.jpeg", "The Organix snowcat parked on a snowy ridge under a deep blue sky in North Macedonia", "70% 50%"),
     "nm-panorama":       (NM + "0d5351cc-9639-48ab-a6e9-e7dd15e8a3ce.jpg", "Wide snow-covered ridges and peaks of the Šar Mountains in North Macedonia", "50% 55%"),
-    "nm-dusk":           (NM + "3673EAC4-06C7-425B-89CF-685599095A6E.jpeg", "Pink dusk light over a jagged snowy mountain range", "50% 55%"),
     "nm-cornice":        (NM + "38A878DD-04F0-4483-A18E-50254DF7464C.jpeg", "A rider standing above a snow cornice looking over endless white ridges", "60% 40%"),
     "nm-snowcat-crew":   (NM + "3c041625-6252-4e5f-aaa4-21b6ee6b469f.jpg", "A guest waving from the door of the passenger cabin on the Organix snowcat", "40% 50%"),
     "nm-snowcat-powder": (NM + "5d7d3bdb-82c1-48e8-bfd6-83505c33b4e6.jpg", "The snowcat climbing through fresh powder below rocky summits", "50% 60%"),
-    "nm-village":        (NM + "857ece90-4800-4fbd-b7a9-32182ededaf0.jpg", "Snow-covered wooden chalets and fir forest in a mountain village", "50% 50%"),
     "nm-ridge-group":    (NM + "963c34e0-667b-431d-a2a3-3e174204d9cb.jpg", "Three skiers on a ridge looking toward steep rocky peaks", "60% 50%"),
     "nm-sunset":         (NM + "99DF5129-AAC0-48A3-B171-2997CDC3E0D7.jpeg", "Sunset glow behind a pointed summit with ski tracks in the foreground", "50% 60%"),
     "nm-group":          (NM + "9c1be1a5-be7d-4661-b1a6-cc9c88d2aec4.jpg", "A group of skiers and snowboarders gathered on a summit plateau under dramatic clouds", "50% 70%"),
@@ -67,6 +67,57 @@ MEDIA = {
     "su-bike":           (SU + "A969D0F5-7FC4-4B7C-983A-02C7F399F1E5.jpeg", "Mountain bikers riding a gravel track across open hills", "40% 60%"),
     "su-wake-boat":      (SU + "PHOTO-2026-07-25-16-34-50.jpeg", "A wake boat on turquoise water with riders on board", "50% 60%"),
     "su-wake-jump":      (SU + "PHOTO-2026-07-25-18-59-17.jpg", "A wakeboarder jumping high behind the boat", "55% 45%"),
+    # North Macedonia — Drive 2025/26 season
+    "nm-cloudsea":       (DR + "b270a488-6a99-4dda-aaa1-240a5597b903.jpg", "A small group skinning across a snow plateau toward a sea of clouds in North Macedonia", "50% 62%"),
+    "nm-snowfight":      (DR + "b455ba70-0530-4f1e-a798-289beecec8a5.jpg", "Guests throwing fresh snow and laughing next to the snowcat", "50% 45%"),
+    "nm-cabin-group":    (DR + "29b2f484-e813-4838-8508-a90747628f09.jpg", "A cheerful group of riders inside the snowcat passenger cabin", "45% 45%"),
+    "nm-skin-line":      (DR + "86361229-c3bc-455e-a5f6-327d139d3ebc.jpg", "A line of ski tourers climbing a wide snowy slope under a blue sky", "55% 55%"),
+    "nm-ridges":         (DR + "IMG_5508.JPG", "Wide snow-covered ridges and forested valleys of the Šar Mountains", "50% 55%"),
+    "nm-moonrise":       (DR + "8379263e-cec1-403c-bea1-8d0324852581.jpg", "The moon rising over snowy peaks at dusk", "50% 35%"),
+    "nm-forest-walk":    (DR + "25b789fc-e580-43a9-9bc1-9a5abde1be38.jpg", "A skier carrying skis along a snowy forest track", "50% 50%"),
+    "nm-stone-hut":      (DR + "6d8f8022-5bfe-4fab-8c99-a7ff96d974ef.jpg", "An old stone shepherd's hut half buried in snow below a summit", "50% 60%"),
+    "nm-hut":            (DR + "09a01dbc-df1a-405e-bfd0-c71805f8e09d.jpg", "A mountain hut on a snowy plateau under a deep blue sky", "50% 50%"),
+    "nm-spring-tour":    (DR + "c84811dc-fb99-4536-82f0-96719782ecc9.jpg", "A ski tourer walking up a spring trail with skis on his pack", "50% 45%"),
+    "nm-duo":            (DR + "97dfbdf1-2578-4ea7-a3dc-3847b324fbb7.jpg", "Two riders smiling in helmets and goggles on the mountain", "50% 45%"),
+    "nm-peak":           (DR + "88a12e4a-eae2-4264-9434-4f2aa7432a3c.jpg", "A snowy summit above untracked slopes", "50% 50%"),
+    "nm-valley":         (DR + "88923f26-71ae-4efb-80b3-647d649a15c3.jpg", "A pointed snowy peak above a forested valley", "50% 50%"),
+    "nm-spring-duo":     (DR + "b2a62125-7087-4ecc-a73a-3f711c094a42.jpg", "Two ski tourers with skis on their packs on a sunny spring hillside", "50% 55%"),
+    "mk-meadow-hut":     (DR + "925fb9f7-d760-4a5a-9d2e-76cdc5e5d675.jpg", "A wooden hut and rock spire in a mountain meadow in North Macedonia", "50% 55%"),
+    "mk-valley-village": (DR + "53ef8ce9-9eb7-4646-a5ca-7186c9b1e713.jpg", "A red-roofed cabin in a mountain valley below a snowy peak", "50% 60%"),
+    # North Macedonia — Organix brochure
+    "nm-snowcat-team":   (BR + "mk-000.jpg", "A group of riders standing in front of the red Organix snowcat", "55% 60%"),
+    "nm-open-terrain":   (BR + "mk-004.jpg", "A skier walking across vast open snowfields", "50% 55%"),
+    "nm-arms-up":        (BR + "mk-006.jpg", "A rider celebrating on a sunny ridge with arms raised", "45% 50%"),
+    "nm-powder-board":   (BR + "mk-007.jpg", "A snowboarder spraying powder between fir trees", "55% 55%"),
+    "nm-hotel":          (BR + "mk-024.jpg", "The small family hotel with its wood-fired sauna in the snow", "50% 55%"),
+    "nm-jacuzzi":        (BR + "mk-025.jpg", "Guests relaxing in the outdoor jacuzzi in the evening", "50% 50%"),
+    "nm-room":           (BR + "mk-026.jpg", "A bright double room at the hotel", "50% 50%"),
+    "nm-food":           (BR + "mk-029.jpg", "Macedonian dishes: burek, grilled peppers and white cheese", "50% 50%"),
+    # Georgia — Organix brochure
+    "ge-sunset-group":   (BR + "ge-000.jpg", "A group of riders on a ridge at sunset in the Caucasus", "65% 70%"),
+    "ge-snowcat":        (BR + "ge-001.jpg", "A snowcat with passenger cabin on a snowy ridge in Georgia", "60% 55%"),
+    "ge-powder":         (BR + "ge-002.jpg", "A snowboarder in deep powder above forested valleys in Georgia", "55% 55%"),
+    "ge-chalet":         (BR + "ge-003.jpg", "The wooden guest house chalet in Bakhmaro", "50% 50%"),
+    "ge-interior":       (BR + "ge-004.jpg", "The lounge of the guest house with a wood stove", "50% 50%"),
+    "ge-snow-hut":       (BR + "ge-012.jpg", "A wooden hut buried under a huge cushion of snow", "50% 50%"),
+    "ge-village":        (BR + "ge-013.jpg", "The snow-covered village of Bakhmaro among fir trees", "50% 50%"),
+    "ge-snowcat-road":   (BR + "ge-014.jpg", "A snowcat climbing between snowy mountains in Georgia", "50% 55%"),
+    "ge-forest-peaks":   (BR + "ge-015.jpg", "Snowy peaks above dense fir forest in the Caucasus", "50% 50%"),
+    # Norway — Organix Tromsø flyer
+    "no-skintrack":      (BR + "no-006.jpg", "Two ski tourers following a skin track toward a fjord and snowy peaks", "50% 55%"),
+    "no-fishing":        (BR + "no-007.jpg", "A skier holding up a freshly caught fish by the Arctic sea", "50% 45%"),
+    "no-lyngen-light":   (BR + "no-014.jpg", "Evening light on the jagged peaks of the Lyngen Alps", "50% 60%"),
+    # Portugal — Organix wake flyer
+    "pt-boat-rider":     (BR + "pt-000.jpg", "A wake boat carving the lake with a rider behind it", "50% 55%"),
+    "pt-pontoon":        (BR + "pt-001.jpg", "Aerial view of the private pontoon, boats and wake gear", "50% 50%"),
+    "pt-house-aerial":   (BR + "pt-002.jpg", "The lakeside house and the lake from above", "50% 50%"),
+    "pt-grounds":        (BR + "pt-003.jpg", "The lake and gardens around the house", "50% 55%"),
+    "pt-house":          (BR + "pt-004.jpg", "The lake house and its terrace", "50% 55%"),
+    "pt-living":         (BR + "pt-005.jpg", "The open living room of the lake house", "50% 50%"),
+    "pt-garden":         (BR + "pt-007.jpg", "A hammock in the garden overlooking the lake", "50% 50%"),
+    "pt-dock":           (BR + "pt-008.jpg", "Two wake boats moored at the private dock", "50% 55%"),
+    "pt-jump":           (BR + "pt-009.jpg", "A wakeboarder jumping high above the boat's wake", "50% 40%"),
+    "pt-misty":          (BR + "pt-010.jpg", "A wake boat on the lake in soft morning mist", "50% 60%"),
 }
 
 

@@ -1,26 +1,40 @@
 {
   "seo": {
     "title": "Voyages sport & aventure sur mesure — Vous l'imaginez, on le construit | OrganixEvents",
-    "description": "Des voyages de sport et d'aventure sur mesure, organisés de A à Z par Organix : destination, hébergement, guides, activités, matériel et logistique. Un seul interlocuteur, une seule organisation."
+    "description": "Des voyages sport et aventure sur mesure pour groupes privés, familles, clubs, équipes et entreprises, organisés de A à Z par Organix. Devis personnalisé."
   },
   "hero": {
     "eyebrow": "Sur mesure",
-    "title": ["Votre idée.", "Notre terrain de jeu."],
-    "sub": ["Vous l'imaginez.", "On le construit."],
+    "title": [
+      "Votre idée.",
+      "Notre terrain de jeu."
+    ],
+    "sub": [
+      "Vous l'imaginez.",
+      "On le construit."
+    ],
     "image": "al-ice-cave"
   },
   "start": {
-    "title": "Tout peut être un point de départ.",
+    "title": "Partez de presque rien.",
     "lead": "Pas besoin d'avoir un plan. Vous pouvez venir avec :",
-    "items": ["Un sport", "Une destination", "Un groupe", "Une vague idée", "Ou presque rien"]
+    "items": [
+      "Un sport",
+      "Une destination",
+      "Un groupe",
+      "Une vague idée",
+      "Ou presque rien"
+    ]
   },
   "organise": {
-    "eyebrow": "Ce que nous organisons",
+    "eyebrow": "Clé en main",
     "title": "Tout ce qu'il y a entre l'idée et le voyage.",
     "items": [
       "Destination & itinéraire",
+      "Recherche de vols",
       "Hébergement",
-      "Transferts & transport local",
+      "Transferts & transports locaux",
+      "Bateaux & véhicules",
       "Guides & coachs",
       "Sports & activités",
       "Matériel",
@@ -31,25 +45,58 @@
     "image": "no-deck"
   },
   "one": {
-    "lines": ["Un seul interlocuteur.", "Une seule organisation.", "Une expérience complète."]
+    "lines": [
+      "Un seul contact.",
+      "Une seule organisation.",
+      "Une expérience complète."
+    ]
+  },
+  "audiences": {
+    "eyebrow": "Pour qui",
+    "title": "Tous les groupes, toutes les tailles.",
+    "items": [
+      "Groupes privés",
+      "Familles",
+      "Clubs",
+      "Équipes sportives",
+      "Entreprises",
+      "Team building",
+      "Incentives"
+    ],
+    "example": "Exemple : une journée de team building au lac de Joux, organisée avec nos partenaires locaux.",
+    "price": "Prix : sur demande — chaque projet fait l'objet d'un devis personnalisé."
   },
   "inspiration": {
     "eyebrow": "Inspiration",
-    "title": "Jusqu'où aller ?",
-    "note": "Ce sont des possibilités, pas des voyages programmés. Chacune serait construite de zéro autour de votre groupe."
+    "title": "Des possibilités, pas des forfaits.",
+    "winter": "Hiver",
+    "summer": "Été",
+    "note": "Ce sont des idées, pas des voyages programmés. Chacune serait construite de zéro autour de votre groupe."
   },
   "process": {
     "eyebrow": "Comment ça marche",
     "steps": [
-      { "title": "Racontez-nous l'idée", "text": "Même approximative. Un sport, un lieu, un groupe, une date." },
-      { "title": "On la façonne ensemble", "text": "Nous revenons avec des options et en discutons avec vous." },
-      { "title": "On organise tout", "text": "Voyage, hébergement, intervenants, activités, logistique." },
-      { "title": "Vous partez", "text": "Avec un seul interlocuteur qui connaît chaque détail." }
+      {
+        "title": "Racontez-nous l'idée",
+        "text": "Même vague. Un sport, un lieu, un groupe, une date."
+      },
+      {
+        "title": "On la façonne ensemble",
+        "text": "Nous revenons avec des options et en discutons avec vous."
+      },
+      {
+        "title": "On organise tout",
+        "text": "Voyage, séjour, personnes, activités, logistique."
+      },
+      {
+        "title": "Vous partez",
+        "text": "Avec un seul contact qui connaît chaque détail."
+      }
     ]
   },
   "final": {
-    "title": "Construisez votre aventure.",
-    "lead": "Pas de formulaire de budget, pas de menu figé. Dites-nous simplement ce que vous avez en tête.",
+    "title": "Commencez par une idée.",
+    "lead": "Pas de menu figé. Dites-nous simplement ce que vous avez en tête.",
     "cta": "Construire votre aventure",
     "image": "al-sunrise"
   }

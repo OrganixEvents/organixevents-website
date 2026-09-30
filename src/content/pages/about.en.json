@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "About Organix — Built in the Mountains, Made for Adventure | OrganixEvents",
-    "description": "The story of Organix: Stéphane, Bryan, a snowcat brought to North Macedonia and a growing family of sport and adventure experiences."
+    "title": "About Organix — Bryan Zooler & Stéphane Pfeuti | OrganixEvents",
+    "description": "The people behind Organix: Bryan Zooler and Stéphane Pfeuti, a snowcat brought to North Macedonia, local partners and a growing family of sport and adventure experiences."
   },
   "hero": {
     "eyebrow": "About",
@@ -9,15 +9,16 @@
       "Built in the mountains.",
       "Made for adventure."
     ],
-    "image": "nm-group"
+    "image": "nm-snowfight"
   },
   "story": {
     "eyebrow": "Our story",
     "title": "Around fifteen years in the making.",
     "paragraphs": [
       "Organix has existed in different forms for around fifteen years, with Stéphane at its centre. Long before the snowcat, he was already organising trips in North Macedonia.",
-      "Bryan and Stéphane first met during Bryan's professional ski racing career, when Stéphane worked on his ski boots and custom footbeds.",
-      "Around two years ago, Bryan joined the project. Together they created OrganixEvents Sàrl, bought a snowcat and imported it to North Macedonia. With local partners, they developed the operation on the ground — today run locally through Wild Tracks — and then kept going, into new sport and adventure experiences."
+      "Bryan and Stéphane met through bootfitting: during Bryan's ski racing career, Stéphane worked on his ski boots and custom footbeds.",
+      "Bryan later joined the project. Together they created OrganixEvents Sàrl, bought a snowcat and brought it to North Macedonia. With two local partners they developed Wild Tracks, the local operation — and then kept going, into new sport and adventure experiences.",
+      "In January 2026, Bryan and Stéphane also took over Art Feet, and they are developing Artfit Lab in Etoy — the same attention to feet, boots and footbeds that brought them together."
     ],
     "milestones": [
       {
@@ -25,60 +26,69 @@
         "text": "Stéphane, Organix and North Macedonia"
       },
       {
-        "label": "Bryan joins",
-        "text": "From ski racing to building the project together"
+        "label": "Bootfitting",
+        "text": "Where Bryan and Stéphane met"
       },
       {
         "label": "OrganixEvents Sàrl",
-        "text": "Founded by Bryan and Stéphane"
+        "text": "Created by Bryan and Stéphane"
       },
       {
         "label": "Our snowcat",
-        "text": "Bought and imported to North Macedonia"
+        "text": "Bought and brought to North Macedonia"
       },
       {
         "label": "Wild Tracks",
-        "text": "The local operation, developed with our partners"
+        "text": "The local operation, developed with two local partners"
+      },
+      {
+        "label": "January 2026",
+        "text": "Taking over Art Feet · Artfit Lab in Etoy"
       },
       {
         "label": "Beyond the snowcat",
-        "text": "Norway, the Alps, summer and custom adventures"
+        "text": "Georgia, Norway, the Alps, summer and custom adventures"
       }
     ]
   },
   "people": [
     {
-      "name": "Bryan Zooler",
-      "role": "Co-founder",
-      "image": null,
-      "intro": "Bryan spent more than ten years in international ski cross competition, as a member of the Swiss ski cross team. Racing took him to mountains all over the world — and gave him a feel for what makes a trip in the mountains work.",
-      "text": "Since then he has put that experience into coaching, mountain sports and creating sport and adventure projects. Organix is where it all comes together.",
+      "id": "bryan",
+      "role": "Co-Founder · Snowsports Professional",
+      "intro": "Bryan spent more than ten years in international ski cross, as a member of the Swiss ski cross team. Racing took him to mountains all over the world — and taught him what makes a day in the mountains work.",
+      "text": "Since then, he has turned that experience into sport, mountain and adventure projects, and into his own businesses. At Organix, he is the one on the mountain with you.",
       "facts": [
         "10+ years of international ski cross",
         "Former member of the Swiss ski cross team",
-        "Swiss Federal Snowsports Instructor",
-        "Coaching and sport & adventure projects"
+        "Swiss federal snowsports instructor certificate",
+        "Entrepreneur — sport, mountain and adventure projects"
       ]
     },
     {
-      "name": "Stéphane",
-      "role": "Co-founder",
-      "image": null,
-      "intro": "Stéphane has been the central figure of Organix for around fifteen years — and for just as long, he has been travelling to, working in and building relationships in North Macedonia.",
-      "text": null,
+      "id": "stephane",
+      "role": "Co-Founder",
+      "intro": "Stéphane has been the pillar of Organix for around fifteen years — and for just as long, he has been travelling to, working in and building relationships in North Macedonia.",
+      "text": "He knows the places, the people and how to make things run on the ground. His background in bootfitting and footbeds is how he and Bryan first met.",
       "facts": [
         "Around 15 years at the heart of Organix",
-        "Around 15 years of experience in North Macedonia",
-        "Extensive mountain experience",
-        "Deep local knowledge and relationships",
-        "Operations and logistics"
+        "Around 15 years in North Macedonia",
+        "Mountain experience",
+        "Local knowledge and network",
+        "Operations and logistics",
+        "Bootfitting and custom footbeds"
       ]
     }
   ],
+  "band": [
+    "nm-cabin-group",
+    "nm-duo",
+    "nm-snowcat-team",
+    "nm-spring-duo"
+  ],
   "local": {
     "eyebrow": "Our principle",
-    "title": "Local people matter.",
-    "text": "We work with local guides, operators and people we trust. We're not outsiders importing tourism into a place — we build experiences with the people who live there, and we want the places we go to benefit from them.",
+    "title": "Local knowledge matters.",
+    "text": "We don't replace local professionals — we work with them. Local guides, operators and partners know their mountains best. Organix brings the structure, the experience, the network and the organisation around them.",
     "image": "nm-snowcat-blue"
   },
   "final": {

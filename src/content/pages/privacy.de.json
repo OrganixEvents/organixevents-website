@@ -1,0 +1,53 @@
+{
+  "seo": {
+    "title": "Datenschutzerklärung | OrganixEvents",
+    "description": "Wie die OrganixEvents Sàrl die über diese Website erhobenen Personendaten bearbeitet."
+  },
+  "eyebrow": "Rechtliches",
+  "title": "Datenschutzerklärung",
+  "updated": "Stand: September 2026",
+  "sections": [
+    {
+      "h": "Verantwortliche Stelle",
+      "p": [
+        "OrganixEvents Sàrl, Chemin de Jolimont 9, 1347 Le Sentier, Schweiz — <a href=\"mailto:hello@organixevents.com\">hello@organixevents.com</a>. Diese Erklärung folgt dem Schweizer Bundesgesetz über den Datenschutz (DSG) und, soweit anwendbar, der EU-Datenschutz-Grundverordnung (DSGVO)."
+      ]
+    },
+    {
+      "h": "Anfrageformular",
+      "p": [
+        "Wenn Sie eine Anfrage senden, erheben wir die von Ihnen eingegebenen Angaben: Name, E-Mail-Adresse, Telefonnummer (optional), das gewünschte Erlebnis, Gruppengrösse, Daten und Flexibilität, Niveau (falls relevant) und Ihre Nachricht sowie die Sprache der Seite. Wir verwenden diese Daten nur, um Ihre Anfrage zu beantworten und auf Wunsch Ihre Reise vorzubereiten. Wir bewahren sie so lange auf, wie es dafür und für unsere gesetzlichen Pflichten nötig ist."
+      ]
+    },
+    {
+      "h": "Netlify Forms und Hosting",
+      "p": [
+        "Die Website wird von Netlify, Inc. (USA) gehostet, und Formulareingaben werden über Netlify Forms verarbeitet und gespeichert, bevor sie uns per E-Mail zugestellt werden. Netlify kann technische Daten (etwa IP-Adresse, Browsertyp und Zugriffszeit) in Server-Logs verarbeiten, um die Website sicher bereitzustellen. Daten können daher ausserhalb der Schweiz bearbeitet werden, auch in den USA."
+      ]
+    },
+    {
+      "h": "Webanalyse (nur mit Ihrer Einwilligung)",
+      "p": [
+        "Wenn Sie Analyse-Cookies akzeptieren, verwenden wir Google Analytics 4 (Google Ireland Ltd. / Google LLC), um zu verstehen, wie die Website genutzt wird: aufgerufene Seiten, Herkunft der Besuche, angesehene Reiseziele, Klicks auf Anfrage-Buttons, begonnene und gesendete Formulare sowie Sprachwechsel. Google Analytics 4 speichert keine vollständigen IP-Adressen. Wenn Sie ablehnen, wird kein Analyse-Skript geladen. Sie können Ihre Wahl jederzeit über „Cookie-Einstellungen“ in der Fusszeile ändern."
+      ]
+    },
+    {
+      "h": "Cookies und lokaler Speicher",
+      "p": [
+        "Ohne Ihre Einwilligung setzen wir keine Analyse-Cookies. Ihre Cookie-Wahl speichern wir in Ihrem Browser, damit wir nicht erneut fragen."
+      ]
+    },
+    {
+      "h": "Weitergabe",
+      "p": [
+        "Wir verkaufen Ihre Daten nicht. Wir geben sie nur an Partner weiter, die an der Organisation Ihrer Reise beteiligt sind (etwa Unterkunft oder lokale Anbieter), wenn dies nötig ist und Sie sich für die Reise entschieden haben."
+      ]
+    },
+    {
+      "h": "Ihre Rechte",
+      "p": [
+        "Sie können jederzeit Auskunft, Berichtigung oder Löschung Ihrer Daten verlangen oder deren Verwendung widersprechen, indem Sie an <a href=\"mailto:hello@organixevents.com\">hello@organixevents.com</a> schreiben. Zudem können Sie bei der zuständigen Aufsichtsbehörde (in der Schweiz beim EDÖB) Beschwerde einreichen."
+      ]
+    }
+  ]
+}

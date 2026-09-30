@@ -34,7 +34,7 @@ export function priceTag(ctx, exp, { note, compact = false } = {}) {
   return `<div class="price ${compact ? 'price--compact' : ''}">
   <span class="price__label">${esc(ctx.ui.common.from)}</span>
   <span class="price__value">${esc(formatPrice(exp.priceFrom, exp.currency, ctx.locale))}</span>
-  <span class="price__unit">${esc(ctx.ui.common.perPerson)}</span>
+  <span class="price__unit">${esc(exp.priceUnit ? ctx.t(exp.priceUnit) : ctx.ui.common.perPerson)}</span>
   ${note ? `<span class="price__note">${esc(note)}</span>` : ''}
 </div>`;
 }
@@ -60,9 +60,10 @@ export function partnersStrip(ctx, { title, compact = false } = {}) {
     .map((p) => {
       const inner = p.logo
         ? `<img src="${ctx.asset(p.logo)}" alt="${esc(p.name)}" loading="lazy">`
-        : `<span class="partner__name">${fit(p.name)}</span><span class="partner__todo">${esc(ctx.ui.common.logoToCome)}</span>`;
+        : `<span class="partner__name">${fit(p.name)}</span>`;
       if (!p.logo) ctx.missing.add(`official partner logo: ${p.name}`);
-      return `<li class="partner ${p.logo ? '' : 'partner--pending'}">${inner}</li>`;
+      const body = p.url ? `<a class="partner__link" href="${p.url}" target="_blank" rel="noopener" data-track="partner_click" data-location="${esc(p.name)}">${inner}</a>` : inner;
+      return `<li class="partner ${p.logo ? '' : 'partner--pending'}">${body}</li>`;
     })
     .join('');
   return `<section class="partners ${compact ? 'partners--compact' : ''}" aria-labelledby="partners-title">
@@ -86,8 +87,8 @@ export function finalCta(ctx, { title, lead, cta, image, interest, location }) {
 </section>`;
 }
 
-export function inspirationGrid(ctx, { note } = {}) {
-  const items = ctx.inspirations.items;
+export function inspirationGrid(ctx, { note, season, cta = true } = {}) {
+  const items = ctx.inspirations.items.filter((i) => !season || i.season === season);
   return `<ul class="insp" role="list">${items
     .map(
       (it, i) => `<li class="insp__item reveal" style="--d:${i % 4}">
@@ -97,12 +98,12 @@ export function inspirationGrid(ctx, { note } = {}) {
       ${brand(ctx, 'organix-symbol', 'insp__x', '')}
     </li>`
     )
-    .join('')}<li class="insp__item insp__item--cta reveal" style="--d:3"><a class="insp__cta" href="${ctx.url('enquire/')}?interest=custom" data-track="enquiry_cta" data-location="inspiration" data-interest="custom">
+    .join('')}${cta ? `<li class="insp__item insp__item--cta reveal" style="--d:3"><a class="insp__cta" href="${ctx.url('enquire/')}?interest=custom" data-track="enquiry_cta" data-location="inspiration" data-interest="custom">
       <span class="insp__tag">${esc(ctx.ui.nav.custom)}</span>
       <span class="insp__title">${esc(ctx.ui.common.yourIdea)}</span>
       <span class="insp__sport">${esc(ctx.ui.common.tellUs)} ${arrow}</span>
       ${brand(ctx, 'organix-symbol', 'insp__x', '')}
-    </a></li></ul>${note ? `<p class="insp__note">${esc(note)}</p>` : ''}`;
+    </a></li>` : ''}</ul>${note ? `<p class="insp__note">${esc(note)}</p>` : ''}`;
 }
 
 export function checkList(items, cls = '') {

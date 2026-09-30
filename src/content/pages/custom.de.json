@@ -1,27 +1,41 @@
 {
   "seo": {
-    "title": "Massgeschneiderte Sport- & Abenteuerreisen — Sie träumen es, wir bauen es | OrganixEvents",
-    "description": "Massgeschneiderte Sport- und Abenteuerreisen, von A bis Z organisiert von Organix: Reiseziel, Unterkunft, Guides, Aktivitäten, Material und Logistik. Eine Ansprechperson, eine Organisation."
+    "title": "Massgeschneiderte Sport- & Abenteuerreisen | OrganixEvents",
+    "description": "Massgeschneiderte Sport- und Abenteuerreisen für private Gruppen, Familien, Vereine, Teams und Unternehmen, von A bis Z von Organix organisiert. Individuelle Offerte."
   },
   "hero": {
     "eyebrow": "Massgeschneidert",
-    "title": ["Ihre Idee.", "Unser Spielplatz."],
-    "sub": ["Sie träumen es.", "Wir bauen es."],
+    "title": [
+      "Ihre Idee.",
+      "Unser Spielplatz."
+    ],
+    "sub": [
+      "Sie stellen es sich vor.",
+      "Wir bauen es."
+    ],
     "image": "al-ice-cave"
   },
   "start": {
-    "title": "Fast alles kann ein Anfang sein.",
-    "lead": "Sie brauchen keinen Plan. Sie können zu uns kommen mit:",
-    "items": ["Einer Sportart", "Einem Reiseziel", "Einer Gruppe", "Einer groben Idee", "Oder fast nichts"]
+    "title": "Starten Sie mit fast allem.",
+    "lead": "Sie brauchen keinen Plan. Sie können mit Folgendem zu uns kommen:",
+    "items": [
+      "Einer Sportart",
+      "Einem Reiseziel",
+      "Einer Gruppe",
+      "Einer groben Idee",
+      "Oder fast nichts"
+    ]
   },
   "organise": {
-    "eyebrow": "Was wir organisieren",
+    "eyebrow": "Schlüsselfertig",
     "title": "Alles zwischen der Idee und der Reise.",
     "items": [
       "Reiseziel & Route",
+      "Flugsuche",
       "Unterkunft",
       "Transfers & lokaler Transport",
-      "Guides & Coaches",
+      "Boote & Fahrzeuge",
+      "Bergführer & Coaches",
       "Sport & Aktivitäten",
       "Material",
       "Restaurants & Verpflegung",
@@ -31,25 +45,58 @@
     "image": "no-deck"
   },
   "one": {
-    "lines": ["Eine Ansprechperson.", "Eine Organisation.", "Ein komplettes Erlebnis."]
+    "lines": [
+      "Ein Kontakt.",
+      "Eine Organisation.",
+      "Ein komplettes Erlebnis."
+    ]
+  },
+  "audiences": {
+    "eyebrow": "Für wen",
+    "title": "Jede Gruppe, jede Grösse.",
+    "items": [
+      "Private Gruppen",
+      "Familien",
+      "Vereine",
+      "Sportteams",
+      "Unternehmen",
+      "Teambuilding",
+      "Incentives"
+    ],
+    "example": "Beispiel: ein Teambuilding-Tag am Lac de Joux, organisiert mit unseren lokalen Partnern.",
+    "price": "Preis: auf Anfrage – jedes Projekt erhält eine individuelle Offerte."
   },
   "inspiration": {
     "eyebrow": "Inspiration",
-    "title": "Wohin könnte es gehen?",
-    "note": "Das sind Möglichkeiten, keine geplanten Reisen. Jede davon würden wir von Grund auf für Ihre Gruppe aufbauen."
+    "title": "Möglichkeiten, keine Pauschalangebote.",
+    "winter": "Winter",
+    "summer": "Sommer",
+    "note": "Das sind Ideen, keine geplanten Reisen. Jede würde von Grund auf rund um Ihre Gruppe gebaut."
   },
   "process": {
     "eyebrow": "So funktioniert es",
     "steps": [
-      { "title": "Erzählen Sie uns die Idee", "text": "So grob sie auch ist. Eine Sportart, ein Ort, eine Gruppe, ein Datum." },
-      { "title": "Wir formen sie gemeinsam", "text": "Wir kommen mit Optionen zurück und besprechen sie mit Ihnen." },
-      { "title": "Wir organisieren alles", "text": "Reise, Unterkunft, Menschen, Aktivitäten, Logistik." },
-      { "title": "Sie reisen los", "text": "Mit einer Ansprechperson, die jedes Detail kennt." }
+      {
+        "title": "Erzählen Sie uns die Idee",
+        "text": "Auch wenn sie noch vage ist. Eine Sportart, ein Ort, eine Gruppe, ein Datum."
+      },
+      {
+        "title": "Wir formen sie gemeinsam",
+        "text": "Wir melden uns mit Optionen und besprechen sie mit Ihnen."
+      },
+      {
+        "title": "Wir organisieren alles",
+        "text": "Reise, Aufenthalt, Menschen, Aktivitäten, Logistik."
+      },
+      {
+        "title": "Sie reisen",
+        "text": "Mit einem Kontakt, der jedes Detail kennt."
+      }
     ]
   },
   "final": {
-    "title": "Planen Sie Ihr Abenteuer.",
-    "lead": "Kein Budgetformular, kein fixes Menü. Erzählen Sie uns einfach, was Sie vorhaben.",
+    "title": "Beginnen Sie mit einer Idee.",
+    "lead": "Kein fixes Menü. Erzählen Sie uns einfach, was Sie vorhaben.",
     "cta": "Ihr Abenteuer planen",
     "image": "al-sunrise"
   }

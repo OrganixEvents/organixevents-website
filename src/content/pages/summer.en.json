@@ -1,17 +1,24 @@
 {
   "seo": {
     "title": "Summer Experiences — Youth Camps, Portugal Wake, Adventures | OrganixEvents",
-    "description": "When the snow melts, we keep moving: youth summer camps on Swiss lakes, a wake week in Portugal and flexible sport & adventure trips."
+    "description": "When the snow melts, we keep moving: youth summer camps on Lac de Joux and Lake Geneva, a premium wake week in Portugal, cycling and trekking in North Macedonia."
   },
   "hero": {
     "eyebrow": "Summer",
-    "title": ["When the snow melts,", "we keep moving."],
-    "lead": "Camps for young riders, a week on the water in Portugal, and adventures that start from an idea.",
+    "title": [
+      "When the snow melts,",
+      "we keep moving."
+    ],
+    "lead": "Camps for young people, a premium wake week in Portugal, and adventures that start from an idea.",
     "image": "su-wake-jump",
     "imageMobile": "su-wake-jump"
   },
   "intro": "Summer at Organix isn't one big trip. It's three different ways to stay outside.",
-  "areas": ["youth-camps", "portugal-wake", "summer-adventures"],
+  "areas": [
+    "youth-camps",
+    "portugal-wake",
+    "summer-adventures"
+  ],
   "final": {
     "title": "Got a summer idea?",
     "lead": "A bike trip, a week on the water, a group adventure — tell us what you have in mind.",

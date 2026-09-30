@@ -3,9 +3,9 @@
   "path": "winter/norway/",
   "template": "experience",
   "title": {
-    "en": "Norway — Arctic Ski Adventures",
-    "fr": "Norvège — Aventures de ski arctique",
-    "de": "Norwegen — Arktische Skiabenteuer"
+    "en": "Norway — Ski & Sail and Ski Touring",
+    "fr": "Norvège — Ski & voile et ski de randonnée",
+    "de": "Norwegen — Ski & Segeln und Skitouren"
   },
   "shortTitle": {
     "en": "Norway",
@@ -14,16 +14,16 @@
   },
   "country": "Norway",
   "region": {
-    "en": "Tromsø · Lyngen Alps · Senja",
-    "fr": "Tromsø · Alpes de Lyngen · Senja",
-    "de": "Tromsø · Lyngenalpen · Senja"
+    "en": "Tromsø · Lyngen Alps · Senja · Kvaløya",
+    "fr": "Tromsø · Alpes de Lyngen · Senja · Kvaløya",
+    "de": "Tromsø · Lyngenalpen · Senja · Kvaløya"
   },
   "season": "winter",
   "experienceType": "ski-and-sail",
   "universe": {
-    "en": "Organix-designed Arctic adventure",
-    "fr": "Aventure arctique conçue par Organix",
-    "de": "Arktisches Abenteuer, gestaltet von Organix"
+    "en": "Arctic ski adventures",
+    "fr": "Aventures de ski arctique",
+    "de": "Arktische Skiabenteuer"
   },
   "tagline": {
     "en": "Ski & sail. Ski touring. Built around you.",
@@ -31,19 +31,19 @@
     "de": "Ski & Segeln. Skitouren. Auf Sie zugeschnitten."
   },
   "shortDescription": {
-    "en": "Arctic ski adventures in Northern Norway — by boat or from land, designed by Organix around your group.",
-    "fr": "Des aventures de ski arctique dans le nord de la Norvège — en bateau ou depuis la terre, conçues par Organix autour de votre groupe.",
-    "de": "Arktische Skiabenteuer in Nordnorwegen – vom Schiff oder vom Land aus, von Organix rund um Ihre Gruppe gestaltet."
+    "en": "Arctic ski trips in Northern Norway, by private boat or from land — fully flexible, from a few days to a week or more.",
+    "fr": "Des voyages de ski arctique dans le nord de la Norvège, en bateau privé ou depuis la terre — entièrement flexibles, de quelques jours à une semaine ou plus.",
+    "de": "Arktische Skireisen in Nordnorwegen, mit privatem Schiff oder vom Land aus – ganz flexibel, von ein paar Tagen bis zu einer Woche oder länger."
   },
   "longDescription": {
-    "en": "No rigid package. We design each Norway trip around the group: the boat or the base, the areas, the pace. Every day adapts to the weather, the snow, the conditions and the people.",
-    "fr": "Pas de forfait figé. Nous concevons chaque voyage en Norvège autour du groupe : le bateau ou la base, les secteurs, le rythme. Chaque journée s'adapte à la météo, à la neige, aux conditions et aux personnes.",
-    "de": "Keine starre Pauschalreise. Wir gestalten jede Norwegenreise rund um die Gruppe: Schiff oder Basis, Gebiete, Tempo. Jeder Tag richtet sich nach Wetter, Schnee, Bedingungen und Menschen."
+    "en": "No fixed package. Each Norway trip is built around the group: a private boat or a base on land, the areas, the pace, the length. You arrive in Tromsø; from there, Organix takes care of the local logistics and every day follows the best conditions.",
+    "fr": "Pas de forfait figé. Chaque voyage en Norvège est construit autour du groupe : un bateau privé ou une base à terre, les secteurs, le rythme, la durée. Vous arrivez à Tromsø ; ensuite, Organix prend en charge la logistique locale et chaque journée suit les meilleures conditions.",
+    "de": "Keine fixe Pauschalreise. Jede Norwegenreise entsteht rund um die Gruppe: privates Schiff oder Basis an Land, Gebiete, Tempo, Dauer. Sie landen in Tromsø; ab dort übernimmt Organix die lokale Logistik, und jeder Tag folgt den besten Bedingungen."
   },
   "heroImage": "no-sunset-skin",
   "gallery": [
-    "no-schooner",
-    "no-deck",
+    "no-lyngen-light",
+    "no-fishing",
     "no-fjord-boat",
     "no-ferry"
   ],
@@ -51,20 +51,34 @@
   "featured": true,
   "flagship": false,
   "priceFrom": null,
+  "priceOnRequest": true,
   "currency": "CHF",
   "duration": {
-    "en": "On request",
-    "fr": "Sur demande",
-    "de": "Auf Anfrage"
+    "en": "A few days, a week or longer",
+    "fr": "Quelques jours, une semaine ou plus",
+    "de": "Ein paar Tage, eine Woche oder länger"
   },
   "dates": [],
   "seasonWindow": {
-    "en": "End of winter",
-    "fr": "Fin de l'hiver",
-    "de": "Ende Winter"
+    "en": "Late March → Early May",
+    "fr": "Fin mars → début mai",
+    "de": "Ende März → Anfang Mai"
   },
   "flexibleDates": true,
-  "groupSize": null,
+  "groupSize": {
+    "min": 3,
+    "absoluteMax": 10,
+    "note": {
+      "en": "3–10 people",
+      "fr": "3 à 10 personnes",
+      "de": "3–10 Personen"
+    }
+  },
+  "level": {
+    "en": "Good skiers — the programme is adapted to the group",
+    "fr": "Plutôt bons skieurs — programme adapté au groupe",
+    "de": "Eher gute Skifahrer – das Programm richtet sich nach der Gruppe"
+  },
   "activities": {
     "en": [
       "Ski & sail",
@@ -103,9 +117,9 @@
           },
           "image": "no-schooner",
           "text": {
-            "en": "Organix organises the entire operation. The boat is selected according to your group size and expectations — you sleep on the water and ski from the shore.",
-            "fr": "Organix organise l'ensemble de l'opération. Le bateau est choisi selon la taille et les attentes de votre groupe — vous dormez sur l'eau et skiez depuis le rivage.",
-            "de": "Organix organisiert den gesamten Ablauf. Das Schiff wird nach Grösse und Erwartungen Ihrer Gruppe ausgewählt – Sie schlafen auf dem Wasser und starten Ihre Touren direkt vom Ufer aus."
+            "en": "A private boat chosen for the size of your group: a smaller boat for a small group, a larger one for more people, with guiding adapted to match. Organix organises everything, including all meals on board.",
+            "fr": "Un bateau privé choisi selon la taille de votre groupe : un plus petit bateau pour un petit groupe, un plus grand pour davantage de monde, avec un encadrement adapté. Organix organise tout, y compris tous les repas à bord.",
+            "de": "Ein privates Schiff, passend zur Grösse Ihrer Gruppe: ein kleineres für eine kleine Gruppe, ein grösseres für mehr Personen, mit entsprechender Begleitung. Organix organisiert alles, inklusive aller Mahlzeiten an Bord."
           }
         },
         {
@@ -114,11 +128,69 @@
             "fr": "Ski de randonnée depuis la terre",
             "de": "Skitouren vom Land aus"
           },
-          "image": "no-sunset-skin",
+          "image": "no-skintrack",
           "text": {
-            "en": "A base on land — Airbnb or hotel depending on the group — to explore Tromsø, the Lyngen Alps, Senja and the surrounding regions.",
-            "fr": "Une base à terre — Airbnb ou hôtel selon le groupe — pour explorer Tromsø, les Alpes de Lyngen, Senja et les régions voisines.",
-            "de": "Eine Basis an Land – Airbnb oder Hotel, je nach Gruppe – um Tromsø, die Lyngenalpen, Senja und die umliegenden Regionen zu erkunden."
+            "en": "A hotel or Airbnb selected for the group, a vehicle on site and daily moves to wherever the conditions are best. Organix can also handle restaurants, shopping, cooking and daily logistics.",
+            "fr": "Un hôtel ou un Airbnb sélectionné pour le groupe, un véhicule sur place et des déplacements quotidiens vers les meilleures conditions. Organix peut aussi gérer restaurants, courses, cuisine et logistique quotidienne.",
+            "de": "Ein Hotel oder Airbnb, ausgewählt für die Gruppe, ein Fahrzeug vor Ort und tägliche Fahrten dorthin, wo die Bedingungen am besten sind. Organix kann auch Restaurants, Einkäufe, Kochen und die tägliche Logistik übernehmen."
+          }
+        }
+      ]
+    },
+    {
+      "type": "points",
+      "title": {
+        "en": "How it works",
+        "fr": "Comment ça marche",
+        "de": "So funktioniert es"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Arrive in Tromsø",
+            "fr": "Arrivée à Tromsø",
+            "de": "Ankunft in Tromsø"
+          },
+          "text": {
+            "en": "From there, Organix takes over the local logistics.",
+            "fr": "À partir de là, Organix prend en charge la logistique locale.",
+            "de": "Ab dort übernimmt Organix die lokale Logistik."
+          }
+        },
+        {
+          "title": {
+            "en": "Guiding to match",
+            "fr": "Encadrement adapté",
+            "de": "Passende Begleitung"
+          },
+          "text": {
+            "en": "The guiding is adapted to the size of the group.",
+            "fr": "L'encadrement est adapté à la taille du groupe.",
+            "de": "Die Begleitung richtet sich nach der Grösse der Gruppe."
+          }
+        },
+        {
+          "title": {
+            "en": "All the gear",
+            "fr": "Tout le matériel",
+            "de": "Das ganze Material"
+          },
+          "text": {
+            "en": "Organix can arrange rental of all the equipment you need.",
+            "fr": "Organix peut organiser la location de tout le matériel nécessaire.",
+            "de": "Organix kann die Miete der gesamten nötigen Ausrüstung organisieren."
+          }
+        },
+        {
+          "title": {
+            "en": "No public price",
+            "fr": "Pas de prix public",
+            "de": "Kein Pauschalpreis"
+          },
+          "text": {
+            "en": "Each trip depends on the boat, accommodation, length, group size and level of service.",
+            "fr": "Chaque voyage dépend du bateau, du logement, de la durée, de la taille du groupe et du niveau de service.",
+            "de": "Jede Reise hängt von Schiff, Unterkunft, Dauer, Gruppengrösse und Serviceumfang ab."
           }
         }
       ]
@@ -136,49 +208,11 @@
         "de": "Ein Ort, an den Bryan immer wieder zurückkehrt."
       },
       "text": {
-        "en": "For around five or six years, Bryan has returned to Northern Norway at the end of every winter — usually for at least two weeks, sometimes for a whole month. The trips we design there come from that time on the ground.",
-        "fr": "Depuis cinq ou six ans, Bryan retourne dans le nord de la Norvège à chaque fin d'hiver — généralement pour au moins deux semaines, parfois pour un mois entier. Les voyages que nous y concevons viennent de ce temps passé sur le terrain.",
-        "de": "Seit etwa fünf oder sechs Jahren kehrt Bryan jedes Winterende nach Nordnorwegen zurück – meist für mindestens zwei Wochen, manchmal für einen ganzen Monat. Die Reisen, die wir dort gestalten, entstehen aus dieser Zeit vor Ort."
+        "en": "For around five or six years, Bryan has come back to ski in Northern Norway at the end of every winter, usually for several weeks. The trips we design there come from that time on the ground.",
+        "fr": "Depuis cinq ou six ans environ, Bryan revient skier dans le nord de la Norvège à chaque fin d'hiver, généralement pendant plusieurs semaines. Les voyages que nous y concevons viennent de ce temps passé sur le terrain.",
+        "de": "Seit etwa fünf oder sechs Jahren kommt Bryan jedes Winterende zum Skifahren nach Nordnorwegen zurück, meist für mehrere Wochen. Die Reisen, die wir dort gestalten, entstehen aus dieser Zeit vor Ort."
       },
       "image": "no-deck"
-    },
-    {
-      "type": "points",
-      "title": {
-        "en": "Every day adapts to",
-        "fr": "Chaque journée s'adapte à",
-        "de": "Jeder Tag richtet sich nach"
-      },
-      "items": [
-        {
-          "title": {
-            "en": "Weather",
-            "fr": "La météo",
-            "de": "Wetter"
-          }
-        },
-        {
-          "title": {
-            "en": "Snow",
-            "fr": "La neige",
-            "de": "Schnee"
-          }
-        },
-        {
-          "title": {
-            "en": "Conditions",
-            "fr": "Les conditions",
-            "de": "Bedingungen"
-          }
-        },
-        {
-          "title": {
-            "en": "Your group",
-            "fr": "Votre groupe",
-            "de": "Gruppe"
-          }
-        }
-      ]
     }
   ],
   "cta": {
@@ -192,14 +226,14 @@
   },
   "seo": {
     "title": {
-      "en": "Norway Ski & Sail and Ski Touring — Arctic Ski Adventures | OrganixEvents",
-      "fr": "Ski & voile et ski de randonnée en Norvège — Aventures de ski arctique | OrganixEvents",
-      "de": "Ski & Segeln und Skitouren in Norwegen — Arktische Skiabenteuer | OrganixEvents"
+      "en": "Norway Ski & Sail and Ski Touring — Tromsø, Lyngen Alps | OrganixEvents",
+      "fr": "Ski & voile et ski de randonnée en Norvège — Tromsø, Alpes de Lyngen | OrganixEvents",
+      "de": "Ski & Segeln und Skitouren in Norwegen — Tromsø, Lyngenalpen | OrganixEvents"
     },
     "description": {
-      "en": "Ski & sail and ski touring in Northern Norway — Tromsø, Lyngen Alps, Senja. Arctic ski adventures designed by Organix around your group.",
-      "fr": "Ski & voile et ski de randonnée dans le nord de la Norvège — Tromsø, Alpes de Lyngen, Senja. Des aventures de ski arctique conçues par Organix autour de votre groupe.",
-      "de": "Ski & Segeln und Skitouren in Nordnorwegen – Tromsø, Lyngenalpen, Senja. Arktische Skiabenteuer, von Organix rund um Ihre Gruppe gestaltet."
+      "en": "Ski & sail by private boat or land-based ski touring around Tromsø, the Lyngen Alps, Senja and Kvaløya. Late March to early May, 3–10 people, fully flexible.",
+      "fr": "Ski & voile en bateau privé ou ski de randonnée depuis la terre autour de Tromsø, des Alpes de Lyngen, de Senja et de Kvaløya. De fin mars à début mai, 3 à 10 personnes, entièrement flexible.",
+      "de": "Ski & Segeln mit privatem Schiff oder Skitouren vom Land aus rund um Tromsø, die Lyngenalpen, Senja und Kvaløya. Ende März bis Anfang Mai, 3–10 Personen, ganz flexibel."
     }
   }
 }

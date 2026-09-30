@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Mentions légales | OrganixEvents",
+    "description": "Mentions légales d'OrganixEvents Sàrl, Le Sentier, Suisse."
+  },
+  "eyebrow": "Informations légales",
+  "title": "Mentions légales",
+  "sections": [
+    {
+      "h": "Éditeur",
+      "p": [
+        "OrganixEvents Sàrl<br>Chemin de Jolimont 9<br>1347 Le Sentier<br>Suisse",
+        "E-mail : <a href=\"mailto:hello@organixevents.com\">hello@organixevents.com</a>"
+      ]
+    },
+    {
+      "h": "Responsables du contenu",
+      "p": [
+        "OrganixEvents Sàrl — Bryan Zooler et Stéphane Pfeuti, cofondateurs."
+      ]
+    },
+    {
+      "h": "Hébergement",
+      "p": [
+        "Ce site est hébergé par Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, États-Unis."
+      ]
+    },
+    {
+      "h": "Propriété intellectuelle",
+      "p": [
+        "L'ensemble des textes, photographies, logos et éléments graphiques de ce site appartiennent à OrganixEvents Sàrl ou à leurs propriétaires respectifs et ne peuvent être réutilisés sans autorisation écrite préalable. Les noms et logos des partenaires appartiennent à leurs propriétaires respectifs."
+      ]
+    },
+    {
+      "h": "Responsabilité",
+      "p": [
+        "Nous apportons le plus grand soin aux informations publiées sur ce site, sans pouvoir garantir qu'elles soient complètes, exactes ou à jour. Les prix, dates et programmes sont indicatifs et n'engagent OrganixEvents qu'après confirmation écrite. Nous déclinons toute responsabilité quant au contenu des sites externes vers lesquels ce site renvoie."
+      ]
+    },
+    {
+      "h": "Droit applicable",
+      "p": [
+        "Le droit suisse est applicable."
+      ]
+    }
+  ]
+}

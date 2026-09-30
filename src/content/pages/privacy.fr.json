@@ -1,0 +1,53 @@
+{
+  "seo": {
+    "title": "Politique de confidentialité | OrganixEvents",
+    "description": "Comment OrganixEvents Sàrl traite les données personnelles collectées sur ce site."
+  },
+  "eyebrow": "Informations légales",
+  "title": "Politique de confidentialité",
+  "updated": "Dernière mise à jour : septembre 2026",
+  "sections": [
+    {
+      "h": "Responsable du traitement",
+      "p": [
+        "OrganixEvents Sàrl, Chemin de Jolimont 9, 1347 Le Sentier, Suisse — <a href=\"mailto:hello@organixevents.com\">hello@organixevents.com</a>. La présente politique suit la loi fédérale suisse sur la protection des données (LPD) et, lorsqu'il s'applique, le règlement général européen sur la protection des données (RGPD)."
+      ]
+    },
+    {
+      "h": "Formulaire de demande",
+      "p": [
+        "Lorsque vous envoyez une demande, nous collectons les informations que vous saisissez : nom, adresse e-mail, numéro de téléphone (facultatif), expérience qui vous intéresse, taille du groupe, dates et flexibilité, niveau (le cas échéant) et votre message, ainsi que la langue de la page. Nous utilisons ces données uniquement pour répondre à votre demande et, si vous le souhaitez, pour préparer votre voyage. Nous les conservons le temps nécessaire à cette fin et à nos obligations légales."
+      ]
+    },
+    {
+      "h": "Netlify Forms et hébergement",
+      "p": [
+        "Le site est hébergé par Netlify, Inc. (États-Unis), et les formulaires sont traités et stockés via Netlify Forms avant de nous être transmis par e-mail. Netlify peut traiter des données techniques (adresse IP, type de navigateur, heure d'accès, etc.) dans ses journaux serveur pour assurer un service sécurisé. Les données peuvent donc être traitées hors de Suisse, notamment aux États-Unis."
+      ]
+    },
+    {
+      "h": "Mesure d'audience (uniquement avec votre accord)",
+      "p": [
+        "Si vous acceptez les cookies de mesure d'audience, nous utilisons Google Analytics 4 (Google Ireland Ltd. / Google LLC) pour comprendre l'utilisation du site : pages consultées, source de trafic, destinations consultées, clics sur les boutons de demande, formulaire commencé et envoyé, et changements de langue. Google Analytics 4 ne conserve pas les adresses IP complètes. Si vous refusez, aucun script d'analyse n'est chargé. Vous pouvez modifier votre choix à tout moment via « Paramètres des cookies » en pied de page."
+      ]
+    },
+    {
+      "h": "Cookies et stockage local",
+      "p": [
+        "Sans votre accord, nous ne déposons aucun cookie de mesure d'audience. Nous enregistrons votre choix dans votre navigateur afin de ne pas vous le redemander."
+      ]
+    },
+    {
+      "h": "Transmission",
+      "p": [
+        "Nous ne vendons pas vos données. Nous les transmettons uniquement aux partenaires impliqués dans l'organisation de votre voyage (par exemple hébergement ou opérateurs locaux), lorsque c'est nécessaire et une fois que vous avez décidé de partir."
+      ]
+    },
+    {
+      "h": "Vos droits",
+      "p": [
+        "Vous pouvez à tout moment demander l'accès à vos données, leur rectification ou leur suppression, ou vous opposer à leur utilisation, en écrivant à <a href=\"mailto:hello@organixevents.com\">hello@organixevents.com</a>. Vous pouvez également déposer une plainte auprès de l'autorité compétente (en Suisse, le PFPDT)."
+      ]
+    }
+  ]
+}

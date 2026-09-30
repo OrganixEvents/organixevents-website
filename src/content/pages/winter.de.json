@@ -5,7 +5,10 @@
   },
   "hero": {
     "eyebrow": "Winter",
-    "title": ["Winter,", "wie Organix ihn lebt."],
+    "title": [
+      "Winter,",
+      "wie Organix ihn lebt."
+    ],
     "lead": "Vier Winterwelten. Eine davon haben wir von Grund auf selbst aufgebaut.",
     "image": "al-bootpack"
   },
@@ -13,12 +16,16 @@
     "eyebrow": "Flaggschiff · Eigener Betrieb",
     "title": "Nordmazedonien",
     "subtitle": "Freeride mit privatem Snowcat",
-    "message": "Unser Snowcat. Unser Betrieb. Ihr Abenteuer.",
+    "message": "Unser Snowcat. Unser Betrieb. Nordmazedonien.",
     "cta": "Nordmazedonien entdecken"
   },
   "universes": {
     "title": "Drei weitere Arten zu fahren.",
-    "items": ["georgia", "norway", "alps"]
+    "items": [
+      "georgia",
+      "norway",
+      "alps"
+    ]
   },
   "final": {
     "title": "Noch unsicher, welcher Winter zu Ihnen passt?",

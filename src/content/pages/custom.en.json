@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Custom Sport & Adventure Trips — You Dream It, We Build It | OrganixEvents",
-    "description": "Tailor-made sport and adventure trips organised end to end by Organix: destination, accommodation, guides, activities, equipment and logistics. One contact, one organisation."
+    "title": "Custom Sport & Adventure Trips — You Imagine It, We Build It | OrganixEvents",
+    "description": "Tailor-made sport and adventure trips for private groups, families, clubs, teams and companies, organised end to end by Organix. Custom quotation."
   },
   "hero": {
     "eyebrow": "Custom",
@@ -10,7 +10,7 @@
       "Our playground."
     ],
     "sub": [
-      "You dream it.",
+      "You imagine it.",
       "We build it."
     ],
     "image": "al-ice-cave"
@@ -27,12 +27,14 @@
     ]
   },
   "organise": {
-    "eyebrow": "What we organise",
+    "eyebrow": "Turnkey",
     "title": "Everything between the idea and the trip.",
     "items": [
       "Destination & itinerary",
+      "Flight research",
       "Accommodation",
       "Transfers & local transport",
+      "Boats & vehicles",
       "Guides & coaches",
       "Sports & activities",
       "Equipment",
@@ -49,10 +51,27 @@
       "One complete experience."
     ]
   },
+  "audiences": {
+    "eyebrow": "For whom",
+    "title": "Any group, any size.",
+    "items": [
+      "Private groups",
+      "Families",
+      "Clubs",
+      "Sports teams",
+      "Companies",
+      "Team building",
+      "Incentives"
+    ],
+    "example": "Example: a team building day at Lac de Joux, organised with our local partners.",
+    "price": "Price: on request — every project gets its own quotation."
+  },
   "inspiration": {
     "eyebrow": "Inspiration",
-    "title": "Where could it go?",
-    "note": "These are possibilities, not scheduled trips. Each one would be built from scratch around your group."
+    "title": "Possibilities, not packages.",
+    "winter": "Winter",
+    "summer": "Summer",
+    "note": "These are ideas, not scheduled trips. Each one would be built from scratch around your group."
   },
   "process": {
     "eyebrow": "How it works",
@@ -76,8 +95,8 @@
     ]
   },
   "final": {
-    "title": "Build your adventure.",
-    "lead": "No budget form, no fixed menu. Just tell us what you have in mind.",
+    "title": "Start with an idea.",
+    "lead": "No fixed menu. Just tell us what you have in mind.",
     "cta": "Build your adventure",
     "image": "al-sunrise"
   }

@@ -12,7 +12,9 @@
     "skip": "Zum Inhalt springen",
     "home": "OrganixEvents Startseite",
     "language": "Sprache",
-    "mainNav": "Hauptnavigation"
+    "mainNav": "Hauptnavigation",
+    "legal": "Impressum",
+    "privacy": "Datenschutzerklärung"
   },
   "common": {
     "explore": "Entdecken",
@@ -46,7 +48,8 @@
     "yourIdea": "Ihre Idee?",
     "tellUs": "Erzählen Sie uns",
     "gallery": "Fotogalerie",
-    "breadcrumb": "Brotkrumennavigation"
+    "breadcrumb": "Brotkrumennavigation",
+    "price": "Preis"
   },
   "footer": {
     "tagline": "Sport- und Abenteuererlebnisse, gestaltet, organisiert und begleitet von Organix.",
@@ -54,7 +57,11 @@
     "company": "Organix",
     "contact": "Kontakt",
     "rights": "Alle Rechte vorbehalten.",
-    "preview": "Vorschau — nicht die Live-Website."
+    "preview": "Vorschau — nicht die Live-Website.",
+    "legal": "Impressum",
+    "privacy": "Datenschutzerklärung",
+    "cookies": "Cookie-Einstellungen",
+    "follow": "Folgen Sie uns"
   },
   "enquiry": {
     "title": "Wohin als Nächstes?",
@@ -70,12 +77,12 @@
       "north-macedonia": "Freeride mit privatem Snowcat",
       "winter": "Georgien, Norwegen, die Alpen",
       "summer": "Camps, Wake, Abenteuer",
-      "custom": "Sie träumen es, wir bauen es"
+      "custom": "Sie stellen es sich vor, wir bauen es"
     },
     "step2": "Ein paar Angaben",
     "name": "Name",
     "email": "E-Mail",
-    "phone": "Telefon / WhatsApp",
+    "phone": "Telefon",
     "people": "Anzahl Personen",
     "peopleHint": "Alleinreisende willkommen",
     "dates": "Wunschdaten",
@@ -114,23 +121,36 @@
     "messageHint": "Alles, was uns hilft, Ihre Idee zu verstehen",
     "optional": "optional",
     "required": "Pflichtfeld",
-    "consent": "Wir verwenden Ihre Angaben nur, um Ihre Anfrage zu beantworten.",
+    "consent": "Wir verwenden Ihre Angaben nur, um Ihre Anfrage zu beantworten. Siehe unsere Datenschutzerklärung.",
     "submit": "Anfrage senden",
     "sending": "Wird gesendet…",
     "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt.",
     "thanksTitle": "Danke.",
-    "thanksLead": "Ihre Anfrage ist bei uns angekommen. Wir melden uns persönlich bei Ihnen, um alles zu besprechen.",
+    "thanksLead": "Ihre Anfrage ist bei uns angekommen. Wir melden uns innerhalb von 48 Stunden persönlich bei Ihnen.",
     "thanksBack": "Zur Startseite",
     "processTitle": "So funktioniert die Buchung",
     "process": [
       "Sie senden eine Anfrage",
-      "Wir besprechen alles persönlich",
+      "Wir besprechen sie persönlich",
       "Wir senden Ihnen das Anmeldeformular",
-      "Sie füllen die Anmeldung aus",
-      "Wir bestätigen sie",
-      "Sie bezahlen direkt an Organix (CHF oder EUR)",
-      "Ihre Reise ist bestätigt"
+      "Wir bestätigen Ihren Platz",
+      "OrganixEvents stellt Ihnen direkt Rechnung, in CHF oder EUR"
     ],
-    "noCheckout": "Keine Online-Zahlung. Jede Reise wird persönlich bestätigt."
+    "noCheckout": "Jede Reise wird persönlich bestätigt.",
+    "level": "Ihr Niveau",
+    "levelOptions": [
+      "Guter Pistenfahrer (rote und schwarze Pisten)",
+      "Etwas Off-Piste-Erfahrung",
+      "Erfahrener Freerider",
+      "Weiss nicht"
+    ],
+    "subject": "Neue Anfrage über die Website"
+  },
+  "consent": {
+    "title": "Cookies",
+    "text": "Wir möchten Analyse-Cookies (Google Analytics) verwenden, um zu verstehen, wie die Website genutzt wird. Ohne Ihre Zustimmung wird nichts geladen.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "more": "Datenschutzerklärung"
   }
 }

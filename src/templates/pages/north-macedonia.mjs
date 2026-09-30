@@ -7,11 +7,12 @@ export function northMacedoniaPage(ctx) {
   const u = ctx.ui;
   const enquire = ctx.url('enquire/') + '?interest=north-macedonia';
   const track = (loc) => `data-track="enquiry_cta" data-location="${loc}" data-interest="north-macedonia"`;
-  const period = e.dates[0];
+  const heroImg = c.hero.image || e.heroImage;
+  const heroImgM = c.hero.imageMobile || e.heroImageMobile;
 
   const heroHtml = hero(ctx, {
-    image: e.heroImage,
-    imageMobile: e.heroImageMobile,
+    image: heroImg,
+    imageMobile: heroImgM,
     eyebrow: c.hero.eyebrow,
     title: c.hero.title,
     sub: c.hero.message,
@@ -29,6 +30,34 @@ export function northMacedoniaPage(ctx) {
     <p class="core__text reveal">${esc(c.core.text)}</p>
   </div>
 </section>`;
+
+  const level = c.level ? `<section class="statement" aria-labelledby="level-title">
+  <div class="wrap statement__grid">
+    <div class="statement__copy">
+      <p class="eyebrow eyebrow--flag reveal">${esc(c.level.eyebrow)}</p>
+      <h2 class="display display--lg reveal" id="level-title">${lines(c.level.title)}</h2>
+      <p class="statement__text reveal">${esc(c.level.text)}</p>
+    </div>
+    <div class="statement__media reveal">${picture(ctx, c.level.image, { sizes: '(min-width: 900px) 40vw, 100vw' })}</div>
+  </div>
+</section>` : '';
+
+  const band = c.band ? `<section class="photo-band" aria-label="${esc(u.common.gallery)}"><div class="photo-band__grid">${c.band
+    .map((k, i) => `<figure class="photo-band__item reveal" style="--d:${i}">${picture(ctx, k, { sizes: '(min-width: 900px) 25vw, 50vw' })}</figure>`)
+    .join('')}</div></section>` : '';
+
+  const gear = c.gear ? `<section class="section gear" aria-labelledby="gear-title">
+  <div class="wrap gear__grid">
+    <div class="gear__media reveal">${picture(ctx, c.gear.image, { sizes: '(min-width: 900px) 40vw, 100vw' })}</div>
+    <div class="gear__copy">
+      <p class="eyebrow reveal">${esc(c.gear.eyebrow)}</p>
+      <h2 class="display display--lg reveal" id="gear-title">${lines(c.gear.title)}</h2>
+      <p class="reveal">${esc(c.gear.text)}</p>
+      <ul class="chips reveal">${c.gear.items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
+      <p class="note note--flag reveal">${brand(ctx, 'organix-symbol', 'note__x', '')}<span>${esc(c.gear.note)}</span></p>
+    </div>
+  </div>
+</section>` : '';
 
   const terrain = `<section class="section terrain" aria-labelledby="terrain-title">
   <div class="wrap terrain__grid">
@@ -85,6 +114,7 @@ export function northMacedoniaPage(ctx) {
     <h2 class="display display--lg reveal" id="beyond-title">${lines(c.beyond.title)}</h2>
     <p class="beyond__text reveal">${esc(c.beyond.text)}</p>
     <ul class="chips chips--light reveal">${c.beyond.items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
+    ${c.beyond.option ? `<p class="beyond__option reveal"><span>+</span>${esc(c.beyond.option)}</p>` : ''}
   </div>
 </section>`;
 
@@ -106,6 +136,7 @@ export function northMacedoniaPage(ctx) {
       <p class="reveal">${esc(c.stay.text)}</p>
     </div>
   </div>
+  ${c.stay.gallery ? `<div class="wrap stay__gallery">${c.stay.gallery.map((k, i) => `<figure class="reveal" style="--d:${i}">${picture(ctx, k, { sizes: '(min-width: 900px) 33vw, 100vw' })}</figure>`).join('')}</div>` : ''}
 </section>`;
 
   const included = `<section class="section included" aria-labelledby="inc-title">
@@ -135,8 +166,7 @@ export function northMacedoniaPage(ctx) {
     </div>
   </div>
   <div class="wrap pricing__season reveal">
-    <p><strong>${esc(u.common.season)}</strong> ${esc(ctx.t(e.seasonWindow))}</p>
-    <p><strong>${esc(ctx.t(period.label))}</strong> ${esc(formatDateRange(period.start, period.end, ctx.locale))}</p>
+    <p><strong>${esc(u.common.season)}</strong> ${esc(c.pricing.season || ctx.t(e.seasonWindow))}</p>
   </div>
 </section>`;
 
@@ -176,11 +206,14 @@ export function northMacedoniaPage(ctx) {
     heroHtml,
     breadcrumb(ctx, [[u.common.breadcrumbHome, ''], [u.nav.northMacedonia, 'north-macedonia/']]),
     core,
+    level,
     terrain,
     difference,
     snowcat,
+    band,
     day,
     beyond,
+    gear,
     week,
     stay,
     included,
@@ -195,17 +228,18 @@ export function northMacedoniaPage(ctx) {
     title: ctx.t(e.seo.title),
     description: ctx.t(e.seo.description),
     bodyClass: 'nm',
-    ogImage: e.heroImage,
-    preload: ctx.preloadHero(e.heroImage, e.heroImageMobile),
+    destination: 'north-macedonia',
+    ogImage: heroImg,
+    preload: ctx.preloadHero(heroImg, heroImgM),
     jsonLd: [
       jsonLd({
         '@context': 'https://schema.org',
         '@type': 'TouristTrip',
         name: ctx.t(e.title),
         description: ctx.t(e.shortDescription),
-        touristType: ['Freeride skiers', 'Snowboarders', 'Ski tourers'],
+        touristType: ['Skiers', 'Snowboarders', 'Freeriders', 'Ski tourers'],
         url: ctx.abs(ctx.locale, e.path),
-        image: ctx.absAsset(`media/${e.heroImage}/1600.webp`),
+        image: ctx.absAsset(`media/${heroImg}/1600.webp`),
         provider: { '@type': 'TravelAgency', name: ctx.site.name, url: ctx.abs(ctx.locale, '') },
         itinerary: { '@type': 'Place', name: 'Popova Shapka, Šar Mountains, North Macedonia', address: { '@type': 'PostalAddress', addressCountry: 'MK' } },
         offers: {
@@ -213,6 +247,7 @@ export function northMacedoniaPage(ctx) {
           price: e.priceFrom,
           priceCurrency: e.currency,
           description: ctx.t(e.priceBasis),
+          eligibleQuantity: { '@type': 'QuantitativeValue', value: 8, unitText: 'guests (price basis)' },
           availability: 'https://schema.org/InStock',
           url: ctx.abs(ctx.locale, 'enquire/'),
         },

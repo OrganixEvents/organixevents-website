@@ -1,4 +1,4 @@
-import { esc, lines, fit, picture, button, arrow, jsonLd, brand, formatDateRange } from '../lib.mjs';
+import { esc, lines, fit, picture, button, arrow, jsonLd, brand, formatDateRange, formatPrice } from '../lib.mjs';
 import { hero, sectionHead, priceTag, finalCta, checkList, breadcrumb } from '../components.mjs';
 
 /** Generic, data-driven experience page (Georgia, Norway, Alps, Portugal, Camps, Adventures). */
@@ -14,6 +14,9 @@ export function experiencePage(ctx, e) {
   if (e.groupSize?.note) facts.push([u.common.groupSize, ctx.t(e.groupSize.note)]);
   if (e.dates?.length) facts.push([u.common.dates, e.dates.map((d) => `${ctx.t(d.label)}: ${formatDateRange(d.start, d.end, ctx.locale)}`).join(' · ')]);
   else if (e.seasonWindow) facts.push([u.common.season, ctx.t(e.seasonWindow)]);
+  if (e.level) facts.push([u.common.level, ctx.t(e.level)]);
+  if (e.priceFrom) facts.push([u.common.price, `${u.common.from} ${formatPrice(e.priceFrom, e.currency, ctx.locale)} ${e.priceUnit ? ctx.t(e.priceUnit) : u.common.perPerson}` + (e.priceNote ? ` — ${ctx.t(e.priceNote)}` : '')]);
+  else if (e.priceOnRequest) facts.push([u.common.price, u.common.onRequest]);
   if (e.region) facts.push(['', ctx.t(e.region)]);
   if (e.partner) facts.push([u.common.partner, e.partner.name]);
 
@@ -37,7 +40,7 @@ export function experiencePage(ctx, e) {
       : '';
 
   const gallery = e.gallery?.length
-    ? `<section class="gallery" aria-label="${esc(u.common.gallery)}"><div class="gallery__track">${e.gallery
+    ? `<section class="gallery" aria-label="${esc(u.common.gallery)}"><div class="gallery__track" style="--cols:${[0, 1, 2, 3, 4, 5, 3, 4, 4, 3][e.gallery.length] || 4}">${e.gallery
         .map((k, i) => `<figure class="gallery__item reveal" style="--d:${i % 4}">${picture(ctx, k, { sizes: '(min-width: 900px) 30vw, 70vw' })}</figure>`)
         .join('')}</div></section>`
     : '';
@@ -48,6 +51,7 @@ export function experiencePage(ctx, e) {
     title: ctx.t(e.seo.title),
     description: ctx.t(e.seo.description),
     bodyClass: `exp exp-${e.slug}`,
+    destination: e.slug,
     ogImage: e.heroImage,
     preload: e.heroImage ? ctx.preloadHero(e.heroImage) : '',
     jsonLd: [
@@ -124,6 +128,12 @@ function renderBlock(ctx, e, b) {
         ${sectionHead({ title })}
         <ul class="biglist">${(ctx.t(e[b.field]) || []).map((i, n) => `<li class="reveal" style="--d:${n % 4}"><span>${String(n + 1).padStart(2, '0')}</span>${esc(i)}</li>`).join('')}</ul>
       </div></section>`;
+    case 'photos':
+      return `<section class="photo-band" aria-label="${esc(ctx.ui.common.gallery)}"><div class="photo-band__grid">${b.images
+        .map((k) => `<figure class="photo-band__item reveal">${picture(ctx, k, { sizes: '(min-width: 900px) 25vw, 50vw' })}</figure>`)
+        .join('')}</div></section>`;
+    case 'note':
+      return `<section class="section note-block"><div class="wrap narrow"><p class="eyebrow reveal">${esc(ctx.t(b.eyebrow))}</p><h2 class="title reveal">${lines(title)}</h2>${b.text ? `<p class="lead reveal">${esc(ctx.t(b.text))}</p>` : ''}</div></section>`;
     case 'camps': {
       const camps = e.camps || [];
       const any = camps.some((c) => c.active);

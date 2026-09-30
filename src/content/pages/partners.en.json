@@ -1,11 +1,14 @@
 {
   "seo": {
     "title": "Partners — Proudly Supported By | OrganixEvents",
-    "description": "The brands that support Organix: Julbo, Blizzard, SwissForce and Nidecker."
+    "description": "The brands that support Organix: Julbo, Blizzard, SwissForce, Nidecker Group, Art Feet and Rocheray Water Sports."
   },
   "hero": {
     "eyebrow": "Partners",
-    "title": ["Proudly", "supported by."],
+    "title": [
+      "Proudly",
+      "supported by."
+    ],
     "lead": "Thank you to the brands that ride with us."
   }
 }

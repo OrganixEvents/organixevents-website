@@ -1,11 +1,14 @@
 {
   "seo": {
     "title": "Partner — Mit Unterstützung von | OrganixEvents",
-    "description": "Die Marken, die Organix unterstützen: Julbo, Blizzard, SwissForce und Nidecker."
+    "description": "Die Marken, die Organix unterstützen: Julbo, Blizzard, SwissForce, Nidecker Group, Art Feet und Rocheray Water Sports."
   },
   "hero": {
     "eyebrow": "Partner",
-    "title": ["Mit", "Unterstützung von."],
+    "title": [
+      "Mit",
+      "Unterstützung von."
+    ],
     "lead": "Danke an die Marken, die mit uns unterwegs sind."
   }
 }

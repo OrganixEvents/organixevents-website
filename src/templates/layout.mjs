@@ -35,6 +35,7 @@ ${alternates.length ? `<link rel="alternate" hreflang="x-default" href="${ctx.ab
 ${page.preload || ''}
 <link rel="stylesheet" href="${ctx.asset(`assets/main.css?v=${ctx.version}`)}">
 ${(page.jsonLd || []).join('\n')}
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied'});window.ORGANIX_CONFIG=${JSON.stringify({ ga4Id: site.analytics?.ga4Id || null, consentDemo: !!ctx.preview && !site.analytics?.ga4Id })};</script>
 </head>`;
 }
 
@@ -108,9 +109,9 @@ function footer(ctx) {
         <div><h2 class="site-footer__h">${esc(ui.footer.company)}</h2><ul>${coLinks.map(([l, p]) => `<li><a href="${ctx.url(p)}">${esc(l)}</a></li>`).join('')}</ul></div>
         <div><h2 class="site-footer__h">${esc(ui.footer.contact)}</h2>
           <ul>
-            <li><a href="mailto:${c.email}">${esc(c.email)}</a></li>
-            <li><a href="tel:${c.phone.replace(/\s/g, '')}">${esc(c.phone)}</a></li>
-            <li><a href="https://wa.me/${c.whatsapp}" rel="noopener">WhatsApp</a></li>
+            <li><a href="mailto:${c.email}" data-track="email_click">${esc(c.email)}</a></li>
+            ${c.phone ? `<li><a href="tel:${c.phone.replace(/\s/g, '')}">${esc(c.phone)}</a></li>` : ''}
+            ${(site.social || []).map((s) => `<li><a href="${s.url}" rel="noopener" target="_blank">${esc(s.name)} ${esc(s.handle || '')}</a></li>`).join('')}
           </ul>
           <address>${[c.address[0], c.address[1], { en: 'Switzerland', fr: 'Suisse', de: 'Schweiz' }[ctx.locale]].map(esc).join('<br>')}</address>
         </div>
@@ -118,6 +119,11 @@ function footer(ctx) {
     </div>
     <div class="site-footer__bottom">
       <p>© ${new Date().getFullYear()} ${esc(site.legalName)}. ${esc(ui.footer.rights)}</p>
+      <ul class="site-footer__legal">
+        <li><a href="${ctx.url('legal/')}">${esc(ui.footer.legal)}</a></li>
+        <li><a href="${ctx.url('privacy/')}">${esc(ui.footer.privacy)}</a></li>
+        ${site.analytics?.ga4Id || ctx.preview ? `<li><button type="button" class="linkish" data-consent-open>${esc(ui.footer.cookies)}</button></li>` : ''}
+      </ul>
       ${langSwitch(ctx, 'lang--footer')}
       ${ctx.indexable ? '' : `<p class="site-footer__preview">${esc(ui.footer.preview)}</p>`}
     </div>
@@ -134,7 +140,7 @@ export function layout(ctx, page, body) {
   return `<!doctype html>
 <html lang="${ctx.locale}" class="no-js">
 ${head(ctx, page)}
-<body class="page-${esc(page.bodyClass || 'default')}">
+<body class="page-${esc(page.bodyClass || 'default')}"${page.destination ? ` data-destination="${esc(page.destination)}"` : ''}>
 <script>document.documentElement.classList.replace('no-js','js')</script>
 <a class="skip" href="#main">${esc(ctx.ui.nav.skip)}</a>
 ${header(ctx, page)}
@@ -144,7 +150,16 @@ ${body}
 </main>
 ${footer(ctx)}
 ${ctx.xMaskDefs}
+${consentCard(ctx)}
 <script src="${ctx.asset(`assets/main.js?v=${ctx.version}`)}" defer></script>
 </body>
 </html>`;
+}
+
+function consentCard(ctx) {
+  const c = ctx.ui.consent;
+  return `<div class="consent" role="dialog" aria-live="polite" aria-label="${esc(c.title)}" hidden data-consent>
+  <p class="consent__text"><strong>${esc(c.title)}.</strong> ${esc(c.text)} <a href="${ctx.url('privacy/')}">${esc(c.more)}</a></p>
+  <div class="consent__btns"><button type="button" class="btn btn--small btn--outline" data-consent-choice="denied"><span>${esc(c.decline)}</span></button><button type="button" class="btn btn--small btn--primary" data-consent-choice="granted"><span>${esc(c.accept)}</span></button></div>
+</div>`;
 }

@@ -21,29 +21,29 @@
   "season": "winter",
   "experienceType": "snowcat-freeride",
   "tagline": {
-    "en": "Our snowcat. Our operation. Your adventure.",
-    "fr": "Notre snowcat. Notre opération. Votre aventure.",
-    "de": "Unser Snowcat. Unser Betrieb. Ihr Abenteuer."
+    "en": "Our snowcat. Our local operation. Your adventure.",
+    "fr": "Notre snowcat. Notre opération locale. Votre aventure.",
+    "de": "Unser Snowcat. Unser lokaler Betrieb. Ihr Abenteuer."
   },
   "shortDescription": {
-    "en": "Private snowcat freeride in the Šar Mountains, run by Organix with our own machine and a local team on the ground.",
-    "fr": "Freeride en snowcat privé dans les monts Šar, opéré par Organix avec notre propre machine et une équipe locale sur place.",
-    "de": "Freeride mit privatem Snowcat im Šar-Gebirge – betrieben von Organix, mit eigener Maschine und einem lokalen Team vor Ort."
+    "en": "Private snowcat skiing in the Šar Mountains — our own snowcat, our own local operation, for good skiers and small groups.",
+    "fr": "Ski en snowcat privé dans les monts Šar — notre propre snowcat, notre propre opération locale, pour bons skieurs et petits groupes.",
+    "de": "Privates Snowcat-Skiing im Šar-Gebirge – unser eigener Snowcat, unser eigener lokaler Betrieb, für gute Skifahrer und kleine Gruppen."
   },
   "longDescription": {
-    "en": "Organix runs its own snowcat operation in North Macedonia. A private machine, a small group and wild, uncrowded terrain above Popova Shapka — organised end to end by the people who built it, with a permanent local operation on the ground.",
-    "fr": "Organix exploite sa propre opération snowcat en Macédoine du Nord. Une machine privée, un petit groupe et un terrain sauvage et préservé au-dessus de Popova Shapka — organisé de A à Z par ceux qui l'ont construit, avec une opération locale permanente sur place.",
-    "de": "Organix betreibt in Nordmazedonien einen eigenen Snowcat-Betrieb. Eine private Maschine, eine kleine Gruppe und wildes, unberührtes Gelände oberhalb von Popova Shapka – von A bis Z organisiert von denen, die alles aufgebaut haben, mit einem festen lokalen Betrieb vor Ort."
+    "en": "OrganixEvents owns its snowcat in North Macedonia and runs the experience with Wild Tracks, our local operation. A private machine, a small group and wild, uncrowded terrain above Popova Shapka.",
+    "fr": "OrganixEvents est propriétaire de son snowcat en Macédoine du Nord et opère l'expérience avec Wild Tracks, notre opération locale. Une machine privée, un petit groupe et un terrain sauvage et préservé au-dessus de Popova Shapka.",
+    "de": "OrganixEvents besitzt einen eigenen Snowcat in Nordmazedonien und führt das Erlebnis mit Wild Tracks, unserem lokalen Betrieb, durch. Eine private Maschine, eine kleine Gruppe und wildes, unberührtes Gelände oberhalb von Popova Shapka."
   },
-  "heroImage": "nm-panorama",
+  "heroImage": "nm-ridges",
   "heroImageMobile": "nm-snowcat-ridge",
   "gallery": [
     "nm-snowcat-powder",
-    "nm-cornice",
-    "nm-group",
-    "nm-sunset",
-    "nm-bowl",
-    "nm-ridge-group"
+    "nm-cloudsea",
+    "nm-cabin-group",
+    "nm-snowcat-team",
+    "nm-skin-line",
+    "nm-arms-up"
   ],
   "status": "active",
   "featured": true,
@@ -51,122 +51,114 @@
   "priceFrom": 2250,
   "currency": "CHF",
   "priceBasis": {
-    "en": "Full-week experience for a group of 8: 6 ski days, 7 days accommodation, full board.",
-    "fr": "Expérience semaine complète pour un groupe de 8 : 6 jours de ski, 7 jours d'hébergement, pension complète.",
-    "de": "Erlebnis über die ganze Woche für eine Gruppe von 8: 6 Skitage, 7 Tage Unterkunft, Vollpension."
+    "en": "Reference week for a group of 8: 6 ski days, 7 days accommodation, full board, snowcat, guiding and transfers from Skopje.",
+    "fr": "Semaine de référence pour un groupe de 8 : 6 jours de ski, 7 jours d'hébergement, pension complète, snowcat, encadrement et transferts depuis Skopje.",
+    "de": "Referenzwoche für eine Gruppe von 8: 6 Skitage, 7 Tage Unterkunft, Vollpension, Snowcat, Begleitung und Transfers ab Skopje."
   },
   "duration": {
-    "en": "Full week as reference · 3, 4, 5 days or custom on request",
-    "fr": "Semaine complète comme référence · 3, 4, 5 jours ou sur mesure sur demande",
-    "de": "Ganze Woche als Referenz · 3, 4, 5 Tage oder individuell auf Anfrage"
+    "en": "A few days to a full week or longer",
+    "fr": "De quelques jours à une semaine ou plus",
+    "de": "Von ein paar Tagen bis zu einer Woche oder länger"
   },
-  "dates": [
-    {
-      "label": {
-        "en": "Principal 2027 period",
-        "fr": "Période principale 2027",
-        "de": "Hauptperiode 2027"
-      },
-      "start": "2027-01-16",
-      "end": "2027-04-03"
-    }
-  ],
+  "dates": [],
   "seasonWindow": {
-    "en": "Approximately late December to early April, depending on snow conditions",
-    "fr": "Environ de fin décembre à début avril, selon l'enneigement",
-    "de": "Etwa Ende Dezember bis Anfang April, je nach Schneelage"
+    "en": "Late December → Early April, depending on snow conditions",
+    "fr": "Fin décembre → début avril, selon l'enneigement",
+    "de": "Ende Dezember → Anfang April, je nach Schneelage"
   },
   "flexibleDates": true,
   "groupSize": {
-    "typical": 8,
-    "usualMax": 10,
-    "absoluteMax": 12
+    "priceBasis": 8,
+    "ideal": 10,
+    "absoluteMax": 12,
+    "note": {
+      "en": "Priced for 8 · ideal around 10 · maximum 12",
+      "fr": "Tarif sur la base de 8 · idéal autour de 10 · maximum 12",
+      "de": "Preisbasis 8 · ideal rund 10 · maximal 12"
+    }
   },
   "activities": {
     "en": [
       "Snowcat freeride",
       "Free-rando",
       "Ski touring",
-      "Local experiences",
-      "Food & culture",
-      "Custom activities"
+      "Cultural experiences",
+      "Custom programmes"
     ],
     "fr": [
       "Freeride en snowcat",
       "Free-rando",
       "Ski de randonnée",
-      "Expériences locales",
-      "Gastronomie & culture",
-      "Activités sur mesure"
+      "Expériences culturelles",
+      "Programmes sur mesure"
     ],
     "de": [
       "Snowcat-Freeride",
       "Free-Rando",
       "Skitouren",
-      "Lokale Erlebnisse",
-      "Essen & Kultur",
-      "Individuelle Aktivitäten"
+      "Kulturelle Erlebnisse",
+      "Individuelle Programme"
     ]
   },
   "included": {
     "en": [
-      "Private snowcat — the Organix PistenBully PB300W",
-      "6 ski days (full-week reference)",
-      "7 days accommodation",
+      "Private snowcat — the OrganixEvents PistenBully PB300W",
+      "Mountain guiding by two professionals: a local UIMLA-qualified professional and one from the Organix team",
+      "6 ski days (reference week)",
+      "7 days accommodation in a small family hotel",
       "Full board",
-      "Local certified mountain professional",
-      "Professional Organix staff member on the trip",
-      "Organisation, preparation and logistics",
-      "Airport transfers"
+      "Transfers from Skopje",
+      "Organisation and logistics"
     ],
     "fr": [
-      "Snowcat privé — le PistenBully PB300W d'Organix",
-      "6 jours de ski (référence semaine complète)",
-      "7 jours d'hébergement",
+      "Snowcat privé — le PistenBully PB300W d'OrganixEvents",
+      "Encadrement par deux professionnels de la montagne : un professionnel local UIMLA et un professionnel de l'équipe Organix",
+      "6 jours de ski (semaine de référence)",
+      "7 jours d'hébergement dans un petit hôtel familial",
       "Pension complète",
-      "Professionnel de la montagne local et certifié",
-      "Un membre professionnel de l'équipe Organix sur place",
-      "Organisation, préparation et logistique",
-      "Transferts aéroport"
+      "Transferts depuis Skopje",
+      "Organisation et logistique"
     ],
     "de": [
-      "Privater Snowcat – der PistenBully PB300W von Organix",
-      "6 Skitage (Referenz ganze Woche)",
-      "7 Tage Unterkunft",
+      "Privater Snowcat – der PistenBully PB300W von OrganixEvents",
+      "Begleitung durch zwei Bergprofis: ein lokaler Profi mit UIMLA-Qualifikation und ein Profi aus dem Organix-Team",
+      "6 Skitage (Referenzwoche)",
+      "7 Tage Unterkunft in einem kleinen Familienhotel",
       "Vollpension",
-      "Zertifizierter lokaler Bergprofi",
-      "Ein professionelles Mitglied des Organix-Teams vor Ort",
-      "Organisation, Vorbereitung und Logistik",
-      "Flughafentransfers"
+      "Transfers ab Skopje",
+      "Organisation und Logistik"
     ]
   },
   "notIncluded": {
     "en": [
-      "Flights to Skopje",
+      "Flights",
+      "Equipment rental (available on site)",
+      "Single room supplement",
       "Drinks and personal extras",
-      "Ski / snowboard equipment",
-      "Avalanche safety equipment (airbag, transceiver, probe, shovel)",
-      "Travel insurance"
+      "Travel insurance",
+      "Optional heliski extension in Albania"
     ],
     "fr": [
-      "Vols jusqu'à Skopje",
+      "Vols",
+      "Location de matériel (disponible sur place)",
+      "Supplément chambre individuelle",
       "Boissons et extras personnels",
-      "Matériel de ski / snowboard",
-      "Équipement de sécurité avalanche (airbag, DVA, sonde, pelle)",
-      "Assurance voyage"
+      "Assurance voyage",
+      "Extension héliski en Albanie (option)"
     ],
     "de": [
-      "Flüge nach Skopje",
+      "Flüge",
+      "Materialmiete (vor Ort möglich)",
+      "Einzelzimmerzuschlag",
       "Getränke und persönliche Extras",
-      "Ski- / Snowboardausrüstung",
-      "Lawinen-Sicherheitsausrüstung (Airbag, LVS, Sonde, Schaufel)",
-      "Reiseversicherung"
+      "Reiseversicherung",
+      "Optionale Heliski-Verlängerung in Albanien"
     ]
   },
   "difficulty": {
-    "en": "For confident off-piste skiers and snowboarders",
-    "fr": "Pour skieurs et snowboardeurs à l'aise en hors-piste",
-    "de": "Für Ski- und Snowboardfahrer, die sich abseits der Piste sicher fühlen"
+    "en": "Good autonomous skiers on red and black runs — no off-piste experience required",
+    "fr": "Bons skieurs autonomes sur pistes rouges et noires — aucune expérience du hors-piste exigée",
+    "de": "Gute, selbstständige Skifahrer auf roten und schwarzen Pisten – keine Off-Piste-Erfahrung nötig"
   },
   "partner": null,
   "cta": {
@@ -179,22 +171,22 @@
   },
   "seo": {
     "title": {
-      "en": "North Macedonia Snowcat Skiing — Private Freeride | OrganixEvents",
-      "fr": "Ski en snowcat en Macédoine du Nord — Freeride privé | OrganixEvents",
-      "de": "Snowcat-Skiing in Nordmazedonien — Privates Freeride | OrganixEvents"
+      "en": "Snowcat Skiing in North Macedonia — Private Cat Skiing & Freeride | OrganixEvents",
+      "fr": "Ski en snowcat en Macédoine du Nord — Cat skiing & freeride privé | OrganixEvents",
+      "de": "Snowcat-Skiing in Nordmazedonien — Privates Catskiing & Freeride | OrganixEvents"
     },
     "description": {
-      "en": "Private snowcat skiing in North Macedonia with Organix's own snowcat operation above Popova Shapka. Freeride, ski touring and flexible stays. From CHF 2,250 for a full week.",
-      "fr": "Ski en snowcat privé en Macédoine du Nord avec la propre opération snowcat d'Organix au-dessus de Popova Shapka. Freeride, ski de randonnée et séjours flexibles. Dès CHF 2 250 la semaine complète.",
-      "de": "Privates Snowcat-Skiing in Nordmazedonien mit dem eigenen Snowcat-Betrieb von Organix oberhalb von Popova Shapka. Freeride, Skitouren und flexible Aufenthalte. Ab CHF 2’250 für die ganze Woche."
+      "en": "Cat skiing in North Macedonia with our own snowcat and local operation in the Šar Mountains. For good skiers, no off-piste experience needed. Gear rental on site. From CHF 2,250.",
+      "fr": "Cat skiing en Macédoine du Nord avec notre propre snowcat et notre opération locale dans les monts Šar. Pour bons skieurs, sans expérience du hors-piste. Location sur place. Dès CHF 2 250.",
+      "de": "Catskiing in Nordmazedonien mit eigenem Snowcat und lokalem Betrieb im Šar-Gebirge. Für gute Skifahrer, ohne Off-Piste-Erfahrung. Materialmiete vor Ort. Ab CHF 2’250."
     }
   },
   "localOperation": {
     "name": "Wild Tracks",
     "role": {
-      "en": "Local operational structure in North Macedonia, developed with our local partners",
-      "fr": "Structure opérationnelle locale en Macédoine du Nord, développée avec nos partenaires locaux",
-      "de": "Lokale Betriebsstruktur in Nordmazedonien, aufgebaut mit unseren lokalen Partnern"
+      "en": "Our local operational structure in North Macedonia, developed with two local partners: local operation, hotel, logistics and relationships on the ground.",
+      "fr": "Notre structure opérationnelle locale en Macédoine du Nord, développée avec deux partenaires locaux : opération locale, hôtel, logistique et relations sur place.",
+      "de": "Unsere lokale Betriebsstruktur in Nordmazedonien, aufgebaut mit zwei lokalen Partnern: Betrieb vor Ort, Hotel, Logistik und lokale Beziehungen."
     }
   }
 }

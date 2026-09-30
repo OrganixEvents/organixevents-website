@@ -5,9 +5,10 @@
   },
   "hero": {
     "title": "Beyond the ordinary.",
-    "subtitle": "Sport. Adventure. Experiences built differently.",
+    "subtitle": "Expertise. Access. Human.",
     "ctaPrimary": "Explore",
-    "ctaSecondary": "Enquire"
+    "ctaSecondary": "Enquire",
+    "image": "nm-cloudsea"
   },
   "flagship": {
     "eyebrow": "Our flagship",
@@ -18,11 +19,11 @@
     "message": [
       "Our snowcat.",
       "Our operation.",
-      "Your adventure."
+      "North Macedonia."
     ],
     "priceLabel": "From",
-    "priceNote": "Full-week experience · 6 ski days · 7 days accommodation · full board · based on a group of 8",
-    "flexNote": "Shorter stays and flexible dates on request.",
+    "priceNote": "Based on a group of 8 · 6 ski days · 7 days accommodation · full board · snowcat, guiding and transfers from Skopje",
+    "flexNote": "Late December → early April. Flexible durations, no fixed Saturday-to-Saturday weeks.",
     "cta": "Discover North Macedonia"
   },
   "winter": {
@@ -35,9 +36,9 @@
       "alps"
     ],
     "labels": {
-      "georgia": "Snowcat Freeride",
+      "georgia": "One week · Limited access",
       "norway": "Ski & Sail / Ski Touring",
-      "alps": "Our Playground"
+      "alps": "One day or one week"
     },
     "flagshipLink": "Plus our flagship: North Macedonia",
     "cta": "All winter experiences"
@@ -60,7 +61,7 @@
   "custom": {
     "eyebrow": "Custom",
     "title": [
-      "You dream it.",
+      "You imagine it.",
       "We build it."
     ],
     "lead": [
@@ -106,9 +107,9 @@
       "Built in the mountains.",
       "Made for adventure."
     ],
-    "text": "Organix is Stéphane and Bryan. Stéphane has been at the heart of Organix — and of North Macedonia — for around fifteen years. Bryan spent more than a decade in international ski cross, as a member of the Swiss team. Together they bought a snowcat, brought it to North Macedonia and built a permanent local operation with partners on the ground.",
+    "text": "Organix is Bryan and Stéphane. Stéphane has been at the heart of Organix — and of North Macedonia — for around fifteen years. Bryan spent more than a decade in international ski cross with the Swiss team. Together they bought a snowcat, brought it to North Macedonia and built a local operation with partners on the ground.",
     "cta": "Our story",
-    "image": "nm-group"
+    "image": "nm-snowcat-team"
   },
   "partners": {
     "eyebrow": "Proudly supported by"

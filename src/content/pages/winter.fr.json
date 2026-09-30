@@ -5,7 +5,10 @@
   },
   "hero": {
     "eyebrow": "Hiver",
-    "title": ["L'hiver,", "façon Organix."],
+    "title": [
+      "L'hiver,",
+      "façon Organix."
+    ],
     "lead": "Quatre univers d'hiver. L'un d'eux est entièrement le nôtre.",
     "image": "al-bootpack"
   },
@@ -13,12 +16,16 @@
     "eyebrow": "Expérience phare · Notre propre opération",
     "title": "Macédoine du Nord",
     "subtitle": "Freeride en snowcat privé",
-    "message": "Notre snowcat. Notre opération. Votre aventure.",
+    "message": "Notre snowcat. Notre opération. Macédoine du Nord.",
     "cta": "Découvrir la Macédoine du Nord"
   },
   "universes": {
     "title": "Trois autres façons de rider.",
-    "items": ["georgia", "norway", "alps"]
+    "items": [
+      "georgia",
+      "norway",
+      "alps"
+    ]
   },
   "final": {
     "title": "Vous hésitez entre plusieurs hivers ?",

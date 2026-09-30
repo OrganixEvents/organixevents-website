@@ -3,14 +3,42 @@
   'use strict';
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* ---------- analytics: push to dataLayer, provider plugged in later ---------- */
-  window.dataLayer = window.dataLayer || [];
+  /* ---------- analytics: GA4 with Consent Mode v2 — nothing loads before consent ---------- */
+  var CFG = window.ORGANIX_CONFIG || {};
+  var KEY = 'organix-consent';
+  var ga = false;
+  function store(v) { try { if (v === undefined) return localStorage.getItem(KEY); localStorage.setItem(KEY, v); } catch (e) { return null; } }
+  function loadGA() {
+    if (ga || !CFG.ga4Id) return;
+    ga = true;
+    gtag('consent', 'update', { analytics_storage: 'granted' });
+    var s = document.createElement('script'); s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(CFG.ga4Id);
+    document.head.appendChild(s);
+    gtag('js', new Date());
+    var dest = document.body.getAttribute('data-destination');
+    gtag('config', CFG.ga4Id, { language: document.documentElement.lang, destination: dest || undefined });
+    if (dest) gtag('event', 'destination_view', { destination: dest });
+  }
   function track(event, params) {
-    var payload = Object.assign({ event: event, page_path: location.pathname, language: document.documentElement.lang }, params || {});
-    window.dataLayer.push(payload);
-    if (window.organixDebug) console.log('[track]', payload);
+    var payload = Object.assign({ page_path: location.pathname, language: document.documentElement.lang }, params || {});
+    if (ga) gtag('event', event, payload);
+    if (window.organixDebug) console.log('[track]', event, payload);
   }
   window.organixTrack = track;
+  var card = document.querySelector('[data-consent]');
+  function showCard(show) { if (card) card.hidden = !show; }
+  if (CFG.ga4Id || CFG.consentDemo) {
+    var choice = store();
+    if (choice === 'granted') loadGA();
+    else if (!choice) showCard(true);
+  }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-consent-choice]');
+    if (b) { var v = b.getAttribute('data-consent-choice'); store(v); showCard(false); if (v === 'granted') loadGA(); else if (ga) gtag('consent', 'update', { analytics_storage: 'denied' }); }
+    if (e.target.closest('[data-consent-open]')) showCard(true);
+    var l = e.target.closest('.lang a');
+    if (l && !l.hasAttribute('aria-current')) track('language_change', { from: document.documentElement.lang, to: l.getAttribute('hreflang') });
+  });
 
   /* ---------- header ---------- */
   var header = document.querySelector('[data-header]');
@@ -100,7 +128,7 @@
     function applyInterest(value, fromUser) {
       form.classList.toggle('has-interest', !!value);
       form.querySelectorAll('[data-when]').forEach(function (el) {
-        var on = el.getAttribute('data-when') === value;
+        var on = el.getAttribute('data-when').split(' ').indexOf(value) > -1;
         el.classList.toggle('is-on', on);
         el.querySelectorAll('input,select,textarea').forEach(function (i) { i.disabled = !on; });
       });
@@ -154,7 +182,7 @@
           if (!r.ok) throw new Error(r.status);
           track('enquiry_submitted', { interest: interest });
           if (eventName) track(eventName);
-          location.href = form.getAttribute('action');
+          setTimeout(function () { location.href = form.getAttribute('action'); }, ga ? 400 : 0);
         })
         .catch(function () {
           btn.disabled = false; label.textContent = original;

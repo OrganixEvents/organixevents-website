@@ -27,19 +27,6 @@
     "color": "#8b9fb5",
     "source": "01_NORTH_MACEDONIA/0d5351cc-9639-48ab-a6e9-e7dd15e8a3ce.jpg"
   },
-  "nm-dusk": {
-    "width": 1152,
-    "height": 1536,
-    "widths": [
-      480,
-      800,
-      1152
-    ],
-    "alt": "Pink dusk light over a jagged snowy mountain range",
-    "focal": "50% 55%",
-    "color": "#7f7b9a",
-    "source": "01_NORTH_MACEDONIA/3673EAC4-06C7-425B-89CF-685599095A6E.jpeg"
-  },
   "nm-cornice": {
     "width": 1152,
     "height": 1536,
@@ -78,20 +65,6 @@
     "focal": "50% 60%",
     "color": "#859bb4",
     "source": "01_NORTH_MACEDONIA/5d7d3bdb-82c1-48e8-bfd6-83505c33b4e6.jpg"
-  },
-  "nm-village": {
-    "width": 1600,
-    "height": 900,
-    "widths": [
-      480,
-      800,
-      1200,
-      1600
-    ],
-    "alt": "Snow-covered wooden chalets and fir forest in a mountain village",
-    "focal": "50% 50%",
-    "color": "#8c9daf",
-    "source": "01_NORTH_MACEDONIA/857ece90-4800-4fbd-b7a9-32182ededaf0.jpg"
   },
   "nm-ridge-group": {
     "width": 1200,
@@ -477,5 +450,626 @@
     "focal": "55% 45%",
     "color": "#7e98ab",
     "source": "04_SUMMER_ADVENTURE/PHOTO-2026-07-25-18-59-17.jpg"
+  },
+  "nm-cloudsea": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "A small group skinning across a snow plateau toward a sea of clouds in North Macedonia",
+    "focal": "50% 62%",
+    "color": "#6a8199",
+    "source": "06_DRIVE_2025_26/b270a488-6a99-4dda-aaa1-240a5597b903.jpg"
+  },
+  "nm-snowfight": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "Guests throwing fresh snow and laughing next to the snowcat",
+    "focal": "50% 45%",
+    "color": "#748198",
+    "source": "06_DRIVE_2025_26/b455ba70-0530-4f1e-a798-289beecec8a5.jpg"
+  },
+  "nm-cabin-group": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "A cheerful group of riders inside the snowcat passenger cabin",
+    "focal": "45% 45%",
+    "color": "#887261",
+    "source": "06_DRIVE_2025_26/29b2f484-e813-4838-8508-a90747628f09.jpg"
+  },
+  "nm-skin-line": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "A line of ski tourers climbing a wide snowy slope under a blue sky",
+    "focal": "55% 55%",
+    "color": "#547daf",
+    "source": "06_DRIVE_2025_26/86361229-c3bc-455e-a5f6-327d139d3ebc.jpg"
+  },
+  "nm-ridges": {
+    "width": 4032,
+    "height": 3024,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "Wide snow-covered ridges and forested valleys of the Šar Mountains",
+    "focal": "50% 55%",
+    "color": "#516e99",
+    "source": "06_DRIVE_2025_26/IMG_5508.JPG"
+  },
+  "nm-moonrise": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "The moon rising over snowy peaks at dusk",
+    "focal": "50% 35%",
+    "color": "#4d5265",
+    "source": "06_DRIVE_2025_26/8379263e-cec1-403c-bea1-8d0324852581.jpg"
+  },
+  "nm-forest-walk": {
+    "width": 3840,
+    "height": 5120,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "A skier carrying skis along a snowy forest track",
+    "focal": "50% 50%",
+    "color": "#6f7c8a",
+    "source": "06_DRIVE_2025_26/25b789fc-e580-43a9-9bc1-9a5abde1be38.jpg"
+  },
+  "nm-stone-hut": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "An old stone shepherd's hut half buried in snow below a summit",
+    "focal": "50% 60%",
+    "color": "#8e99a6",
+    "source": "06_DRIVE_2025_26/6d8f8022-5bfe-4fab-8c99-a7ff96d974ef.jpg"
+  },
+  "nm-hut": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "A mountain hut on a snowy plateau under a deep blue sky",
+    "focal": "50% 50%",
+    "color": "#7a8ba1",
+    "source": "06_DRIVE_2025_26/09a01dbc-df1a-405e-bfd0-c71805f8e09d.jpg"
+  },
+  "nm-spring-tour": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "A ski tourer walking up a spring trail with skis on his pack",
+    "focal": "50% 45%",
+    "color": "#969386",
+    "source": "06_DRIVE_2025_26/c84811dc-fb99-4536-82f0-96719782ecc9.jpg"
+  },
+  "nm-duo": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "Two riders smiling in helmets and goggles on the mountain",
+    "focal": "50% 45%",
+    "color": "#86868c",
+    "source": "06_DRIVE_2025_26/97dfbdf1-2578-4ea7-a3dc-3847b324fbb7.jpg"
+  },
+  "nm-peak": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "A snowy summit above untracked slopes",
+    "focal": "50% 50%",
+    "color": "#8b9db1",
+    "source": "06_DRIVE_2025_26/88a12e4a-eae2-4264-9434-4f2aa7432a3c.jpg"
+  },
+  "nm-valley": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "A pointed snowy peak above a forested valley",
+    "focal": "50% 50%",
+    "color": "#7e8fa0",
+    "source": "06_DRIVE_2025_26/88923f26-71ae-4efb-80b3-647d649a15c3.jpg"
+  },
+  "nm-spring-duo": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "Two ski tourers with skis on their packs on a sunny spring hillside",
+    "focal": "50% 55%",
+    "color": "#838689",
+    "source": "06_DRIVE_2025_26/b2a62125-7087-4ecc-a73a-3f711c094a42.jpg"
+  },
+  "mk-meadow-hut": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "A wooden hut and rock spire in a mountain meadow in North Macedonia",
+    "focal": "50% 55%",
+    "color": "#7b8082",
+    "source": "06_DRIVE_2025_26/925fb9f7-d760-4a5a-9d2e-76cdc5e5d675.jpg"
+  },
+  "mk-valley-village": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "A red-roofed cabin in a mountain valley below a snowy peak",
+    "focal": "50% 60%",
+    "color": "#637c95",
+    "source": "06_DRIVE_2025_26/53ef8ce9-9eb7-4646-a5ca-7186c9b1e713.jpg"
+  },
+  "nm-snowcat-team": {
+    "width": 994,
+    "height": 746,
+    "widths": [
+      480,
+      800,
+      994
+    ],
+    "alt": "A group of riders standing in front of the red Organix snowcat",
+    "focal": "55% 60%",
+    "color": "#837d8c",
+    "source": "05_BROCHURE_IMAGES/mk-000.jpg"
+  },
+  "nm-open-terrain": {
+    "width": 1490,
+    "height": 1039,
+    "widths": [
+      480,
+      800,
+      1200,
+      1490
+    ],
+    "alt": "A skier walking across vast open snowfields",
+    "focal": "50% 55%",
+    "color": "#b2b9c8",
+    "source": "05_BROCHURE_IMAGES/mk-004.jpg"
+  },
+  "nm-arms-up": {
+    "width": 737,
+    "height": 536,
+    "widths": [
+      480,
+      737
+    ],
+    "alt": "A rider celebrating on a sunny ridge with arms raised",
+    "focal": "45% 50%",
+    "color": "#b6bfd0",
+    "source": "05_BROCHURE_IMAGES/mk-006.jpg"
+  },
+  "nm-powder-board": {
+    "width": 1496,
+    "height": 1101,
+    "widths": [
+      480,
+      800,
+      1200,
+      1496
+    ],
+    "alt": "A snowboarder spraying powder between fir trees",
+    "focal": "55% 55%",
+    "color": "#adb6c3",
+    "source": "05_BROCHURE_IMAGES/mk-007.jpg"
+  },
+  "nm-hotel": {
+    "width": 832,
+    "height": 468,
+    "widths": [
+      480,
+      800,
+      832
+    ],
+    "alt": "The small family hotel with its wood-fired sauna in the snow",
+    "focal": "50% 55%",
+    "color": "#7a747c",
+    "source": "05_BROCHURE_IMAGES/mk-024.jpg"
+  },
+  "nm-jacuzzi": {
+    "width": 624,
+    "height": 468,
+    "widths": [
+      480,
+      624
+    ],
+    "alt": "Guests relaxing in the outdoor jacuzzi in the evening",
+    "focal": "50% 50%",
+    "color": "#425849",
+    "source": "05_BROCHURE_IMAGES/mk-025.jpg"
+  },
+  "nm-room": {
+    "width": 729,
+    "height": 486,
+    "widths": [
+      480,
+      729
+    ],
+    "alt": "A bright double room at the hotel",
+    "focal": "50% 50%",
+    "color": "#bdada1",
+    "source": "05_BROCHURE_IMAGES/mk-026.jpg"
+  },
+  "nm-food": {
+    "width": 742,
+    "height": 540,
+    "widths": [
+      480,
+      742
+    ],
+    "alt": "Macedonian dishes: burek, grilled peppers and white cheese",
+    "focal": "50% 50%",
+    "color": "#9e7551",
+    "source": "05_BROCHURE_IMAGES/mk-029.jpg"
+  },
+  "ge-sunset-group": {
+    "width": 800,
+    "height": 562,
+    "widths": [
+      480,
+      800
+    ],
+    "alt": "A group of riders on a ridge at sunset in the Caucasus",
+    "focal": "65% 70%",
+    "color": "#7e787d",
+    "source": "05_BROCHURE_IMAGES/ge-000.jpg"
+  },
+  "ge-snowcat": {
+    "width": 1000,
+    "height": 667,
+    "widths": [
+      480,
+      800,
+      1000
+    ],
+    "alt": "A snowcat with passenger cabin on a snowy ridge in Georgia",
+    "focal": "60% 55%",
+    "color": "#929cae",
+    "source": "05_BROCHURE_IMAGES/ge-001.jpg"
+  },
+  "ge-powder": {
+    "width": 1189,
+    "height": 800,
+    "widths": [
+      480,
+      800,
+      1189
+    ],
+    "alt": "A snowboarder in deep powder above forested valleys in Georgia",
+    "focal": "55% 55%",
+    "color": "#b3bfd1",
+    "source": "05_BROCHURE_IMAGES/ge-002.jpg"
+  },
+  "ge-chalet": {
+    "width": 518,
+    "height": 669,
+    "widths": [
+      480,
+      518
+    ],
+    "alt": "The wooden guest house chalet in Bakhmaro",
+    "focal": "50% 50%",
+    "color": "#615648",
+    "source": "05_BROCHURE_IMAGES/ge-003.jpg"
+  },
+  "ge-interior": {
+    "width": 533,
+    "height": 400,
+    "widths": [
+      480,
+      533
+    ],
+    "alt": "The lounge of the guest house with a wood stove",
+    "focal": "50% 50%",
+    "color": "#78604a",
+    "source": "05_BROCHURE_IMAGES/ge-004.jpg"
+  },
+  "ge-snow-hut": {
+    "width": 800,
+    "height": 562,
+    "widths": [
+      480,
+      800
+    ],
+    "alt": "A wooden hut buried under a huge cushion of snow",
+    "focal": "50% 50%",
+    "color": "#8d98a9",
+    "source": "05_BROCHURE_IMAGES/ge-012.jpg"
+  },
+  "ge-village": {
+    "width": 750,
+    "height": 500,
+    "widths": [
+      480,
+      750
+    ],
+    "alt": "The snow-covered village of Bakhmaro among fir trees",
+    "focal": "50% 50%",
+    "color": "#a39d9e",
+    "source": "05_BROCHURE_IMAGES/ge-013.jpg"
+  },
+  "ge-snowcat-road": {
+    "width": 743,
+    "height": 528,
+    "widths": [
+      480,
+      743
+    ],
+    "alt": "A snowcat climbing between snowy mountains in Georgia",
+    "focal": "50% 55%",
+    "color": "#a5b1c2",
+    "source": "05_BROCHURE_IMAGES/ge-014.jpg"
+  },
+  "ge-forest-peaks": {
+    "width": 746,
+    "height": 529,
+    "widths": [
+      480,
+      746
+    ],
+    "alt": "Snowy peaks above dense fir forest in the Caucasus",
+    "focal": "50% 50%",
+    "color": "#97a0aa",
+    "source": "05_BROCHURE_IMAGES/ge-015.jpg"
+  },
+  "no-skintrack": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "Two ski tourers following a skin track toward a fjord and snowy peaks",
+    "focal": "50% 55%",
+    "color": "#7d97b6",
+    "source": "05_BROCHURE_IMAGES/no-006.jpg"
+  },
+  "no-fishing": {
+    "width": 3024,
+    "height": 4032,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "A skier holding up a freshly caught fish by the Arctic sea",
+    "focal": "50% 45%",
+    "color": "#9cb8d3",
+    "source": "05_BROCHURE_IMAGES/no-007.jpg"
+  },
+  "no-lyngen-light": {
+    "width": 4284,
+    "height": 5712,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "alt": "Evening light on the jagged peaks of the Lyngen Alps",
+    "focal": "50% 60%",
+    "color": "#6d7683",
+    "source": "05_BROCHURE_IMAGES/no-014.jpg"
+  },
+  "pt-boat-rider": {
+    "width": 832,
+    "height": 835,
+    "widths": [
+      480,
+      800,
+      832
+    ],
+    "alt": "A wake boat carving the lake with a rider behind it",
+    "focal": "50% 55%",
+    "color": "#547783",
+    "source": "05_BROCHURE_IMAGES/pt-000.jpg"
+  },
+  "pt-pontoon": {
+    "width": 680,
+    "height": 511,
+    "widths": [
+      480,
+      680
+    ],
+    "alt": "Aerial view of the private pontoon, boats and wake gear",
+    "focal": "50% 50%",
+    "color": "#5f6362",
+    "source": "05_BROCHURE_IMAGES/pt-001.jpg"
+  },
+  "pt-house-aerial": {
+    "width": 1102,
+    "height": 772,
+    "widths": [
+      480,
+      800,
+      1102
+    ],
+    "alt": "The lakeside house and the lake from above",
+    "focal": "50% 50%",
+    "color": "#5b6360",
+    "source": "05_BROCHURE_IMAGES/pt-002.jpg"
+  },
+  "pt-grounds": {
+    "width": 747,
+    "height": 499,
+    "widths": [
+      480,
+      747
+    ],
+    "alt": "The lake and gardens around the house",
+    "focal": "50% 55%",
+    "color": "#6b7864",
+    "source": "05_BROCHURE_IMAGES/pt-003.jpg"
+  },
+  "pt-house": {
+    "width": 600,
+    "height": 402,
+    "widths": [
+      480,
+      600
+    ],
+    "alt": "The lake house and its terrace",
+    "focal": "50% 55%",
+    "color": "#56634d",
+    "source": "05_BROCHURE_IMAGES/pt-004.jpg"
+  },
+  "pt-living": {
+    "width": 601,
+    "height": 403,
+    "widths": [
+      480,
+      601
+    ],
+    "alt": "The open living room of the lake house",
+    "focal": "50% 50%",
+    "color": "#6f6962",
+    "source": "05_BROCHURE_IMAGES/pt-005.jpg"
+  },
+  "pt-garden": {
+    "width": 747,
+    "height": 483,
+    "widths": [
+      480,
+      747
+    ],
+    "alt": "A hammock in the garden overlooking the lake",
+    "focal": "50% 50%",
+    "color": "#505840",
+    "source": "05_BROCHURE_IMAGES/pt-007.jpg"
+  },
+  "pt-dock": {
+    "width": 747,
+    "height": 482,
+    "widths": [
+      480,
+      747
+    ],
+    "alt": "Two wake boats moored at the private dock",
+    "focal": "50% 55%",
+    "color": "#6a624c",
+    "source": "05_BROCHURE_IMAGES/pt-008.jpg"
+  },
+  "pt-jump": {
+    "width": 1146,
+    "height": 835,
+    "widths": [
+      480,
+      800,
+      1146
+    ],
+    "alt": "A wakeboarder jumping high above the boat's wake",
+    "focal": "50% 40%",
+    "color": "#768c97",
+    "source": "05_BROCHURE_IMAGES/pt-009.jpg"
+  },
+  "pt-misty": {
+    "width": 832,
+    "height": 470,
+    "widths": [
+      480,
+      800,
+      832
+    ],
+    "alt": "A wake boat on the lake in soft morning mist",
+    "focal": "50% 60%",
+    "color": "#68747c",
+    "source": "05_BROCHURE_IMAGES/pt-010.jpg"
   }
 }

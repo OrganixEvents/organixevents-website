@@ -19,7 +19,7 @@ import { homePage } from '../src/templates/pages/home.mjs';
 import { northMacedoniaPage } from '../src/templates/pages/north-macedonia.mjs';
 import { winterPage, summerPage } from '../src/templates/pages/seasons.mjs';
 import { experiencePage } from '../src/templates/pages/experience.mjs';
-import { customPage, aboutPage, partnersPage, enquirePage, thanksPage, notFoundPage } from '../src/templates/pages/other.mjs';
+import { customPage, aboutPage, partnersPage, enquirePage, thanksPage, notFoundPage, legalPage } from '../src/templates/pages/other.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PREVIEW = process.env.PREVIEW === '1';
@@ -91,6 +91,8 @@ const ROUTES = [
   { route: 'partners/', copy: 'partners', render: partnersPage },
   { route: 'enquire/', copy: 'enquire', render: enquirePage },
   { route: 'enquire/thanks/', copy: 'enquire', render: thanksPage, noSitemap: true },
+  { route: 'legal/', copy: 'legal', render: (ctx) => legalPage(ctx, 'legal') },
+  { route: 'privacy/', copy: 'privacy', render: (ctx) => legalPage(ctx, 'privacy') },
 ];
 
 /** Translation status of a route: which locales are genuinely translated */

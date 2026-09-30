@@ -7,8 +7,8 @@ export function homePage(ctx) {
   const u = ctx.ui;
 
   const heroHtml = hero(ctx, {
-    image: nm.heroImage,
-    imageMobile: nm.heroImageMobile,
+    image: c.hero.image || nm.heroImage,
+    imageMobile: c.hero.imageMobile || (c.hero.image ? null : nm.heroImageMobile),
     title: [c.hero.title],
     sub: [c.hero.subtitle],
     ctas: [
@@ -122,7 +122,7 @@ export function homePage(ctx) {
     description: c.seo.description,
     bodyClass: 'home',
     ogImage: nm.heroImage,
-    preload: ctx.preloadHero(nm.heroImage, nm.heroImageMobile),
+    preload: c.hero.image ? ctx.preloadHero(c.hero.image) : ctx.preloadHero(nm.heroImage, nm.heroImageMobile),
     jsonLd: [
       jsonLd({
         '@context': 'https://schema.org',
@@ -130,10 +130,12 @@ export function homePage(ctx) {
         name: ctx.site.name,
         legalName: ctx.site.legalName,
         slogan: 'Beyond the ordinary.',
+        founder: Object.values(ctx.site.team).map((m) => ({ '@type': 'Person', name: m.name })),
         url: ctx.abs(ctx.locale, ''),
         logo: ctx.absAsset('brand/organix-logo-events.svg'),
         email: ctx.site.contact.email,
-        telephone: ctx.site.contact.phone,
+        ...(ctx.site.contact.phone ? { telephone: ctx.site.contact.phone } : {}),
+        sameAs: (ctx.site.social || []).map((s) => s.url),
         address: {
           '@type': 'PostalAddress',
           streetAddress: ctx.site.contact.address[0],

@@ -31,19 +31,20 @@
     "de": "Eine Woche draussen, in einer kleinen Gruppe."
   },
   "shortDescription": {
-    "en": "One-week summer camps for young people, in small groups of around 4 to 8 participants, on the lakes of western Switzerland.",
-    "fr": "Des camps d'été d'une semaine pour les jeunes, en petits groupes d'environ 4 à 8 participants, sur les lacs de Suisse romande.",
-    "de": "Einwöchige Sommercamps für Jugendliche, in kleinen Gruppen von etwa 4 bis 8 Teilnehmenden, an den Seen der Westschweiz."
+    "en": "Summer camps of about a week for small groups of 4 to 10 young people, on Lac de Joux or Lake Geneva — water, mountains and nights outdoors.",
+    "fr": "Des camps d'été d'environ une semaine pour de petits groupes de 4 à 10 jeunes, au lac de Joux ou au Léman — eau, montagne et nuits dehors.",
+    "de": "Sommercamps von etwa einer Woche für kleine Gruppen von 4 bis 10 Jugendlichen, am Lac de Joux oder am Genfersee – Wasser, Berge und Nächte draussen."
   },
   "longDescription": {
-    "en": "Our youth camps run for one week, in small groups of around four to eight young participants. Camps are usually announced during or at the end of winter for the coming summer.",
-    "fr": "Nos camps jeunes durent une semaine, en petits groupes d'environ quatre à huit participants. Ils sont généralement annoncés pendant ou à la fin de l'hiver pour l'été suivant.",
-    "de": "Unsere Jugendcamps dauern eine Woche, in kleinen Gruppen von etwa vier bis acht Teilnehmenden. Sie werden in der Regel während oder gegen Ende des Winters für den kommenden Sommer angekündigt."
+    "en": "Around a week on the water and in the mountains, with a small group of four to ten young people. Organix takes care of everything: supervision, meals, transport and the programme. The age range depends on each edition; dates are published as soon as an edition opens.",
+    "fr": "Environ une semaine entre l'eau et la montagne, avec un petit groupe de quatre à dix jeunes. Organix s'occupe de tout : encadrement, repas, transport et programme. La tranche d'âge dépend de chaque édition ; les dates sont publiées dès qu'une édition ouvre.",
+    "de": "Rund eine Woche zwischen Wasser und Bergen, mit einer kleinen Gruppe von vier bis zehn Jugendlichen. Organix kümmert sich um alles: Betreuung, Verpflegung, Transport und Programm. Die Altersgruppe hängt von der jeweiligen Ausgabe ab; die Daten werden veröffentlicht, sobald eine Ausgabe öffnet."
   },
   "heroImage": "su-sup",
   "gallery": [
     "su-lake",
-    "su-wake-boat"
+    "su-wake-boat",
+    "su-cliffs"
   ],
   "status": "active",
   "featured": true,
@@ -51,22 +52,59 @@
   "priceFrom": null,
   "currency": "CHF",
   "duration": {
-    "en": "1 week",
-    "fr": "1 semaine",
-    "de": "1 Woche"
+    "en": "About one week",
+    "fr": "Environ une semaine",
+    "de": "Etwa eine Woche"
   },
   "dates": [],
   "flexibleDates": false,
   "groupSize": {
     "min": 4,
-    "typical": 8,
+    "absoluteMax": 10,
     "note": {
-      "en": "Approximately 4–8 young participants",
-      "fr": "Environ 4 à 8 jeunes participants",
-      "de": "Etwa 4–8 junge Teilnehmende"
+      "en": "4–10 young people",
+      "fr": "4 à 10 jeunes",
+      "de": "4–10 Jugendliche"
     }
   },
-  "activities": null,
+  "activities": {
+    "en": [
+      "Wakeboard",
+      "Wakesurf",
+      "Stand up paddle",
+      "Sailing",
+      "Kayak",
+      "Bike / mountain bike",
+      "Hiking",
+      "Climbing",
+      "Group activities",
+      "Bivouac / camping"
+    ],
+    "fr": [
+      "Wakeboard",
+      "Wakesurf",
+      "Stand up paddle",
+      "Voile",
+      "Kayak",
+      "Vélo / VTT",
+      "Randonnée",
+      "Escalade",
+      "Activités de groupe",
+      "Bivouac / camping"
+    ],
+    "de": [
+      "Wakeboard",
+      "Wakesurf",
+      "Stand-up-Paddle",
+      "Segeln",
+      "Kajak",
+      "Velo / Mountainbike",
+      "Wandern",
+      "Klettern",
+      "Gruppenaktivitäten",
+      "Biwak / Camping"
+    ]
+  },
   "included": null,
   "notIncluded": null,
   "difficulty": null,
@@ -96,11 +134,66 @@
   ],
   "blocks": [
     {
+      "type": "list",
+      "title": {
+        "en": "On the programme",
+        "fr": "Au programme",
+        "de": "Auf dem Programm"
+      },
+      "field": "activities"
+    },
+    {
+      "type": "points",
+      "title": {
+        "en": "How a camp works",
+        "fr": "Comment se passe un camp",
+        "de": "So läuft ein Camp ab"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Small groups",
+            "fr": "Petits groupes",
+            "de": "Kleine Gruppen"
+          },
+          "text": {
+            "en": "4 to 10 young people, so everyone gets time and attention.",
+            "fr": "4 à 10 jeunes, pour que chacun ait du temps et de l'attention.",
+            "de": "4 bis 10 Jugendliche, damit alle Zeit und Aufmerksamkeit bekommen."
+          }
+        },
+        {
+          "title": {
+            "en": "Where they sleep",
+            "fr": "Où ils dorment",
+            "de": "Wo sie schlafen"
+          },
+          "text": {
+            "en": "Group accommodation, a chalet or camping, depending on the edition.",
+            "fr": "Hébergement collectif, chalet ou camping, selon l'édition.",
+            "de": "Gruppenunterkunft, Chalet oder Camping, je nach Ausgabe."
+          }
+        },
+        {
+          "title": {
+            "en": "Fully handled",
+            "fr": "Tout est géré",
+            "de": "Alles organisiert"
+          },
+          "text": {
+            "en": "Supervision, meals, transport and programme are organised by Organix.",
+            "fr": "Encadrement, repas, transport et programme sont organisés par Organix.",
+            "de": "Betreuung, Verpflegung, Transport und Programm organisiert Organix."
+          }
+        }
+      ]
+    },
+    {
       "type": "camps",
       "title": {
-        "en": "Summer camps",
-        "fr": "Camps d'été",
-        "de": "Sommercamps"
+        "en": "Upcoming editions",
+        "fr": "Prochaines éditions",
+        "de": "Nächste Ausgaben"
       }
     }
   ],
@@ -120,9 +213,9 @@
       "de": "Sommercamps für Jugendliche am Lac de Joux und am Genfersee | OrganixEvents"
     },
     "description": {
-      "en": "One-week youth summer camps in small groups of around 4–8 participants on Lake Joux and Lake Geneva, organised by Organix.",
-      "fr": "Des camps d'été d'une semaine pour les jeunes, en petits groupes d'environ 4 à 8 participants, au Lac de Joux et au Léman, organisés par Organix.",
-      "de": "Einwöchige Sommercamps für Jugendliche in kleinen Gruppen von etwa 4–8 Teilnehmenden am Lac de Joux und am Genfersee, organisiert von Organix."
+      "en": "Youth summer camps of about a week for small groups of 4 to 10 young people on Lac de Joux and Lake Geneva: wakeboard, SUP, sailing, bike, climbing and bivouac, fully supervised by Organix.",
+      "fr": "Camps d'été d'environ une semaine pour de petits groupes de 4 à 10 jeunes au lac de Joux et au Léman : wakeboard, paddle, voile, vélo, escalade et bivouac, entièrement encadrés par Organix.",
+      "de": "Sommercamps von etwa einer Woche für kleine Gruppen von 4 bis 10 Jugendlichen am Lac de Joux und am Genfersee: Wakeboard, SUP, Segeln, Velo, Klettern und Biwak, vollständig betreut von Organix."
     }
   }
 }

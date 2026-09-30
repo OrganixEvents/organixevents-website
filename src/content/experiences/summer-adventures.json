@@ -32,15 +32,16 @@
     "de": "Velo, Berge, Wasser und Multisport – Reisen, die rund um die Gruppe entstehen, statt ab Katalog verkauft zu werden."
   },
   "longDescription": {
-    "en": "Summer adventures stay flexible on purpose. Bike trips in North Macedonia, days in the mountains, time on the water, sailing, cycling or a mix of everything — we put them together around your group and your idea.",
-    "fr": "Nos aventures d'été restent flexibles, volontairement. Voyages à vélo en Macédoine du Nord, journées en montagne, temps sur l'eau, voile, cyclisme ou un peu de tout : nous les construisons autour de votre groupe et de votre idée.",
-    "de": "Unsere Sommerabenteuer bleiben bewusst flexibel. Velotouren in Nordmazedonien, Tage in den Bergen, Zeit auf dem Wasser, Segeln, Radfahren oder ein bisschen von allem – wir gestalten sie rund um Ihre Gruppe und Ihre Idee."
+    "en": "Summer adventures stay flexible on purpose: cycling trips in North Macedonia, multi-day treks, days in the mountains, culture and multi-sport. We put them together around your group and your idea.",
+    "fr": "Nos aventures d'été restent volontairement flexibles : voyages à vélo en Macédoine du Nord, treks de plusieurs jours, journées en montagne, culture et multisport. Nous les construisons autour de votre groupe et de votre idée.",
+    "de": "Unsere Sommerabenteuer bleiben bewusst flexibel: Velotouren in Nordmazedonien, mehrtägige Trekkings, Tage in den Bergen, Kultur und Multisport. Wir gestalten sie rund um Ihre Gruppe und Ihre Idee."
   },
   "heroImage": "su-bike",
   "gallery": [
+    "mk-meadow-hut",
+    "mk-valley-village",
     "su-paraglide",
-    "su-cliffs",
-    "su-lake"
+    "su-cliffs"
   ],
   "status": "active",
   "featured": true,
@@ -57,28 +58,25 @@
   "groupSize": null,
   "activities": {
     "en": [
-      "Bike trips in North Macedonia",
-      "Mountain activities",
-      "Water sports",
-      "Sailing",
-      "Cycling",
-      "Multi-sport adventures"
+      "Cycling trips in North Macedonia",
+      "Multi-day trekking",
+      "Mountain days",
+      "Culture",
+      "Multi-sport"
     ],
     "fr": [
       "Voyages à vélo en Macédoine du Nord",
-      "Activités de montagne",
-      "Sports nautiques",
-      "Voile",
-      "Cyclisme",
-      "Aventures multisport"
+      "Treks de plusieurs jours",
+      "Journées en montagne",
+      "Culture",
+      "Multisport"
     ],
     "de": [
       "Velotouren in Nordmazedonien",
-      "Bergaktivitäten",
-      "Wassersport",
-      "Segeln",
-      "Radfahren",
-      "Multisport-Abenteuer"
+      "Mehrtägige Trekkings",
+      "Tage in den Bergen",
+      "Kultur",
+      "Multisport"
     ]
   },
   "included": null,
@@ -86,6 +84,25 @@
   "difficulty": null,
   "partner": null,
   "blocks": [
+    {
+      "type": "story",
+      "eyebrow": {
+        "en": "North Macedonia in summer",
+        "fr": "La Macédoine du Nord en été",
+        "de": "Nordmazedonien im Sommer"
+      },
+      "title": {
+        "en": "Same mountains. Another season.",
+        "fr": "Les mêmes montagnes. Une autre saison.",
+        "de": "Dieselben Berge. Eine andere Jahreszeit."
+      },
+      "text": {
+        "en": "The mountains we know in winter become cycling and trekking terrain in summer: open meadows, remote villages, shepherds' huts and local hospitality.",
+        "fr": "Les montagnes que nous connaissons l'hiver deviennent en été un terrain de vélo et de trek : grandes prairies, villages isolés, cabanes de bergers et hospitalité locale.",
+        "de": "Die Berge, die wir im Winter kennen, werden im Sommer zum Gelände für Velo und Trekking: weite Wiesen, abgelegene Dörfer, Hirtenhütten und lokale Gastfreundschaft."
+      },
+      "image": "mk-meadow-hut"
+    },
     {
       "type": "chips",
       "title": {

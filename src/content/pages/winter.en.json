@@ -5,7 +5,10 @@
   },
   "hero": {
     "eyebrow": "Winter",
-    "title": ["Winter,", "the Organix way."],
+    "title": [
+      "Winter,",
+      "the Organix way."
+    ],
     "lead": "Four winter universes. One of them is ours from the ground up.",
     "image": "al-bootpack"
   },
@@ -13,12 +16,16 @@
     "eyebrow": "Flagship · Own operation",
     "title": "North Macedonia",
     "subtitle": "Private snowcat freeride",
-    "message": "Our snowcat. Our operation. Your adventure.",
+    "message": "Our snowcat. Our operation. North Macedonia.",
     "cta": "Discover North Macedonia"
   },
   "universes": {
     "title": "Three more ways to ride.",
-    "items": ["georgia", "norway", "alps"]
+    "items": [
+      "georgia",
+      "norway",
+      "alps"
+    ]
   },
   "final": {
     "title": "Not sure which winter is yours?",

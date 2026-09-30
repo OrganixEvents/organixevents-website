@@ -29,7 +29,16 @@ export function customPage(ctx) {
     `<section class="one"><div class="wrap"><p class="one__lines">${c.one.lines.map((l) => `<span class="line fit reveal" style="--fit:${longest(l)}">${esc(l)}</span>`).join('')}</p></div></section>`,
     `<section class="section inspiration"><div class="wrap">
       ${sectionHead({ eyebrow: c.inspiration.eyebrow, title: c.inspiration.title })}
-      ${inspirationGrid(ctx, { note: c.inspiration.note })}
+      <h3 class="insp__group reveal">${esc(c.inspiration.winter)}</h3>
+      ${inspirationGrid(ctx, { season: 'winter', cta: false })}
+      <h3 class="insp__group reveal">${esc(c.inspiration.summer)}</h3>
+      ${inspirationGrid(ctx, { season: 'summer', note: c.inspiration.note })}
+    </div></section>`,
+    `<section class="section audiences"><div class="wrap">
+      ${sectionHead({ eyebrow: c.audiences.eyebrow, title: c.audiences.title })}
+      <ul class="chips chips--lg reveal">${c.audiences.items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
+      <p class="audiences__example reveal">${esc(c.audiences.example)}</p>
+      <p class="audiences__price reveal">${esc(c.audiences.price)}</p>
     </div></section>`,
     `<section class="section process"><div class="wrap">
       <h2 class="eyebrow reveal">${esc(c.process.eyebrow)}</h2>
@@ -53,9 +62,10 @@ export function aboutPage(ctx) {
   const u = ctx.ui;
   const trail = [[u.common.breadcrumbHome, ''], [u.nav.about, 'about/']];
   const people = c.people
+    .map((p) => ({ ...p, name: ctx.site.team[p.id].name }))
     .map(
       (p, i) => `<article class="person reveal" style="--d:${i}">
-      <div class="person__media">${picture(ctx, p.image, { placeholderLabel: `${u.common.placeholder} — ${p.name}` })}</div>
+      ${p.image ? `<div class="person__media">${picture(ctx, p.image, { sizes: '(min-width: 900px) 40vw, 100vw' })}</div>` : ''}
       <div class="person__body">
         <p class="person__role">${esc(p.role)}</p>
         <h3 class="person__name">${fit(p.name)}</h3>
@@ -75,6 +85,7 @@ export function aboutPage(ctx) {
       <ol class="milestones">${c.story.milestones.map((m, i) => `<li class="reveal" style="--d:${i}"><strong>${esc(m.label)}</strong><span>${esc(m.text)}</span></li>`).join('')}</ol>
     </div></section>`,
     `<section class="section people"><div class="wrap"><div class="people__grid">${people}</div></div></section>`,
+    c.band?.length ? `<section class="photo-band" aria-label="${esc(u.common.gallery)}"><div class="photo-band__grid">${c.band.map((k) => `<figure class="photo-band__item reveal">${picture(ctx, k, { sizes: '(min-width: 900px) 25vw, 50vw' })}</figure>`).join('')}</div></section>` : '',
     `<section class="local"><div class="local__media">${picture(ctx, c.local.image, { sizes: '100vw' })}</div><div class="local__shade" aria-hidden="true"></div>
       <div class="wrap local__content"><p class="eyebrow reveal">${esc(c.local.eyebrow)}</p><h2 class="display display--lg reveal">${lines(c.local.title)}</h2><p class="local__text reveal">${esc(c.local.text)}</p></div></section>`,
     partnersStrip(ctx, { title: ctx.page('home').partners.eyebrow }),
@@ -98,8 +109,9 @@ export function partnersPage(ctx) {
   const list = ctx.site.partners
     .map((p, i) => {
       if (!p.logo) ctx.missing.add(`official partner logo: ${p.name}`);
+      const inner = p.logo ? `<img src="${ctx.asset(p.logo)}" alt="${esc(p.name)}">` : `<span class="plogo__name">${fit(p.name)}</span>`;
       return `<li class="plogo reveal ${p.logo ? '' : 'plogo--pending'}" style="--d:${i}">
-      ${p.logo ? `<img src="${ctx.asset(p.logo)}" alt="${esc(p.name)}">` : `<span class="plogo__name">${fit(p.name)}</span><span class="plogo__todo">${esc(u.common.logoToCome)}</span>`}
+      ${p.url ? `<a class="plogo__link" href="${p.url}" target="_blank" rel="noopener" data-track="partner_click" data-location="${esc(p.name)}">${inner}</a>` : inner}
     </li>`;
     })
     .join('');
@@ -131,6 +143,7 @@ export function enquirePage(ctx) {
 
   const form = `<form class="enquiry" name="enquiry" method="${ctx.preview ? 'GET' : 'POST'}" action="${ctx.url('enquire/thanks/')}" ${ctx.preview ? 'data-preview' : 'data-netlify="true" netlify-honeypot="company"'} data-enquiry novalidate>
   <input type="hidden" name="form-name" value="enquiry">
+  <input type="hidden" name="subject" value="${esc(ctx.uiEn.enquiry.subject)} — OrganixEvents (${ctx.locale.toUpperCase()})">
   <input type="hidden" name="language" value="${ctx.locale}">
   <input type="hidden" name="source_page" value="" data-source>
   <p class="hp" aria-hidden="true"><label>Company <input name="company" tabindex="-1" autocomplete="off"></label></p>
@@ -165,6 +178,9 @@ export function enquirePage(ctx) {
     <div class="enquiry__cond" data-when="summer">
       ${field('summer_which', e.summerWhich, `<select id="summer_which" name="summer_experience"><option value="">—</option>${opt('summerOptions')}</select>`)}
     </div>
+    <div class="enquiry__cond" data-when="north-macedonia winter">
+      ${field('level', e.level, `<select id="level" name="level"><option value="">—</option>${opt('levelOptions')}</select>`)}
+    </div>
     <div class="enquiry__cond" data-when="custom">
       ${field('activity', e.activity, `<input id="activity" name="custom_activity" type="text" aria-describedby="activity-hint">`, { hint: e.activityHint })}
       ${field('destination', e.destination, `<input id="destination" name="custom_destination" type="text">`)}
@@ -189,7 +205,7 @@ export function enquirePage(ctx) {
       </fieldset>
     </div>
     ${field('message', e.message, `<textarea id="message" name="message" rows="5" aria-describedby="message-hint"></textarea>`, { hint: e.messageHint })}
-    <p class="enquiry__consent">${esc(e.consent)}</p>
+    <p class="enquiry__consent"><a href="${ctx.url('privacy/')}">${esc(e.consent)}</a></p>
     <p class="enquiry__error" role="alert" hidden data-error>${esc(e.error)}</p>
     <button class="btn btn--primary btn--submit" type="submit" data-sending="${esc(e.sending)}"><span>${esc(e.submit)}</span>${arrow}</button>
   </fieldset>
@@ -199,7 +215,7 @@ export function enquirePage(ctx) {
     <h2 class="process-card__title">${esc(e.processTitle)}</h2>
     <ol class="process-card__list">${e.process.map((s, i) => `<li><span>${i + 1}</span>${esc(s)}</li>`).join('')}</ol>
     <p class="process-card__note">${esc(e.noCheckout)}</p>
-    <p class="process-card__contact"><a href="mailto:${ctx.site.contact.email}">${esc(ctx.site.contact.email)}</a><br><a href="tel:${ctx.site.contact.phone.replace(/\s/g, '')}">${esc(ctx.site.contact.phone)}</a></p>
+    <p class="process-card__contact"><a href="mailto:${ctx.site.contact.email}" data-track="email_click">${esc(ctx.site.contact.email)}</a>${(ctx.site.social || []).map((s) => `<br><a href="${s.url}" rel="noopener" target="_blank">${esc(s.name)} ${esc(s.handle || '')}</a>`).join('')}</p>
   </aside>`;
 
   return {
@@ -257,5 +273,26 @@ export function notFoundPage(ctx) {
         .map(([l, t, p, b]) => `<div lang="${l}" class="nf-lang"><h${l === 'en' ? 1 : 2} class="display ${l === 'en' ? 'display--xl' : 'display--md'}">${esc(t)}</h${l === 'en' ? 1 : 2}><p class="lead">${esc(p)}</p><p><a class="text-link" href="${ctx.url('', l)}"><span>${esc(b)}</span>${arrow}</a></p></div>`)
         .join('')}</div>
     </div></section>`,
+  };
+}
+
+/** Legal notice / privacy policy — simple document page (section paragraphs may contain trusted inline HTML from our own JSON). */
+export function legalPage(ctx, key) {
+  const c = ctx.page(key);
+  const u = ctx.ui;
+  const trail = [[u.common.breadcrumbHome, ''], [c.title, `${key}/`]];
+  return {
+    title: c.seo.title,
+    description: c.seo.description,
+    bodyClass: 'legal',
+    headerSolid: true,
+    jsonLd: [ctx.breadcrumbLd(trail)],
+    body: `<section class="plain-hero"><div class="wrap">
+      <p class="eyebrow">${esc(c.eyebrow)}</p>
+      <h1 class="display display--lg">${fit(c.title)}</h1>
+      ${c.updated ? `<p class="lead">${esc(c.updated)}</p>` : ''}
+    </div></section>
+    ${breadcrumb(ctx, trail)}
+    <section class="section"><div class="wrap legal-doc">${c.sections.map((s) => `<h2>${esc(s.h)}</h2>${s.p.map((p) => `<p>${p}</p>`).join('')}`).join('')}</div></section>`,
   };
 }

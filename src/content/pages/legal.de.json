@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Impressum | OrganixEvents",
+    "description": "Impressum der OrganixEvents Sàrl, Le Sentier, Schweiz."
+  },
+  "eyebrow": "Rechtliches",
+  "title": "Impressum",
+  "sections": [
+    {
+      "h": "Herausgeberin",
+      "p": [
+        "OrganixEvents Sàrl<br>Chemin de Jolimont 9<br>1347 Le Sentier<br>Schweiz",
+        "E-Mail: <a href=\"mailto:hello@organixevents.com\">hello@organixevents.com</a>"
+      ]
+    },
+    {
+      "h": "Verantwortlich für den Inhalt",
+      "p": [
+        "OrganixEvents Sàrl – Bryan Zooler und Stéphane Pfeuti, Mitgründer."
+      ]
+    },
+    {
+      "h": "Hosting",
+      "p": [
+        "Diese Website wird von Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, USA, gehostet."
+      ]
+    },
+    {
+      "h": "Urheberrecht",
+      "p": [
+        "Alle Texte, Fotos, Logos und grafischen Elemente dieser Website gehören der OrganixEvents Sàrl oder ihren jeweiligen Inhabern und dürfen ohne vorherige schriftliche Zustimmung nicht weiterverwendet werden. Namen und Logos der Partner gehören ihren jeweiligen Inhabern."
+      ]
+    },
+    {
+      "h": "Haftung",
+      "p": [
+        "Wir prüfen die Informationen auf dieser Website sorgfältig, können aber nicht garantieren, dass sie vollständig, korrekt und aktuell sind. Preise, Daten und Programme sind Richtwerte und für OrganixEvents erst nach schriftlicher Bestätigung verbindlich. Für die Inhalte externer, verlinkter Websites übernehmen wir keine Haftung."
+      ]
+    },
+    {
+      "h": "Anwendbares Recht",
+      "p": [
+        "Es gilt Schweizer Recht."
+      ]
+    }
+  ]
+}

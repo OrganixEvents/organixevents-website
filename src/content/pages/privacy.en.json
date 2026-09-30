@@ -1,0 +1,53 @@
+{
+  "seo": {
+    "title": "Privacy Policy | OrganixEvents",
+    "description": "How OrganixEvents Sàrl handles the personal data collected through this website."
+  },
+  "eyebrow": "Legal",
+  "title": "Privacy policy",
+  "updated": "Last updated: September 2026",
+  "sections": [
+    {
+      "h": "Who is responsible",
+      "p": [
+        "OrganixEvents Sàrl, Chemin de Jolimont 9, 1347 Le Sentier, Switzerland — <a href=\"mailto:hello@organixevents.com\">hello@organixevents.com</a>. This policy follows the Swiss Federal Act on Data Protection (FADP) and, where applicable, the EU General Data Protection Regulation (GDPR)."
+      ]
+    },
+    {
+      "h": "Enquiry form",
+      "p": [
+        "When you send an enquiry, we collect the information you enter: name, email address, phone number (optional), the experience you are interested in, group size, dates and flexibility, level (when relevant) and your message, as well as the page language. We use this data only to answer your enquiry and, if you wish, to prepare your trip. We keep it as long as needed for this purpose and for our legal obligations."
+      ]
+    },
+    {
+      "h": "Netlify Forms and hosting",
+      "p": [
+        "The website is hosted by Netlify, Inc. (USA), and form submissions are processed and stored through Netlify Forms before being sent to us by email. Netlify may process technical data (such as IP address, browser type and time of access) in server logs to deliver the site securely. Data may therefore be processed outside Switzerland, including in the USA."
+      ]
+    },
+    {
+      "h": "Analytics (only with your consent)",
+      "p": [
+        "If you accept analytics cookies, we use Google Analytics 4 (Google Ireland Ltd. / Google LLC) to understand how the website is used: pages viewed, traffic source, destinations viewed, clicks on enquiry buttons, form started and form sent, and language changes. Google Analytics 4 does not store full IP addresses. If you decline, no analytics script is loaded. You can change your choice at any time via “Cookie settings” in the footer."
+      ]
+    },
+    {
+      "h": "Cookies and local storage",
+      "p": [
+        "Without your consent, we do not set analytics cookies. We store your cookie choice in your browser so that we don't ask again."
+      ]
+    },
+    {
+      "h": "Sharing",
+      "p": [
+        "We do not sell your data. We only share it with partners involved in organising your trip (for example accommodation or local operators) when this is necessary and once you have decided to go ahead."
+      ]
+    },
+    {
+      "h": "Your rights",
+      "p": [
+        "You can ask us at any time to access, correct or delete your data, or object to its use, by writing to <a href=\"mailto:hello@organixevents.com\">hello@organixevents.com</a>. You may also lodge a complaint with the competent data protection authority (in Switzerland, the FDPIC)."
+      ]
+    }
+  ]
+}

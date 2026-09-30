@@ -1,32 +1,44 @@
 {
   "seo": {
     "title": "OrganixEvents — Sport- und Abenteuererlebnisse. Beyond the Ordinary.",
-    "description": "OrganixEvents gestaltet, organisiert und begleitet Sport- und Abenteuererlebnisse: Freeride mit privatem Snowcat in Nordmazedonien, arktische Skireisen, die Alpen, Sommercamps und massgeschneiderte Abenteuer."
+    "description": "OrganixEvents gestaltet und begleitet Sport- und Abenteuererlebnisse: Snowcat-Freeride in Nordmazedonien, arktische Skireisen, die Alpen, Sommercamps und massgeschneiderte Abenteuer."
   },
   "hero": {
     "title": "Beyond the ordinary.",
-    "subtitle": "Sport. Abenteuer. Erlebnisse, anders gedacht.",
+    "subtitle": "Expertise. Access. Human.",
     "ctaPrimary": "Entdecken",
-    "ctaSecondary": "Anfragen"
+    "ctaSecondary": "Anfragen",
+    "image": "nm-cloudsea"
   },
   "flagship": {
     "eyebrow": "Unser Flaggschiff",
-    "title": ["Nordmazedonien", "Freeride mit privatem Snowcat"],
-    "message": ["Unser Snowcat.", "Unser Betrieb.", "Ihr Abenteuer."],
+    "title": [
+      "Nordmazedonien",
+      "Freeride mit privatem Snowcat"
+    ],
+    "message": [
+      "Unser Snowcat.",
+      "Unser Betrieb.",
+      "Nordmazedonien."
+    ],
     "priceLabel": "Ab",
-    "priceNote": "Ganze Woche · 6 Skitage · 7 Tage Unterkunft · Vollpension · Basis Gruppe von 8 Personen",
-    "flexNote": "Kürzere Aufenthalte und flexible Daten auf Anfrage.",
+    "priceNote": "Basierend auf einer Gruppe von 8 · 6 Skitage · 7 Tage Unterkunft · Vollpension · Snowcat, Begleitung und Transfers ab Skopje",
+    "flexNote": "Ende Dezember bis Anfang April. Flexible Dauer, keine fixen Wochen von Samstag bis Samstag.",
     "cta": "Nordmazedonien entdecken"
   },
   "winter": {
     "eyebrow": "Winter",
     "title": "Winter, wie Organix ihn lebt.",
     "lead": "Neben unserem eigenen Snowcat in Nordmazedonien: drei weitere Arten, den Winter mit uns zu verbringen.",
-    "items": ["georgia", "norway", "alps"],
+    "items": [
+      "georgia",
+      "norway",
+      "alps"
+    ],
     "labels": {
-      "georgia": "Snowcat-Freeride",
+      "georgia": "Eine Woche · Begrenzter Zugang",
       "norway": "Ski & Segeln / Skitouren",
-      "alps": "Unser Spielplatz"
+      "alps": "Ein Tag oder eine Woche"
     },
     "flagshipLink": "Und unser Flaggschiff: Nordmazedonien",
     "cta": "Alle Wintererlebnisse"
@@ -34,7 +46,11 @@
   "summer": {
     "eyebrow": "Sommer",
     "title": "Wenn der Schnee schmilzt, bleiben wir in Bewegung.",
-    "items": ["youth-camps", "portugal-wake", "summer-adventures"],
+    "items": [
+      "youth-camps",
+      "portugal-wake",
+      "summer-adventures"
+    ],
     "labels": {
       "youth-camps": "Jugendcamps",
       "portugal-wake": "Wake in Portugal",
@@ -44,36 +60,66 @@
   },
   "custom": {
     "eyebrow": "Massgeschneidert",
-    "title": ["Sie träumen es.", "Wir bauen es."],
-    "lead": ["Sie brauchen keinen Plan.", "Dafür sind wir da."],
-    "inspirationLabel": "Möglichkeiten, keine Pauschalreisen",
+    "title": [
+      "Sie stellen es sich vor.",
+      "Wir bauen es."
+    ],
+    "lead": [
+      "Sie brauchen keinen Plan.",
+      "Dafür sind wir da."
+    ],
+    "inspirationLabel": "Möglichkeiten, keine Pauschalangebote.",
     "cta": "Ihr Abenteuer planen",
     "image": "al-sunset-sea"
   },
   "why": {
     "eyebrow": "Warum Organix",
     "items": [
-      { "title": "Eigener Betrieb", "text": "Wir betreiben unseren eigenen Snowcat in Nordmazedonien." },
-      { "title": "Lokales Wissen", "text": "Wir arbeiten mit lokalen Guides und Menschen vor Ort, denen wir vertrauen." },
-      { "title": "Kleine Gruppen", "text": "Kleine, private Gruppen – kein Massentourismus." },
-      { "title": "Professionelle Erfahrung", "text": "Aufgebaut von Menschen aus dem Profi-Skisport." },
-      { "title": "Komplette Organisation", "text": "Eine Ansprechperson – von der ersten Nachricht bis zum letzten Tag." },
-      { "title": "Maximale Flexibilität", "text": "Daten, Dauer und Programm – auf Sie abgestimmt." }
+      {
+        "title": "Eigener Betrieb",
+        "text": "Wir betreiben unseren eigenen Snowcat in Nordmazedonien."
+      },
+      {
+        "title": "Lokales Wissen",
+        "text": "Wir arbeiten mit lokalen Guides und Menschen vor Ort, denen wir vertrauen."
+      },
+      {
+        "title": "Kleine Gruppen",
+        "text": "Kleine, private Gruppen – kein Massentourismus."
+      },
+      {
+        "title": "Professionelle Erfahrung",
+        "text": "Aufgebaut von Menschen aus dem Profi-Skisport."
+      },
+      {
+        "title": "Komplette Organisation",
+        "text": "Eine Ansprechperson – von der ersten Nachricht bis zum letzten Tag."
+      },
+      {
+        "title": "Maximale Flexibilität",
+        "text": "Daten, Dauer und Programm – auf Sie abgestimmt."
+      }
     ]
   },
   "about": {
     "eyebrow": "Über uns",
-    "title": ["In den Bergen entstanden.", "Fürs Abenteuer gemacht."],
-    "text": "Organix, das sind Stéphane und Bryan. Stéphane ist seit rund fünfzehn Jahren das Herz von Organix – und genauso lange in Nordmazedonien unterwegs. Bryan fuhr über zehn Jahre internationale Skicross-Rennen, als Mitglied des Schweizer Teams. Gemeinsam haben sie einen Snowcat gekauft, nach Nordmazedonien gebracht und dort mit Partnern vor Ort einen festen lokalen Betrieb aufgebaut.",
+    "title": [
+      "In den Bergen entstanden.",
+      "Fürs Abenteuer gemacht."
+    ],
+    "text": "Organix, das sind Bryan und Stéphane. Stéphane steht seit rund fünfzehn Jahren im Zentrum von Organix – und von Nordmazedonien. Bryan war über zehn Jahre im internationalen Skicross mit dem Schweizer Team unterwegs. Gemeinsam kauften sie einen Snowcat, brachten ihn nach Nordmazedonien und bauten mit Partnern vor Ort einen lokalen Betrieb auf.",
     "cta": "Unsere Geschichte",
-    "image": "nm-group"
+    "image": "nm-snowcat-team"
   },
   "partners": {
     "eyebrow": "Mit Unterstützung von"
   },
   "final": {
     "title": "Wohin als Nächstes?",
-    "lead": ["Erzählen Sie uns, was Sie vorhaben.", "Um den Rest kümmern wir uns."],
+    "lead": [
+      "Erzählen Sie uns, was Sie vorhaben.",
+      "Um den Rest kümmern wir uns."
+    ],
     "cta": "Gespräch starten",
     "image": "nm-sunset"
   }

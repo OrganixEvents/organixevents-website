@@ -12,7 +12,9 @@
     "skip": "Aller au contenu",
     "home": "Accueil OrganixEvents",
     "language": "Langue",
-    "mainNav": "Navigation principale"
+    "mainNav": "Navigation principale",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité"
   },
   "common": {
     "explore": "Explorer",
@@ -46,7 +48,8 @@
     "yourIdea": "Votre idée ?",
     "tellUs": "Racontez-nous",
     "gallery": "Galerie photos",
-    "breadcrumb": "Fil d'Ariane"
+    "breadcrumb": "Fil d'Ariane",
+    "price": "Prix"
   },
   "footer": {
     "tagline": "Des expériences de sport et d'aventure, créées, organisées et accompagnées par Organix.",
@@ -54,7 +57,11 @@
     "company": "Organix",
     "contact": "Contact",
     "rights": "Tous droits réservés.",
-    "preview": "Version de prévisualisation — pas le site en ligne."
+    "preview": "Version de prévisualisation — pas le site en ligne.",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Paramètres des cookies",
+    "follow": "Suivez-nous"
   },
   "enquiry": {
     "title": "Et maintenant ?",
@@ -75,7 +82,7 @@
     "step2": "Quelques détails",
     "name": "Nom",
     "email": "E-mail",
-    "phone": "Téléphone / WhatsApp",
+    "phone": "Téléphone",
     "people": "Nombre de personnes",
     "peopleHint": "Voyageurs solo bienvenus",
     "dates": "Dates souhaitées",
@@ -114,23 +121,36 @@
     "messageHint": "Tout ce qui nous aide à comprendre votre idée",
     "optional": "facultatif",
     "required": "obligatoire",
-    "consent": "Vos données servent uniquement à répondre à votre demande.",
+    "consent": "Vos données servent uniquement à répondre à votre demande. Voir notre politique de confidentialité.",
     "submit": "Envoyer la demande",
     "sending": "Envoi…",
     "error": "Un problème est survenu. Réessayez ou écrivez-nous directement.",
     "thanksTitle": "Merci.",
-    "thanksLead": "Votre demande nous est bien parvenue. Nous revenons vers vous personnellement pour en parler.",
+    "thanksLead": "Votre demande nous est bien parvenue. Nous revenons vers vous personnellement sous 48 heures.",
     "thanksBack": "Retour à l'accueil",
     "processTitle": "Comment se passe la réservation",
     "process": [
       "Vous envoyez une demande",
       "Nous en parlons personnellement",
       "Nous vous envoyons le formulaire d'inscription",
-      "Vous complétez votre inscription",
-      "Nous la validons",
-      "Vous payez Organix directement (CHF ou EUR)",
-      "Votre voyage est confirmé"
+      "Nous confirmons votre place",
+      "OrganixEvents vous facture directement, en CHF ou en EUR"
     ],
-    "noCheckout": "Pas de paiement en ligne. Chaque voyage est confirmé personnellement."
+    "noCheckout": "Chaque voyage est confirmé personnellement.",
+    "level": "Votre niveau",
+    "levelOptions": [
+      "Bon skieur de piste (pistes rouges et noires)",
+      "Un peu d'expérience hors-piste",
+      "Freerider expérimenté",
+      "Je ne sais pas"
+    ],
+    "subject": "Nouvelle demande via le site"
+  },
+  "consent": {
+    "title": "Cookies",
+    "text": "Nous aimerions utiliser des cookies de mesure d'audience (Google Analytics) pour comprendre comment le site est utilisé. Rien n'est chargé sans votre accord.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "more": "Politique de confidentialité"
   }
 }
