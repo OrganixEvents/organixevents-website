@@ -32,7 +32,7 @@ export const fit = (t) => `<span class="fit" style="--fit:${longest(t)}">${esc(t
 
 /** Break an array of lines into <span class="line"> elements (each auto-fitted). */
 export const lines = (arr) =>
-  (Array.isArray(arr) ? arr : [arr]).map((l) => `<span class="line fit" style="--fit:${longest(l)}">${esc(l)}</span>`).join('');
+  (Array.isArray(arr) ? arr : [arr]).map((l) => `<span class="line fit" style="--fit:${longest(l)}">${esc(l)}</span>`).join(' ');
 
 export function formatPrice(n, currency = 'CHF', locale = 'en') {
   const loc = { en: 'en-GB', fr: 'fr-CH', de: 'de-CH' }[locale] || 'en-GB';

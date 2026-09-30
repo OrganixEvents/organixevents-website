@@ -107,7 +107,7 @@ export function northMacedoniaPage(ctx) {
     <h2 class="display display--lg reveal" id="beyond-title">${lines(c.beyond.title)}</h2>
     <p class="beyond__text reveal">${esc(c.beyond.text)}</p>
     <ul class="chips chips--light reveal">${c.beyond.items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
-    ${c.beyond.option ? `<p class="beyond__option reveal"><span>+</span>${esc(c.beyond.option)}</p>` : ''}
+    ${c.beyond.option ? `<p class="beyond__option reveal">${esc(c.beyond.option)}</p>` : ''}
   </div>
 </section>`;
 

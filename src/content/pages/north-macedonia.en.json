@@ -20,7 +20,7 @@
       "7 nights.",
       "6 ski days."
     ],
-    "text": "That's our reference week — not a rule. Shorter stays, longer stays and custom dates are possible, depending on availability. You ski from late December to early April, with a private snowcat, a small group and two guides."
+    "text": "Our reference week — not a rule. Shorter or longer stays and custom dates are possible, depending on availability."
   },
   "snowcat": {
     "eyebrow": "Our snowcat",
@@ -28,7 +28,7 @@
       "Straight from",
       "the hotel door."
     ],
-    "text": "Our PistenBully PB300W belongs to OrganixEvents Sàrl. Its passenger cabin takes your group from the hotel to the top of the first run — no lifts, no queues, no other groups. Just the next line.",
+    "text": "Our PistenBully PB300W belongs to OrganixEvents Sàrl. Its passenger cabin takes your group from the hotel to the first run — no lifts, no queues, no other groups.",
     "specs": [
       {
         "label": "Machine",
@@ -52,13 +52,13 @@
       "Good skier?",
       "You're ready."
     ],
-    "text": "You ski confidently and autonomously on red and black runs. That's it. No previous off-piste experience is required — we adapt the terrain, the routes and the pace to your group.",
+    "text": "You ski confidently and autonomously on red and black runs. No off-piste experience needed — we adapt terrain, routes and pace to your group.",
     "image": "nm-arms-up"
   },
   "terrain": {
     "eyebrow": "The terrain",
     "title": "Wild mountains, still off the map.",
-    "text": "The Šar Mountains rise above Popova Shapka in the west of North Macedonia: open alpine faces, long ridges, trees and couloirs, far from mass tourism. The snowcat takes you up; the rest of the mountain is yours.",
+    "text": "The Šar Mountains rise above Popova Shapka in the west of North Macedonia: open faces, long ridges, trees and couloirs, far from mass tourism.",
     "facts": [
       {
         "value": "Šar Mountains",
@@ -84,7 +84,7 @@
   "day": {
     "eyebrow": "A day on the mountain",
     "title": "What a day can look like.",
-    "note": "An example, not a timetable. Every day follows the weather, the snow and the group.",
+    "note": "An example, not a timetable — every day follows the weather, the snow and the group.",
     "steps": [
       {
         "time": "Morning",
@@ -117,7 +117,7 @@
   "stay": {
     "eyebrow": "Hotel & food",
     "title": "Simple, warm, local.",
-    "text": "A small family hotel with a sauna and a jacuzzi for tired legs. Double rooms; a single room is possible with a supplement. Full board means breakfast, a picnic or lunch on the mountain, dinner and water. Alcohol and soft drinks are not included.",
+    "text": "A small family hotel with sauna and jacuzzi. Double rooms; single room with a supplement. Full board: breakfast, picnic or lunch, dinner and water — alcohol and soft drinks are extra.",
     "image": "nm-hotel",
     "gallery": [
       "nm-jacuzzi",
@@ -130,7 +130,7 @@
       "Travel light.",
       "We have the gear."
     ],
-    "text": "No freeride equipment? No problem. Available to rent on site:",
+    "text": "Available to rent on site:",
     "items": [
       "Freeride skis",
       "Poles",
@@ -146,7 +146,7 @@
   "beyond": {
     "eyebrow": "Beyond the snowcat",
     "title": "The snowcat is just the beginning.",
-    "text": "Snowcat freeride is the heart of the week. Depending on the conditions and the group, we also build in:",
+    "text": "Depending on conditions and the group, the week can also include:",
     "items": [
       "Free-rando",
       "Ski touring",
@@ -204,7 +204,7 @@
   "team": {
     "eyebrow": "Team & local roots",
     "title": "Local knowledge matters.",
-    "text": "OrganixEvents runs and sells the experience and owns the snowcat. Wild Tracks is our local base — the structure we developed with our partners on the ground, who bring the hotel, the logistics and the relationships that make everything work.",
+    "text": "OrganixEvents runs and sells the experience and owns the snowcat. Wild Tracks is our local base, built with partners on the ground who bring the hotel, the logistics and the local relationships.",
     "roles": [
       {
         "title": "OrganixEvents",
@@ -224,10 +224,6 @@
       {
         "q": "What level do I need?",
         "a": "You should ski confidently and autonomously on red and black runs. No previous off-piste experience is required: we adapt the terrain to the group."
-      },
-      {
-        "q": "When is the season?",
-        "a": "From late December to early April, depending on snow conditions."
       },
       {
         "q": "Do I have to come for a full week?",
@@ -252,10 +248,6 @@
       {
         "q": "Which airport do I fly to?",
         "a": "Transfers are organised from Skopje. Other airports are possible on conditions."
-      },
-      {
-        "q": "Is heliskiing possible?",
-        "a": "A one- or two-day heliski extension in Albania can be added as an option, subject to conditions, availability and separate pricing. It is never included or guaranteed."
       },
       {
         "q": "How do I book?",

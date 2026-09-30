@@ -26,7 +26,7 @@ export function customPage(ctx) {
       </div>
       <div class="organise__media reveal">${picture(ctx, c.organise.image, { sizes: '(min-width: 900px) 40vw, 100vw' })}</div>
     </div></section>`,
-    `<section class="one"><div class="wrap"><p class="one__lines">${c.one.lines.map((l) => `<span class="line fit reveal" style="--fit:${longest(l)}">${esc(l)}</span>`).join('')}</p></div></section>`,
+    `<section class="one"><div class="wrap"><p class="one__lines">${c.one.lines.map((l) => `<span class="line fit reveal" style="--fit:${longest(l)}">${esc(l)}</span>`).join(' ')}</p></div></section>`,
     `<section class="section inspiration"><div class="wrap">
       ${sectionHead({ eyebrow: c.inspiration.eyebrow, title: c.inspiration.title })}
       <h3 class="insp__group reveal">${esc(c.inspiration.winter)}</h3>

@@ -197,6 +197,9 @@ for (const r of ROUTES) {
     }
     let html = layout(ctx, page, page.body);
     // French typography: narrow no-break space before ? ! : ; (text nodes only)
+    // Text separation at the source: a closing text-level/block tag directly followed by another tag gets a newline,
+    // so words from adjacent elements never glue together in extracted text (readers, previews, search snippets).
+    html = html.replace(/<\/(p|h[1-6]|li|dt|dd|span|a|strong|summary|figure|figcaption|legend|label|small|em|b|i|div|section|article|header|footer|ul|ol|dl|nav|details|button|address|blockquote|time)>(?=<(?!\/))/g, '</$1>\n');
     if (l.code === 'fr') html = html.replace(/>([^<]+)</g, (m, t) => '>' + t.replace(/ ([?!:;])/g, '\u202F$1') + '<');
     write(`${l.code}/${r.route}index.html`, html);
     report.push(`${l.code}/${r.route}${fallback ? '  (EN fallback, noindex)' : ''}`);
@@ -211,7 +214,7 @@ for (const r of ROUTES) {
   const ctx = Object.assign(Object.create(Object.getPrototypeOf(base)), base, { url: (t, loc = 'en') => `/${loc}/${t}`, asset: (p) => `/${p}` });
   const page = notFoundPage(ctx);
   const html = layout(ctx, page, page.body);
-  write('404.html', html);
+  write('404.html', html.replace(/<\/(p|h[1-6]|li|dt|dd|span|a|strong|summary|figure|figcaption|legend|label|small|em|b|i|div|section|article|header|footer|ul|ol|dl|nav|details|button|address|blockquote|time)>(?=<(?!\/))/g, '</$1>\n'));
 }
 
 // Root: language redirect (Netlify handles it server-side too, see _redirects)

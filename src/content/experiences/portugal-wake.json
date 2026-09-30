@@ -64,9 +64,9 @@
   "groupSize": {
     "min": 4,
     "note": {
-      "en": "Small groups (4 to 6 riders in the flyer format)",
-      "fr": "Petits groupes (4 à 6 riders dans le format du flyer)",
-      "de": "Kleine Gruppen (4 bis 6 Rider im Flyer-Format)"
+      "en": "Small groups · usually 4 to 6 riders",
+      "fr": "Petits groupes · généralement 4 à 6 riders",
+      "de": "Kleine Gruppen · meist 4 bis 6 Rider"
     }
   },
   "activities": {

@@ -20,7 +20,7 @@
       "7 nuits.",
       "6 jours de ski."
     ],
-    "text": "C'est notre semaine de référence — pas une règle. Des séjours plus courts, plus longs ou à vos dates sont possibles, selon les disponibilités. On skie de fin décembre à début avril, avec un snowcat privé, un petit groupe et deux guides."
+    "text": "Notre semaine de référence — pas une règle. Séjours plus courts, plus longs ou à vos dates possibles, selon les disponibilités."
   },
   "snowcat": {
     "eyebrow": "Notre snowcat",
@@ -28,7 +28,7 @@
       "Au départ",
       "de l'hôtel."
     ],
-    "text": "Notre PistenBully PB300W appartient à OrganixEvents Sàrl. Sa cabine passagers emmène votre groupe de l'hôtel jusqu'en haut de la première descente — pas de remontées, pas de file d'attente, pas d'autre groupe. Juste la prochaine ligne.",
+    "text": "Notre PistenBully PB300W appartient à OrganixEvents Sàrl. Sa cabine passagers emmène votre groupe de l'hôtel à la première descente — pas de remontées, pas d'attente, pas d'autre groupe.",
     "specs": [
       {
         "label": "Machine",
@@ -52,13 +52,13 @@
       "Bon skieur ?",
       "Vous êtes prêt."
     ],
-    "text": "Vous skiez de façon sûre et autonome sur pistes rouges et noires. C'est tout. Aucune expérience préalable du hors-piste n'est nécessaire : nous adaptons le terrain, les itinéraires et le rythme à votre groupe.",
+    "text": "Vous skiez de façon sûre et autonome sur pistes rouges et noires. Aucune expérience du hors-piste n'est nécessaire : nous adaptons terrain, itinéraires et rythme à votre groupe.",
     "image": "nm-arms-up"
   },
   "terrain": {
     "eyebrow": "Le terrain",
     "title": "Des montagnes sauvages, encore hors des cartes.",
-    "text": "Les monts Šar dominent Popova Shapka, à l'ouest de la Macédoine du Nord : grandes faces alpines, longues crêtes, forêts et couloirs, loin du tourisme de masse. Le snowcat vous monte ; le reste de la montagne est à vous.",
+    "text": "Les monts Šar dominent Popova Shapka, à l'ouest de la Macédoine du Nord : grandes faces, longues crêtes, forêts et couloirs, loin du tourisme de masse.",
     "facts": [
       {
         "value": "Monts Šar",
@@ -84,7 +84,7 @@
   "day": {
     "eyebrow": "Une journée en montagne",
     "title": "À quoi peut ressembler une journée.",
-    "note": "Un exemple, pas un horaire. Chaque journée suit la météo, la neige et le groupe.",
+    "note": "Un exemple, pas un horaire — chaque journée suit la météo, la neige et le groupe.",
     "steps": [
       {
         "time": "Matin",
@@ -117,7 +117,7 @@
   "stay": {
     "eyebrow": "Hôtel & repas",
     "title": "Simple, chaleureux, local.",
-    "text": "Un petit hôtel familial avec sauna et jacuzzi pour les jambes fatiguées. Chambres doubles ; chambre individuelle possible avec supplément. La pension complète comprend le petit-déjeuner, le pique-nique ou le déjeuner en montagne, le dîner et l'eau. L'alcool et les boissons sucrées ne sont pas compris.",
+    "text": "Un petit hôtel familial avec sauna et jacuzzi. Chambres doubles ; chambre individuelle avec supplément. Pension complète : petit-déjeuner, pique-nique ou déjeuner, dîner et eau — alcool et boissons sucrées en supplément.",
     "image": "nm-hotel",
     "gallery": [
       "nm-jacuzzi",
@@ -130,7 +130,7 @@
       "Voyagez léger.",
       "On a le matériel."
     ],
-    "text": "Pas de matériel de freeride ? Aucun problème. Disponible à la location sur place :",
+    "text": "Disponible à la location sur place :",
     "items": [
       "Skis de freeride",
       "Bâtons",
@@ -146,7 +146,7 @@
   "beyond": {
     "eyebrow": "Au-delà du snowcat",
     "title": "Le snowcat n'est qu'un début.",
-    "text": "Le freeride en snowcat est le cœur de la semaine. Selon les conditions et le groupe, nous ajoutons aussi :",
+    "text": "Selon les conditions et le groupe, la semaine peut aussi inclure :",
     "items": [
       "Freerando",
       "Ski de randonnée",
@@ -204,7 +204,7 @@
   "team": {
     "eyebrow": "Équipe & ancrage local",
     "title": "Local knowledge matters.",
-    "text": "OrganixEvents pilote et commercialise l'expérience, et possède le snowcat. Wild Tracks est notre ancrage local : la structure développée avec nos partenaires sur place, qui apportent l'hôtel, la logistique et les relations qui font que tout fonctionne.",
+    "text": "OrganixEvents pilote et commercialise l'expérience, et possède le snowcat. Wild Tracks est notre ancrage local, construit avec nos partenaires sur place, qui apportent l'hôtel, la logistique et les relations locales.",
     "roles": [
       {
         "title": "OrganixEvents",
@@ -224,10 +224,6 @@
       {
         "q": "Quel niveau faut-il ?",
         "a": "Vous devez skier de façon sûre et autonome sur pistes rouges et noires. Aucune expérience préalable du hors-piste n'est nécessaire : nous adaptons le terrain au groupe."
-      },
-      {
-        "q": "Quelle est la saison ?",
-        "a": "De fin décembre à début avril, selon l'enneigement."
       },
       {
         "q": "Faut-il venir une semaine entière ?",
@@ -252,10 +248,6 @@
       {
         "q": "Sur quel aéroport arriver ?",
         "a": "Les transferts sont organisés depuis Skopje. D'autres aéroports sont possibles sous conditions."
-      },
-      {
-        "q": "L'héliski est-il possible ?",
-        "a": "Une extension héliski d'un ou deux jours en Albanie peut être ajoutée en option, sous réserve des conditions, des disponibilités et d'une tarification séparée. Elle n'est jamais incluse ni garantie."
       },
       {
         "q": "Comment réserver ?",
