@@ -1,0 +1,84 @@
+{
+  "seo": {
+    "title": "Custom Sport & Adventure Trips — You Dream It, We Build It | OrganixEvents",
+    "description": "Tailor-made sport and adventure trips organised end to end by Organix: destination, accommodation, guides, activities, equipment and logistics. One contact, one organisation."
+  },
+  "hero": {
+    "eyebrow": "Custom",
+    "title": [
+      "Your idea.",
+      "Our playground."
+    ],
+    "sub": [
+      "You dream it.",
+      "We build it."
+    ],
+    "image": "al-ice-cave"
+  },
+  "start": {
+    "title": "Start with almost anything.",
+    "lead": "You don't need a plan. You can come to us with:",
+    "items": [
+      "A sport",
+      "A destination",
+      "A group",
+      "A rough idea",
+      "Or almost nothing"
+    ]
+  },
+  "organise": {
+    "eyebrow": "What we organise",
+    "title": "Everything between the idea and the trip.",
+    "items": [
+      "Destination & itinerary",
+      "Accommodation",
+      "Transfers & local transport",
+      "Guides & coaches",
+      "Sports & activities",
+      "Equipment",
+      "Restaurants & food",
+      "Local partners",
+      "Complete logistics"
+    ],
+    "image": "no-deck"
+  },
+  "one": {
+    "lines": [
+      "One contact.",
+      "One organisation.",
+      "One complete experience."
+    ]
+  },
+  "inspiration": {
+    "eyebrow": "Inspiration",
+    "title": "Where could it go?",
+    "note": "These are possibilities, not scheduled trips. Each one would be built from scratch around your group."
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "steps": [
+      {
+        "title": "Tell us the idea",
+        "text": "However rough. A sport, a place, a group, a date."
+      },
+      {
+        "title": "We shape it together",
+        "text": "We come back with options and talk them through with you."
+      },
+      {
+        "title": "We organise everything",
+        "text": "Travel, stay, people, activities, logistics."
+      },
+      {
+        "title": "You go",
+        "text": "With one contact who knows every detail."
+      }
+    ]
+  },
+  "final": {
+    "title": "Build your adventure.",
+    "lead": "No budget form, no fixed menu. Just tell us what you have in mind.",
+    "cta": "Build your adventure",
+    "image": "al-sunrise"
+  }
+}

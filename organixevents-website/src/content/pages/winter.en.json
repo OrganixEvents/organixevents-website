@@ -1,0 +1,29 @@
+{
+  "seo": {
+    "title": "Winter Experiences — Snowcat, Ski & Sail, Alps | OrganixEvents",
+    "description": "Winter the Organix way: our own snowcat operation in North Macedonia, a rare snowcat week in Georgia, Arctic ski & sail in Norway and freeride in the Alps."
+  },
+  "hero": {
+    "eyebrow": "Winter",
+    "title": ["Winter,", "the Organix way."],
+    "lead": "Four winter universes. One of them is ours from the ground up.",
+    "image": "al-bootpack"
+  },
+  "flagship": {
+    "eyebrow": "Flagship · Own operation",
+    "title": "North Macedonia",
+    "subtitle": "Private snowcat freeride",
+    "message": "Our snowcat. Our operation. Your adventure.",
+    "cta": "Discover North Macedonia"
+  },
+  "universes": {
+    "title": "Three more ways to ride.",
+    "items": ["georgia", "norway", "alps"]
+  },
+  "final": {
+    "title": "Not sure which winter is yours?",
+    "lead": "Tell us how you like to ride. We'll point you in the right direction — or build something new.",
+    "cta": "Start a conversation",
+    "image": "no-schooner"
+  }
+}

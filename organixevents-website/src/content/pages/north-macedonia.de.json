@@ -1,0 +1,145 @@
+{
+  "hero": {
+    "eyebrow": "Unser Flaggschiff · Nordmazedonien",
+    "title": ["Freeride mit", "privatem Snowcat"],
+    "message": ["Unser Snowcat.", "Unser Betrieb.", "Ihr Abenteuer."],
+    "ctaPrimary": "Nordmazedonien anfragen",
+    "ctaSecondary": "Beispielwoche ansehen"
+  },
+  "core": {
+    "title": ["6 Tage.", "Unendlich viele Möglichkeiten."],
+    "text": "Die ganze Woche ist unser Referenzformat – mehr nicht: eine Referenz. Daten, Dauer, Aktivitäten und Tagesprogramm richten sich nach Ihrer Gruppe."
+  },
+  "terrain": {
+    "eyebrow": "Das Gelände",
+    "title": "Wilde Berge, noch abseits aller Karten.",
+    "text": "Das Šar-Gebirge erhebt sich über Popova Shapka im Westen Nordmazedoniens: offene Hänge, lange Grate, Wald und Couloirs – in einer Region, die vom Massentourismus noch unberührt ist. An manchen Tagen bringt Sie der Snowcat fast bis zum Gipfel; der Rest des Berges gehört Ihnen.",
+    "facts": [
+      { "value": "Šar", "label": "Gebirge · Šar Planina" },
+      { "value": "Popova Shapka", "label": "Basis" },
+      { "value": "Ende Dez. – Anfang Apr.", "label": "Saison, je nach Schneelage" }
+    ],
+    "image": "nm-cornice"
+  },
+  "difference": {
+    "eyebrow": "Der Organix-Unterschied",
+    "title": "Wir verkaufen diese Reise nicht weiter. Wir führen sie selbst durch.",
+    "items": [
+      { "title": "Unsere eigene Maschine", "text": "Der Snowcat gehört Organix. Er steht die ganze Woche nur Ihrer Gruppe zur Verfügung." },
+      { "title": "Unser eigener Betrieb", "text": "Ein fester lokaler Betrieb, Wild Tracks, aufgebaut mit unseren Partnern vor Ort." },
+      { "title": "Kleine Gruppen", "text": "In der Regel bis 10 Personen. 12 sind das absolute Maximum." },
+      { "title": "Eine Ansprechperson", "text": "Von der ersten Nachricht bis zum Rücktransfer haben Sie es mit uns zu tun." }
+    ]
+  },
+  "snowcat": {
+    "eyebrow": "Unser Snowcat",
+    "title": ["Unser Snowcat.", "Unser Betrieb."],
+    "text": "Ein PistenBully PB300W, umgebaut für den Personentransport, mit eigener Kabine, die Ihre Gruppe den Berg hinaufbringt. Keine Warteschlangen, keine Lifte – nur die nächste Line.",
+    "specs": [
+      { "label": "Maschine", "value": "PistenBully PB300W" },
+      { "label": "Umgebaut für", "value": "Personentransport" },
+      { "label": "Nutzung", "value": "Privat für Ihre Gruppe" }
+    ],
+    "image": "nm-snowcat-crew",
+    "image2": "nm-snowcat-powder"
+  },
+  "day": {
+    "eyebrow": "Ein Tag am Berg",
+    "title": "So kann ein Tag aussehen.",
+    "note": "Ein Beispiel, kein Fahrplan. Jeder Tag richtet sich nach Wetter, Schnee und Gruppe.",
+    "steps": [
+      { "time": "Morgen", "title": "Frühstück & Briefing", "text": "Wetter- und Lagebesprechung, Kontrolle der Lawinenausrüstung." },
+      { "time": "Morgen", "title": "Mit dem Snowcat hinauf", "text": "Die Kabine bringt die Gruppe zur ersten Line des Tages." },
+      { "time": "Mittag", "title": "Mittagessen am Berg", "text": "Picknick draussen – oder in einer Hütte, wenn das Wetter umschlägt." },
+      { "time": "Nachmittag", "title": "Weitere Abfahrten", "text": "Snowcat, Felle oder beides – je nach Plan." },
+      { "time": "Abend", "title": "Zurück an der Basis", "text": "Après-Ski, Sauna, Abendessen und der Plan für morgen." }
+    ],
+    "image": "nm-group"
+  },
+  "beyond": {
+    "eyebrow": "Flexibilität",
+    "title": "Der Snowcat ist erst der Anfang.",
+    "text": "Snowcat-Freeride ist das Herz der Woche – aber nicht ihre Grenze. Je nach Bedingungen und Gruppe kommen dazu:",
+    "items": ["Snowcat-Freeride", "Free-Rando", "Skitouren", "Lokale Erlebnisse", "Essen & Kultur", "Individuelle Aktivitäten", "Spezialprojekte, je nach Bedingungen und Gruppe"],
+    "image": "nm-bowl"
+  },
+  "week": {
+    "eyebrow": "Beispielwoche",
+    "title": "Samstag bis Samstag – als Referenz.",
+    "note": "Dies ist nur ein Beispielformat, kein fixes Programm. 3, 4 oder 5 Tage, eine ganze Woche oder eine andere Dauer: Fragen Sie einfach.",
+    "days": [
+      { "day": "Sa", "title": "Anreise", "text": "Ankunft in Skopje, Transfer in die Berge, Empfang und Briefing." },
+      { "day": "So", "title": "Skitag 1", "text": "Erster Tag mit dem Guide – das Gelände kennenlernen." },
+      { "day": "Mo", "title": "Skitag 2", "text": "Snowcat-Freeride." },
+      { "day": "Di", "title": "Skitag 3", "text": "Snowcat, Skitour oder beides." },
+      { "day": "Mi", "title": "Skitag 4", "text": "Snowcat-Freeride – und ein gemeinsamer Abend." },
+      { "day": "Do", "title": "Skitag 5", "text": "Snowcat-Freeride." },
+      { "day": "Fr", "title": "Skitag 6", "text": "Letzter Tag am Berg, dann zurück ins Tal." },
+      { "day": "Sa", "title": "Abreise", "text": "Transfer zum Flughafen." }
+    ]
+  },
+  "stay": {
+    "eyebrow": "Unterkunft · Küche · Lebensgefühl",
+    "title": "Einfach, herzlich, lokal.",
+    "text": "Ein kleines Familienhotel oberhalb von Popova Shapka, wo der Snowcat direkt vor der Tür starten kann. Vollpension mit grosszügiger Balkanküche, eine Sauna für müde Beine und Abende am gemeinsamen Tisch. Komfortabel und gastfreundlich – der Balkan, kein Luxusresort.",
+    "image": "nm-village"
+  },
+  "included": {
+    "eyebrow": "Inbegriffen",
+    "title": "Das Erlebnis für die ganze Woche."
+  },
+  "pricing": {
+    "eyebrow": "Preis",
+    "label": "Ab",
+    "unit": "/ Person",
+    "title": "Erlebnis für die ganze Woche",
+    "items": ["6 Skitage", "7 Tage Unterkunft", "Vollpension"],
+    "basis": "Referenzpreis für eine Gruppe von 8 Personen.",
+    "tailoredTitle": "Kontaktieren Sie uns für ein individuelles Angebot",
+    "tailored": ["Kürzere Aufenthalte", "Andere Gruppengrössen", "Private Arrangements", "Individuelle Wünsche"],
+    "currencies": "Zahlung direkt an Organix in CHF oder EUR.",
+    "cta": "Individuelles Angebot anfragen"
+  },
+  "who": {
+    "eyebrow": "Für wen",
+    "title": "Für alle, die mehr wollen als Skiferien.",
+    "items": [
+      { "title": "Freundesgruppen", "text": "Buchen Sie den Snowcat privat – in der Regel bis 10 Personen, höchstens 12." },
+      { "title": "Clubs & Teams", "text": "Eine gemeinsame Freeride-Woche, von A bis Z organisiert." },
+      { "title": "Alleinreisende", "text": "Melden Sie sich bei uns. Eventuell können Sie sich einer passenden Gruppe anschliessen – abhängig von Verfügbarkeit, Skiniveau, Gruppenzusammensetzung und dem Einverständnis der bestehenden Gruppe." },
+      { "title": "Freerider auf Ski & Snowboard", "text": "Sicher im Gelände und neugierig aufs Entdecken. Unsicher bei Ihrem Niveau? Fragen Sie uns." }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team & lokaler Betrieb",
+    "title": "Die Menschen vor Ort zählen.",
+    "text": "Der Snowcat-Betrieb läuft über Wild Tracks, die lokale Struktur, die wir mit unseren Partnern in Nordmazedonien aufgebaut haben. Wild Tracks kümmert sich vor Ort um die Maschine, Reservationen, Unterkunft, Logistik und die tägliche Organisation. OrganixEvents bleibt Ihr Veranstalter – von der ersten Nachricht bis zum letzten Tag.",
+    "roles": [
+      { "title": "OrganixEvents", "text": "Ihr Veranstalter und Ihre einzige Ansprechperson – vor, während und nach der Reise." },
+      { "title": "Wild Tracks", "text": "Unser lokaler Betrieb: der Snowcat vor Ort, Reservationen, Unterkunft und Logistik." },
+      { "title": "Am Berg", "text": "Ihre Gruppe ist mit einem zertifizierten lokalen Bergprofi und einem professionellen Mitglied des Organix-Teams unterwegs." }
+    ],
+    "image": "nm-ridge-group"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Gute Fragen.",
+    "items": [
+      { "q": "Wann ist Saison?", "a": "Etwa von Ende Dezember bis Anfang April, je nach Schneelage. Unsere Hauptperiode 2027 dauert vom 16. Januar bis 3. April – andere Daten sind eventuell möglich, fragen Sie einfach." },
+      { "q": "Muss ich eine ganze Woche kommen?", "a": "Nein. Die Woche von Samstag bis Samstag ist unser Referenzformat. Wir organisieren auch 3, 4 oder 5 Tage, eine ganze Woche oder eine andere Dauer." },
+      { "q": "Was ist im Preis von CHF 2’250 inbegriffen?", "a": "Das ist der Referenzpreis pro Person für das Erlebnis über die ganze Woche mit einer Gruppe von 8: 6 Skitage, 7 Tage Unterkunft und Vollpension. Für kürzere Aufenthalte, andere Gruppengrössen oder private Arrangements senden wir Ihnen ein individuelles Angebot." },
+      { "q": "Wie gross sind die Gruppen?", "a": "Die Gruppen umfassen in der Regel bis zu etwa 10 Personen. 12 sind das absolute Maximum." },
+      { "q": "Ich reise allein. Kann ich mitkommen?", "a": "Melden Sie sich bei uns. Eventuell können Sie sich einer bestehenden Gruppe anschliessen – abhängig von Verfügbarkeit, Skiniveau, Gruppenzusammensetzung und dem Einverständnis dieser Gruppe." },
+      { "q": "Wer begleitet uns?", "a": "Ein zertifizierter lokaler Bergprofi, zusammen mit einem professionellen Mitglied des Organix-Teams." },
+      { "q": "Wer führt den Betrieb vor Ort?", "a": "Wild Tracks, die lokale Struktur, die wir mit unseren Partnern in Nordmazedonien aufgebaut haben. Sie betreut den Snowcat vor Ort, Reservationen, Unterkunft und Logistik. OrganixEvents organisiert Ihre Reise und bleibt die ganze Zeit Ihre Ansprechperson." },
+      { "q": "Wie buche ich?", "a": "Senden Sie uns eine Anfrage, dann besprechen wir alles persönlich. Anschliessend erhalten Sie das Anmeldeformular; sobald es bestätigt ist, bezahlen Sie direkt an Organix in CHF oder EUR, und Ihre Reise ist bestätigt. Es gibt keine Online-Zahlung." },
+      { "q": "Was muss ich mitbringen?", "a": "Ihre Ski- oder Snowboardausrüstung und Ihre Lawinen-Sicherheitsausrüstung: Airbag, LVS, Sonde und Schaufel. Die vollständige Liste erhalten Sie mit der Anmeldung." }
+    ]
+  },
+  "final": {
+    "title": ["Ihre Woche.", "Ihr Stil."],
+    "lead": "Nennen Sie uns Ihre Daten, Ihre Gruppe und Ihr Niveau. Den Rest bauen wir.",
+    "cta": "Nordmazedonien anfragen",
+    "image": "nm-snowcat-blue"
+  }
+}

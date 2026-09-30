@@ -1,0 +1,173 @@
+{
+  "slug": "alps",
+  "path": "winter/alps/",
+  "template": "experience",
+  "title": {
+    "en": "The Alps — Our Playground",
+    "fr": "Les Alpes — Notre terrain de jeu",
+    "de": "Die Alpen — Unser Spielplatz"
+  },
+  "shortTitle": {
+    "en": "The Alps",
+    "fr": "Les Alpes",
+    "de": "Die Alpen"
+  },
+  "country": "Switzerland · France · Italy",
+  "region": {
+    "en": "Verbier · Zermatt · Chamonix · Courmayeur · Cervinia · Aosta Valley",
+    "fr": "Verbier · Zermatt · Chamonix · Courmayeur · Cervinia · Vallée d'Aoste",
+    "de": "Verbier · Zermatt · Chamonix · Courmayeur · Cervinia · Aostatal"
+  },
+  "season": "winter",
+  "experienceType": "alpine",
+  "universe": {
+    "en": "Our playground",
+    "fr": "Notre terrain de jeu",
+    "de": "Unser Spielplatz"
+  },
+  "tagline": {
+    "en": "The mountains we grew up in.",
+    "fr": "Les montagnes où nous avons grandi.",
+    "de": "Die Berge, in denen wir aufgewachsen sind."
+  },
+  "shortDescription": {
+    "en": "Freeride, ski touring, heliski and private mountain days across Switzerland, France and Italy — organised directly by Organix.",
+    "fr": "Freeride, ski de randonnée, héliski et journées privées en montagne en Suisse, en France et en Italie — organisés directement par Organix.",
+    "de": "Freeride, Skitouren, Heliski und private Bergtage in der Schweiz, in Frankreich und Italien – direkt von Organix organisiert."
+  },
+  "longDescription": {
+    "en": "The Alps are home. From Verbier to Zermatt, Chamonix to Courmayeur, Cervinia and the Aosta Valley, we build freeride days, ski tours, heliski drops and multi-day journeys — and handle every one of them ourselves.",
+    "fr": "Les Alpes, c'est chez nous. De Verbier à Zermatt, de Chamonix à Courmayeur, Cervinia et la Vallée d'Aoste, nous construisons des journées de freeride, des randonnées à ski, des déposes en héliski et des voyages de plusieurs jours — et nous gérons chacun d'eux nous-mêmes.",
+    "de": "Die Alpen sind unser Zuhause. Von Verbier bis Zermatt, von Chamonix bis Courmayeur, Cervinia und das Aostatal: Wir gestalten Freeride-Tage, Skitouren, Heliski-Flüge und mehrtägige Reisen – und kümmern uns um jede davon selbst."
+  },
+  "heroImage": "al-bootpack",
+  "gallery": [
+    "al-matterhorn",
+    "al-heli",
+    "al-skintrack",
+    "al-ice-cave",
+    "al-backlit",
+    "al-chalets"
+  ],
+  "status": "active",
+  "featured": true,
+  "flagship": false,
+  "priceFrom": null,
+  "currency": "CHF",
+  "duration": {
+    "en": "One day to multi-day",
+    "fr": "D'une journée à plusieurs jours",
+    "de": "Von einem Tag bis zu mehreren Tagen"
+  },
+  "dates": [],
+  "flexibleDates": true,
+  "groupSize": null,
+  "activities": {
+    "en": [
+      "Freeride",
+      "Off-piste",
+      "Ski touring",
+      "Heliski in Switzerland and Italy",
+      "Private ski experiences",
+      "Multi-day adventures",
+      "Ski safaris / itinerant trips",
+      "Custom mountain experiences"
+    ],
+    "fr": [
+      "Freeride",
+      "Hors-piste",
+      "Ski de randonnée",
+      "Héliski en Suisse et en Italie",
+      "Expériences de ski privées",
+      "Aventures de plusieurs jours",
+      "Safaris à ski / voyages itinérants",
+      "Expériences de montagne sur mesure"
+    ],
+    "de": [
+      "Freeride",
+      "Off-Piste",
+      "Skitouren",
+      "Heliski in der Schweiz und in Italien",
+      "Private Skierlebnisse",
+      "Mehrtägige Abenteuer",
+      "Skisafaris / Durchquerungen",
+      "Massgeschneiderte Bergerlebnisse"
+    ]
+  },
+  "destinations": {
+    "en": [
+      "Verbier",
+      "Zermatt",
+      "Chamonix",
+      "Courmayeur",
+      "Cervinia",
+      "Aosta Valley"
+    ],
+    "fr": [
+      "Verbier",
+      "Zermatt",
+      "Chamonix",
+      "Courmayeur",
+      "Cervinia",
+      "Vallée d'Aoste"
+    ],
+    "de": [
+      "Verbier",
+      "Zermatt",
+      "Chamonix",
+      "Courmayeur",
+      "Cervinia",
+      "Aostatal"
+    ]
+  },
+  "included": null,
+  "notIncluded": null,
+  "difficulty": null,
+  "partner": null,
+  "blocks": [
+    {
+      "type": "chips",
+      "title": {
+        "en": "Where we ski",
+        "fr": "Où nous skions",
+        "de": "Wo wir fahren"
+      },
+      "text": {
+        "en": "And more broadly across Switzerland, France and Italy.",
+        "fr": "Et plus largement dans toute la Suisse, la France et l'Italie.",
+        "de": "Und darüber hinaus in der ganzen Schweiz, in Frankreich und Italien."
+      },
+      "field": "destinations"
+    },
+    {
+      "type": "list",
+      "title": {
+        "en": "What we offer",
+        "fr": "Ce que nous proposons",
+        "de": "Was wir anbieten"
+      },
+      "field": "activities"
+    }
+  ],
+  "cta": {
+    "label": {
+      "en": "Plan your Alps days",
+      "fr": "Préparer vos journées dans les Alpes",
+      "de": "Ihre Tage in den Alpen planen"
+    },
+    "interest": "winter",
+    "option": "The Alps"
+  },
+  "seo": {
+    "title": {
+      "en": "Freeride, Ski Touring & Heliski in the Alps | OrganixEvents",
+      "fr": "Freeride, ski de randonnée & héliski dans les Alpes | OrganixEvents",
+      "de": "Freeride, Skitouren & Heliski in den Alpen | OrganixEvents"
+    },
+    "description": {
+      "en": "Freeride, off-piste, ski touring and heliski in Verbier, Zermatt, Chamonix, Courmayeur, Cervinia and the Aosta Valley — organised directly by Organix.",
+      "fr": "Freeride, hors-piste, ski de randonnée et héliski à Verbier, Zermatt, Chamonix, Courmayeur, Cervinia et dans la Vallée d'Aoste — organisés directement par Organix.",
+      "de": "Freeride, Off-Piste, Skitouren und Heliski in Verbier, Zermatt, Chamonix, Courmayeur, Cervinia und im Aostatal – direkt von Organix organisiert."
+    }
+  }
+}

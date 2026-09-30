@@ -1,0 +1,205 @@
+{
+  "slug": "norway",
+  "path": "winter/norway/",
+  "template": "experience",
+  "title": {
+    "en": "Norway — Arctic Ski Adventures",
+    "fr": "Norvège — Aventures de ski arctique",
+    "de": "Norwegen — Arktische Skiabenteuer"
+  },
+  "shortTitle": {
+    "en": "Norway",
+    "fr": "Norvège",
+    "de": "Norwegen"
+  },
+  "country": "Norway",
+  "region": {
+    "en": "Tromsø · Lyngen Alps · Senja",
+    "fr": "Tromsø · Alpes de Lyngen · Senja",
+    "de": "Tromsø · Lyngenalpen · Senja"
+  },
+  "season": "winter",
+  "experienceType": "ski-and-sail",
+  "universe": {
+    "en": "Organix-designed Arctic adventure",
+    "fr": "Aventure arctique conçue par Organix",
+    "de": "Arktisches Abenteuer, gestaltet von Organix"
+  },
+  "tagline": {
+    "en": "Ski & sail. Ski touring. Built around you.",
+    "fr": "Ski & voile. Ski de randonnée. Pensé pour vous.",
+    "de": "Ski & Segeln. Skitouren. Auf Sie zugeschnitten."
+  },
+  "shortDescription": {
+    "en": "Arctic ski adventures in Northern Norway — by boat or from land, designed by Organix around your group.",
+    "fr": "Des aventures de ski arctique dans le nord de la Norvège — en bateau ou depuis la terre, conçues par Organix autour de votre groupe.",
+    "de": "Arktische Skiabenteuer in Nordnorwegen – vom Schiff oder vom Land aus, von Organix rund um Ihre Gruppe gestaltet."
+  },
+  "longDescription": {
+    "en": "No rigid package. We design each Norway trip around the group: the boat or the base, the areas, the pace. Every day adapts to the weather, the snow, the conditions and the people.",
+    "fr": "Pas de forfait figé. Nous concevons chaque voyage en Norvège autour du groupe : le bateau ou la base, les secteurs, le rythme. Chaque journée s'adapte à la météo, à la neige, aux conditions et aux personnes.",
+    "de": "Keine starre Pauschalreise. Wir gestalten jede Norwegenreise rund um die Gruppe: Schiff oder Basis, Gebiete, Tempo. Jeder Tag richtet sich nach Wetter, Schnee, Bedingungen und Menschen."
+  },
+  "heroImage": "no-sunset-skin",
+  "gallery": [
+    "no-schooner",
+    "no-deck",
+    "no-fjord-boat",
+    "no-ferry"
+  ],
+  "status": "active",
+  "featured": true,
+  "flagship": false,
+  "priceFrom": null,
+  "currency": "CHF",
+  "duration": {
+    "en": "On request",
+    "fr": "Sur demande",
+    "de": "Auf Anfrage"
+  },
+  "dates": [],
+  "seasonWindow": {
+    "en": "End of winter",
+    "fr": "Fin de l'hiver",
+    "de": "Ende Winter"
+  },
+  "flexibleDates": true,
+  "groupSize": null,
+  "activities": {
+    "en": [
+      "Ski & sail",
+      "Ski touring",
+      "Arctic coastal skiing"
+    ],
+    "fr": [
+      "Ski & voile",
+      "Ski de randonnée",
+      "Ski côtier arctique"
+    ],
+    "de": [
+      "Ski & Segeln",
+      "Skitouren",
+      "Arktisches Küstenskifahren"
+    ]
+  },
+  "included": null,
+  "notIncluded": null,
+  "difficulty": null,
+  "partner": null,
+  "blocks": [
+    {
+      "type": "options",
+      "title": {
+        "en": "Two ways to experience Norway",
+        "fr": "Deux façons de vivre la Norvège",
+        "de": "Zwei Arten, Norwegen zu erleben"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Ski & Sail",
+            "fr": "Ski & voile",
+            "de": "Ski & Segeln"
+          },
+          "image": "no-schooner",
+          "text": {
+            "en": "Organix organises the entire operation. The boat is selected according to your group size and expectations — you sleep on the water and ski from the shore.",
+            "fr": "Organix organise l'ensemble de l'opération. Le bateau est choisi selon la taille et les attentes de votre groupe — vous dormez sur l'eau et skiez depuis le rivage.",
+            "de": "Organix organisiert den gesamten Ablauf. Das Schiff wird nach Grösse und Erwartungen Ihrer Gruppe ausgewählt – Sie schlafen auf dem Wasser und starten Ihre Touren direkt vom Ufer aus."
+          }
+        },
+        {
+          "title": {
+            "en": "Land-based ski touring",
+            "fr": "Ski de randonnée depuis la terre",
+            "de": "Skitouren vom Land aus"
+          },
+          "image": "no-sunset-skin",
+          "text": {
+            "en": "A base on land — Airbnb or hotel depending on the group — to explore Tromsø, the Lyngen Alps, Senja and the surrounding regions.",
+            "fr": "Une base à terre — Airbnb ou hôtel selon le groupe — pour explorer Tromsø, les Alpes de Lyngen, Senja et les régions voisines.",
+            "de": "Eine Basis an Land – Airbnb oder Hotel, je nach Gruppe – um Tromsø, die Lyngenalpen, Senja und die umliegenden Regionen zu erkunden."
+          }
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "eyebrow": {
+        "en": "Why Norway",
+        "fr": "Pourquoi la Norvège",
+        "de": "Warum Norwegen"
+      },
+      "title": {
+        "en": "A place Bryan keeps coming back to.",
+        "fr": "Un endroit où Bryan revient sans cesse.",
+        "de": "Ein Ort, an den Bryan immer wieder zurückkehrt."
+      },
+      "text": {
+        "en": "For around five or six years, Bryan has returned to Northern Norway at the end of every winter — usually for at least two weeks, sometimes for a whole month. The trips we design there come from that time on the ground.",
+        "fr": "Depuis cinq ou six ans, Bryan retourne dans le nord de la Norvège à chaque fin d'hiver — généralement pour au moins deux semaines, parfois pour un mois entier. Les voyages que nous y concevons viennent de ce temps passé sur le terrain.",
+        "de": "Seit etwa fünf oder sechs Jahren kehrt Bryan jedes Winterende nach Nordnorwegen zurück – meist für mindestens zwei Wochen, manchmal für einen ganzen Monat. Die Reisen, die wir dort gestalten, entstehen aus dieser Zeit vor Ort."
+      },
+      "image": "no-deck"
+    },
+    {
+      "type": "points",
+      "title": {
+        "en": "Every day adapts to",
+        "fr": "Chaque journée s'adapte à",
+        "de": "Jeder Tag richtet sich nach"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Weather",
+            "fr": "La météo",
+            "de": "Wetter"
+          }
+        },
+        {
+          "title": {
+            "en": "Snow",
+            "fr": "La neige",
+            "de": "Schnee"
+          }
+        },
+        {
+          "title": {
+            "en": "Conditions",
+            "fr": "Les conditions",
+            "de": "Bedingungen"
+          }
+        },
+        {
+          "title": {
+            "en": "Your group",
+            "fr": "Votre groupe",
+            "de": "Gruppe"
+          }
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "label": {
+      "en": "Plan your Norway trip",
+      "fr": "Préparer votre voyage en Norvège",
+      "de": "Ihre Norwegenreise planen"
+    },
+    "interest": "winter",
+    "option": "Norway"
+  },
+  "seo": {
+    "title": {
+      "en": "Norway Ski & Sail and Ski Touring — Arctic Ski Adventures | OrganixEvents",
+      "fr": "Ski & voile et ski de randonnée en Norvège — Aventures de ski arctique | OrganixEvents",
+      "de": "Ski & Segeln und Skitouren in Norwegen — Arktische Skiabenteuer | OrganixEvents"
+    },
+    "description": {
+      "en": "Ski & sail and ski touring in Northern Norway — Tromsø, Lyngen Alps, Senja. Arctic ski adventures designed by Organix around your group.",
+      "fr": "Ski & voile et ski de randonnée dans le nord de la Norvège — Tromsø, Alpes de Lyngen, Senja. Des aventures de ski arctique conçues par Organix autour de votre groupe.",
+      "de": "Ski & Segeln und Skitouren in Nordnorwegen – Tromsø, Lyngenalpen, Senja. Arktische Skiabenteuer, von Organix rund um Ihre Gruppe gestaltet."
+    }
+  }
+}

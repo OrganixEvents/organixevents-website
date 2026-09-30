@@ -1,0 +1,16 @@
+# OrganixEvents — Netlify configuration
+# No npm install needed: the build is a zero-dependency Node script.
+[build]
+  command = "node scripts/build.mjs"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  # Set SITE_INDEXABLE = "true" only at launch, once the production domain is connected.
+  # SITE_URL defaults to Netlify's $URL.
+
+# Deploy previews and branch deploys are never indexable.
+[context.deploy-preview.environment]
+  SITE_INDEXABLE = "false"
+[context.branch-deploy.environment]
+  SITE_INDEXABLE = "false"

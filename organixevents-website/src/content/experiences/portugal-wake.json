@@ -1,0 +1,142 @@
+{
+  "slug": "portugal-wake",
+  "path": "summer/portugal-wake/",
+  "template": "experience",
+  "title": {
+    "en": "Portugal Wake",
+    "fr": "Wake au Portugal",
+    "de": "Wake in Portugal"
+  },
+  "shortTitle": {
+    "en": "Portugal Wake",
+    "fr": "Wake au Portugal",
+    "de": "Wake in Portugal"
+  },
+  "country": "Portugal",
+  "region": {
+    "en": "Central Portugal",
+    "fr": "Centre du Portugal",
+    "de": "Zentralportugal"
+  },
+  "season": "summer",
+  "experienceType": "wake",
+  "universe": {
+    "en": "Structured wake week",
+    "fr": "Semaine de wake structurée",
+    "de": "Strukturierte Wake-Woche"
+  },
+  "tagline": {
+    "en": "Flat water, a boat and a week to ride.",
+    "fr": "De l'eau plate, un bateau et une semaine pour rider.",
+    "de": "Flaches Wasser, ein Boot und eine Woche zum Fahren."
+  },
+  "shortDescription": {
+    "en": "A structured wake and wakesurf week in Portugal — coaching, boat, accommodation, food and logistics handled by Organix.",
+    "fr": "Une semaine structurée de wakeboard et de wakesurf au Portugal — coaching, bateau, hébergement, repas et logistique gérés par Organix.",
+    "de": "Eine strukturierte Wakeboard- und Wakesurf-Woche in Portugal – Coaching, Boot, Unterkunft, Verpflegung und Logistik organisiert von Organix."
+  },
+  "longDescription": {
+    "en": "Our wake week in Portugal brings everything together: time on the water behind the boat, coaching to progress, a house by the lake, good food and all the logistics in between — with other activities around it if you want them.",
+    "fr": "Notre semaine de wake au Portugal réunit tout : du temps sur l'eau derrière le bateau, du coaching pour progresser, une maison au bord du lac, une bonne table et toute la logistique entre les deux — avec d'autres activités autour si vous le souhaitez.",
+    "de": "Unsere Wake-Woche in Portugal vereint alles: Zeit auf dem Wasser hinter dem Boot, Coaching für Fortschritte, ein Haus am See, gutes Essen und die ganze Logistik dazwischen – auf Wunsch mit weiteren Aktivitäten rundherum."
+  },
+  "heroImage": "su-wake-boat",
+  "gallery": [
+    "su-wake-jump",
+    "su-lake"
+  ],
+  "status": "active",
+  "featured": true,
+  "flagship": false,
+  "priceFrom": null,
+  "currency": "CHF",
+  "duration": {
+    "en": "One week",
+    "fr": "Une semaine",
+    "de": "Eine Woche"
+  },
+  "dates": [],
+  "flexibleDates": false,
+  "groupSize": null,
+  "activities": {
+    "en": [
+      "Wakeboard",
+      "Wakesurf",
+      "Coaching"
+    ],
+    "fr": [
+      "Wakeboard",
+      "Wakesurf",
+      "Coaching"
+    ],
+    "de": [
+      "Wakeboard",
+      "Wakesurf",
+      "Coaching"
+    ]
+  },
+  "included": {
+    "en": [
+      "Wake / wakesurf",
+      "Coaching",
+      "Accommodation",
+      "Boat",
+      "Food",
+      "Transport and logistics",
+      "Complementary activities"
+    ],
+    "fr": [
+      "Wake / wakesurf",
+      "Coaching",
+      "Hébergement",
+      "Bateau",
+      "Repas",
+      "Transport et logistique",
+      "Activités complémentaires"
+    ],
+    "de": [
+      "Wake / Wakesurf",
+      "Coaching",
+      "Unterkunft",
+      "Boot",
+      "Verpflegung",
+      "Transport und Logistik",
+      "Ergänzende Aktivitäten"
+    ]
+  },
+  "notIncluded": null,
+  "difficulty": null,
+  "partner": null,
+  "blocks": [
+    {
+      "type": "list",
+      "title": {
+        "en": "The week includes",
+        "fr": "La semaine comprend",
+        "de": "Die Woche umfasst"
+      },
+      "field": "included"
+    }
+  ],
+  "cta": {
+    "label": {
+      "en": "Ask about Portugal Wake",
+      "fr": "Demande pour le wake au Portugal",
+      "de": "Wake in Portugal anfragen"
+    },
+    "interest": "summer",
+    "option": "Portugal wake"
+  },
+  "seo": {
+    "title": {
+      "en": "Portugal Wake Week — Wakeboard & Wakesurf Camp | OrganixEvents",
+      "fr": "Semaine de wake au Portugal — Camp de wakeboard & wakesurf | OrganixEvents",
+      "de": "Wake-Woche in Portugal — Wakeboard- & Wakesurf-Camp | OrganixEvents"
+    },
+    "description": {
+      "en": "A structured wakeboard and wakesurf week in Portugal with coaching, boat, accommodation, food and logistics organised by Organix.",
+      "fr": "Une semaine structurée de wakeboard et de wakesurf au Portugal, avec coaching, bateau, hébergement, repas et logistique organisés par Organix.",
+      "de": "Eine strukturierte Wakeboard- und Wakesurf-Woche in Portugal mit Coaching, Boot, Unterkunft, Verpflegung und Logistik, organisiert von Organix."
+    }
+  }
+}

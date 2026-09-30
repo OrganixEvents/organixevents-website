@@ -1,0 +1,29 @@
+{
+  "seo": {
+    "title": "Wintererlebnisse — Snowcat, Ski & Segeln, Alpen | OrganixEvents",
+    "description": "Winter mit Organix: unser eigener Snowcat-Betrieb in Nordmazedonien, eine seltene Snowcat-Woche in Georgien, Ski & Segeln im arktischen Norwegen und Freeride in den Alpen."
+  },
+  "hero": {
+    "eyebrow": "Winter",
+    "title": ["Winter,", "wie Organix ihn lebt."],
+    "lead": "Vier Winterwelten. Eine davon haben wir von Grund auf selbst aufgebaut.",
+    "image": "al-bootpack"
+  },
+  "flagship": {
+    "eyebrow": "Flaggschiff · Eigener Betrieb",
+    "title": "Nordmazedonien",
+    "subtitle": "Freeride mit privatem Snowcat",
+    "message": "Unser Snowcat. Unser Betrieb. Ihr Abenteuer.",
+    "cta": "Nordmazedonien entdecken"
+  },
+  "universes": {
+    "title": "Drei weitere Arten zu fahren.",
+    "items": ["georgia", "norway", "alps"]
+  },
+  "final": {
+    "title": "Noch unsicher, welcher Winter zu Ihnen passt?",
+    "lead": "Erzählen Sie uns, wie Sie gerne fahren. Wir zeigen Ihnen die richtige Richtung – oder bauen etwas Neues.",
+    "cta": "Gespräch starten",
+    "image": "no-schooner"
+  }
+}

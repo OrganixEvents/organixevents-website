@@ -1,0 +1,128 @@
+{
+  "slug": "youth-camps",
+  "path": "summer/youth-camps/",
+  "template": "experience",
+  "title": {
+    "en": "Youth Camps",
+    "fr": "Camps jeunes",
+    "de": "Jugendcamps"
+  },
+  "shortTitle": {
+    "en": "Youth Camps",
+    "fr": "Camps jeunes",
+    "de": "Jugendcamps"
+  },
+  "country": "Switzerland",
+  "region": {
+    "en": "Lake Joux · Lake Geneva",
+    "fr": "Lac de Joux · Léman",
+    "de": "Lac de Joux · Genfersee"
+  },
+  "season": "summer",
+  "experienceType": "youth-camp",
+  "universe": {
+    "en": "Small-group summer camps",
+    "fr": "Camps d'été en petits groupes",
+    "de": "Sommercamps in kleinen Gruppen"
+  },
+  "tagline": {
+    "en": "A week outdoors, in a small group.",
+    "fr": "Une semaine dehors, en petit groupe.",
+    "de": "Eine Woche draussen, in einer kleinen Gruppe."
+  },
+  "shortDescription": {
+    "en": "One-week summer camps for young people, in small groups of around 4 to 8 participants, on the lakes of western Switzerland.",
+    "fr": "Des camps d'été d'une semaine pour les jeunes, en petits groupes d'environ 4 à 8 participants, sur les lacs de Suisse romande.",
+    "de": "Einwöchige Sommercamps für Jugendliche, in kleinen Gruppen von etwa 4 bis 8 Teilnehmenden, an den Seen der Westschweiz."
+  },
+  "longDescription": {
+    "en": "Our youth camps run for one week, in small groups of around four to eight young participants. Camps are usually announced during or at the end of winter for the coming summer.",
+    "fr": "Nos camps jeunes durent une semaine, en petits groupes d'environ quatre à huit participants. Ils sont généralement annoncés pendant ou à la fin de l'hiver pour l'été suivant.",
+    "de": "Unsere Jugendcamps dauern eine Woche, in kleinen Gruppen von etwa vier bis acht Teilnehmenden. Sie werden in der Regel während oder gegen Ende des Winters für den kommenden Sommer angekündigt."
+  },
+  "heroImage": "su-sup",
+  "gallery": [
+    "su-lake",
+    "su-wake-boat"
+  ],
+  "status": "active",
+  "featured": true,
+  "flagship": false,
+  "priceFrom": null,
+  "currency": "CHF",
+  "duration": {
+    "en": "1 week",
+    "fr": "1 semaine",
+    "de": "1 Woche"
+  },
+  "dates": [],
+  "flexibleDates": false,
+  "groupSize": {
+    "min": 4,
+    "typical": 8,
+    "note": {
+      "en": "Approximately 4–8 young participants",
+      "fr": "Environ 4 à 8 jeunes participants",
+      "de": "Etwa 4–8 junge Teilnehmende"
+    }
+  },
+  "activities": null,
+  "included": null,
+  "notIncluded": null,
+  "difficulty": null,
+  "partner": null,
+  "_campsComment": "Activate / deactivate each camp per season with `active`. When no camp is active, the page shows the 'announced soon' state.",
+  "camps": [
+    {
+      "id": "lake-joux",
+      "title": {
+        "en": "Lake Joux",
+        "fr": "Lac de Joux",
+        "de": "Lac de Joux"
+      },
+      "active": false,
+      "dates": null
+    },
+    {
+      "id": "lake-geneva",
+      "title": {
+        "en": "Lake Geneva",
+        "fr": "Léman",
+        "de": "Genfersee"
+      },
+      "active": false,
+      "dates": null
+    }
+  ],
+  "blocks": [
+    {
+      "type": "camps",
+      "title": {
+        "en": "Summer camps",
+        "fr": "Camps d'été",
+        "de": "Sommercamps"
+      }
+    }
+  ],
+  "cta": {
+    "label": {
+      "en": "Get notified about camps",
+      "fr": "Être informé des camps",
+      "de": "Über Camps informiert werden"
+    },
+    "interest": "summer",
+    "option": "Youth camp"
+  },
+  "seo": {
+    "title": {
+      "en": "Youth Summer Camps on Lake Joux and Lake Geneva | OrganixEvents",
+      "fr": "Camps d'été pour les jeunes au Lac de Joux et au Léman | OrganixEvents",
+      "de": "Sommercamps für Jugendliche am Lac de Joux und am Genfersee | OrganixEvents"
+    },
+    "description": {
+      "en": "One-week youth summer camps in small groups of around 4–8 participants on Lake Joux and Lake Geneva, organised by Organix.",
+      "fr": "Des camps d'été d'une semaine pour les jeunes, en petits groupes d'environ 4 à 8 participants, au Lac de Joux et au Léman, organisés par Organix.",
+      "de": "Einwöchige Sommercamps für Jugendliche in kleinen Gruppen von etwa 4–8 Teilnehmenden am Lac de Joux und am Genfersee, organisiert von Organix."
+    }
+  }
+}

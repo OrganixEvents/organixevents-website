@@ -1,0 +1,36 @@
+{
+  "_comment": "Global settings. Contact details come from the 2027 brochures — confirm before launch.",
+  "name": "OrganixEvents",
+  "legalName": "OrganixEvents Sàrl",
+  "siteUrl": "https://organixevents.netlify.app",
+  "statement": "Beyond the ordinary.",
+  "contact": {
+    "email": "organixevents@gmail.com",
+    "phone": "+41 79 792 97 50",
+    "whatsapp": "41797929750",
+    "address": ["Chemin de Jolimont 9", "1347 Le Sentier", "Switzerland"]
+  },
+  "social": [],
+  "locales": [
+    { "code": "en", "label": "EN", "name": "English", "hreflang": "en", "default": true },
+    { "code": "fr", "label": "FR", "name": "Français", "hreflang": "fr" },
+    { "code": "de", "label": "DE", "name": "Deutsch", "hreflang": "de" }
+  ],
+  "nav": [
+    { "key": "northMacedonia", "path": "north-macedonia/" },
+    { "key": "winter", "path": "winter/" },
+    { "key": "summer", "path": "summer/" },
+    { "key": "custom", "path": "custom/" },
+    { "key": "about", "path": "about/" }
+  ],
+  "partners": [
+    { "name": "Julbo", "logo": null, "url": "https://www.julbo.com" },
+    { "name": "Blizzard", "logo": null, "url": "https://www.blizzard-tecnica.com" },
+    { "name": "SwissForce", "logo": null, "url": null },
+    { "name": "Nidecker", "logo": null, "url": "https://www.nidecker.com" }
+  ],
+  "analytics": {
+    "_comment": "No analytics provider is loaded in V0. Conversion events are pushed to window.dataLayer; plug GA4 / Plausible / GTM here.",
+    "provider": null
+  }
+}

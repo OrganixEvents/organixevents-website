@@ -1,0 +1,90 @@
+{
+  "seo": {
+    "title": "About Organix — Built in the Mountains, Made for Adventure | OrganixEvents",
+    "description": "The story of Organix: Stéphane, Bryan, a snowcat brought to North Macedonia and a growing family of sport and adventure experiences."
+  },
+  "hero": {
+    "eyebrow": "About",
+    "title": [
+      "Built in the mountains.",
+      "Made for adventure."
+    ],
+    "image": "nm-group"
+  },
+  "story": {
+    "eyebrow": "Our story",
+    "title": "Around fifteen years in the making.",
+    "paragraphs": [
+      "Organix has existed in different forms for around fifteen years, with Stéphane at its centre. Long before the snowcat, he was already organising trips in North Macedonia.",
+      "Bryan and Stéphane first met during Bryan's professional ski racing career, when Stéphane worked on his ski boots and custom footbeds.",
+      "Around two years ago, Bryan joined the project. Together they created OrganixEvents Sàrl, bought a snowcat and imported it to North Macedonia. With local partners, they developed the operation on the ground — today run locally through Wild Tracks — and then kept going, into new sport and adventure experiences."
+    ],
+    "milestones": [
+      {
+        "label": "~15 years",
+        "text": "Stéphane, Organix and North Macedonia"
+      },
+      {
+        "label": "Bryan joins",
+        "text": "From ski racing to building the project together"
+      },
+      {
+        "label": "OrganixEvents Sàrl",
+        "text": "Founded by Bryan and Stéphane"
+      },
+      {
+        "label": "Our snowcat",
+        "text": "Bought and imported to North Macedonia"
+      },
+      {
+        "label": "Wild Tracks",
+        "text": "The local operation, developed with our partners"
+      },
+      {
+        "label": "Beyond the snowcat",
+        "text": "Norway, the Alps, summer and custom adventures"
+      }
+    ]
+  },
+  "people": [
+    {
+      "name": "Bryan Zooler",
+      "role": "Co-founder",
+      "image": null,
+      "intro": "Bryan spent more than ten years in international ski cross competition, as a member of the Swiss ski cross team. Racing took him to mountains all over the world — and gave him a feel for what makes a trip in the mountains work.",
+      "text": "Since then he has put that experience into coaching, mountain sports and creating sport and adventure projects. Organix is where it all comes together.",
+      "facts": [
+        "10+ years of international ski cross",
+        "Former member of the Swiss ski cross team",
+        "Swiss Federal Snowsports Instructor",
+        "Coaching and sport & adventure projects"
+      ]
+    },
+    {
+      "name": "Stéphane",
+      "role": "Co-founder",
+      "image": null,
+      "intro": "Stéphane has been the central figure of Organix for around fifteen years — and for just as long, he has been travelling to, working in and building relationships in North Macedonia.",
+      "text": null,
+      "facts": [
+        "Around 15 years at the heart of Organix",
+        "Around 15 years of experience in North Macedonia",
+        "Extensive mountain experience",
+        "Deep local knowledge and relationships",
+        "Operations and logistics"
+      ]
+    }
+  ],
+  "local": {
+    "eyebrow": "Our principle",
+    "title": "Local people matter.",
+    "text": "We work with local guides, operators and people we trust. We're not outsiders importing tourism into a place — we build experiences with the people who live there, and we want the places we go to benefit from them.",
+    "image": "nm-snowcat-blue"
+  },
+  "final": {
+    "title": "Let's build the next one.",
+    "lead": "Tell us what you have in mind.",
+    "cta": "Start a conversation",
+    "image": "nm-sunset"
+  }
+}

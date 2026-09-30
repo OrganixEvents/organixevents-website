@@ -1,0 +1,80 @@
+{
+  "seo": {
+    "title": "OrganixEvents — Expériences de sport et d'aventure. Beyond the Ordinary.",
+    "description": "OrganixEvents crée, organise et accompagne des expériences de sport et d'aventure : freeride en snowcat privé en Macédoine du Nord, ski arctique, les Alpes, camps d'été et aventures sur mesure."
+  },
+  "hero": {
+    "title": "Beyond the ordinary.",
+    "subtitle": "Sport. Aventure. Des expériences pensées autrement.",
+    "ctaPrimary": "Explorer",
+    "ctaSecondary": "Nous contacter"
+  },
+  "flagship": {
+    "eyebrow": "Notre expérience phare",
+    "title": ["Macédoine du Nord", "Freeride en snowcat privé"],
+    "message": ["Notre snowcat.", "Notre opération.", "Votre aventure."],
+    "priceLabel": "Dès",
+    "priceNote": "Semaine complète · 6 jours de ski · 7 jours d'hébergement · pension complète · base groupe de 8 personnes",
+    "flexNote": "Séjours plus courts et dates flexibles sur demande.",
+    "cta": "Découvrir la Macédoine du Nord"
+  },
+  "winter": {
+    "eyebrow": "Hiver",
+    "title": "L'hiver, façon Organix.",
+    "lead": "Au-delà de notre snowcat en Macédoine du Nord, trois autres façons de passer l'hiver avec nous.",
+    "items": ["georgia", "norway", "alps"],
+    "labels": {
+      "georgia": "Freeride en snowcat",
+      "norway": "Ski & voile / Ski de rando",
+      "alps": "Notre terrain de jeu"
+    },
+    "flagshipLink": "Et notre expérience phare : la Macédoine du Nord",
+    "cta": "Toutes les expériences d'hiver"
+  },
+  "summer": {
+    "eyebrow": "Été",
+    "title": "Quand la neige fond, on continue d'avancer.",
+    "items": ["youth-camps", "portugal-wake", "summer-adventures"],
+    "labels": {
+      "youth-camps": "Camps jeunes",
+      "portugal-wake": "Wake au Portugal",
+      "summer-adventures": "Voyages sport & aventure"
+    },
+    "cta": "Découvrir l'été"
+  },
+  "custom": {
+    "eyebrow": "Sur mesure",
+    "title": ["Vous l'imaginez.", "On le construit."],
+    "lead": ["Pas besoin d'avoir un plan.", "C'est justement notre rôle."],
+    "inspirationLabel": "Des possibilités, pas des forfaits",
+    "cta": "Construire votre aventure",
+    "image": "al-sunset-sea"
+  },
+  "why": {
+    "eyebrow": "Pourquoi Organix",
+    "items": [
+      { "title": "Nos propres opérations", "text": "Nous exploitons notre propre snowcat en Macédoine du Nord." },
+      { "title": "Connaissance du terrain", "text": "Nous travaillons avec des guides locaux et des personnes de confiance sur place." },
+      { "title": "Petits groupes", "text": "Des groupes restreints et privés, loin du tourisme de masse." },
+      { "title": "Expertise professionnelle", "text": "Un projet construit par des gens issus du ski de haut niveau." },
+      { "title": "Organisation complète", "text": "Un seul interlocuteur, du premier message au dernier jour." },
+      { "title": "Flexibilité maximale", "text": "Dates, durée et programme adaptés à vous." }
+    ]
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": ["Né en montagne.", "Fait pour l'aventure."],
+    "text": "Organix, c'est Stéphane et Bryan. Stéphane est au cœur d'Organix — et de la Macédoine du Nord — depuis une quinzaine d'années. Bryan a passé plus de dix ans sur le circuit international de skicross, au sein de l'équipe de Suisse. Ensemble, ils ont acheté un snowcat, l'ont amené en Macédoine du Nord et y ont construit une opération locale permanente avec des partenaires sur place.",
+    "cta": "Notre histoire",
+    "image": "nm-group"
+  },
+  "partners": {
+    "eyebrow": "Avec le soutien de"
+  },
+  "final": {
+    "title": "Et maintenant ?",
+    "lead": ["Dites-nous ce que vous avez en tête.", "On s'occupe du reste."],
+    "cta": "Parlons-en",
+    "image": "nm-sunset"
+  }
+}

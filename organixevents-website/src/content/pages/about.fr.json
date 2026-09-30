@@ -1,0 +1,69 @@
+{
+  "seo": {
+    "title": "À propos d'Organix — Né en montagne, fait pour l'aventure | OrganixEvents",
+    "description": "L'histoire d'Organix : Stéphane, Bryan, un snowcat amené en Macédoine du Nord et une famille grandissante d'expériences de sport et d'aventure."
+  },
+  "hero": {
+    "eyebrow": "À propos",
+    "title": ["Né en montagne.", "Fait pour l'aventure."],
+    "image": "nm-group"
+  },
+  "story": {
+    "eyebrow": "Notre histoire",
+    "title": "Une quinzaine d'années de construction.",
+    "paragraphs": [
+      "Organix existe sous différentes formes depuis une quinzaine d'années, avec Stéphane en son centre. Bien avant le snowcat, il organisait déjà des voyages en Macédoine du Nord.",
+      "Bryan et Stéphane se sont rencontrés pendant la carrière de skieur professionnel de Bryan, lorsque Stéphane travaillait sur ses chaussures de ski et ses semelles sur mesure.",
+      "Il y a environ deux ans, Bryan a rejoint le projet. Ensemble, ils ont créé OrganixEvents Sàrl, acheté un snowcat et l'ont importé en Macédoine du Nord. Avec des partenaires locaux, ils ont développé l'opération sur le terrain — aujourd'hui gérée localement par Wild Tracks — puis ont continué, vers de nouvelles expériences de sport et d'aventure."
+    ],
+    "milestones": [
+      { "label": "~15 ans", "text": "Stéphane, Organix et la Macédoine du Nord" },
+      { "label": "Bryan arrive", "text": "Du ski de compétition à la construction du projet à deux" },
+      { "label": "OrganixEvents Sàrl", "text": "Fondée par Bryan et Stéphane" },
+      { "label": "Notre snowcat", "text": "Acheté et importé en Macédoine du Nord" },
+      { "label": "Wild Tracks", "text": "L'opération locale, développée avec nos partenaires" },
+      { "label": "Au-delà du snowcat", "text": "Norvège, Alpes, été et aventures sur mesure" }
+    ]
+  },
+  "people": [
+    {
+      "name": "Bryan Zooler",
+      "role": "Cofondateur",
+      "image": null,
+      "intro": "Bryan a passé plus de dix ans sur le circuit international de skicross, au sein de l'équipe de Suisse. La compétition l'a emmené sur des montagnes du monde entier — et lui a appris ce qui fait qu'un voyage en montagne fonctionne.",
+      "text": "Depuis, il met cette expérience au service du coaching, des sports de montagne et de la création de projets de sport et d'aventure. Organix est l'endroit où tout se rejoint.",
+      "facts": [
+        "Plus de 10 ans de skicross international",
+        "Ancien membre de l'équipe de Suisse de skicross",
+        "Professeur de sports de neige avec brevet fédéral",
+        "Coaching et projets de sport & d'aventure"
+      ]
+    },
+    {
+      "name": "Stéphane",
+      "role": "Cofondateur",
+      "image": null,
+      "intro": "Stéphane est la figure centrale d'Organix depuis une quinzaine d'années — et depuis tout aussi longtemps, il voyage, travaille et tisse des liens en Macédoine du Nord.",
+      "text": null,
+      "facts": [
+        "Environ 15 ans au cœur d'Organix",
+        "Environ 15 ans d'expérience en Macédoine du Nord",
+        "Grande expérience de la montagne",
+        "Connaissance fine du terrain et des gens",
+        "Opérations et logistique"
+      ]
+    }
+  ],
+  "local": {
+    "eyebrow": "Notre principe",
+    "title": "Les gens du lieu comptent.",
+    "text": "Nous travaillons avec des guides, des opérateurs et des personnes de confiance sur place. Nous ne sommes pas des étrangers qui importent du tourisme : nous construisons nos expériences avec celles et ceux qui vivent là, et nous voulons que les lieux où nous allons en profitent.",
+    "image": "nm-snowcat-blue"
+  },
+  "final": {
+    "title": "Construisons la prochaine.",
+    "lead": "Dites-nous ce que vous avez en tête.",
+    "cta": "Parlons-en",
+    "image": "nm-sunset"
+  }
+}

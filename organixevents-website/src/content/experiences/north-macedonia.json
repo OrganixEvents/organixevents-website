@@ -1,0 +1,200 @@
+{
+  "slug": "north-macedonia",
+  "path": "north-macedonia/",
+  "template": "flagship",
+  "title": {
+    "en": "North Macedonia — Private Snowcat Freeride",
+    "fr": "Macédoine du Nord — Freeride en snowcat privé",
+    "de": "Nordmazedonien — Freeride mit privatem Snowcat"
+  },
+  "shortTitle": {
+    "en": "North Macedonia",
+    "fr": "Macédoine du Nord",
+    "de": "Nordmazedonien"
+  },
+  "country": "North Macedonia",
+  "region": {
+    "en": "Šar Mountains · Popova Shapka",
+    "fr": "Monts Šar · Popova Shapka",
+    "de": "Šar-Gebirge · Popova Shapka"
+  },
+  "season": "winter",
+  "experienceType": "snowcat-freeride",
+  "tagline": {
+    "en": "Our snowcat. Our operation. Your adventure.",
+    "fr": "Notre snowcat. Notre opération. Votre aventure.",
+    "de": "Unser Snowcat. Unser Betrieb. Ihr Abenteuer."
+  },
+  "shortDescription": {
+    "en": "Private snowcat freeride in the Šar Mountains, run by Organix with our own machine and a local team on the ground.",
+    "fr": "Freeride en snowcat privé dans les monts Šar, opéré par Organix avec notre propre machine et une équipe locale sur place.",
+    "de": "Freeride mit privatem Snowcat im Šar-Gebirge – betrieben von Organix, mit eigener Maschine und einem lokalen Team vor Ort."
+  },
+  "longDescription": {
+    "en": "Organix runs its own snowcat operation in North Macedonia. A private machine, a small group and wild, uncrowded terrain above Popova Shapka — organised end to end by the people who built it, with a permanent local operation on the ground.",
+    "fr": "Organix exploite sa propre opération snowcat en Macédoine du Nord. Une machine privée, un petit groupe et un terrain sauvage et préservé au-dessus de Popova Shapka — organisé de A à Z par ceux qui l'ont construit, avec une opération locale permanente sur place.",
+    "de": "Organix betreibt in Nordmazedonien einen eigenen Snowcat-Betrieb. Eine private Maschine, eine kleine Gruppe und wildes, unberührtes Gelände oberhalb von Popova Shapka – von A bis Z organisiert von denen, die alles aufgebaut haben, mit einem festen lokalen Betrieb vor Ort."
+  },
+  "heroImage": "nm-panorama",
+  "heroImageMobile": "nm-snowcat-ridge",
+  "gallery": [
+    "nm-snowcat-powder",
+    "nm-cornice",
+    "nm-group",
+    "nm-sunset",
+    "nm-bowl",
+    "nm-ridge-group"
+  ],
+  "status": "active",
+  "featured": true,
+  "flagship": true,
+  "priceFrom": 2250,
+  "currency": "CHF",
+  "priceBasis": {
+    "en": "Full-week experience for a group of 8: 6 ski days, 7 days accommodation, full board.",
+    "fr": "Expérience semaine complète pour un groupe de 8 : 6 jours de ski, 7 jours d'hébergement, pension complète.",
+    "de": "Erlebnis über die ganze Woche für eine Gruppe von 8: 6 Skitage, 7 Tage Unterkunft, Vollpension."
+  },
+  "duration": {
+    "en": "Full week as reference · 3, 4, 5 days or custom on request",
+    "fr": "Semaine complète comme référence · 3, 4, 5 jours ou sur mesure sur demande",
+    "de": "Ganze Woche als Referenz · 3, 4, 5 Tage oder individuell auf Anfrage"
+  },
+  "dates": [
+    {
+      "label": {
+        "en": "Principal 2027 period",
+        "fr": "Période principale 2027",
+        "de": "Hauptperiode 2027"
+      },
+      "start": "2027-01-16",
+      "end": "2027-04-03"
+    }
+  ],
+  "seasonWindow": {
+    "en": "Approximately late December to early April, depending on snow conditions",
+    "fr": "Environ de fin décembre à début avril, selon l'enneigement",
+    "de": "Etwa Ende Dezember bis Anfang April, je nach Schneelage"
+  },
+  "flexibleDates": true,
+  "groupSize": {
+    "typical": 8,
+    "usualMax": 10,
+    "absoluteMax": 12
+  },
+  "activities": {
+    "en": [
+      "Snowcat freeride",
+      "Free-rando",
+      "Ski touring",
+      "Local experiences",
+      "Food & culture",
+      "Custom activities"
+    ],
+    "fr": [
+      "Freeride en snowcat",
+      "Free-rando",
+      "Ski de randonnée",
+      "Expériences locales",
+      "Gastronomie & culture",
+      "Activités sur mesure"
+    ],
+    "de": [
+      "Snowcat-Freeride",
+      "Free-Rando",
+      "Skitouren",
+      "Lokale Erlebnisse",
+      "Essen & Kultur",
+      "Individuelle Aktivitäten"
+    ]
+  },
+  "included": {
+    "en": [
+      "Private snowcat — the Organix PistenBully PB300W",
+      "6 ski days (full-week reference)",
+      "7 days accommodation",
+      "Full board",
+      "Local certified mountain professional",
+      "Professional Organix staff member on the trip",
+      "Organisation, preparation and logistics",
+      "Airport transfers"
+    ],
+    "fr": [
+      "Snowcat privé — le PistenBully PB300W d'Organix",
+      "6 jours de ski (référence semaine complète)",
+      "7 jours d'hébergement",
+      "Pension complète",
+      "Professionnel de la montagne local et certifié",
+      "Un membre professionnel de l'équipe Organix sur place",
+      "Organisation, préparation et logistique",
+      "Transferts aéroport"
+    ],
+    "de": [
+      "Privater Snowcat – der PistenBully PB300W von Organix",
+      "6 Skitage (Referenz ganze Woche)",
+      "7 Tage Unterkunft",
+      "Vollpension",
+      "Zertifizierter lokaler Bergprofi",
+      "Ein professionelles Mitglied des Organix-Teams vor Ort",
+      "Organisation, Vorbereitung und Logistik",
+      "Flughafentransfers"
+    ]
+  },
+  "notIncluded": {
+    "en": [
+      "Flights to Skopje",
+      "Drinks and personal extras",
+      "Ski / snowboard equipment",
+      "Avalanche safety equipment (airbag, transceiver, probe, shovel)",
+      "Travel insurance"
+    ],
+    "fr": [
+      "Vols jusqu'à Skopje",
+      "Boissons et extras personnels",
+      "Matériel de ski / snowboard",
+      "Équipement de sécurité avalanche (airbag, DVA, sonde, pelle)",
+      "Assurance voyage"
+    ],
+    "de": [
+      "Flüge nach Skopje",
+      "Getränke und persönliche Extras",
+      "Ski- / Snowboardausrüstung",
+      "Lawinen-Sicherheitsausrüstung (Airbag, LVS, Sonde, Schaufel)",
+      "Reiseversicherung"
+    ]
+  },
+  "difficulty": {
+    "en": "For confident off-piste skiers and snowboarders",
+    "fr": "Pour skieurs et snowboardeurs à l'aise en hors-piste",
+    "de": "Für Ski- und Snowboardfahrer, die sich abseits der Piste sicher fühlen"
+  },
+  "partner": null,
+  "cta": {
+    "label": {
+      "en": "Discover North Macedonia",
+      "fr": "Découvrir la Macédoine du Nord",
+      "de": "Nordmazedonien entdecken"
+    },
+    "interest": "north-macedonia"
+  },
+  "seo": {
+    "title": {
+      "en": "North Macedonia Snowcat Skiing — Private Freeride | OrganixEvents",
+      "fr": "Ski en snowcat en Macédoine du Nord — Freeride privé | OrganixEvents",
+      "de": "Snowcat-Skiing in Nordmazedonien — Privates Freeride | OrganixEvents"
+    },
+    "description": {
+      "en": "Private snowcat skiing in North Macedonia with Organix's own snowcat operation above Popova Shapka. Freeride, ski touring and flexible stays. From CHF 2,250 for a full week.",
+      "fr": "Ski en snowcat privé en Macédoine du Nord avec la propre opération snowcat d'Organix au-dessus de Popova Shapka. Freeride, ski de randonnée et séjours flexibles. Dès CHF 2 250 la semaine complète.",
+      "de": "Privates Snowcat-Skiing in Nordmazedonien mit dem eigenen Snowcat-Betrieb von Organix oberhalb von Popova Shapka. Freeride, Skitouren und flexible Aufenthalte. Ab CHF 2’250 für die ganze Woche."
+    }
+  },
+  "localOperation": {
+    "name": "Wild Tracks",
+    "role": {
+      "en": "Local operational structure in North Macedonia, developed with our local partners",
+      "fr": "Structure opérationnelle locale en Macédoine du Nord, développée avec nos partenaires locaux",
+      "de": "Lokale Betriebsstruktur in Nordmazedonien, aufgebaut mit unseren lokalen Partnern"
+    }
+  }
+}

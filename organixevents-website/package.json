@@ -1,0 +1,15 @@
+{
+  "name": "organixevents-website",
+  "version": "0.1.1",
+  "private": true,
+  "description": "OrganixEvents website 2027 — V0",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:preview": "PREVIEW=1 node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "images": "python3 scripts/images.py"
+  }
+}

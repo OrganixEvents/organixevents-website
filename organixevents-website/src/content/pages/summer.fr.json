@@ -1,0 +1,21 @@
+{
+  "seo": {
+    "title": "Expériences d'été — Camps jeunes, wake au Portugal, aventures | OrganixEvents",
+    "description": "Quand la neige fond, on continue d'avancer : camps d'été pour les jeunes sur les lacs suisses, une semaine de wake au Portugal et des voyages sport & aventure flexibles."
+  },
+  "hero": {
+    "eyebrow": "Été",
+    "title": ["Quand la neige fond,", "on continue d'avancer."],
+    "lead": "Des camps pour les jeunes riders, une semaine sur l'eau au Portugal et des aventures qui partent d'une idée.",
+    "image": "su-wake-jump",
+    "imageMobile": "su-wake-jump"
+  },
+  "intro": "L'été chez Organix, ce n'est pas un seul grand voyage. Ce sont trois façons différentes de rester dehors.",
+  "areas": ["youth-camps", "portugal-wake", "summer-adventures"],
+  "final": {
+    "title": "Une idée pour cet été ?",
+    "lead": "Un voyage à vélo, une semaine sur l'eau, une aventure en groupe : dites-nous ce que vous avez en tête.",
+    "cta": "Parlons-en",
+    "image": "su-paraglide"
+  }
+}

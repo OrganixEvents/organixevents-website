@@ -1,0 +1,217 @@
+{
+  "slug": "georgia",
+  "path": "winter/georgia/",
+  "template": "experience",
+  "title": {
+    "en": "Georgia — Snowcat Freeride",
+    "fr": "Géorgie — Freeride en snowcat",
+    "de": "Georgien — Snowcat-Freeride"
+  },
+  "shortTitle": {
+    "en": "Georgia",
+    "fr": "Géorgie",
+    "de": "Georgien"
+  },
+  "country": "Georgia",
+  "region": {
+    "en": "Bakhmaro · Caucasus",
+    "fr": "Bakhmaro · Caucase",
+    "de": "Bakhmaro · Kaukasus"
+  },
+  "season": "winter",
+  "experienceType": "snowcat-freeride",
+  "universe": {
+    "en": "Hosted partner experience",
+    "fr": "Expérience partenaire accompagnée",
+    "de": "Begleitetes Partner-Erlebnis"
+  },
+  "tagline": {
+    "en": "A rare snowcat week in the Caucasus.",
+    "fr": "Une rare semaine de snowcat dans le Caucase.",
+    "de": "Eine seltene Snowcat-Woche im Kaukasus."
+  },
+  "shortDescription": {
+    "en": "Rare access to a snowcat week in Georgia, through our collaboration with Powder Project — organised and hosted by Organix.",
+    "fr": "Un accès rare à une semaine de snowcat en Géorgie, grâce à notre collaboration avec Powder Project — organisée et accompagnée par Organix.",
+    "de": "Seltener Zugang zu einer Snowcat-Woche in Georgien, dank unserer Zusammenarbeit mit Powder Project – organisiert und begleitet von Organix."
+  },
+  "longDescription": {
+    "en": "This is not our own operation, and we say so openly. Through our collaboration with Powder Project, Organix has access to a rare snowcat week in Bakhmaro, deep in the Georgian Caucasus. We organise your stay, travel with you, and an Organix host is on the trip from start to finish — working alongside the Powder Project team and their tail guide.",
+    "fr": "Ce n'est pas notre propre opération, et nous le disons clairement. Grâce à notre collaboration avec Powder Project, Organix a accès à une rare semaine de snowcat à Bakhmaro, au cœur du Caucase géorgien. Nous organisons votre séjour, voyageons avec vous, et un hôte Organix est présent du début à la fin — aux côtés de l'équipe de Powder Project et de son guide de fermeture.",
+    "de": "Das ist nicht unser eigener Betrieb, und das sagen wir offen. Dank unserer Zusammenarbeit mit Powder Project hat Organix Zugang zu einer seltenen Snowcat-Woche in Bakhmaro, mitten im georgischen Kaukasus. Wir organisieren Ihren Aufenthalt, reisen mit Ihnen, und ein Organix-Host ist von Anfang bis Ende dabei – an der Seite des Powder-Project-Teams und seines Schlussguides."
+  },
+  "heroImage": null,
+  "gallery": [],
+  "status": "active",
+  "featured": true,
+  "flagship": false,
+  "priceFrom": null,
+  "currency": "CHF",
+  "duration": {
+    "en": "One week",
+    "fr": "Une semaine",
+    "de": "Eine Woche"
+  },
+  "dates": [
+    {
+      "label": {
+        "en": "Winter 2027",
+        "fr": "Hiver 2027",
+        "de": "Winter 2027"
+      },
+      "start": "2027-01-09",
+      "end": "2027-01-16",
+      "confirm": true
+    }
+  ],
+  "flexibleDates": false,
+  "groupSize": {
+    "typical": 8,
+    "absoluteMax": 10,
+    "confirm": true
+  },
+  "activities": {
+    "en": [
+      "Snowcat freeride",
+      "Tree skiing",
+      "Open alpine terrain"
+    ],
+    "fr": [
+      "Freeride en snowcat",
+      "Ski en forêt",
+      "Grands espaces alpins"
+    ],
+    "de": [
+      "Snowcat-Freeride",
+      "Waldabfahrten",
+      "Offenes alpines Gelände"
+    ]
+  },
+  "included": {
+    "en": [
+      "Organisation of your stay",
+      "An Organix host on the trip",
+      "Snowcat freeride days with the Powder Project team",
+      "Accommodation with full board"
+    ],
+    "fr": [
+      "Organisation de votre séjour",
+      "Un hôte Organix pendant le voyage",
+      "Journées de freeride en snowcat avec l'équipe de Powder Project",
+      "Hébergement en pension complète"
+    ],
+    "de": [
+      "Organisation Ihres Aufenthalts",
+      "Ein Organix-Host während der Reise",
+      "Snowcat-Freeride-Tage mit dem Powder-Project-Team",
+      "Unterkunft mit Vollpension"
+    ]
+  },
+  "notIncluded": {
+    "en": [
+      "Flights",
+      "Avalanche safety equipment",
+      "Travel insurance"
+    ],
+    "fr": [
+      "Vols",
+      "Équipement de sécurité avalanche",
+      "Assurance voyage"
+    ],
+    "de": [
+      "Flüge",
+      "Lawinen-Sicherheitsausrüstung",
+      "Reiseversicherung"
+    ]
+  },
+  "difficulty": null,
+  "partner": {
+    "name": "Powder Project",
+    "role": {
+      "en": "Snowcat operation and guiding",
+      "fr": "Opération snowcat et encadrement",
+      "de": "Snowcat-Betrieb und Guiding"
+    }
+  },
+  "blocks": [
+    {
+      "type": "points",
+      "title": {
+        "en": "Why this week is different",
+        "fr": "Ce qui rend cette semaine différente",
+        "de": "Was diese Woche besonders macht"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Rare access",
+            "fr": "Un accès rare",
+            "de": "Seltener Zugang"
+          },
+          "text": {
+            "en": "Snowcat weeks in Bakhmaro are few. Through Powder Project, we have one.",
+            "fr": "Les semaines de snowcat à Bakhmaro sont rares. Grâce à Powder Project, nous en avons une.",
+            "de": "Snowcat-Wochen in Bakhmaro sind selten. Dank Powder Project haben wir eine."
+          }
+        },
+        {
+          "title": {
+            "en": "Limited places",
+            "fr": "Places limitées",
+            "de": "Begrenzte Plätze"
+          },
+          "text": {
+            "en": "A single small group — when the week is full, it's full.",
+            "fr": "Un seul petit groupe — quand la semaine est complète, elle est complète.",
+            "de": "Eine einzige kleine Gruppe – wenn die Woche voll ist, ist sie voll."
+          }
+        },
+        {
+          "title": {
+            "en": "Organix support",
+            "fr": "Le soutien d'Organix",
+            "de": "Organix an Ihrer Seite"
+          },
+          "text": {
+            "en": "We handle the organisation and an Organix host is with you throughout the trip.",
+            "fr": "Nous gérons l'organisation et un hôte Organix vous accompagne pendant tout le voyage.",
+            "de": "Wir übernehmen die Organisation, und ein Organix-Host begleitet Sie während der ganzen Reise."
+          }
+        },
+        {
+          "title": {
+            "en": "Transparent partnership",
+            "fr": "Un partenariat transparent",
+            "de": "Transparente Partnerschaft"
+          },
+          "text": {
+            "en": "Powder Project runs the snowcat and guiding. We bring the group, the organisation and the care.",
+            "fr": "Powder Project opère le snowcat et l'encadrement. Nous apportons le groupe, l'organisation et l'attention.",
+            "de": "Powder Project betreibt den Snowcat und das Guiding. Wir bringen die Gruppe, die Organisation und die Betreuung."
+          }
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "label": {
+      "en": "Ask about Georgia",
+      "fr": "Demande pour la Géorgie",
+      "de": "Georgien anfragen"
+    },
+    "interest": "winter",
+    "option": "Georgia"
+  },
+  "seo": {
+    "title": {
+      "en": "Georgia Snowcat Freeride Week — Hosted by Organix with Powder Project",
+      "fr": "Semaine de freeride en snowcat en Géorgie — Accompagnée par Organix avec Powder Project",
+      "de": "Snowcat-Freeride-Woche in Georgien — Begleitet von Organix mit Powder Project"
+    },
+    "description": {
+      "en": "A rare snowcat freeride week in Bakhmaro, Georgia. Organised and hosted by Organix in collaboration with Powder Project.",
+      "fr": "Une rare semaine de freeride en snowcat à Bakhmaro, en Géorgie. Organisée et accompagnée par Organix, en collaboration avec Powder Project.",
+      "de": "Eine seltene Snowcat-Freeride-Woche in Bakhmaro, Georgien. Organisiert und begleitet von Organix, in Zusammenarbeit mit Powder Project."
+    }
+  }
+}

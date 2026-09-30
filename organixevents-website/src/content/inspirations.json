@@ -1,0 +1,103 @@
+{
+  "_comment": "Custom inspiration — possibilities, NOT bookable fixed products. Shown on Home and Custom.",
+  "items": [
+    {
+      "slug": "greenland-ski-sail",
+      "title": {
+        "en": "Greenland Ski & Sail",
+        "fr": "Groenland ski & voile",
+        "de": "Grönland Ski & Segeln"
+      },
+      "sport": {
+        "en": "Ski · Sail",
+        "fr": "Ski · Voile",
+        "de": "Ski · Segeln"
+      },
+      "image": null
+    },
+    {
+      "slug": "iceland-ski-sail",
+      "title": {
+        "en": "Iceland Ski & Sail",
+        "fr": "Islande ski & voile",
+        "de": "Island Ski & Segeln"
+      },
+      "sport": {
+        "en": "Ski · Sail",
+        "fr": "Ski · Voile",
+        "de": "Ski · Segeln"
+      },
+      "image": null
+    },
+    {
+      "slug": "japan-powder",
+      "title": {
+        "en": "Japan Powder Trip",
+        "fr": "Poudreuse au Japon",
+        "de": "Powder in Japan"
+      },
+      "sport": {
+        "en": "Freeride",
+        "fr": "Freeride",
+        "de": "Freeride"
+      },
+      "image": null
+    },
+    {
+      "slug": "turkey-heliski",
+      "title": {
+        "en": "Turkey Heliski",
+        "fr": "Héliski en Turquie",
+        "de": "Heliski in der Türkei"
+      },
+      "sport": {
+        "en": "Heliski",
+        "fr": "Héliski",
+        "de": "Heliski"
+      },
+      "image": null
+    },
+    {
+      "slug": "georgia-heliski",
+      "title": {
+        "en": "Georgia Heliski",
+        "fr": "Héliski en Géorgie",
+        "de": "Heliski in Georgien"
+      },
+      "sport": {
+        "en": "Heliski",
+        "fr": "Héliski",
+        "de": "Heliski"
+      },
+      "image": null
+    },
+    {
+      "slug": "maldives-surf-boat",
+      "title": {
+        "en": "Maldives Surf & Boat",
+        "fr": "Maldives surf & bateau",
+        "de": "Malediven Surf & Boot"
+      },
+      "sport": {
+        "en": "Surf · Boat",
+        "fr": "Surf · Bateau",
+        "de": "Surf · Boot"
+      },
+      "image": null
+    },
+    {
+      "slug": "balkans-multi-sport",
+      "title": {
+        "en": "Balkans Multi-Sport",
+        "fr": "Balkans multisport",
+        "de": "Balkan Multisport"
+      },
+      "sport": {
+        "en": "Multi-sport",
+        "fr": "Multisport",
+        "de": "Multisport"
+      },
+      "image": null
+    }
+  ]
+}

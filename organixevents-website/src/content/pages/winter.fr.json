@@ -1,0 +1,29 @@
+{
+  "seo": {
+    "title": "Expériences d'hiver — Snowcat, ski & voile, Alpes | OrganixEvents",
+    "description": "L'hiver façon Organix : notre propre opération snowcat en Macédoine du Nord, une rare semaine de snowcat en Géorgie, du ski & voile en Norvège arctique et du freeride dans les Alpes."
+  },
+  "hero": {
+    "eyebrow": "Hiver",
+    "title": ["L'hiver,", "façon Organix."],
+    "lead": "Quatre univers d'hiver. L'un d'eux est entièrement le nôtre.",
+    "image": "al-bootpack"
+  },
+  "flagship": {
+    "eyebrow": "Expérience phare · Notre propre opération",
+    "title": "Macédoine du Nord",
+    "subtitle": "Freeride en snowcat privé",
+    "message": "Notre snowcat. Notre opération. Votre aventure.",
+    "cta": "Découvrir la Macédoine du Nord"
+  },
+  "universes": {
+    "title": "Trois autres façons de rider.",
+    "items": ["georgia", "norway", "alps"]
+  },
+  "final": {
+    "title": "Vous hésitez entre plusieurs hivers ?",
+    "lead": "Dites-nous comment vous aimez rider. Nous vous orienterons dans la bonne direction, ou nous construirons quelque chose de nouveau.",
+    "cta": "Parlons-en",
+    "image": "no-schooner"
+  }
+}

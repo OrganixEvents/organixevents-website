@@ -1,0 +1,125 @@
+{
+  "seo": {
+    "title": "OrganixEvents — Sport & Adventure Experiences. Beyond the Ordinary.",
+    "description": "OrganixEvents creates, organises and hosts sport and adventure experiences — private snowcat freeride in North Macedonia, Arctic ski trips, the Alps, summer camps and custom adventures."
+  },
+  "hero": {
+    "title": "Beyond the ordinary.",
+    "subtitle": "Sport. Adventure. Experiences built differently.",
+    "ctaPrimary": "Explore",
+    "ctaSecondary": "Enquire"
+  },
+  "flagship": {
+    "eyebrow": "Our flagship",
+    "title": [
+      "North Macedonia",
+      "Private snowcat freeride"
+    ],
+    "message": [
+      "Our snowcat.",
+      "Our operation.",
+      "Your adventure."
+    ],
+    "priceLabel": "From",
+    "priceNote": "Full-week experience · 6 ski days · 7 days accommodation · full board · based on a group of 8",
+    "flexNote": "Shorter stays and flexible dates on request.",
+    "cta": "Discover North Macedonia"
+  },
+  "winter": {
+    "eyebrow": "Winter",
+    "title": "Winter, the Organix way.",
+    "lead": "Beyond our own snowcat in North Macedonia, three more ways to spend the winter with us.",
+    "items": [
+      "georgia",
+      "norway",
+      "alps"
+    ],
+    "labels": {
+      "georgia": "Snowcat Freeride",
+      "norway": "Ski & Sail / Ski Touring",
+      "alps": "Our Playground"
+    },
+    "flagshipLink": "Plus our flagship: North Macedonia",
+    "cta": "All winter experiences"
+  },
+  "summer": {
+    "eyebrow": "Summer",
+    "title": "When the snow melts, we keep moving.",
+    "items": [
+      "youth-camps",
+      "portugal-wake",
+      "summer-adventures"
+    ],
+    "labels": {
+      "youth-camps": "Youth Camps",
+      "portugal-wake": "Portugal Wake",
+      "summer-adventures": "Sport & Adventure Trips"
+    },
+    "cta": "Explore summer"
+  },
+  "custom": {
+    "eyebrow": "Custom",
+    "title": [
+      "You dream it.",
+      "We build it."
+    ],
+    "lead": [
+      "You don't need a plan.",
+      "That's what we're here for."
+    ],
+    "inspirationLabel": "Possibilities, not packages",
+    "cta": "Build your adventure",
+    "image": "al-sunset-sea"
+  },
+  "why": {
+    "eyebrow": "Why Organix",
+    "items": [
+      {
+        "title": "Own operations",
+        "text": "We run our own snowcat in North Macedonia."
+      },
+      {
+        "title": "Local knowledge",
+        "text": "We work with local guides and trusted people on the ground."
+      },
+      {
+        "title": "Small groups",
+        "text": "Small, private groups — never mass tourism."
+      },
+      {
+        "title": "Professional expertise",
+        "text": "Built by people from professional ski sport."
+      },
+      {
+        "title": "Complete organisation",
+        "text": "One contact from the first message to the last day."
+      },
+      {
+        "title": "Maximum flexibility",
+        "text": "Dates, duration and programme adapted to you."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": [
+      "Built in the mountains.",
+      "Made for adventure."
+    ],
+    "text": "Organix is Stéphane and Bryan. Stéphane has been at the heart of Organix — and of North Macedonia — for around fifteen years. Bryan spent more than a decade in international ski cross, as a member of the Swiss team. Together they bought a snowcat, brought it to North Macedonia and built a permanent local operation with partners on the ground.",
+    "cta": "Our story",
+    "image": "nm-group"
+  },
+  "partners": {
+    "eyebrow": "Proudly supported by"
+  },
+  "final": {
+    "title": "Where next?",
+    "lead": [
+      "Tell us what you have in mind.",
+      "We'll take care of the rest."
+    ],
+    "cta": "Start a conversation",
+    "image": "nm-sunset"
+  }
+}

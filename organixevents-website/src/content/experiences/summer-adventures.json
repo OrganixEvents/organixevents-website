@@ -1,0 +1,125 @@
+{
+  "slug": "summer-adventures",
+  "path": "summer/adventures/",
+  "template": "experience",
+  "title": {
+    "en": "Summer Adventures",
+    "fr": "Aventures d'été",
+    "de": "Sommerabenteuer"
+  },
+  "shortTitle": {
+    "en": "Summer Adventures",
+    "fr": "Aventures d'été",
+    "de": "Sommerabenteuer"
+  },
+  "country": null,
+  "region": null,
+  "season": "summer",
+  "experienceType": "multi-sport",
+  "universe": {
+    "en": "Flexible sport & adventure trips",
+    "fr": "Voyages sport & aventure flexibles",
+    "de": "Flexible Sport- & Abenteuerreisen"
+  },
+  "tagline": {
+    "en": "When the snow melts, we keep moving.",
+    "fr": "Quand la neige fond, on continue d'avancer.",
+    "de": "Wenn der Schnee schmilzt, bleiben wir in Bewegung."
+  },
+  "shortDescription": {
+    "en": "Bike, mountain, water and multi-sport trips — shaped around the group rather than sold off the shelf.",
+    "fr": "Vélo, montagne, eau et multisport — des voyages construits autour du groupe plutôt que vendus sur catalogue.",
+    "de": "Velo, Berge, Wasser und Multisport – Reisen, die rund um die Gruppe entstehen, statt ab Katalog verkauft zu werden."
+  },
+  "longDescription": {
+    "en": "Summer adventures stay flexible on purpose. Bike trips in North Macedonia, days in the mountains, time on the water, sailing, cycling or a mix of everything — we put them together around your group and your idea.",
+    "fr": "Nos aventures d'été restent flexibles, volontairement. Voyages à vélo en Macédoine du Nord, journées en montagne, temps sur l'eau, voile, cyclisme ou un peu de tout : nous les construisons autour de votre groupe et de votre idée.",
+    "de": "Unsere Sommerabenteuer bleiben bewusst flexibel. Velotouren in Nordmazedonien, Tage in den Bergen, Zeit auf dem Wasser, Segeln, Radfahren oder ein bisschen von allem – wir gestalten sie rund um Ihre Gruppe und Ihre Idee."
+  },
+  "heroImage": "su-bike",
+  "gallery": [
+    "su-paraglide",
+    "su-cliffs",
+    "su-lake"
+  ],
+  "status": "active",
+  "featured": true,
+  "flagship": false,
+  "priceFrom": null,
+  "currency": "CHF",
+  "duration": {
+    "en": "On request",
+    "fr": "Sur demande",
+    "de": "Auf Anfrage"
+  },
+  "dates": [],
+  "flexibleDates": true,
+  "groupSize": null,
+  "activities": {
+    "en": [
+      "Bike trips in North Macedonia",
+      "Mountain activities",
+      "Water sports",
+      "Sailing",
+      "Cycling",
+      "Multi-sport adventures"
+    ],
+    "fr": [
+      "Voyages à vélo en Macédoine du Nord",
+      "Activités de montagne",
+      "Sports nautiques",
+      "Voile",
+      "Cyclisme",
+      "Aventures multisport"
+    ],
+    "de": [
+      "Velotouren in Nordmazedonien",
+      "Bergaktivitäten",
+      "Wassersport",
+      "Segeln",
+      "Radfahren",
+      "Multisport-Abenteuer"
+    ]
+  },
+  "included": null,
+  "notIncluded": null,
+  "difficulty": null,
+  "partner": null,
+  "blocks": [
+    {
+      "type": "chips",
+      "title": {
+        "en": "Ideas to start from",
+        "fr": "Des idées pour commencer",
+        "de": "Ideen für den Anfang"
+      },
+      "text": {
+        "en": "Examples, not fixed products — tell us what you'd like to do.",
+        "fr": "Des exemples, pas des produits figés — dites-nous ce que vous aimeriez faire.",
+        "de": "Beispiele, keine fixen Produkte – erzählen Sie uns, was Sie gerne machen möchten."
+      },
+      "field": "activities"
+    }
+  ],
+  "cta": {
+    "label": {
+      "en": "Build a summer trip",
+      "fr": "Construire un voyage d'été",
+      "de": "Eine Sommerreise planen"
+    },
+    "interest": "summer",
+    "option": "Summer adventure"
+  },
+  "seo": {
+    "title": {
+      "en": "Summer Sport & Adventure Trips | OrganixEvents",
+      "fr": "Voyages sport & aventure en été | OrganixEvents",
+      "de": "Sport- & Abenteuerreisen im Sommer | OrganixEvents"
+    },
+    "description": {
+      "en": "Flexible summer sport and adventure trips: biking in North Macedonia, mountain days, water sports, sailing and multi-sport adventures organised by Organix.",
+      "fr": "Des voyages de sport et d'aventure flexibles en été : vélo en Macédoine du Nord, journées en montagne, sports nautiques, voile et aventures multisport organisés par Organix.",
+      "de": "Flexible Sport- und Abenteuerreisen im Sommer: Velotouren in Nordmazedonien, Bergtage, Wassersport, Segeln und Multisport-Abenteuer, organisiert von Organix."
+    }
+  }
+}
