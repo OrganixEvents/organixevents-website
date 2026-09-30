@@ -49,7 +49,8 @@
     "tellUs": "Racontez-nous",
     "gallery": "Galerie photos",
     "breadcrumb": "Fil d'Ariane",
-    "price": "Prix"
+    "price": "Prix",
+    "partnerLogoAlt": "Logo {name} — partenaire d'Organix"
   },
   "footer": {
     "tagline": "Des expériences de sport et d'aventure, créées, organisées et accompagnées par Organix.",

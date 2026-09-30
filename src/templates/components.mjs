@@ -59,7 +59,7 @@ export function partnersStrip(ctx, { title, compact = false } = {}) {
   const items = ctx.site.partners
     .map((p) => {
       const inner = p.logo
-        ? `<img src="${ctx.asset(p.logo)}" alt="${esc(p.name)}" loading="lazy">`
+        ? `<img src="${ctx.asset(p.logo)}" alt="${esc(ctx.ui.common.partnerLogoAlt.replace('{name}', p.name))}" loading="lazy">`
         : `<span class="partner__name">${fit(p.name)}</span>`;
       if (!p.logo) ctx.missing.add(`official partner logo: ${p.name}`);
       const body = p.url ? `<a class="partner__link" href="${p.url}" target="_blank" rel="noopener" data-track="partner_click" data-location="${esc(p.name)}">${inner}</a>` : inner;

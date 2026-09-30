@@ -108,7 +108,7 @@ export function partnersPage(ctx) {
   const list = ctx.site.partners
     .map((p, i) => {
       if (!p.logo) ctx.missing.add(`official partner logo: ${p.name}`);
-      const inner = p.logo ? `<img src="${ctx.asset(p.logo)}" alt="${esc(p.name)}" loading="lazy">` : `<span class="plogo__name">${fit(p.name)}</span>`;
+      const inner = p.logo ? `<img src="${ctx.asset(p.logo)}" alt="${esc(u.common.partnerLogoAlt.replace('{name}', p.name))}" loading="lazy">` : `<span class="plogo__name">${fit(p.name)}</span>`;
       return `<li class="plogo reveal ${p.logo ? '' : 'plogo--pending'}" style="--d:${i}">
       ${p.url ? `<a class="plogo__link" href="${p.url}" target="_blank" rel="noopener" data-track="partner_click" data-location="${esc(p.name)}">${inner}</a>` : inner}
     </li>`;
