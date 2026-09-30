@@ -84,9 +84,8 @@
     },
     {
       "name": "SwissForce",
-      "logo": null,
-      "url": null,
-      "_todo": "official logo + confirmed website needed (two different Swiss companies use this name)"
+      "logo": "brand/partners/swissforce.png",
+      "url": "https://swissforce.shop"
     },
     {
       "name": "Nidecker Group",

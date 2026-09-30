@@ -38,7 +38,7 @@ Base: V0.2 (same design, same static architecture). Site still **noindex** (meta
 
 # V1.0 Production Candidate (final polish)
 - Spacing between phrases fixed at the source: `lines()` and the build now separate adjacent elements (0 glued occurrences in the 51 pages).
-- Partners (home + page): official logos with consistent sizes, verified external links. SwissForce stays as a wordmark until the official logo/site is provided.
+- Partners (home + page): official logos with consistent sizes, verified external links. SwissForce: official logo from swissforce.shop (official shop), linked to that shop.
 - North Macedonia: ~10–15% of repetition removed (FAQ 10 → 8, shorter texts), no commercial information lost; "+" removed before the heliski option.
 - Portugal: "Small groups · usually 4 to 6 riders". Norway: "For several years".
 - Final proofread: no internal notes, sources or placeholders in customer-facing text.
