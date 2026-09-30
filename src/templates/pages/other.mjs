@@ -12,7 +12,7 @@ export function customPage(ctx) {
       title: c.hero.title,
       sub: c.hero.sub,
       size: 'full',
-      ctas: [button(ctx.url('enquire/') + '?interest=custom', c.final.cta, 'primary', 'data-track="enquiry_cta" data-location="custom-hero" data-interest="custom"')],
+      ctas: [button(ctx.url('enquire/') + '?interest=custom', u.common.startConversation, 'primary', 'data-track="enquiry_cta" data-location="custom-hero" data-interest="custom"')],
     }),
     breadcrumb(ctx, trail),
     `<section class="section start"><div class="wrap start__grid">
@@ -36,8 +36,7 @@ export function customPage(ctx) {
     </div></section>`,
     `<section class="section audiences"><div class="wrap">
       ${sectionHead({ eyebrow: c.audiences.eyebrow, title: c.audiences.title })}
-      <ul class="chips chips--lg reveal">${c.audiences.items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
-      <p class="audiences__example reveal">${esc(c.audiences.example)}</p>
+      <div class="who__grid">${c.audiences.groups.map((g, i) => `<article class="who__item reveal" style="--d:${i}"><h3>${esc(g.title)}</h3><p>${esc(g.text)}</p></article>`).join('')}</div>
       <p class="audiences__price reveal">${esc(c.audiences.price)}</p>
     </div></section>`,
     `<section class="section process"><div class="wrap">
@@ -109,7 +108,7 @@ export function partnersPage(ctx) {
   const list = ctx.site.partners
     .map((p, i) => {
       if (!p.logo) ctx.missing.add(`official partner logo: ${p.name}`);
-      const inner = p.logo ? `<img src="${ctx.asset(p.logo)}" alt="${esc(p.name)}">` : `<span class="plogo__name">${fit(p.name)}</span>`;
+      const inner = p.logo ? `<img src="${ctx.asset(p.logo)}" alt="${esc(p.name)}" loading="lazy">` : `<span class="plogo__name">${fit(p.name)}</span>`;
       return `<li class="plogo reveal ${p.logo ? '' : 'plogo--pending'}" style="--d:${i}">
       ${p.url ? `<a class="plogo__link" href="${p.url}" target="_blank" rel="noopener" data-track="partner_click" data-location="${esc(p.name)}">${inner}</a>` : inner}
     </li>`;
@@ -124,7 +123,7 @@ export function partnersPage(ctx) {
     body: `<section class="plain-hero"><div class="wrap">
       <p class="eyebrow reveal">${esc(c.hero.eyebrow)}</p>
       <h1 class="display display--xl reveal">${lines(c.hero.title)}</h1>
-      <p class="lead reveal">${esc(c.hero.lead)}</p>
+      ${c.hero.lead ? `<p class="lead reveal">${esc(c.hero.lead)}</p>` : ''}
     </div></section>
     ${breadcrumb(ctx, trail)}
     <section class="section"><div class="wrap"><ul class="plogos">${list}</ul></div></section>`,
@@ -191,7 +190,7 @@ export function enquirePage(ctx) {
       ${field('name', e.name, `<input id="name" name="name" type="text" autocomplete="name" required>`, { optional: false })}
       ${field('email', e.email, `<input id="email" name="email" type="email" autocomplete="email" required>`, { optional: false })}
       ${field('phone', e.phone, `<input id="phone" name="phone" type="tel" autocomplete="tel">`)}
-      ${field('people', e.people, `<input id="people" name="people" type="number" min="1" max="60" inputmode="numeric" aria-describedby="people-hint">`, { hint: e.peopleHint })}
+      ${field('people', e.people, `<select id="people" name="people" aria-describedby="people-hint"><option value="">—</option>${opt('peopleOptions')}</select>`, { hint: e.peopleHint })}
     </div>
     <div class="grid-2 grid-2--dates">
       ${field('dates', e.dates, `<input id="dates" name="dates" type="text" aria-describedby="dates-hint">`, { hint: e.datesHint })}
@@ -250,6 +249,7 @@ export function thanksPage(ctx) {
       ${brand(ctx, 'organix-symbol', 'thanks-page__x', '')}
       <h1 class="display display--xl">${lines(e.thanksTitle)}</h1>
       <p class="lead">${esc(e.thanksLead)}</p>
+      ${(ctx.site.social || []).map((s) => `<p class="thanks-page__ig"><a href="${s.url}" rel="noopener" target="_blank" data-track="instagram_click">${esc(ctx.ui.footer.follow)} ${esc(s.handle)}</a></p>`).join('')}
       <div class="btn-row">${button(ctx.url(''), e.thanksBack, 'outline')}</div>
     </div></section>`,
   };

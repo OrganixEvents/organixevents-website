@@ -16,10 +16,10 @@ export function northMacedoniaPage(ctx) {
     eyebrow: c.hero.eyebrow,
     title: c.hero.title,
     sub: c.hero.message,
-    ctas: [button(enquire, c.hero.ctaPrimary, 'primary', track('nm-hero')), button('#example-week', c.hero.ctaSecondary, 'ghost')],
+    ctas: [button(enquire, c.hero.ctaPrimary, 'primary', track('nm-hero')), button('#pricing', c.hero.ctaSecondary, 'ghost')],
     extra: `<dl class="hero__facts reveal">
       <div><dt>${esc(u.common.from)}</dt><dd>${esc(formatPrice(e.priceFrom, e.currency, ctx.locale))} <small>${esc(u.common.perPerson)}</small></dd></div>
-      <div><dt>${esc(u.common.duration)}</dt><dd>${esc(u.common.flexible)}</dd></div>
+      <div><dt>${esc(u.common.duration)}</dt><dd>${esc(c.hero.durationFact || u.common.flexible)}</dd></div>
       <div><dt>${esc(u.common.groupSize)}</dt><dd>≤ ${e.groupSize.absoluteMax}</dd></div>
     </dl>`,
   });
@@ -70,14 +70,7 @@ export function northMacedoniaPage(ctx) {
   </div>
 </section>`;
 
-  const difference = `<section class="section difference" aria-labelledby="diff-title">
-  <div class="wrap">
-    ${sectionHead({ eyebrow: c.difference.eyebrow, title: c.difference.title }).replace('class="title', 'id="diff-title" class="title')}
-    <ol class="numbered">${c.difference.items
-      .map((it, i) => `<li class="reveal" style="--d:${i}"><span class="numbered__n">0${i + 1}</span><h3>${esc(it.title)}</h3><p>${esc(it.text)}</p></li>`)
-      .join('')}</ol>
-  </div>
-</section>`;
+
 
   const snowcat = `<section class="snowcat" aria-labelledby="snowcat-title">
   <div class="wrap snowcat__grid">
@@ -118,15 +111,7 @@ export function northMacedoniaPage(ctx) {
   </div>
 </section>`;
 
-  const week = `<section class="section week" id="example-week" aria-labelledby="week-title">
-  <div class="wrap">
-    ${sectionHead({ eyebrow: c.week.eyebrow, title: c.week.title }).replace('class="title', 'id="week-title" class="title')}
-    <p class="note note--flag reveal">${brand(ctx, 'organix-symbol', 'note__x', '')}<span>${esc(c.week.note)}</span></p>
-    <ol class="week__days">${c.week.days
-      .map((d, i) => `<li class="week__day reveal ${i === 0 || i === c.week.days.length - 1 ? 'is-travel' : ''}" style="--d:${i % 4}"><span class="week__dow">${esc(d.day)}</span><h3>${esc(d.title)}</h3><p>${esc(d.text)}</p></li>`)
-      .join('')}</ol>
-  </div>
-</section>`;
+
 
   const stay = `<section class="section stay" aria-labelledby="stay-title">
   <div class="wrap stay__grid">
@@ -139,15 +124,7 @@ export function northMacedoniaPage(ctx) {
   ${c.stay.gallery ? `<div class="wrap stay__gallery">${c.stay.gallery.map((k, i) => `<figure class="reveal" style="--d:${i}">${picture(ctx, k, { sizes: '(min-width: 900px) 33vw, 100vw' })}</figure>`).join('')}</div>` : ''}
 </section>`;
 
-  const included = `<section class="section included" aria-labelledby="inc-title">
-  <div class="wrap">
-    ${sectionHead({ eyebrow: c.included.eyebrow, title: c.included.title }).replace('class="title', 'id="inc-title" class="title')}
-    <div class="included__grid">
-      <div class="reveal"><h3 class="included__h">${esc(u.common.included)}</h3>${checkList(ctx.t(e.included))}</div>
-      <div class="reveal"><h3 class="included__h included__h--muted">${esc(u.common.notIncluded)}</h3>${checkList(ctx.t(e.notIncluded), 'checks--muted')}</div>
-    </div>
-  </div>
-</section>`;
+
 
   const pricing = `<section class="pricing" id="pricing" aria-labelledby="pricing-title">
   <div class="wrap pricing__grid">
@@ -157,6 +134,7 @@ export function northMacedoniaPage(ctx) {
       ${priceTag(ctx, e)}
       ${checkList(c.pricing.items, 'checks--light')}
       <p class="pricing__basis">${esc(c.pricing.basis)}</p>
+      ${c.pricing.notIncluded ? `<p class="pricing__excl"><strong>${esc(c.pricing.notIncludedTitle)}:</strong> ${esc(c.pricing.notIncluded)}</p>` : ''}
     </div>
     <div class="pricing__side reveal">
       <h3 class="pricing__tailored">${fit(c.pricing.tailoredTitle)}</h3>
@@ -206,17 +184,14 @@ export function northMacedoniaPage(ctx) {
     heroHtml,
     breadcrumb(ctx, [[u.common.breadcrumbHome, ''], [u.nav.northMacedonia, 'north-macedonia/']]),
     core,
+    snowcat,
     level,
     terrain,
-    difference,
-    snowcat,
     band,
     day,
-    beyond,
-    gear,
-    week,
     stay,
-    included,
+    gear,
+    beyond,
     pricing,
     who,
     team,
@@ -248,7 +223,6 @@ export function northMacedoniaPage(ctx) {
           priceCurrency: e.currency,
           description: ctx.t(e.priceBasis),
           eligibleQuantity: { '@type': 'QuantitativeValue', value: 8, unitText: 'guests (price basis)' },
-          availability: 'https://schema.org/InStock',
           url: ctx.abs(ctx.locale, 'enquire/'),
         },
       }),

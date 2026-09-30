@@ -31,23 +31,21 @@
     "de": "Eine Woche. Begrenzter Zugang."
   },
   "shortDescription": {
-    "en": "A rare opportunity to experience snowcat freeride in Georgia, hosted by Organix. One week only: 9–16 January 2027.",
-    "fr": "Une rare occasion de vivre le freeride en snowcat en Géorgie, accompagné par Organix. Une seule semaine : du 9 au 16 janvier 2027.",
-    "de": "Eine seltene Gelegenheit für Snowcat-Freeride in Georgien, begleitet von Organix. Nur eine Woche: 9.–16. Januar 2027."
+    "en": "A rare snowcat freeride week in Georgia with a member of the Organix team. One week only: 9–16 January 2027.",
+    "fr": "Une rare semaine de freeride en snowcat en Géorgie, avec un membre de l'équipe Organix. Une seule semaine : du 9 au 16 janvier 2027.",
+    "de": "Eine seltene Snowcat-Freeride-Woche in Georgien, mit einem Mitglied des Organix-Teams. Nur eine Woche: 9.–16. Januar 2027."
   },
   "longDescription": {
-    "en": "Snowcat slots in Georgia are hard to get. This winter, Organix has one week in Bakhmaro, deep in the Caucasus. We organise the whole trip and host the group from arrival to departure. The snowcat operation itself belongs to our experienced local partner — we bring the group, the organisation and the care.",
-    "fr": "Les créneaux de snowcat en Géorgie sont difficiles à obtenir. Cet hiver, Organix dispose d'une semaine à Bakhmaro, au cœur du Caucase. Nous organisons tout le voyage et accompagnons le groupe de l'arrivée au départ. L'opération snowcat elle-même appartient à notre partenaire local expérimenté — nous apportons le groupe, l'organisation et l'attention.",
-    "de": "Snowcat-Termine in Georgien sind schwer zu bekommen. Diesen Winter hat Organix eine Woche in Bakhmaro, mitten im Kaukasus. Wir organisieren die ganze Reise und begleiten die Gruppe von der Ankunft bis zur Abreise. Der Snowcat-Betrieb selbst gehört unserem erfahrenen lokalen Partner – wir bringen die Gruppe, die Organisation und die Betreuung."
+    "en": "Snowcat slots in Georgia are rare. For January 2027, we have secured one week in Bakhmaro, deep in the Caucasus. Organix organises the whole trip, and a member of the Organix team travels with the group from arrival to departure. We have been coming back to this destination for several years. The snowcat operation itself is run by our experienced local partner.",
+    "fr": "Les créneaux de snowcat en Géorgie sont rares. Pour janvier 2027, nous avons sécurisé une semaine à Bakhmaro, au cœur du Caucase. Organix organise tout le voyage, et un membre de l'équipe Organix accompagne le groupe de l'arrivée au départ. Nous revenons sur cette destination depuis plusieurs années. L'opération snowcat elle-même est assurée par notre partenaire local expérimenté.",
+    "de": "Snowcat-Termine in Georgien sind selten. Für Januar 2027 haben wir eine Woche in Bakhmaro, mitten im Kaukasus, gesichert. Organix organisiert die ganze Reise, und ein Mitglied des Organix-Teams begleitet die Gruppe von der Ankunft bis zur Abreise. Wir kehren seit mehreren Jahren an dieses Ziel zurück. Den Snowcat-Betrieb selbst führt unser erfahrener lokaler Partner."
   },
   "heroImage": "ge-powder",
   "gallery": [
     "ge-snowcat",
     "ge-sunset-group",
     "ge-village",
-    "ge-chalet",
-    "ge-snow-hut",
-    "ge-forest-peaks"
+    "ge-snow-hut"
   ],
   "status": "active",
   "featured": true,
@@ -75,9 +73,9 @@
   "groupSize": {
     "absoluteMax": 12,
     "note": {
-      "en": "12 guests maximum",
-      "fr": "12 personnes maximum",
-      "de": "Maximal 12 Personen"
+      "en": "12 clients maximum",
+      "fr": "12 clients maximum",
+      "de": "Maximal 12 Gäste"
     }
   },
   "level": {
@@ -109,7 +107,7 @@
       "Snowcat freeride days",
       "Mountain guiding",
       "Transfers",
-      "Organisation and an Organix host throughout the trip"
+      "Organisation, with a member of the Organix team throughout"
     ],
     "fr": [
       "Hébergement",
@@ -117,7 +115,7 @@
       "Journées de freeride en snowcat",
       "Encadrement en montagne",
       "Transferts",
-      "Organisation et un hôte Organix pendant tout le voyage"
+      "Organisation, avec un membre de l'équipe Organix du début à la fin"
     ],
     "de": [
       "Unterkunft",
@@ -125,7 +123,7 @@
       "Snowcat-Freeride-Tage",
       "Begleitung am Berg",
       "Transfers",
-      "Organisation und ein Organix-Host während der ganzen Reise"
+      "Organisation, mit einem Mitglied des Organix-Teams während der ganzen Reise"
     ]
   },
   "notIncluded": {
@@ -160,9 +158,9 @@
             "de": "Seltener Zugang"
           },
           "text": {
-            "en": "Snowcat slots in Georgia are hard to get. This one is ours.",
-            "fr": "Les créneaux de snowcat en Géorgie sont rares. Celui-ci est le nôtre.",
-            "de": "Snowcat-Termine in Georgien sind rar. Dieser gehört uns."
+            "en": "Snowcat slots in Georgia are rare. For January 2027, we have secured one week.",
+            "fr": "Les créneaux de snowcat en Géorgie sont rares. Pour janvier 2027, nous avons sécurisé une semaine.",
+            "de": "Snowcat-Termine in Georgien sind selten. Für Januar 2027 haben wir eine Woche gesichert."
           }
         },
         {
@@ -172,21 +170,21 @@
             "de": "Nur eine Woche"
           },
           "text": {
-            "en": "9–16 January 2027, for a single small group of 12 guests at most.",
-            "fr": "Du 9 au 16 janvier 2027, pour un seul petit groupe de 12 personnes au maximum.",
-            "de": "9.–16. Januar 2027, für eine einzige kleine Gruppe von höchstens 12 Personen."
+            "en": "9–16 January 2027, for a single small group of 12 clients at most.",
+            "fr": "Du 9 au 16 janvier 2027, pour un seul petit groupe de 12 clients au maximum.",
+            "de": "9.–16. Januar 2027, für eine einzige kleine Gruppe von höchstens 12 Gästen."
           }
         },
         {
           "title": {
-            "en": "Hosted by Organix",
-            "fr": "Accompagné par Organix",
-            "de": "Begleitet von Organix"
+            "en": "With the Organix team",
+            "fr": "Avec l'équipe Organix",
+            "de": "Mit dem Organix-Team"
           },
           "text": {
-            "en": "We organise everything and an Organix host is with the group throughout.",
-            "fr": "Nous organisons tout et un hôte Organix accompagne le groupe du début à la fin.",
-            "de": "Wir organisieren alles, und ein Organix-Host ist die ganze Zeit bei der Gruppe."
+            "en": "A member of the Organix team travels with the group. We've been coming back here for several years.",
+            "fr": "Un membre de l'équipe Organix accompagne le groupe. Nous revenons ici depuis plusieurs années.",
+            "de": "Ein Mitglied des Organix-Teams begleitet die Gruppe. Wir kommen seit mehreren Jahren hierher zurück."
           }
         },
         {
@@ -216,9 +214,9 @@
         "de": "Unsere Reise. Ein lokaler Betrieb."
       },
       "text": {
-        "en": "In Georgia, Organix does not own the snowcat operation. We work with an experienced local operator, organise the entire stay and host the group on the ground.",
-        "fr": "En Géorgie, Organix ne possède pas l'opération snowcat. Nous travaillons avec un opérateur local expérimenté, organisons tout le séjour et accompagnons le groupe sur place.",
-        "de": "In Georgien besitzt Organix den Snowcat-Betrieb nicht. Wir arbeiten mit einem erfahrenen lokalen Anbieter, organisieren den ganzen Aufenthalt und begleiten die Gruppe vor Ort."
+        "en": "In Georgia, the snowcat operation belongs to an experienced local operator. Organix organises the entire stay, and a member of our team is with the group on the ground.",
+        "fr": "En Géorgie, l'opération snowcat appartient à un opérateur local expérimenté. Organix organise tout le séjour, et un membre de notre équipe est avec le groupe sur place.",
+        "de": "In Georgien gehört der Snowcat-Betrieb einem erfahrenen lokalen Anbieter. Organix organisiert den ganzen Aufenthalt, und ein Mitglied unseres Teams ist vor Ort bei der Gruppe."
       },
       "image": "ge-snowcat-road"
     }
@@ -239,9 +237,9 @@
       "de": "Snowcat-Skiing in Georgien — Eine Woche in Bakhmaro, Januar 2027 | OrganixEvents"
     },
     "description": {
-      "en": "One snowcat freeride week in Bakhmaro, Georgia, 9–16 January 2027, hosted by Organix. Limited to 12 good skiers. Accommodation, full board, snowcat, guiding and transfers.",
-      "fr": "Une semaine de freeride en snowcat à Bakhmaro, en Géorgie, du 9 au 16 janvier 2027, accompagnée par Organix. 12 bons skieurs maximum. Hébergement, pension complète, snowcat, encadrement et transferts.",
-      "de": "Eine Snowcat-Freeride-Woche in Bakhmaro, Georgien, 9.–16. Januar 2027, begleitet von Organix. Maximal 12 gute Skifahrer. Unterkunft, Vollpension, Snowcat, Begleitung und Transfers."
+      "en": "One snowcat freeride week in Bakhmaro, Georgia, 9–16 January 2027, with a member of the Organix team. 12 good skiers maximum. Accommodation, full board, snowcat, guiding and transfers.",
+      "fr": "Une semaine de freeride en snowcat à Bakhmaro, en Géorgie, du 9 au 16 janvier 2027, avec un membre de l'équipe Organix. 12 bons skieurs maximum. Hébergement, pension complète, snowcat et transferts.",
+      "de": "Eine Snowcat-Freeride-Woche in Bakhmaro, Georgien, 9.–16. Januar 2027, mit einem Mitglied des Organix-Teams. Maximal 12 gute Skifahrer. Unterkunft, Vollpension, Snowcat, Begleitung und Transfers."
     }
   }
 }

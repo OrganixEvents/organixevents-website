@@ -15,15 +15,15 @@
     "eyebrow": "Our story",
     "title": "Around fifteen years in the making.",
     "paragraphs": [
-      "Organix has existed in different forms for around fifteen years, with Stéphane at its centre. Long before the snowcat, he was already organising trips in North Macedonia.",
-      "Bryan and Stéphane met through bootfitting: during Bryan's ski racing career, Stéphane worked on his ski boots and custom footbeds.",
-      "Bryan later joined the project. Together they created OrganixEvents Sàrl, bought a snowcat and brought it to North Macedonia. With two local partners they developed Wild Tracks, the local operation — and then kept going, into new sport and adventure experiences.",
-      "In January 2026, Bryan and Stéphane also took over Art Feet, and they are developing Artfit Lab in Etoy — the same attention to feet, boots and footbeds that brought them together."
+      "The Organix adventure has existed in different forms for around fifteen years, with Stéphane at its centre. Long before the snowcat, he was already organising trips to North Macedonia.",
+      "Bryan and Stéphane met through skiing — and through boots: during Bryan's racing career, Stéphane worked on his ski boots and custom footbeds.",
+      "Much more recently, the two of them created OrganixEvents Sàrl, bought a snowcat and brought it to North Macedonia. With two local partners they developed Wild Tracks, the local structure — and then kept going, into new sport and adventure experiences.",
+      "Alongside Organix, Bryan and Stéphane took over Art Feet in January 2026 and are developing Artfit Lab in Etoy — the same care for feet, boots and footbeds that brought them together."
     ],
     "milestones": [
       {
         "label": "~15 years",
-        "text": "Stéphane, Organix and North Macedonia"
+        "text": "The Organix adventure, with Stéphane at its centre"
       },
       {
         "label": "Bootfitting",
@@ -31,7 +31,7 @@
       },
       {
         "label": "OrganixEvents Sàrl",
-        "text": "Created by Bryan and Stéphane"
+        "text": "A much more recent company, created by Bryan and Stéphane"
       },
       {
         "label": "Our snowcat",
@@ -39,7 +39,7 @@
       },
       {
         "label": "Wild Tracks",
-        "text": "The local operation, developed with two local partners"
+        "text": "The local structure, developed with two local partners"
       },
       {
         "label": "January 2026",
@@ -56,7 +56,7 @@
       "id": "bryan",
       "role": "Co-Founder · Snowsports Professional",
       "intro": "Bryan spent more than ten years in international ski cross, as a member of the Swiss ski cross team. Racing took him to mountains all over the world — and taught him what makes a day in the mountains work.",
-      "text": "Since then, he has turned that experience into sport, mountain and adventure projects, and into his own businesses. At Organix, he is the one on the mountain with you.",
+      "text": "Since then, he has turned that experience into sport, mountain and adventure projects, and into his own businesses. Today, he puts that field experience to work for Organix adventures.",
       "facts": [
         "10+ years of international ski cross",
         "Former member of the Swiss ski cross team",
@@ -66,7 +66,7 @@
     },
     {
       "id": "stephane",
-      "role": "Co-Founder",
+      "role": "Co-Founder · Operations & Local Development",
       "intro": "Stéphane has been the pillar of Organix for around fifteen years — and for just as long, he has been travelling to, working in and building relationships in North Macedonia.",
       "text": "He knows the places, the people and how to make things run on the ground. His background in bootfitting and footbeds is how he and Bryan first met.",
       "facts": [
@@ -88,13 +88,13 @@
   "local": {
     "eyebrow": "Our principle",
     "title": "Local knowledge matters.",
-    "text": "We don't replace local professionals — we work with them. Local guides, operators and partners know their mountains best. Organix brings the structure, the experience, the network and the organisation around them.",
+    "text": "Organix works with the people who really know the terrain. We bring the structure, the organisation, the experience and the network; our local partners bring their knowledge of the place. Together, that's what makes a trip work.",
     "image": "nm-snowcat-blue"
   },
   "final": {
     "title": "Let's build the next one.",
     "lead": "Tell us what you have in mind.",
-    "cta": "Start a conversation",
+    "cta": "Let's make it happen",
     "image": "nm-sunset"
   }
 }

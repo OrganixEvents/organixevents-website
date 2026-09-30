@@ -14,9 +14,9 @@
   },
   "country": "Norway",
   "region": {
-    "en": "Tromsø · Lyngen Alps · Senja · Kvaløya",
-    "fr": "Tromsø · Alpes de Lyngen · Senja · Kvaløya",
-    "de": "Tromsø · Lyngenalpen · Senja · Kvaløya"
+    "en": "Tromsø · Lyngen Alps · Senja · Kvaløya · surrounding areas",
+    "fr": "Tromsø · Alpes de Lyngen · Senja · Kvaløya · alentours",
+    "de": "Tromsø · Lyngenalpen · Senja · Kvaløya · Umgebung"
   },
   "season": "winter",
   "experienceType": "ski-and-sail",
@@ -26,19 +26,19 @@
     "de": "Arktische Skiabenteuer"
   },
   "tagline": {
-    "en": "Ski & sail. Ski touring. Built around you.",
-    "fr": "Ski & voile. Ski de randonnée. Pensé pour vous.",
-    "de": "Ski & Segeln. Skitouren. Auf Sie zugeschnitten."
+    "en": "Two ways to ski the Arctic.",
+    "fr": "Deux façons de skier l'Arctique.",
+    "de": "Zwei Arten, die Arktis zu erleben."
   },
   "shortDescription": {
-    "en": "Arctic ski trips in Northern Norway, by private boat or from land — fully flexible, from a few days to a week or more.",
-    "fr": "Des voyages de ski arctique dans le nord de la Norvège, en bateau privé ou depuis la terre — entièrement flexibles, de quelques jours à une semaine ou plus.",
-    "de": "Arktische Skireisen in Nordnorwegen, mit privatem Schiff oder vom Land aus – ganz flexibel, von ein paar Tagen bis zu einer Woche oder länger."
+    "en": "Ski & Sail or land-based ski touring in Northern Norway — two turnkey Organix trips, fully flexible in length.",
+    "fr": "Ski & voile ou ski de randonnée depuis la terre dans le nord de la Norvège — deux voyages Organix clés en main, à la durée entièrement flexible.",
+    "de": "Ski & Segeln oder Skitouren vom Land aus in Nordnorwegen – zwei schlüsselfertige Organix-Reisen, in der Dauer ganz flexibel."
   },
   "longDescription": {
-    "en": "No fixed package. Each Norway trip is built around the group: a private boat or a base on land, the areas, the pace, the length. You arrive in Tromsø; from there, Organix takes care of the local logistics and every day follows the best conditions.",
-    "fr": "Pas de forfait figé. Chaque voyage en Norvège est construit autour du groupe : un bateau privé ou une base à terre, les secteurs, le rythme, la durée. Vous arrivez à Tromsø ; ensuite, Organix prend en charge la logistique locale et chaque journée suit les meilleures conditions.",
-    "de": "Keine fixe Pauschalreise. Jede Norwegenreise entsteht rund um die Gruppe: privates Schiff oder Basis an Land, Gebiete, Tempo, Dauer. Sie landen in Tromsø; ab dort übernimmt Organix die lokale Logistik, und jeder Tag folgt den besten Bedingungen."
+    "en": "Northern Norway, two ways: from a private boat, or from a base on land. Both are turnkey Organix trips, built around your group — the areas, the pace, the length. You fly into Tromsø; from there, we take care of everything and every day follows the best conditions.",
+    "fr": "Le nord de la Norvège, de deux façons : depuis un bateau privatisé, ou depuis une base à terre. Deux voyages Organix clés en main, construits autour de votre groupe — les secteurs, le rythme, la durée. Vous arrivez à Tromsø ; ensuite, on s'occupe de tout et chaque journée suit les meilleures conditions.",
+    "de": "Nordnorwegen auf zwei Arten: von einem privaten Schiff aus oder von einer Basis an Land. Beides sind schlüsselfertige Organix-Reisen, gebaut rund um Ihre Gruppe – Gebiete, Tempo, Dauer. Sie fliegen nach Tromsø; ab dort kümmern wir uns um alles, und jeder Tag folgt den besten Bedingungen."
   },
   "heroImage": "no-sunset-skin",
   "gallery": [
@@ -75,9 +75,9 @@
     }
   },
   "level": {
-    "en": "Good skiers — the programme is adapted to the group",
-    "fr": "Plutôt bons skieurs — programme adapté au groupe",
-    "de": "Eher gute Skifahrer – das Programm richtet sich nach der Gruppe"
+    "en": "Good skiers, fit enough for ski touring — itinerary and difficulty adapted to the group",
+    "fr": "Bons skieurs, avec une condition physique adaptée au ski de randonnée — itinéraire et difficulté adaptés au groupe",
+    "de": "Gute Skifahrer mit Kondition für Skitouren – Route und Schwierigkeit an die Gruppe angepasst"
   },
   "activities": {
     "en": [
@@ -104,9 +104,9 @@
     {
       "type": "options",
       "title": {
-        "en": "Two ways to experience Norway",
-        "fr": "Deux façons de vivre la Norvège",
-        "de": "Zwei Arten, Norwegen zu erleben"
+        "en": "Two trips, one standard",
+        "fr": "Deux voyages, une même exigence",
+        "de": "Zwei Reisen, ein Anspruch"
       },
       "items": [
         {
@@ -117,9 +117,9 @@
           },
           "image": "no-schooner",
           "text": {
-            "en": "A private boat chosen for the size of your group: a smaller boat for a small group, a larger one for more people, with guiding adapted to match. Organix organises everything, including all meals on board.",
-            "fr": "Un bateau privé choisi selon la taille de votre groupe : un plus petit bateau pour un petit groupe, un plus grand pour davantage de monde, avec un encadrement adapté. Organix organise tout, y compris tous les repas à bord.",
-            "de": "Ein privates Schiff, passend zur Grösse Ihrer Gruppe: ein kleineres für eine kleine Gruppe, ein grösseres für mehr Personen, mit entsprechender Begleitung. Organix organisiert alles, inklusive aller Mahlzeiten an Bord."
+            "en": "A boat chartered exclusively for the Organix group, sized to your group. You reach the mountains from the sea, the route adapts every day to the conditions, and the guiding is scaled to the group. Meals on board are organised. Turnkey.",
+            "fr": "Un bateau privatisé exclusivement pour le groupe Organix, à la taille de votre groupe. On rejoint les montagnes depuis la mer, l'itinéraire s'adapte chaque jour aux conditions et l'encadrement est dimensionné pour le groupe. Les repas à bord sont organisés. Clé en main.",
+            "de": "Ein Schiff exklusiv für die Organix-Gruppe, passend zur Gruppengrösse. Die Berge erreichen Sie vom Meer aus, die Route passt sich täglich den Bedingungen an, und die Begleitung ist auf die Gruppe abgestimmt. Die Mahlzeiten an Bord sind organisiert. Schlüsselfertig."
           }
         },
         {
@@ -130,9 +130,9 @@
           },
           "image": "no-skintrack",
           "text": {
-            "en": "A hotel or Airbnb selected for the group, a vehicle on site and daily moves to wherever the conditions are best. Organix can also handle restaurants, shopping, cooking and daily logistics.",
-            "fr": "Un hôtel ou un Airbnb sélectionné pour le groupe, un véhicule sur place et des déplacements quotidiens vers les meilleures conditions. Organix peut aussi gérer restaurants, courses, cuisine et logistique quotidienne.",
-            "de": "Ein Hotel oder Airbnb, ausgewählt für die Gruppe, ein Fahrzeug vor Ort und tägliche Fahrten dorthin, wo die Bedingungen am besten sind. Organix kann auch Restaurants, Einkäufe, Kochen und die tägliche Logistik übernehmen."
+            "en": "Organix handles the accommodation, the vehicle, the daily moves to the best conditions, the programme, the guiding and the logistics — and, depending on the formula, restaurants, groceries and cooking. Turnkey.",
+            "fr": "Organix gère l'hébergement, le véhicule, les déplacements quotidiens vers les meilleures conditions, le programme, l'encadrement et la logistique — et, selon la formule, les restaurants, les courses et la cuisine. Clé en main.",
+            "de": "Organix übernimmt Unterkunft, Fahrzeug, die täglichen Fahrten zu den besten Bedingungen, Programm, Begleitung und Logistik – und je nach Formel auch Restaurants, Einkäufe und Kochen. Schlüsselfertig."
           }
         }
       ]
@@ -140,9 +140,9 @@
     {
       "type": "points",
       "title": {
-        "en": "How it works",
-        "fr": "Comment ça marche",
-        "de": "So funktioniert es"
+        "en": "Good to know",
+        "fr": "Bon à savoir",
+        "de": "Gut zu wissen"
       },
       "items": [
         {
@@ -152,45 +152,45 @@
             "de": "Ankunft in Tromsø"
           },
           "text": {
-            "en": "From there, Organix takes over the local logistics.",
-            "fr": "À partir de là, Organix prend en charge la logistique locale.",
-            "de": "Ab dort übernimmt Organix die lokale Logistik."
+            "en": "From there, the trip is ours to run.",
+            "fr": "À partir de là, on s'occupe de tout.",
+            "de": "Ab dort übernehmen wir."
           }
         },
         {
           "title": {
-            "en": "Guiding to match",
-            "fr": "Encadrement adapté",
-            "de": "Passende Begleitung"
+            "en": "3–10 people",
+            "fr": "3 à 10 personnes",
+            "de": "3–10 Personen"
           },
           "text": {
-            "en": "The guiding is adapted to the size of the group.",
-            "fr": "L'encadrement est adapté à la taille du groupe.",
-            "de": "Die Begleitung richtet sich nach der Grösse der Gruppe."
+            "en": "Guiding scaled to the size of the group.",
+            "fr": "Un encadrement dimensionné selon le groupe.",
+            "de": "Begleitung passend zur Gruppengrösse."
           }
         },
         {
           "title": {
-            "en": "All the gear",
-            "fr": "Tout le matériel",
-            "de": "Das ganze Material"
+            "en": "Gear",
+            "fr": "Matériel",
+            "de": "Material"
           },
           "text": {
-            "en": "Organix can arrange rental of all the equipment you need.",
-            "fr": "Organix peut organiser la location de tout le matériel nécessaire.",
-            "de": "Organix kann die Miete der gesamten nötigen Ausrüstung organisieren."
+            "en": "Organix can arrange the rental of the equipment you need.",
+            "fr": "Organix peut organiser la location du matériel nécessaire.",
+            "de": "Organix organisiert auf Wunsch die Miete der nötigen Ausrüstung."
           }
         },
         {
           "title": {
-            "en": "No public price",
-            "fr": "Pas de prix public",
-            "de": "Kein Pauschalpreis"
+            "en": "On request",
+            "fr": "Sur demande",
+            "de": "Auf Anfrage"
           },
           "text": {
-            "en": "Each trip depends on the boat, accommodation, length, group size and level of service.",
-            "fr": "Chaque voyage dépend du bateau, du logement, de la durée, de la taille du groupe et du niveau de service.",
-            "de": "Jede Reise hängt von Schiff, Unterkunft, Dauer, Gruppengrösse und Serviceumfang ab."
+            "en": "No public price: each trip depends on the format, length and group.",
+            "fr": "Pas de prix public : chaque voyage dépend du format, de la durée et du groupe.",
+            "de": "Kein Pauschalpreis: Jede Reise hängt von Format, Dauer und Gruppe ab."
           }
         }
       ]

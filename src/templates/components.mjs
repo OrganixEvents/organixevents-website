@@ -89,7 +89,7 @@ export function finalCta(ctx, { title, lead, cta, image, interest, location }) {
 
 export function inspirationGrid(ctx, { note, season, cta = true } = {}) {
   const items = ctx.inspirations.items.filter((i) => !season || i.season === season);
-  return `<ul class="insp" role="list">${items
+  return `<ul class="insp insp--${items.length + (cta ? 1 : 0)}" role="list">${items
     .map(
       (it, i) => `<li class="insp__item reveal" style="--d:${i % 4}">
       <span class="insp__tag">${esc(ctx.ui.common.inspiration)}</span>

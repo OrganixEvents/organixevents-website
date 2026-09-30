@@ -34,7 +34,7 @@ export function winterPage(ctx) {
           <p class="uni__tagline">${esc(ctx.t(e.tagline))}</p>
           <p>${esc(ctx.t(e.shortDescription))}</p>
           ${e.partner ? `<p class="uni__partner">${esc(u.common.partner)} <strong>${esc(e.partner.name)}</strong></p>` : ''}
-          <a class="text-link" href="${ctx.url(e.path)}"><span>${esc(u.common.discover)} ${esc(ctx.t(e.shortTitle))}</span>${arrow}</a>
+          <a class="text-link" href="${ctx.url(e.path)}"><span>${esc(u.common.discover)}</span>${arrow}</a>
         </div>
       </article>`;
       })
@@ -93,7 +93,7 @@ export function summerPage(ctx) {
     <h2 class="display display--lg reveal" id="wake-title">${esc(ctx.t(wake.shortTitle))}</h2>
     <p class="sarea__tag reveal">${esc(ctx.t(wake.tagline))}</p>
     <ul class="chips chips--light reveal">${ctx.t(wake.included).map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
-    <div class="btn-row reveal">${button(ctx.url(wake.path), `${u.common.discover} ${ctx.t(wake.shortTitle)}`, 'primary')}</div>
+    <div class="btn-row reveal">${button(ctx.url(wake.path), u.common.discover, 'primary')}</div>
   </div>
 </section>`;
 

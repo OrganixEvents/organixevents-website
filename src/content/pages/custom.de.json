@@ -10,8 +10,8 @@
       "Unser Spielplatz."
     ],
     "sub": [
-      "Sie stellen es sich vor.",
-      "Wir bauen es."
+      "You imagine.",
+      "We create."
     ],
     "image": "al-ice-cave"
   },
@@ -28,19 +28,19 @@
   },
   "organise": {
     "eyebrow": "Schlüsselfertig",
-    "title": "Alles zwischen der Idee und der Reise.",
+    "title": "Wir bauen und führen das ganze Projekt.",
     "items": [
-      "Reiseziel & Route",
       "Flugsuche",
       "Unterkunft",
-      "Transfers & lokaler Transport",
-      "Boote & Fahrzeuge",
-      "Bergführer & Coaches",
-      "Sport & Aktivitäten",
+      "Transfers",
+      "Guides",
       "Material",
-      "Restaurants & Verpflegung",
+      "Aktivitäten",
+      "Verpflegung & Restaurants",
+      "Boote",
+      "Fahrzeuge",
       "Lokale Partner",
-      "Komplette Logistik"
+      "Logistik"
     ],
     "image": "no-deck"
   },
@@ -53,18 +53,22 @@
   },
   "audiences": {
     "eyebrow": "Für wen",
-    "title": "Jede Gruppe, jede Grösse.",
-    "items": [
-      "Private Gruppen",
-      "Familien",
-      "Vereine",
-      "Sportteams",
-      "Unternehmen",
-      "Teambuilding",
-      "Incentives"
+    "title": "Gebaut für Ihre Gruppe.",
+    "groups": [
+      {
+        "title": "Unternehmen / Teambuilding",
+        "text": "Tage auf dem Wasser – Paddle, Kajak, Wakeboard, Wakesurf, Boot – mit Verpflegung und Aktivitäten zusammen mit unseren lokalen Partnern. Zum Beispiel ein Teamtag am Lac de Joux."
+      },
+      {
+        "title": "Private Gruppen / Familien",
+        "text": "Eine Reise mit Freunden oder der Familie, rund um Ihr Tempo und Ihre Ideen."
+      },
+      {
+        "title": "Vereine / Sportteams",
+        "text": "Trainingslager und Teamreisen – Sport, Logistik und gemeinsame Zeit inklusive."
+      }
     ],
-    "example": "Beispiel: ein Teambuilding-Tag am Lac de Joux, organisiert mit unseren lokalen Partnern.",
-    "price": "Preis: auf Anfrage – jedes Projekt erhält eine individuelle Offerte."
+    "price": "Keine Preisliste: Jedes Projekt erhält eine individuelle Offerte."
   },
   "inspiration": {
     "eyebrow": "Inspiration",
@@ -96,8 +100,8 @@
   },
   "final": {
     "title": "Beginnen Sie mit einer Idee.",
-    "lead": "Kein fixes Menü. Erzählen Sie uns einfach, was Sie vorhaben.",
-    "cta": "Ihr Abenteuer planen",
+    "lead": "Erzählen Sie uns, was Sie vorhaben. Den Rest gestalten wir.",
+    "cta": "Packen wir es an",
     "image": "al-sunrise"
   }
 }

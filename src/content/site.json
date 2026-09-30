@@ -74,36 +74,35 @@
   "partners": [
     {
       "name": "Julbo",
-      "logo": null,
+      "logo": "brand/partners/julbo.svg",
       "url": "https://www.julbo.com"
     },
     {
       "name": "Blizzard",
-      "logo": null,
+      "logo": "brand/partners/blizzard.svg",
       "url": "https://www.blizzard-tecnica.com"
     },
     {
       "name": "SwissForce",
       "logo": null,
       "url": null,
-      "_todo": "official website URL to confirm"
+      "_todo": "official logo + confirmed website needed (two different Swiss companies use this name)"
     },
     {
       "name": "Nidecker Group",
-      "logo": null,
+      "logo": "brand/partners/nidecker-group.png",
       "url": "https://www.ndk.group/"
     },
     {
       "name": "Art Feet",
-      "logo": null,
-      "url": "https://www.artfeetlab.com",
-      "_todo": "confirm URL"
+      "logo": "brand/partners/art-feet.png",
+      "url": "https://artfeetlab.com"
     },
     {
       "name": "Rocheray Water Sports",
-      "logo": null,
-      "url": null,
-      "_todo": "official website / social URL to confirm"
+      "logo": "brand/partners/rocheray-water-sports.png",
+      "url": "https://www.facebook.com/Rocherayws/",
+      "_note": "official Facebook page (no website found)"
     }
   ],
   "analytics": {

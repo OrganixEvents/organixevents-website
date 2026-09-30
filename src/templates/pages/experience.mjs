@@ -73,7 +73,7 @@ export function experiencePage(ctx, e) {
         title: [ctx.t(e.shortTitle)],
         sub: [ctx.t(e.tagline)],
         size: 'tall',
-        ctas: [button(enquire, ctx.t(e.cta.label), 'primary', `data-track="enquiry_cta" data-location="exp-hero" data-interest="${e.cta.interest}"`)],
+        ctas: [button(enquire, u.common.startConversation, 'primary', `data-track="enquiry_cta" data-location="exp-hero" data-interest="${e.cta.interest}"`)],
       }),
       breadcrumb(ctx, trail),
       intro,

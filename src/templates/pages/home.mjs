@@ -124,6 +124,7 @@ export function homePage(ctx) {
     ogImage: nm.heroImage,
     preload: c.hero.image ? ctx.preloadHero(c.hero.image) : ctx.preloadHero(nm.heroImage, nm.heroImageMobile),
     jsonLd: [
+      jsonLd({ '@context': 'https://schema.org', '@type': 'WebSite', name: ctx.site.name, url: ctx.abs(ctx.locale, ''), inLanguage: ctx.locale }),
       jsonLd({
         '@context': 'https://schema.org',
         '@type': 'TravelAgency',

@@ -19,12 +19,12 @@
   "common": {
     "explore": "Explore",
     "enquire": "Enquire",
-    "discover": "Discover",
+    "discover": "Explore the experience",
     "from": "From",
     "perPerson": "/ person",
     "learnMore": "Learn more",
     "tailoredOffer": "Contact us for a tailored offer",
-    "startConversation": "Start a conversation",
+    "startConversation": "Let's make it happen",
     "inspiration": "Inspiration",
     "placeholder": "Photo to come",
     "logoToCome": "Official logo to come",
@@ -77,7 +77,7 @@
       "north-macedonia": "Private snowcat freeride",
       "winter": "Georgia, Norway, the Alps",
       "summer": "Camps, wake, adventures",
-      "custom": "You imagine it, we build it"
+      "custom": "You imagine. We create."
     },
     "step2": "A few details",
     "name": "Name",
@@ -144,7 +144,15 @@
       "Experienced freerider",
       "Not sure"
     ],
-    "subject": "New website enquiry"
+    "subject": "New website enquiry",
+    "peopleOptions": [
+      "1 person",
+      "2 people",
+      "3–4 people",
+      "5–8 people",
+      "9–12 people",
+      "More than 12"
+    ]
   },
   "consent": {
     "title": "Cookies",

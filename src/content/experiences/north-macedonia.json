@@ -21,14 +21,14 @@
   "season": "winter",
   "experienceType": "snowcat-freeride",
   "tagline": {
-    "en": "Our snowcat. Our local operation. Your adventure.",
-    "fr": "Notre snowcat. Notre opération locale. Votre aventure.",
-    "de": "Unser Snowcat. Unser lokaler Betrieb. Ihr Abenteuer."
+    "en": "Our snowcat. Our operation. North Macedonia.",
+    "fr": "Notre snowcat. Notre opération. Macédoine du Nord.",
+    "de": "Unser Snowcat. Unser Betrieb. Nordmazedonien."
   },
   "shortDescription": {
-    "en": "Private snowcat skiing in the Šar Mountains — our own snowcat, our own local operation, for good skiers and small groups.",
-    "fr": "Ski en snowcat privé dans les monts Šar — notre propre snowcat, notre propre opération locale, pour bons skieurs et petits groupes.",
-    "de": "Privates Snowcat-Skiing im Šar-Gebirge – unser eigener Snowcat, unser eigener lokaler Betrieb, für gute Skifahrer und kleine Gruppen."
+    "en": "Private snowcat skiing in the Šar Mountains with our own PistenBully PB300W — 7 nights, 6 ski days, small groups, two guides.",
+    "fr": "Ski en snowcat privé dans les monts Šar avec notre propre PistenBully PB300W — 7 nuits, 6 jours de ski, petits groupes, deux guides.",
+    "de": "Privates Snowcat-Skiing im Šar-Gebirge mit unserem eigenen PistenBully PB300W – 7 Nächte, 6 Skitage, kleine Gruppen, zwei Guides."
   },
   "longDescription": {
     "en": "OrganixEvents owns its snowcat in North Macedonia and runs the experience with Wild Tracks, our local operation. A private machine, a small group and wild, uncrowded terrain above Popova Shapka.",
@@ -51,14 +51,14 @@
   "priceFrom": 2250,
   "currency": "CHF",
   "priceBasis": {
-    "en": "Reference week for a group of 8: 6 ski days, 7 days accommodation, full board, snowcat, guiding and transfers from Skopje.",
-    "fr": "Semaine de référence pour un groupe de 8 : 6 jours de ski, 7 jours d'hébergement, pension complète, snowcat, encadrement et transferts depuis Skopje.",
-    "de": "Referenzwoche für eine Gruppe von 8: 6 Skitage, 7 Tage Unterkunft, Vollpension, Snowcat, Begleitung und Transfers ab Skopje."
+    "en": "Reference week for a group of 8: 7 nights, 6 ski days, private snowcat, two guides, full board and transfers from Skopje.",
+    "fr": "Semaine de référence pour un groupe de 8 : 7 nuits, 6 jours de ski, snowcat privé, deux guides, pension complète et transferts depuis Skopje.",
+    "de": "Referenzwoche für eine Gruppe von 8: 7 Nächte, 6 Skitage, privater Snowcat, zwei Guides, Vollpension und Transfers ab Skopje."
   },
   "duration": {
-    "en": "A few days to a full week or longer",
-    "fr": "De quelques jours à une semaine ou plus",
-    "de": "Von ein paar Tagen bis zu einer Woche oder länger"
+    "en": "7 nights · 6 ski days (reference) · flexible",
+    "fr": "7 nuits · 6 jours de ski (référence) · flexible",
+    "de": "7 Nächte · 6 Skitage (Referenz) · flexibel"
   },
   "dates": [],
   "seasonWindow": {
@@ -103,28 +103,25 @@
   "included": {
     "en": [
       "Private snowcat — the OrganixEvents PistenBully PB300W",
-      "Mountain guiding by two professionals: a local UIMLA-qualified professional and one from the Organix team",
-      "6 ski days (reference week)",
-      "7 days accommodation in a small family hotel",
-      "Full board",
+      "Two guides: a local UIMLA guide and a guide from the Organix team",
+      "7 nights · 6 ski days",
+      "Full board: breakfast, picnic or lunch, dinner, water",
       "Transfers from Skopje",
       "Organisation and logistics"
     ],
     "fr": [
       "Snowcat privé — le PistenBully PB300W d'OrganixEvents",
-      "Encadrement par deux professionnels de la montagne : un professionnel local UIMLA et un professionnel de l'équipe Organix",
-      "6 jours de ski (semaine de référence)",
-      "7 jours d'hébergement dans un petit hôtel familial",
-      "Pension complète",
+      "Deux guides : un guide local UIMLA et un guide de l'équipe Organix",
+      "7 nuits · 6 jours de ski",
+      "Pension complète : petit-déjeuner, pique-nique ou déjeuner, dîner, eau",
       "Transferts depuis Skopje",
       "Organisation et logistique"
     ],
     "de": [
       "Privater Snowcat – der PistenBully PB300W von OrganixEvents",
-      "Begleitung durch zwei Bergprofis: ein lokaler Profi mit UIMLA-Qualifikation und ein Profi aus dem Organix-Team",
-      "6 Skitage (Referenzwoche)",
-      "7 Tage Unterkunft in einem kleinen Familienhotel",
-      "Vollpension",
+      "Zwei Guides: ein lokaler UIMLA-Guide und ein Guide aus dem Organix-Team",
+      "7 Nächte · 6 Skitage",
+      "Vollpension: Frühstück, Picknick oder Mittagessen, Abendessen, Wasser",
       "Transfers ab Skopje",
       "Organisation und Logistik"
     ]
@@ -132,27 +129,27 @@
   "notIncluded": {
     "en": [
       "Flights",
-      "Equipment rental (available on site)",
+      "Equipment rental",
+      "Alcohol and soft drinks",
       "Single room supplement",
-      "Drinks and personal extras",
       "Travel insurance",
-      "Optional heliski extension in Albania"
+      "Optional heliski in Albania"
     ],
     "fr": [
       "Vols",
-      "Location de matériel (disponible sur place)",
+      "Location de matériel",
+      "Alcool et boissons sucrées",
       "Supplément chambre individuelle",
-      "Boissons et extras personnels",
       "Assurance voyage",
-      "Extension héliski en Albanie (option)"
+      "Option héliski en Albanie"
     ],
     "de": [
       "Flüge",
-      "Materialmiete (vor Ort möglich)",
+      "Materialmiete",
+      "Alkohol und Softdrinks",
       "Einzelzimmerzuschlag",
-      "Getränke und persönliche Extras",
       "Reiseversicherung",
-      "Optionale Heliski-Verlängerung in Albanien"
+      "Heliski-Option in Albanien"
     ]
   },
   "difficulty": {
@@ -176,9 +173,9 @@
       "de": "Snowcat-Skiing in Nordmazedonien — Privates Catskiing & Freeride | OrganixEvents"
     },
     "description": {
-      "en": "Cat skiing in North Macedonia with our own snowcat and local operation in the Šar Mountains. For good skiers, no off-piste experience needed. Gear rental on site. From CHF 2,250.",
-      "fr": "Cat skiing en Macédoine du Nord avec notre propre snowcat et notre opération locale dans les monts Šar. Pour bons skieurs, sans expérience du hors-piste. Location sur place. Dès CHF 2 250.",
-      "de": "Catskiing in Nordmazedonien mit eigenem Snowcat und lokalem Betrieb im Šar-Gebirge. Für gute Skifahrer, ohne Off-Piste-Erfahrung. Materialmiete vor Ort. Ab CHF 2’250."
+      "en": "Snowcat skiing and freeride in North Macedonia with our own PistenBully PB300W in the Šar Mountains. 7 nights, 6 ski days, small groups, no off-piste experience needed. From CHF 2,250.",
+      "fr": "Ski en snowcat et freeride en Macédoine du Nord avec notre propre PistenBully PB300W dans les monts Šar. 7 nuits, 6 jours de ski, petits groupes, sans expérience du hors-piste. Dès CHF 2 250.",
+      "de": "Snowcat-Skiing und Freeride in Nordmazedonien mit unserem eigenen PistenBully PB300W im Šar-Gebirge. 7 Nächte, 6 Skitage, kleine Gruppen, ohne Off-Piste-Erfahrung. Ab CHF 2'250."
     }
   },
   "localOperation": {

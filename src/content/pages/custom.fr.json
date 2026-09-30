@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Voyages sport & aventure sur mesure — Vous l'imaginez, on le construit | OrganixEvents",
+    "title": "Voyages sport & aventure sur mesure | OrganixEvents",
     "description": "Des voyages sport et aventure sur mesure pour groupes privés, familles, clubs, équipes et entreprises, organisés de A à Z par Organix. Devis personnalisé."
   },
   "hero": {
@@ -10,8 +10,8 @@
       "Notre terrain de jeu."
     ],
     "sub": [
-      "Vous l'imaginez.",
-      "On le construit."
+      "You imagine.",
+      "We create."
     ],
     "image": "al-ice-cave"
   },
@@ -28,19 +28,19 @@
   },
   "organise": {
     "eyebrow": "Clé en main",
-    "title": "Tout ce qu'il y a entre l'idée et le voyage.",
+    "title": "Nous construisons et gérons tout le projet.",
     "items": [
-      "Destination & itinéraire",
       "Recherche de vols",
       "Hébergement",
-      "Transferts & transports locaux",
-      "Bateaux & véhicules",
-      "Guides & coachs",
-      "Sports & activités",
+      "Transferts",
+      "Guides",
       "Matériel",
-      "Restaurants & repas",
+      "Activités",
+      "Repas & restaurants",
+      "Bateaux",
+      "Véhicules",
       "Partenaires locaux",
-      "Logistique complète"
+      "Logistique"
     ],
     "image": "no-deck"
   },
@@ -53,18 +53,22 @@
   },
   "audiences": {
     "eyebrow": "Pour qui",
-    "title": "Tous les groupes, toutes les tailles.",
-    "items": [
-      "Groupes privés",
-      "Familles",
-      "Clubs",
-      "Équipes sportives",
-      "Entreprises",
-      "Team building",
-      "Incentives"
+    "title": "Construit pour votre groupe.",
+    "groups": [
+      {
+        "title": "Entreprises / Team building",
+        "text": "Des journées sur l'eau — paddle, kayak, wakeboard, wakesurf, bateau — avec repas et activités aux côtés de nos partenaires locaux. Par exemple, une journée d'équipe au lac de Joux."
+      },
+      {
+        "title": "Groupes privés / Familles",
+        "text": "Un voyage entre amis ou en famille, construit autour de votre rythme et de vos envies."
+      },
+      {
+        "title": "Clubs / Équipes sportives",
+        "text": "Camps d'entraînement et voyages d'équipe, avec le sport, la logistique et les moments ensemble réglés."
+      }
     ],
-    "example": "Exemple : une journée de team building au lac de Joux, organisée avec nos partenaires locaux.",
-    "price": "Prix : sur demande — chaque projet fait l'objet d'un devis personnalisé."
+    "price": "Pas de grille tarifaire : chaque projet fait l'objet d'un devis personnalisé."
   },
   "inspiration": {
     "eyebrow": "Inspiration",
@@ -96,8 +100,8 @@
   },
   "final": {
     "title": "Commencez par une idée.",
-    "lead": "Pas de menu figé. Dites-nous simplement ce que vous avez en tête.",
-    "cta": "Construire votre aventure",
+    "lead": "Dites-nous ce que vous avez en tête. On crée le reste.",
+    "cta": "Construisons-le ensemble",
     "image": "al-sunrise"
   }
 }

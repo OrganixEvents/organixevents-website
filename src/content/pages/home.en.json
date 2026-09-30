@@ -5,9 +5,9 @@
   },
   "hero": {
     "title": "Beyond the ordinary.",
-    "subtitle": "Expertise. Access. Human.",
+    "subtitle": "Built around you.",
     "ctaPrimary": "Explore",
-    "ctaSecondary": "Enquire",
+    "ctaSecondary": "Let's make it happen",
     "image": "nm-cloudsea"
   },
   "flagship": {
@@ -22,9 +22,9 @@
       "North Macedonia."
     ],
     "priceLabel": "From",
-    "priceNote": "Based on a group of 8 · 6 ski days · 7 days accommodation · full board · snowcat, guiding and transfers from Skopje",
+    "priceNote": "Based on a group of 8 · 7 nights · 6 ski days · full board · private snowcat, two guides and transfers from Skopje",
     "flexNote": "Late December → early April. Flexible durations, no fixed Saturday-to-Saturday weeks.",
-    "cta": "Discover North Macedonia"
+    "cta": "Explore the experience"
   },
   "winter": {
     "eyebrow": "Winter",
@@ -61,35 +61,35 @@
   "custom": {
     "eyebrow": "Custom",
     "title": [
-      "You imagine it.",
-      "We build it."
+      "You imagine.",
+      "We create."
     ],
     "lead": [
       "You don't need a plan.",
       "That's what we're here for."
     ],
     "inspirationLabel": "Possibilities, not packages",
-    "cta": "Build your adventure",
+    "cta": "Let's make it happen",
     "image": "al-sunset-sea"
   },
   "why": {
     "eyebrow": "Why Organix",
     "items": [
       {
-        "title": "Own operations",
-        "text": "We run our own snowcat in North Macedonia."
+        "title": "Our own operation",
+        "text": "Our own snowcat and operation in North Macedonia."
       },
       {
         "title": "Local knowledge",
-        "text": "We work with local guides and trusted people on the ground."
+        "text": "We work with the people who know the terrain best."
       },
       {
         "title": "Small groups",
         "text": "Small, private groups — never mass tourism."
       },
       {
-        "title": "Professional expertise",
-        "text": "Built by people from professional ski sport."
+        "title": "Field experience",
+        "text": "Mountains, sport, local knowledge and organisation — built over years on the ground."
       },
       {
         "title": "Complete organisation",
@@ -112,7 +112,7 @@
     "image": "nm-snowcat-team"
   },
   "partners": {
-    "eyebrow": "Proudly supported by"
+    "eyebrow": "The people and brands we trust along the way."
   },
   "final": {
     "title": "Where next?",
@@ -120,7 +120,7 @@
       "Tell us what you have in mind.",
       "We'll take care of the rest."
     ],
-    "cta": "Start a conversation",
+    "cta": "Let's make it happen",
     "image": "nm-sunset"
   }
 }

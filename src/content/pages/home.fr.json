@@ -5,9 +5,9 @@
   },
   "hero": {
     "title": "Beyond the ordinary.",
-    "subtitle": "Expertise. Access. Human.",
+    "subtitle": "Built around you.",
     "ctaPrimary": "Explorer",
-    "ctaSecondary": "Nous contacter",
+    "ctaSecondary": "Construisons-le ensemble",
     "image": "nm-cloudsea"
   },
   "flagship": {
@@ -22,9 +22,9 @@
       "Macédoine du Nord."
     ],
     "priceLabel": "Dès",
-    "priceNote": "Sur la base d'un groupe de 8 · 6 jours de ski · 7 jours d'hébergement · pension complète · snowcat, encadrement et transferts depuis Skopje",
+    "priceNote": "Sur la base d'un groupe de 8 · 7 nuits · 6 jours de ski · pension complète · snowcat privé, deux guides et transferts depuis Skopje",
     "flexNote": "De fin décembre à début avril. Durées flexibles, pas de semaines figées du samedi au samedi.",
-    "cta": "Découvrir la Macédoine du Nord"
+    "cta": "Découvrir l'expérience"
   },
   "winter": {
     "eyebrow": "Hiver",
@@ -61,39 +61,39 @@
   "custom": {
     "eyebrow": "Sur mesure",
     "title": [
-      "Vous l'imaginez.",
-      "On le construit."
+      "You imagine.",
+      "We create."
     ],
     "lead": [
       "Pas besoin d'avoir un plan.",
       "C'est justement notre rôle."
     ],
     "inspirationLabel": "Des possibilités, pas des forfaits.",
-    "cta": "Construire votre aventure",
+    "cta": "Construisons-le ensemble",
     "image": "al-sunset-sea"
   },
   "why": {
     "eyebrow": "Pourquoi Organix",
     "items": [
       {
-        "title": "Nos propres opérations",
-        "text": "Nous exploitons notre propre snowcat en Macédoine du Nord."
+        "title": "Notre propre opération",
+        "text": "Notre propre snowcat et notre opération en Macédoine du Nord."
       },
       {
         "title": "Connaissance du terrain",
-        "text": "Nous travaillons avec des guides locaux et des personnes de confiance sur place."
+        "text": "Nous travaillons avec les personnes qui connaissent le mieux le terrain."
       },
       {
         "title": "Petits groupes",
-        "text": "Des groupes restreints et privés, loin du tourisme de masse."
+        "text": "Des petits groupes privés — jamais de tourisme de masse."
       },
       {
-        "title": "Expertise professionnelle",
-        "text": "Un projet construit par des gens issus du ski de haut niveau."
+        "title": "Expérience du terrain",
+        "text": "Montagne, sport, connaissance locale et organisation — construits par des années sur le terrain."
       },
       {
         "title": "Organisation complète",
-        "text": "Un seul interlocuteur, du premier message au dernier jour."
+        "text": "Un seul contact, du premier message au dernier jour."
       },
       {
         "title": "Flexibilité maximale",
@@ -112,7 +112,7 @@
     "image": "nm-snowcat-team"
   },
   "partners": {
-    "eyebrow": "Avec le soutien de"
+    "eyebrow": "The people and brands we trust along the way."
   },
   "final": {
     "title": "Et maintenant ?",
@@ -120,7 +120,7 @@
       "Dites-nous ce que vous avez en tête.",
       "On s'occupe du reste."
     ],
-    "cta": "Parlons-en",
+    "cta": "Construisons-le ensemble",
     "image": "nm-sunset"
   }
 }

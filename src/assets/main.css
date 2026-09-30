@@ -846,3 +846,17 @@ p, li, dd, dt, label, summary { overflow-wrap: break-word; }
 @media (min-width: 1100px) { .partners__list { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
 @media (min-width: 640px) { .insp { display: flex; flex-wrap: wrap; } .insp > .insp__item { flex: 1 1 calc(50% - 1px); } }
 @media (min-width: 1000px) { .insp > .insp__item { flex: 1 1 calc(25% - 1px); max-width: none; } }
+.pricing__excl { margin-top: .9rem; font-size: 14px; opacity: .8; line-height: 1.55; }
+@media (min-width: 1000px) { .who__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+/* RC — official partner logos */
+.plogo { background: var(--paper, #f2f2f6); color: #111118; }
+.plogo img { max-width: 62%; max-height: 72px; object-fit: contain; }
+.plogo img[src*="rocheray"], .partner img[src*="rocheray"] { max-height: 96px; }
+.partner img { max-width: 80%; max-height: 44px; object-fit: contain; }
+.partner img[src*="rocheray"] { max-height: 70px; }
+.plogo__name { color: #111118; }
+.site-footer__ig { display: inline-block; margin-top: 14px; font-weight: 600; color: var(--fg); text-decoration: none; border-bottom: 1px solid currentColor; }
+.thanks-page__ig { margin-top: 1rem; } .thanks-page__ig a { color: inherit; font-weight: 600; }
+.stay__gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } @media (max-width: 640px) { .stay__gallery figure:first-child { grid-column: auto; } }
+@media (min-width: 1000px) { .insp--5 > .insp__item { flex-basis: calc(20% - 1px); } }
+@media (max-width: 759px) { .plogo img { max-width: 80%; } }

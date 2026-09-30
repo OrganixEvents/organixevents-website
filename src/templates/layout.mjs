@@ -103,6 +103,7 @@ function footer(ctx) {
         ${brand(ctx, 'organix-logo-events', 'site-footer__logo', 'Organix Events')}
         <p class="site-footer__statement">${esc(site.statement)}</p>
         <p class="site-footer__tagline">${esc(ui.footer.tagline)}</p>
+        ${(site.social || []).map((s) => `<a class="site-footer__ig" href="${s.url}" rel="noopener" target="_blank" data-track="instagram_click">${esc(ui.footer.follow)} ${esc(s.handle)}</a>`).join('')}
       </div>
       <div class="site-footer__cols">
         <div><h2 class="site-footer__h">${esc(ui.footer.experiences)}</h2><ul>${expLinks.map(([l, p]) => `<li><a href="${ctx.url(p)}">${esc(l)}</a></li>`).join('')}</ul></div>
@@ -111,9 +112,7 @@ function footer(ctx) {
           <ul>
             <li><a href="mailto:${c.email}" data-track="email_click">${esc(c.email)}</a></li>
             ${c.phone ? `<li><a href="tel:${c.phone.replace(/\s/g, '')}">${esc(c.phone)}</a></li>` : ''}
-            ${(site.social || []).map((s) => `<li><a href="${s.url}" rel="noopener" target="_blank">${esc(s.name)} ${esc(s.handle || '')}</a></li>`).join('')}
           </ul>
-          <address>${[c.address[0], c.address[1], { en: 'Switzerland', fr: 'Suisse', de: 'Schweiz' }[ctx.locale]].map(esc).join('<br>')}</address>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Custom Sport & Adventure Trips — You Imagine It, We Build It | OrganixEvents",
+    "title": "Custom Sport & Adventure Trips — You Imagine, We Create | OrganixEvents",
     "description": "Tailor-made sport and adventure trips for private groups, families, clubs, teams and companies, organised end to end by Organix. Custom quotation."
   },
   "hero": {
@@ -10,8 +10,8 @@
       "Our playground."
     ],
     "sub": [
-      "You imagine it.",
-      "We build it."
+      "You imagine.",
+      "We create."
     ],
     "image": "al-ice-cave"
   },
@@ -28,19 +28,19 @@
   },
   "organise": {
     "eyebrow": "Turnkey",
-    "title": "Everything between the idea and the trip.",
+    "title": "We build and run the whole project.",
     "items": [
-      "Destination & itinerary",
       "Flight research",
       "Accommodation",
-      "Transfers & local transport",
-      "Boats & vehicles",
-      "Guides & coaches",
-      "Sports & activities",
+      "Transfers",
+      "Guides",
       "Equipment",
-      "Restaurants & food",
+      "Activities",
+      "Meals & restaurants",
+      "Boats",
+      "Vehicles",
       "Local partners",
-      "Complete logistics"
+      "Logistics"
     ],
     "image": "no-deck"
   },
@@ -53,18 +53,22 @@
   },
   "audiences": {
     "eyebrow": "For whom",
-    "title": "Any group, any size.",
-    "items": [
-      "Private groups",
-      "Families",
-      "Clubs",
-      "Sports teams",
-      "Companies",
-      "Team building",
-      "Incentives"
+    "title": "Built for your group.",
+    "groups": [
+      {
+        "title": "Corporate / Team building",
+        "text": "Days on the water — paddle, kayak, wakeboard, wakesurf, boat — with meals and activities alongside our local partners. For example, a team day on Lac de Joux."
+      },
+      {
+        "title": "Private groups / Families",
+        "text": "A trip for your friends or your family, built around your pace and your ideas."
+      },
+      {
+        "title": "Clubs / Sports teams",
+        "text": "Training camps and team trips with the sport, the logistics and the time together sorted."
+      }
     ],
-    "example": "Example: a team building day at Lac de Joux, organised with our local partners.",
-    "price": "Price: on request — every project gets its own quotation."
+    "price": "No price list: every project gets its own custom quotation."
   },
   "inspiration": {
     "eyebrow": "Inspiration",
@@ -96,8 +100,8 @@
   },
   "final": {
     "title": "Start with an idea.",
-    "lead": "No fixed menu. Just tell us what you have in mind.",
-    "cta": "Build your adventure",
+    "lead": "Tell us what you have in mind. We create the rest.",
+    "cta": "Let's make it happen",
     "image": "al-sunrise"
   }
 }

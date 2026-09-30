@@ -31,14 +31,14 @@
     "de": "Ein Tag oder eine Woche."
   },
   "shortDescription": {
-    "en": "Freeride, ski touring, heliski, private days and ski safaris across Switzerland, Italy and France — organised directly by Organix.",
-    "fr": "Freeride, ski de randonnée, héliski, journées privées et safaris à ski entre la Suisse, l'Italie et la France — organisés directement par Organix.",
-    "de": "Freeride, Skitouren, Heliski, private Tage und Skisafaris in der Schweiz, in Italien und Frankreich – direkt von Organix organisiert."
+    "en": "Private days, multi-day trips and full weeks in the Alps — freeride, ski touring, heliski and ski safaris, organised end to end by Organix.",
+    "fr": "Journées privées, séjours de plusieurs jours et semaines complètes dans les Alpes — freeride, ski de randonnée, héliski et safaris à ski, organisés de A à Z par Organix.",
+    "de": "Private Tage, mehrtägige Reisen und ganze Wochen in den Alpen – Freeride, Skitouren, Heliski und Skisafaris, von A bis Z von Organix organisiert."
   },
   "longDescription": {
-    "en": "The Alps are home. A single freeride day in Verbier, a few days between Zermatt and Cervinia, heliski in Italy, a safari across the Alps — or simply following the best conditions. From the good piste skier discovering off-piste to the expert.",
-    "fr": "Les Alpes, c'est chez nous. Une journée freeride à Verbier, quelques jours entre Zermatt et Cervinia, de l'héliski en Italie, un safari à travers les Alpes — ou simplement suivre les meilleures conditions. Du bon skieur de piste qui découvre le hors-piste jusqu'à l'expert.",
-    "de": "Die Alpen sind unser Zuhause. Ein Freeride-Tag in Verbier, ein paar Tage zwischen Zermatt und Cervinia, Heliski in Italien, eine Safari quer durch die Alpen – oder einfach den besten Bedingungen folgen. Vom guten Pistenfahrer, der das Gelände entdeckt, bis zum Experten."
+    "en": "Organix doesn't just book you an instructor for the day. We build your time in the Alps: a private day in Verbier, a few days between Zermatt and Cervinia, heliski in Italy, a ski safari from valley to valley — with the guides, accommodation, transfers and logistics around it. Other alpine projects are welcome too.",
+    "fr": "Organix ne se contente pas de vous réserver un moniteur à la journée. Nous construisons votre temps dans les Alpes : une journée privée à Verbier, quelques jours entre Zermatt et Cervinia, de l'héliski en Italie, un safari à ski de vallée en vallée — avec les guides, l'hébergement, les transferts et la logistique autour. D'autres projets alpins sont aussi possibles.",
+    "de": "Organix bucht Ihnen nicht einfach einen Skilehrer für einen Tag. Wir gestalten Ihre Zeit in den Alpen: ein privater Tag in Verbier, ein paar Tage zwischen Zermatt und Cervinia, Heliski in Italien, eine Skisafari von Tal zu Tal – mit Bergführern, Unterkunft, Transfers und Logistik rundherum. Auch andere Alpenprojekte sind möglich."
   },
   "heroImage": "al-bootpack",
   "gallery": [
@@ -59,9 +59,9 @@
     "de": "/ Tag"
   },
   "priceNote": {
-    "en": "The rate depends on the programme you ask for.",
-    "fr": "Le tarif dépend du programme demandé.",
-    "de": "Der Preis hängt vom gewünschten Programm ab."
+    "en": "Then a quote based on the programme, destination and period.",
+    "fr": "Puis devis selon le programme, la destination et la période.",
+    "de": "Danach Offerte je nach Programm, Ort und Zeitraum."
   },
   "currency": "CHF",
   "duration": {
@@ -73,40 +73,40 @@
   "flexibleDates": true,
   "groupSize": null,
   "level": {
-    "en": "From good piste skiers discovering off-piste to experts",
-    "fr": "Du bon skieur de piste qui découvre le hors-piste jusqu'à l'expert",
-    "de": "Vom guten Pistenfahrer, der Off-Piste entdeckt, bis zum Experten"
+    "en": "Beginner to expert, depending on the programme",
+    "fr": "Du débutant à l'expert, selon la prestation",
+    "de": "Von Anfängern bis Experten, je nach Programm"
   },
   "activities": {
     "en": [
-      "Freeride / off-piste",
+      "Private day",
+      "Multi-day trips",
+      "Full week",
+      "Freeride",
       "Ski touring",
       "Heliski",
-      "Private ski days",
       "Ski safari",
-      "Resort-to-resort",
-      "Multi-day trips",
-      "Custom weeks"
+      "Resort-to-resort"
     ],
     "fr": [
-      "Freeride / hors-piste",
+      "Journée privée",
+      "Séjours de plusieurs jours",
+      "Semaine complète",
+      "Freeride",
       "Ski de randonnée",
       "Héliski",
-      "Journées de ski privées",
       "Safari à ski",
-      "De station en station",
-      "Voyages de plusieurs jours",
-      "Semaines sur mesure"
+      "De station en station"
     ],
     "de": [
-      "Freeride / Off-Piste",
+      "Privater Tag",
+      "Mehrtägige Reisen",
+      "Ganze Woche",
+      "Freeride",
       "Skitouren",
       "Heliski",
-      "Private Skitage",
       "Skisafari",
-      "Von Ort zu Ort",
-      "Mehrtägige Reisen",
-      "Massgeschneiderte Wochen"
+      "Von Ort zu Ort"
     ]
   },
   "destinations": {
@@ -199,27 +199,27 @@
         "de": "Wo wir fahren"
       },
       "text": {
-        "en": "And more broadly across Switzerland, Italy and France.",
-        "fr": "Et plus largement en Suisse, en Italie et en France.",
-        "de": "Und darüber hinaus in der Schweiz, in Italien und Frankreich."
+        "en": "And other alpine projects, on request.",
+        "fr": "Et d'autres projets alpins, sur demande.",
+        "de": "Und weitere Alpenprojekte, auf Anfrage."
       },
       "field": "destinations"
     },
     {
       "type": "list",
       "title": {
-        "en": "What we offer",
-        "fr": "Ce que nous proposons",
-        "de": "Was wir anbieten"
+        "en": "Formats",
+        "fr": "Formats",
+        "de": "Formate"
       },
       "field": "activities"
     },
     {
       "type": "story",
       "eyebrow": {
-        "en": "Ski safari",
-        "fr": "Safari à ski",
-        "de": "Skisafari"
+        "en": "Ski safari · An Organix product",
+        "fr": "Safari à ski · Un produit Organix",
+        "de": "Skisafari · Ein Organix-Produkt"
       },
       "title": {
         "en": "From one valley to the next.",
@@ -227,9 +227,9 @@
         "de": "Von einem Tal ins nächste."
       },
       "text": {
-        "en": "A ski safari links several destinations on skis: different resorts, different valleys, sometimes different countries. We plan the route, book the accommodation and move the luggage — you just ski from one place to the next.",
-        "fr": "Un safari à ski relie plusieurs destinations à skis : différentes stations, différentes vallées, parfois différents pays. Nous planifions l'itinéraire, réservons l'hébergement et gérons les bagages — vous n'avez plus qu'à skier d'un endroit à l'autre.",
-        "de": "Eine Skisafari verbindet mehrere Orte auf Ski: verschiedene Skigebiete, verschiedene Täler, manchmal verschiedene Länder. Wir planen die Route, buchen die Unterkünfte und kümmern uns ums Gepäck – Sie fahren einfach von einem Ort zum nächsten."
+        "en": "Several destinations, several days, one continuous journey on skis. Organix builds the whole thing: the route, the skiing, the accommodation, the transfers and the luggage. You just ski from one place to the next.",
+        "fr": "Plusieurs destinations, plusieurs jours, un seul voyage à skis. Organix construit tout : l'itinéraire, le ski, les hébergements, les transferts et les bagages. Vous n'avez plus qu'à skier d'un endroit à l'autre.",
+        "de": "Mehrere Orte, mehrere Tage, eine durchgehende Reise auf Ski. Organix baut alles: die Route, das Skifahren, die Unterkünfte, die Transfers und das Gepäck. Sie fahren einfach von einem Ort zum nächsten."
       },
       "image": "al-skintrack"
     },
@@ -248,9 +248,9 @@
             "de": "Heliski"
           },
           "text": {
-            "en": "Possible in Switzerland and Italy — for example around Verbier or Zermatt, or Courmayeur and Valgrisenche — depending on operations, conditions and regulations.",
-            "fr": "Possible en Suisse et en Italie — par exemple autour de Verbier ou de Zermatt, ou de Courmayeur et de Valgrisenche — selon les opérations, les conditions et les réglementations.",
-            "de": "Möglich in der Schweiz und in Italien – zum Beispiel rund um Verbier oder Zermatt, oder Courmayeur und Valgrisenche – je nach Betrieb, Bedingungen und Vorschriften."
+            "en": "Possible in Switzerland and Italy — for example around Verbier or Zermatt, or Courmayeur and Valgrisenche — depending on conditions.",
+            "fr": "Possible en Suisse et en Italie — par exemple autour de Verbier ou de Zermatt, ou de Courmayeur et de Valgrisenche — selon les conditions.",
+            "de": "Möglich in der Schweiz und in Italien – zum Beispiel rund um Verbier oder Zermatt, oder Courmayeur und Valgrisenche – je nach Bedingungen."
           }
         },
         {
@@ -260,9 +260,9 @@
             "de": "Bergführer UIAGM"
           },
           "text": {
-            "en": "When an activity requires a high mountain guide, Organix works with partner UIAGM guides.",
-            "fr": "Lorsqu'une activité nécessite un guide de haute montagne, Organix travaille avec des guides UIAGM partenaires.",
-            "de": "Wenn eine Aktivität einen Bergführer erfordert, arbeitet Organix mit Partner-Bergführern UIAGM."
+            "en": "For activities that legally require a high mountain guide, Organix works with partner UIAGM guides.",
+            "fr": "Pour les activités qui nécessitent légalement un guide de haute montagne, Organix fait intervenir un guide UIAGM partenaire.",
+            "de": "Für Aktivitäten, die gesetzlich einen Bergführer erfordern, arbeitet Organix mit Partner-Bergführern UIAGM."
           }
         },
         {
@@ -272,9 +272,9 @@
             "de": "Den Rest übernehmen wir"
           },
           "text": {
-            "en": "Equipment, safety gear, accommodation, restaurants, transfers, lift passes, guides and logistics.",
-            "fr": "Matériel, équipement de sécurité, hébergement, restaurants, transferts, remontées, guides et logistique.",
-            "de": "Material, Sicherheitsausrüstung, Unterkunft, Restaurants, Transfers, Skipässe, Bergführer und Logistik."
+            "en": "Equipment rental, safety gear, accommodation, restaurants, transfers, lift passes, guides and logistics.",
+            "fr": "Location de matériel, équipement de sécurité, hébergement, restaurants, transferts, remontées, guides et logistique.",
+            "de": "Materialmiete, Sicherheitsausrüstung, Unterkunft, Restaurants, Transfers, Skipässe, Bergführer und Logistik."
           }
         }
       ]
@@ -296,9 +296,9 @@
       "de": "Freeride, Heliski & Skitouren in den Alpen — Verbier, Zermatt, Courmayeur | OrganixEvents"
     },
     "description": {
-      "en": "Freeride days, heliski, ski touring and ski safaris in Verbier, Zermatt, Courmayeur, Cervinia and the French Alps. One day to a full week, from CHF 550 per day.",
-      "fr": "Journées freeride, héliski, ski de randonnée et safaris à ski à Verbier, Zermatt, Courmayeur, Cervinia et dans les Alpes françaises. D'une journée à une semaine, dès CHF 550 par jour.",
-      "de": "Freeride-Tage, Heliski, Skitouren und Skisafaris in Verbier, Zermatt, Courmayeur, Cervinia und den französischen Alpen. Von einem Tag bis zu einer Woche, ab CHF 550 pro Tag."
+      "en": "Private days, ski safaris, freeride, ski touring and heliski in Verbier, Zermatt, Courmayeur, Cervinia and the French Alps. One day to a full week, from CHF 550 per day.",
+      "fr": "Journées privées, safaris à ski, freeride, ski de randonnée et héliski à Verbier, Zermatt, Courmayeur, Cervinia et dans les Alpes françaises. D'une journée à une semaine, dès CHF 550 par jour.",
+      "de": "Private Tage, Skisafaris, Freeride, Skitouren und Heliski in Verbier, Zermatt, Courmayeur, Cervinia und den französischen Alpen. Von einem Tag bis zu einer Woche, ab CHF 550 pro Tag."
     }
   }
 }

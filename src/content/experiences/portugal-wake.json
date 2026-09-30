@@ -21,35 +21,32 @@
   "season": "summer",
   "experienceType": "wake",
   "universe": {
-    "en": "Premium wake week",
-    "fr": "Semaine de wake premium",
-    "de": "Premium-Wake-Woche"
+    "en": "Premium, but friendly",
+    "fr": "Premium, mais convivial",
+    "de": "Premium, aber herzlich"
   },
   "tagline": {
-    "en": "A lake, a house, a boat. Just your crew.",
-    "fr": "Un lac, une maison, un bateau. Juste votre groupe.",
-    "de": "Ein See, ein Haus, ein Boot. Nur Ihre Crew."
+    "en": "Sun, wake and a house on the water.",
+    "fr": "Soleil, wake et une maison au bord de l'eau.",
+    "de": "Sonne, Wake und ein Haus am Wasser."
   },
   "shortDescription": {
-    "en": "A premium wakeboard and wakesurf week on the Castelo do Bode lake: lake house with its own pontoon, private boat, coaching and private chef.",
-    "fr": "Une semaine premium de wakeboard et de wakesurf sur le lac de Castelo do Bode : maison au bord de l'eau avec son ponton, bateau privé, coaching et chef privé.",
-    "de": "Eine Premium-Woche Wakeboard und Wakesurf am Stausee Castelo do Bode: Haus am Wasser mit eigenem Steg, privates Boot, Coaching und Privatkoch."
+    "en": "A small-group wake trip on the Castelo do Bode lake: a private house with its own pontoon, a private boat, coaching and good times together.",
+    "fr": "Un voyage wake en petit groupe sur le lac de Castelo do Bode : une maison privée avec son ponton, un bateau privé, du coaching et de bons moments partagés.",
+    "de": "Eine Wake-Reise in kleiner Gruppe am Stausee Castelo do Bode: ein privates Haus mit eigenem Steg, ein privates Boot, Coaching und gemeinsame Zeit."
   },
   "longDescription": {
-    "en": "A house on the lake with its own pontoon, a private boat, wake straight from the dock. On the Castelo do Bode lake in central Portugal, the whole week revolves around the water: riding behind the boat, coaching to progress, a private chef, and all the logistics taken care of.",
-    "fr": "Une maison au bord du lac avec son propre ponton, un bateau privé, le wake directement depuis le quai. Sur le lac de Castelo do Bode, au centre du Portugal, toute la semaine tourne autour de l'eau : rider derrière le bateau, du coaching pour progresser, un chef privé et toute la logistique prise en charge.",
-    "de": "Ein Haus am See mit eigenem Steg, ein privates Boot, Wake direkt ab dem Steg. Am Stausee Castelo do Bode in Zentralportugal dreht sich die ganze Woche ums Wasser: Fahren hinter dem Boot, Coaching für Fortschritte, ein Privatkoch und die ganze Logistik erledigt."
+    "en": "A small group, a private house right on the Castelo do Bode lake, its own pontoon and a private boat — riding behind the boat all day, sun, good food and time together. From complete beginners to experts: the coaching adapts to every rider, and all the equipment is provided on site. Organix handles the organisation, meals and transfers. Flexible duration.",
+    "fr": "Un petit groupe, une maison privée au bord du lac de Castelo do Bode, son propre ponton et un bateau privé — du wake derrière le bateau toute la journée, du soleil, une bonne table et du temps ensemble. Du grand débutant à l'expert : le coaching s'adapte à chaque rider, et tout le matériel est fourni sur place. Organix gère l'organisation, les repas et les transferts. Durée flexible.",
+    "de": "Eine kleine Gruppe, ein privates Haus direkt am Stausee Castelo do Bode, ein eigener Steg und ein privates Boot – den ganzen Tag hinter dem Boot, Sonne, gutes Essen und gemeinsame Zeit. Vom absoluten Anfänger bis zum Profi: Das Coaching passt sich jedem Rider an, und das ganze Material wird vor Ort gestellt. Organix übernimmt Organisation, Verpflegung und Transfers. Flexible Dauer."
   },
-  "heroImage": "pt-boat-rider",
+  "heroImage": "pt-jump",
   "gallery": [
     "pt-house-aerial",
     "pt-pontoon",
-    "pt-jump",
-    "pt-house",
-    "pt-dock",
+    "pt-boat-rider",
     "pt-living",
     "pt-garden",
-    "pt-grounds",
     "pt-misty"
   ],
   "status": "active",
@@ -58,13 +55,20 @@
   "priceFrom": null,
   "currency": "CHF",
   "duration": {
-    "en": "One week",
-    "fr": "Une semaine",
-    "de": "Eine Woche"
+    "en": "Flexible",
+    "fr": "Flexible",
+    "de": "Flexibel"
   },
   "dates": [],
   "flexibleDates": false,
-  "groupSize": null,
+  "groupSize": {
+    "min": 4,
+    "note": {
+      "en": "Small groups (4 to 6 riders in the flyer format)",
+      "fr": "Petits groupes (4 à 6 riders dans le format du flyer)",
+      "de": "Kleine Gruppen (4 bis 6 Rider im Flyer-Format)"
+    }
+  },
   "activities": {
     "en": [
       "Wakeboard",
@@ -84,31 +88,31 @@
   },
   "included": {
     "en": [
-      "Lake house with private pontoon",
-      "Private chef — all-inclusive meals",
-      "Private wake boat (Correct Craft Super Air Nautique G23 Paragon — one or two boats depending on the group)",
-      "Wakeboard and wakesurf coaching by professional riders",
-      "Video coaching",
-      "Premium equipment",
-      "Van transfers from Porto or Lisbon (about 2 hours)"
+      "Private lake house with its own pontoon",
+      "Full board, cooked on site",
+      "Private wake boat (Correct Craft Super Air Nautique G23 Paragon — one or two depending on the group)",
+      "Wakeboard and wakesurf coaching by professional riders, with video",
+      "All equipment provided on site",
+      "Van transfers from Porto or Lisbon (about 2 hours)",
+      "Organisation and a member of the Organix team on site"
     ],
     "fr": [
-      "Maison au bord du lac avec ponton privé",
-      "Chef privé — repas tout compris",
-      "Bateau de wake privé (Correct Craft Super Air Nautique G23 Paragon — un ou deux bateaux selon le groupe)",
-      "Coaching wakeboard et wakesurf par des riders professionnels",
-      "Coaching vidéo",
-      "Matériel premium",
-      "Transferts en van depuis Porto ou Lisbonne (environ 2 heures)"
+      "Maison privée au bord du lac avec son ponton",
+      "Pension complète, cuisinée sur place",
+      "Bateau de wake privé (Correct Craft Super Air Nautique G23 Paragon — un ou deux selon le groupe)",
+      "Coaching wakeboard et wakesurf par des riders professionnels, avec vidéo",
+      "Tout le matériel fourni sur place",
+      "Transferts en van depuis Porto ou Lisbonne (environ 2 heures)",
+      "Organisation et un membre de l'équipe Organix sur place"
     ],
     "de": [
-      "Haus am See mit privatem Steg",
-      "Privatkoch – alle Mahlzeiten inbegriffen",
-      "Privates Wakeboot (Correct Craft Super Air Nautique G23 Paragon – ein oder zwei Boote je nach Gruppe)",
-      "Wakeboard- und Wakesurf-Coaching durch Profi-Rider",
-      "Video-Coaching",
-      "Premium-Ausrüstung",
-      "Van-Transfers ab Porto oder Lissabon (etwa 2 Stunden)"
+      "Privates Haus am See mit eigenem Steg",
+      "Vollpension, vor Ort gekocht",
+      "Privates Wakeboot (Correct Craft Super Air Nautique G23 Paragon – eines oder zwei je nach Gruppe)",
+      "Wakeboard- und Wakesurf-Coaching durch Profi-Rider, mit Video",
+      "Das ganze Material vor Ort",
+      "Van-Transfers ab Porto oder Lissabon (etwa 2 Stunden)",
+      "Organisation und ein Mitglied des Organix-Teams vor Ort"
     ]
   },
   "notIncluded": {
@@ -134,9 +138,9 @@
     {
       "type": "points",
       "title": {
-        "en": "Why it feels different",
-        "fr": "Ce qui change tout",
-        "de": "Was den Unterschied macht"
+        "en": "What makes it",
+        "fr": "Ce qui fait la différence",
+        "de": "Was es ausmacht"
       },
       "items": [
         {
@@ -146,9 +150,9 @@
             "de": "Das Haus"
           },
           "text": {
-            "en": "A lake house with its own pontoon — you step from the terrace to the boat.",
-            "fr": "Une maison au bord du lac avec son ponton — de la terrasse au bateau en quelques pas.",
-            "de": "Ein Haus am See mit eigenem Steg – von der Terrasse direkt aufs Boot."
+            "en": "A private house on the water, with its own pontoon. The lake itself is public — the house, pontoon and boat are yours.",
+            "fr": "Une maison privée au bord de l'eau, avec son propre ponton. Le lac est public — la maison, le ponton et le bateau sont pour vous.",
+            "de": "Ein privates Haus am Wasser, mit eigenem Steg. Der See ist öffentlich – Haus, Steg und Boot gehören Ihnen."
           }
         },
         {
@@ -170,21 +174,21 @@
             "de": "Das Coaching"
           },
           "text": {
-            "en": "Professional riders on the boat, plus video to see what to change.",
-            "fr": "Des riders professionnels sur le bateau, et de la vidéo pour voir quoi corriger.",
-            "de": "Profi-Rider auf dem Boot und Video, um zu sehen, was man verbessern kann."
+            "en": "From first start to new tricks, with video to see what to change.",
+            "fr": "Du premier départ aux nouvelles figures, avec la vidéo pour voir quoi corriger.",
+            "de": "Vom ersten Start bis zu neuen Tricks, mit Video, um zu sehen, was man verbessern kann."
           }
         },
         {
           "title": {
-            "en": "The table",
-            "fr": "La table",
-            "de": "Die Küche"
+            "en": "The group",
+            "fr": "Le groupe",
+            "de": "Die Gruppe"
           },
           "text": {
-            "en": "A private chef cooks for the group all week.",
-            "fr": "Un chef privé cuisine pour le groupe toute la semaine.",
-            "de": "Ein Privatkoch kocht die ganze Woche für die Gruppe."
+            "en": "A small group sharing the water, the table and the sun.",
+            "fr": "Un petit groupe qui partage l'eau, la table et le soleil.",
+            "de": "Eine kleine Gruppe, die Wasser, Tisch und Sonne teilt."
           }
         }
       ]
@@ -224,14 +228,14 @@
   },
   "seo": {
     "title": {
-      "en": "Portugal Wake Week — Private Boat & Lake House, Castelo do Bode | OrganixEvents",
-      "fr": "Semaine de wake au Portugal — Bateau privé & maison au bord du lac | OrganixEvents",
-      "de": "Wake-Woche in Portugal — Privates Boot & Haus am See | OrganixEvents"
+      "en": "Portugal Wake — Private Boat & Lake House, Castelo do Bode | OrganixEvents",
+      "fr": "Wake au Portugal — Bateau privé & maison au bord du lac | OrganixEvents",
+      "de": "Wake in Portugal — Privates Boot & Haus am See | OrganixEvents"
     },
     "description": {
-      "en": "A premium wakeboard and wakesurf week on the Castelo do Bode lake: lake house with pontoon, private Nautique boat, pro and video coaching, private chef, transfers from Porto or Lisbon.",
-      "fr": "Une semaine premium de wakeboard et de wakesurf sur le lac de Castelo do Bode : maison avec ponton, bateau Nautique privé, coaching pro et vidéo, chef privé, transferts depuis Porto ou Lisbonne.",
-      "de": "Eine Premium-Woche Wakeboard und Wakesurf am Stausee Castelo do Bode: Haus mit Steg, privates Nautique-Boot, Profi- und Video-Coaching, Privatkoch, Transfers ab Porto oder Lissabon."
+      "en": "A small-group wakeboard and wakesurf trip on the Castelo do Bode lake, Portugal: private house with pontoon, private boat, coaching for all levels, equipment and transfers. Price on request.",
+      "fr": "Un voyage wakeboard et wakesurf en petit groupe sur le lac de Castelo do Bode, au Portugal : maison privée avec ponton, bateau privé, coaching tous niveaux, matériel et transferts. Prix sur demande.",
+      "de": "Eine Wakeboard- und Wakesurf-Reise in kleiner Gruppe am Stausee Castelo do Bode, Portugal: privates Haus mit Steg, privates Boot, Coaching für alle Niveaus, Material und Transfers. Preis auf Anfrage."
     }
   },
   "priceOnRequest": true,
@@ -260,5 +264,10 @@
       "Reiten",
       "Buggy"
     ]
+  },
+  "level": {
+    "en": "Complete beginner to expert",
+    "fr": "Du grand débutant à l'expert",
+    "de": "Vom absoluten Anfänger bis zum Profi"
   }
 }

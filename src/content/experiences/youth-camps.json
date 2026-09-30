@@ -14,31 +14,31 @@
   },
   "country": "Switzerland",
   "region": {
-    "en": "Lake Joux · Lake Geneva",
-    "fr": "Lac de Joux · Léman",
-    "de": "Lac de Joux · Genfersee"
+    "en": "Lac de Joux · Lake Geneva · Lac des Brenets",
+    "fr": "Lac de Joux · Léman · Lac des Brenets",
+    "de": "Lac de Joux · Genfersee · Lac des Brenets"
   },
   "season": "summer",
   "experienceType": "youth-camp",
   "universe": {
-    "en": "Small-group summer camps",
-    "fr": "Camps d'été en petits groupes",
-    "de": "Sommercamps in kleinen Gruppen"
+    "en": "Small groups · sport · adventure",
+    "fr": "Petits groupes · sport · aventure",
+    "de": "Kleine Gruppen · Sport · Abenteuer"
   },
   "tagline": {
-    "en": "A week outdoors, in a small group.",
-    "fr": "Une semaine dehors, en petit groupe.",
-    "de": "Eine Woche draussen, in einer kleinen Gruppe."
+    "en": "Sport, nature and progress — in a small group.",
+    "fr": "Sport, nature et progression — en petit groupe.",
+    "de": "Sport, Natur und Fortschritt – in einer kleinen Gruppe."
   },
   "shortDescription": {
-    "en": "Summer camps of about a week for small groups of 4 to 10 young people, on Lac de Joux or Lake Geneva — water, mountains and nights outdoors.",
-    "fr": "Des camps d'été d'environ une semaine pour de petits groupes de 4 à 10 jeunes, au lac de Joux ou au Léman — eau, montagne et nuits dehors.",
-    "de": "Sommercamps von etwa einer Woche für kleine Gruppen von 4 bis 10 Jugendlichen, am Lac de Joux oder am Genfersee – Wasser, Berge und Nächte draussen."
+    "en": "Sport and adventure programmes for small groups of 4 to 10 young people on the lakes of western Switzerland — from a half day to a full week.",
+    "fr": "Des programmes sport et aventure pour de petits groupes de 4 à 10 jeunes sur les lacs de Suisse romande — d'une demi-journée à une semaine complète.",
+    "de": "Sport- und Abenteuerprogramme für kleine Gruppen von 4 bis 10 Jugendlichen an den Seen der Westschweiz – von einem halben Tag bis zu einer ganzen Woche."
   },
   "longDescription": {
-    "en": "Around a week on the water and in the mountains, with a small group of four to ten young people. Organix takes care of everything: supervision, meals, transport and the programme. The age range depends on each edition; dates are published as soon as an edition opens.",
-    "fr": "Environ une semaine entre l'eau et la montagne, avec un petit groupe de quatre à dix jeunes. Organix s'occupe de tout : encadrement, repas, transport et programme. La tranche d'âge dépend de chaque édition ; les dates sont publiées dès qu'une édition ouvre.",
-    "de": "Rund eine Woche zwischen Wasser und Bergen, mit einer kleinen Gruppe von vier bis zehn Jugendlichen. Organix kümmert sich um alles: Betreuung, Verpflegung, Transport und Programm. Die Altersgruppe hängt von der jeweiligen Ausgabe ab; die Daten werden veröffentlicht, sobald eine Ausgabe öffnet."
+    "en": "Not a holiday camp: small groups, real sport, time in nature, visible progress and a strong group spirit. Programmes run on Lac de Joux, Lake Geneva or Lac des Brenets. For camps with overnight stays, Organix handles accommodation, meals, supervision, activities and local logistics. Dates, ages, prices and programmes are shared for each edition.",
+    "fr": "Pas une colonie de vacances : de petits groupes, du vrai sport, du temps dans la nature, une progression visible et un vrai esprit de groupe. Les programmes ont lieu au lac de Joux, au Léman ou au lac des Brenets. Pour les camps avec nuitées, Organix gère l'hébergement, les repas, l'encadrement, les activités et la logistique locale. Dates, âges, prix et programmes sont communiqués pour chaque édition.",
+    "de": "Kein Ferienlager: kleine Gruppen, echter Sport, Zeit in der Natur, sichtbare Fortschritte und ein starker Teamgeist. Die Programme finden am Lac de Joux, am Genfersee oder am Lac des Brenets statt. Bei Camps mit Übernachtung übernimmt Organix Unterkunft, Verpflegung, Betreuung, Aktivitäten und lokale Logistik. Daten, Alter, Preise und Programme werden für jede Ausgabe bekanntgegeben."
   },
   "heroImage": "su-sup",
   "gallery": [
@@ -52,9 +52,9 @@
   "priceFrom": null,
   "currency": "CHF",
   "duration": {
-    "en": "About one week",
-    "fr": "Environ une semaine",
-    "de": "Etwa eine Woche"
+    "en": "Half day · full day · full week",
+    "fr": "Demi-journée · journée · semaine complète",
+    "de": "Halber Tag · ganzer Tag · ganze Woche"
   },
   "dates": [],
   "flexibleDates": false,
@@ -62,9 +62,9 @@
     "min": 4,
     "absoluteMax": 10,
     "note": {
-      "en": "4–10 young people",
-      "fr": "4 à 10 jeunes",
-      "de": "4–10 Jugendliche"
+      "en": "4–10 young people · ages vary by programme",
+      "fr": "4 à 10 jeunes · âges selon le programme",
+      "de": "4–10 Jugendliche · Alter je nach Programm"
     }
   },
   "activities": {
@@ -77,8 +77,8 @@
       "Bike / mountain bike",
       "Hiking",
       "Climbing",
-      "Group activities",
-      "Bivouac / camping"
+      "Bivouac / camping",
+      "Group activities"
     ],
     "fr": [
       "Wakeboard",
@@ -89,8 +89,8 @@
       "Vélo / VTT",
       "Randonnée",
       "Escalade",
-      "Activités de groupe",
-      "Bivouac / camping"
+      "Bivouac / camping",
+      "Activités collectives"
     ],
     "de": [
       "Wakeboard",
@@ -101,8 +101,8 @@
       "Velo / Mountainbike",
       "Wandern",
       "Klettern",
-      "Gruppenaktivitäten",
-      "Biwak / Camping"
+      "Biwak / Camping",
+      "Gruppenaktivitäten"
     ]
   },
   "included": null,
@@ -114,7 +114,7 @@
     {
       "id": "lake-joux",
       "title": {
-        "en": "Lake Joux",
+        "en": "Lac de Joux",
         "fr": "Lac de Joux",
         "de": "Lac de Joux"
       },
@@ -130,63 +130,41 @@
       },
       "active": false,
       "dates": null
+    },
+    {
+      "id": "brenets",
+      "title": {
+        "en": "Lac des Brenets",
+        "fr": "Lac des Brenets",
+        "de": "Lac des Brenets"
+      },
+      "active": false,
+      "dates": null
     }
   ],
   "blocks": [
     {
-      "type": "list",
+      "type": "chips",
       "title": {
-        "en": "On the programme",
-        "fr": "Au programme",
-        "de": "Auf dem Programm"
+        "en": "Formats",
+        "fr": "Formats",
+        "de": "Formate"
       },
-      "field": "activities"
+      "text": {
+        "en": "Ages vary by programme.",
+        "fr": "Les âges varient selon le programme.",
+        "de": "Das Alter variiert je nach Programm."
+      },
+      "field": "formats"
     },
     {
-      "type": "points",
+      "type": "list",
       "title": {
-        "en": "How a camp works",
-        "fr": "Comment se passe un camp",
-        "de": "So läuft ein Camp ab"
+        "en": "Activities, depending on the programme",
+        "fr": "Activités, selon le programme",
+        "de": "Aktivitäten, je nach Programm"
       },
-      "items": [
-        {
-          "title": {
-            "en": "Small groups",
-            "fr": "Petits groupes",
-            "de": "Kleine Gruppen"
-          },
-          "text": {
-            "en": "4 to 10 young people, so everyone gets time and attention.",
-            "fr": "4 à 10 jeunes, pour que chacun ait du temps et de l'attention.",
-            "de": "4 bis 10 Jugendliche, damit alle Zeit und Aufmerksamkeit bekommen."
-          }
-        },
-        {
-          "title": {
-            "en": "Where they sleep",
-            "fr": "Où ils dorment",
-            "de": "Wo sie schlafen"
-          },
-          "text": {
-            "en": "Group accommodation, a chalet or camping, depending on the edition.",
-            "fr": "Hébergement collectif, chalet ou camping, selon l'édition.",
-            "de": "Gruppenunterkunft, Chalet oder Camping, je nach Ausgabe."
-          }
-        },
-        {
-          "title": {
-            "en": "Fully handled",
-            "fr": "Tout est géré",
-            "de": "Alles organisiert"
-          },
-          "text": {
-            "en": "Supervision, meals, transport and programme are organised by Organix.",
-            "fr": "Encadrement, repas, transport et programme sont organisés par Organix.",
-            "de": "Betreuung, Verpflegung, Transport und Programm organisiert Organix."
-          }
-        }
-      ]
+      "field": "activities"
     },
     {
       "type": "camps",
@@ -208,14 +186,37 @@
   },
   "seo": {
     "title": {
-      "en": "Youth Summer Camps on Lake Joux and Lake Geneva | OrganixEvents",
-      "fr": "Camps d'été pour les jeunes au Lac de Joux et au Léman | OrganixEvents",
-      "de": "Sommercamps für Jugendliche am Lac de Joux und am Genfersee | OrganixEvents"
+      "en": "Youth Sport & Adventure Camps — Lac de Joux, Lake Geneva | OrganixEvents",
+      "fr": "Camps sport & aventure pour les jeunes — Lac de Joux, Léman | OrganixEvents",
+      "de": "Sport- & Abenteuercamps für Jugendliche — Lac de Joux, Genfersee | OrganixEvents"
     },
     "description": {
-      "en": "Youth summer camps of about a week for small groups of 4 to 10 young people on Lac de Joux and Lake Geneva: wakeboard, SUP, sailing, bike, climbing and bivouac, fully supervised by Organix.",
-      "fr": "Camps d'été d'environ une semaine pour de petits groupes de 4 à 10 jeunes au lac de Joux et au Léman : wakeboard, paddle, voile, vélo, escalade et bivouac, entièrement encadrés par Organix.",
-      "de": "Sommercamps von etwa einer Woche für kleine Gruppen von 4 bis 10 Jugendlichen am Lac de Joux und am Genfersee: Wakeboard, SUP, Segeln, Velo, Klettern und Biwak, vollständig betreut von Organix."
+      "en": "Sport and adventure for small groups of 4 to 10 young people on Lac de Joux, Lake Geneva and Lac des Brenets: wake, SUP, sailing, bike, climbing and bivouac.",
+      "fr": "Sport et aventure pour de petits groupes de 4 à 10 jeunes au lac de Joux, au Léman et au lac des Brenets : wake, paddle, voile, vélo, escalade et bivouac.",
+      "de": "Sport und Abenteuer für kleine Gruppen von 4 bis 10 Jugendlichen am Lac de Joux, am Genfersee und am Lac des Brenets: Wake, SUP, Segeln, Velo, Klettern und Biwak."
     }
+  },
+  "formats": {
+    "en": [
+      "Full week",
+      "Full day",
+      "Half day",
+      "Training",
+      "Wakeboard / wakesurf coaching"
+    ],
+    "fr": [
+      "Semaine complète",
+      "Journée",
+      "Demi-journée",
+      "Formation",
+      "Coaching wake / wakesurf"
+    ],
+    "de": [
+      "Ganze Woche",
+      "Ganzer Tag",
+      "Halber Tag",
+      "Ausbildung",
+      "Wake-/Wakesurf-Coaching"
+    ]
   }
 }

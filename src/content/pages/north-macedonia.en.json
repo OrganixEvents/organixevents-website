@@ -1,143 +1,219 @@
 {
   "hero": {
     "eyebrow": "Our flagship · North Macedonia",
-    "title": ["Snowcat skiing", "in North Macedonia"],
-    "message": ["Our snowcat.", "Our local operation.", "Your adventure."],
-    "ctaPrimary": "Enquire about North Macedonia",
-    "ctaSecondary": "See an example week",
+    "title": [
+      "Snowcat skiing",
+      "in North Macedonia"
+    ],
+    "message": [
+      "Our snowcat.",
+      "Our operation."
+    ],
+    "ctaPrimary": "Let's make it happen",
+    "ctaSecondary": "See what's included",
     "image": "nm-ridges",
-    "imageMobile": "nm-snowcat-ridge"
+    "imageMobile": "nm-snowcat-ridge",
+    "durationFact": "7 nights · 6 ski days"
   },
   "core": {
-    "title": ["6 days.", "Endless possibilities."],
-    "text": "A week is our reference format, not a rule. A few days, three or four days, a full week or longer, on dates that suit you — depending on availability."
+    "title": [
+      "7 nights.",
+      "6 ski days."
+    ],
+    "text": "That's our reference week — not a rule. Shorter stays, longer stays and custom dates are possible, depending on availability. You ski from late December to early April, with a private snowcat, a small group and two guides."
+  },
+  "snowcat": {
+    "eyebrow": "Our snowcat",
+    "title": [
+      "Straight from",
+      "the hotel door."
+    ],
+    "text": "Our PistenBully PB300W belongs to OrganixEvents Sàrl. Its passenger cabin takes your group from the hotel to the top of the first run — no lifts, no queues, no other groups. Just the next line.",
+    "specs": [
+      {
+        "label": "Machine",
+        "value": "PistenBully PB300W"
+      },
+      {
+        "label": "Owner",
+        "value": "OrganixEvents Sàrl"
+      },
+      {
+        "label": "Use",
+        "value": "Private for your group"
+      }
+    ],
+    "image": "nm-snowcat-crew",
+    "image2": "nm-snowcat-powder"
   },
   "level": {
     "eyebrow": "Level",
-    "title": ["Good skier?", "You're ready."],
-    "text": "The minimum is simple: you ski confidently and autonomously on red and black runs. No previous off-piste experience is needed. Terrain, routes and pace are adapted to the group.",
+    "title": [
+      "Good skier?",
+      "You're ready."
+    ],
+    "text": "You ski confidently and autonomously on red and black runs. That's it. No previous off-piste experience is required — we adapt the terrain, the routes and the pace to your group.",
     "image": "nm-arms-up"
   },
   "terrain": {
     "eyebrow": "The terrain",
     "title": "Wild mountains, still off the map.",
-    "text": "The Šar Mountains rise above Popova Shapka in the west of North Macedonia: open alpine faces, long ridgelines, trees and couloirs, in a region still untouched by mass tourism. The snowcat takes you up; the rest of the mountain is yours.",
+    "text": "The Šar Mountains rise above Popova Shapka in the west of North Macedonia: open alpine faces, long ridges, trees and couloirs, far from mass tourism. The snowcat takes you up; the rest of the mountain is yours.",
     "facts": [
-      { "value": "Šar Mountains", "label": "Massif" },
-      { "value": "Popova Shapka", "label": "Base" },
-      { "value": "Late Dec → Early Apr", "label": "Season, depending on snow conditions" }
+      {
+        "value": "Šar Mountains",
+        "label": "Massif"
+      },
+      {
+        "value": "Popova Shapka",
+        "label": "Base"
+      },
+      {
+        "value": "Late Dec → Early Apr",
+        "label": "Season, depending on snow"
+      }
     ],
     "image": "nm-cornice"
   },
-  "difference": {
-    "eyebrow": "The Organix difference",
-    "title": "We don't resell this trip. We run it.",
-    "items": [
-      { "title": "Our own snowcat", "text": "The machine belongs to OrganixEvents Sàrl. It's private to your group." },
-      { "title": "Our local operation", "text": "Wild Tracks, developed with two local partners, runs the operation on the ground." },
-      { "title": "Small groups", "text": "Priced for 8, ideal around 10, never more than 12." },
-      { "title": "One contact", "text": "OrganixEvents, from the first message to the last day." }
-    ]
-  },
-  "snowcat": {
-    "eyebrow": "Our snowcat",
-    "title": ["Our snowcat.", "Our local operation."],
-    "text": "A PistenBully PB300W, adapted for passenger transport, with a dedicated cabin that carries your group up the mountain. No queues, no lifts — just the next line.",
-    "specs": [
-      { "label": "Machine", "value": "PistenBully PB300W" },
-      { "label": "Owner", "value": "OrganixEvents Sàrl" },
-      { "label": "Use", "value": "Private for your group" }
-    ],
-    "image": "nm-snowcat-crew",
-    "image2": "nm-snowcat-powder"
-  },
-  "band": ["nm-cabin-group", "nm-cloudsea", "nm-snowfight", "nm-powder-board"],
+  "band": [
+    "nm-cabin-group",
+    "nm-cloudsea",
+    "nm-snowfight",
+    "nm-powder-board"
+  ],
   "day": {
     "eyebrow": "A day on the mountain",
     "title": "What a day can look like.",
-    "note": "An example, not a timetable. Every day adapts to the weather, the snow and the group.",
+    "note": "An example, not a timetable. Every day follows the weather, the snow and the group.",
     "steps": [
-      { "time": "Morning", "title": "Breakfast & briefing", "text": "Weather and conditions briefing, avalanche equipment check." },
-      { "time": "Morning", "title": "Snowcat up", "text": "The snowcat leaves right from the hotel and takes the group to the first line." },
-      { "time": "Midday", "title": "Lunch on the mountain", "text": "Picnic outside, or a hut when the weather turns." },
-      { "time": "Afternoon", "title": "More laps", "text": "Snowcat, skins or both — depending on the plan." },
-      { "time": "Evening", "title": "Back at the hotel", "text": "Sauna, jacuzzi, dinner and tomorrow's plan." }
+      {
+        "time": "Morning",
+        "title": "Breakfast & briefing",
+        "text": "Conditions briefing and avalanche equipment check."
+      },
+      {
+        "time": "Morning",
+        "title": "Snowcat up",
+        "text": "The snowcat leaves right from the hotel and takes you to the first line."
+      },
+      {
+        "time": "Midday",
+        "title": "Lunch on the mountain",
+        "text": "Picnic outside, or a hut when the weather turns."
+      },
+      {
+        "time": "Afternoon",
+        "title": "More laps",
+        "text": "Snowcat, skins or both — depending on the plan."
+      },
+      {
+        "time": "Evening",
+        "title": "Back at the hotel",
+        "text": "Sauna, jacuzzi, dinner and tomorrow's plan."
+      }
     ],
     "image": "nm-group"
+  },
+  "stay": {
+    "eyebrow": "Hotel & food",
+    "title": "Simple, warm, local.",
+    "text": "A small family hotel with a sauna and a jacuzzi for tired legs. Double rooms; a single room is possible with a supplement. Full board means breakfast, a picnic or lunch on the mountain, dinner and water. Alcohol and soft drinks are not included.",
+    "image": "nm-hotel",
+    "gallery": [
+      "nm-jacuzzi",
+      "nm-food"
+    ]
+  },
+  "gear": {
+    "eyebrow": "Equipment",
+    "title": [
+      "Travel light.",
+      "We have the gear."
+    ],
+    "text": "No freeride equipment? No problem. Available to rent on site:",
+    "items": [
+      "Freeride skis",
+      "Poles",
+      "Airbag",
+      "Avalanche transceiver",
+      "Shovel",
+      "Probe",
+      "Ski touring equipment"
+    ],
+    "note": "Rental is charged separately. Boots and helmets are not available for rent — bring your own.",
+    "image": "nm-forest-walk"
   },
   "beyond": {
     "eyebrow": "Beyond the snowcat",
     "title": "The snowcat is just the beginning.",
-    "text": "Snowcat freeride is the heart of the week — not the limit of it. Depending on the conditions and the group, we build in:",
-    "items": ["Free-rando", "Ski touring", "Cultural experiences", "Custom programmes"],
-    "option": "Option: a one- or two-day heliski extension in Albania can be arranged on request — subject to conditions, operator availability and separate pricing. It is never included or guaranteed.",
+    "text": "Snowcat freeride is the heart of the week. Depending on the conditions and the group, we also build in:",
+    "items": [
+      "Free-rando",
+      "Ski touring",
+      "Cultural experiences",
+      "Custom programmes"
+    ],
+    "option": "Option: a one- or two-day heliski extension in Albania, subject to conditions, availability and separate pricing. Never included or guaranteed.",
     "image": "nm-skin-line"
   },
-  "gear": {
-    "eyebrow": "Equipment",
-    "title": ["Travel light.", "We have the gear."],
-    "text": "You can arrive without any specific freeride equipment. Everything can be rented on site:",
-    "items": ["Freeride skis", "Poles", "Airbag packs", "Avalanche transceivers", "Shovels", "Probes", "Ski touring equipment"],
-    "note": "Rental is charged separately and is not included in the reference price.",
-    "image": "nm-forest-walk"
-  },
-  "week": {
-    "eyebrow": "Example week",
-    "title": "A reference, not a rule.",
-    "note": "This is one possible format. We also build a few days, three or four days, longer stays and custom dates.",
-    "days": [
-      { "day": "Day 1", "title": "Arrival", "text": "Arrival in Skopje, transfer to the mountains, welcome and briefing." },
-      { "day": "Day 2", "title": "Ski day 1", "text": "First day on the snow — getting to know the terrain and the group." },
-      { "day": "Day 3", "title": "Ski day 2", "text": "Snowcat freeride." },
-      { "day": "Day 4", "title": "Ski day 3", "text": "Snowcat, touring or a mix." },
-      { "day": "Day 5", "title": "Ski day 4", "text": "Snowcat freeride." },
-      { "day": "Day 6", "title": "Ski day 5", "text": "Snowcat freeride." },
-      { "day": "Day 7", "title": "Ski day 6", "text": "Last day on the mountain. The last night can be spent in Skopje, with a group dinner in the capital." },
-      { "day": "Day 8", "title": "Departure", "text": "Transfer to the airport." }
-    ]
-  },
-  "stay": {
-    "eyebrow": "Accommodation · Food · Lifestyle",
-    "title": "Simple, warm, local.",
-    "text": "A small family hotel where the snowcat leaves right from the door. Full board with generous Balkan cooking, a sauna and a jacuzzi for tired legs, and evenings around the table. Double rooms; a single room is possible with a supplement.",
-    "image": "nm-hotel",
-    "gallery": ["nm-jacuzzi", "nm-food", "nm-room"]
-  },
-  "included": {
-    "eyebrow": "What's included",
-    "title": "The full-week reference experience."
-  },
   "pricing": {
-    "eyebrow": "Pricing",
+    "eyebrow": "Price & inclusions",
     "label": "From",
     "unit": "/ person",
-    "title": "Full-week reference experience",
-    "items": ["6 ski days", "7 days accommodation", "Full board", "Snowcat", "Mountain guiding", "Transfers from Skopje"],
-    "basis": "Reference price per person, based on a group of 8.",
-    "tailoredTitle": "Contact us for a tailored offer",
-    "tailored": ["Shorter or longer stays", "Other group sizes", "Other airports and transfers, on conditions", "Single room, with a supplement", "Private arrangements"],
+    "title": "Reference week · 7 nights · 6 ski days",
+    "items": [
+      "7 nights in a small family hotel",
+      "6 ski days with the private snowcat",
+      "Two guides: a local UIMLA guide and a guide from the Organix team",
+      "Full board: breakfast, picnic or lunch, dinner, water",
+      "Transfers from Skopje",
+      "The last night can be spent in Skopje, with the final group dinner — still within the 7 nights"
+    ],
+    "basis": "Price per person, based on a group of 8.",
+    "notIncludedTitle": "Not included",
+    "notIncluded": "Flights · equipment rental · alcohol and soft drinks · single room supplement · travel insurance · heliski option",
+    "tailoredTitle": "Need something different?",
+    "tailored": [
+      "Shorter or longer stays",
+      "Other group sizes",
+      "Other airports, on conditions",
+      "Single room, with a supplement"
+    ],
     "currencies": "Invoiced directly by OrganixEvents, in CHF or EUR.",
     "season": "Late December → Early April, depending on snow conditions",
-    "cta": "Request a tailored offer"
+    "cta": "Let's make it happen"
   },
   "who": {
-    "eyebrow": "Who it's for",
-    "title": "Made for good skiers who want more than a ski holiday.",
+    "eyebrow": "Groups",
+    "title": "Small groups, the right mix.",
     "items": [
-      { "title": "Your level", "text": "Confident and autonomous on red and black runs. No off-piste experience required — we adapt terrain and pace." },
-      { "title": "Your group", "text": "Priced for 8, ideal around 10, 12 at the absolute maximum. Friends, clubs, teams." },
-      { "title": "On your own, or two or three", "text": "Ask to join a compatible group. It depends on level, dates and the agreement of the group." },
-      { "title": "Skiers and snowboarders", "text": "Both are welcome. Not sure about your level? Tell us and we'll advise you honestly." }
+      {
+        "title": "Your group",
+        "text": "Priced for 8, ideal around 10, 12 at the most. Friends, clubs, teams."
+      },
+      {
+        "title": "On your own, or two or three",
+        "text": "You can join a compatible group, depending on dates, availability and levels."
+      },
+      {
+        "title": "Skiers and snowboarders",
+        "text": "Both welcome. Not sure about your level? Tell us and we'll advise you honestly."
+      }
     ]
   },
   "team": {
-    "eyebrow": "Team & local operation",
-    "title": "Local people matter.",
-    "text": "OrganixEvents Sàrl owns the snowcat. Wild Tracks, our local operational structure developed with two local partners, runs the operation on the ground: the hotel, the logistics and the relationships that make it all work. OrganixEvents remains your organiser and your contact.",
+    "eyebrow": "Team & local roots",
+    "title": "Local knowledge matters.",
+    "text": "OrganixEvents runs and sells the experience and owns the snowcat. Wild Tracks is our local base — the structure we developed with our partners on the ground, who bring the hotel, the logistics and the relationships that make everything work.",
     "roles": [
-      { "title": "OrganixEvents", "text": "The brand, the organiser and your single point of contact." },
-      { "title": "Wild Tracks", "text": "Our local operation: the snowcat on site, the hotel, logistics and local relationships." },
-      { "title": "On the mountain", "text": "For a standard group, two mountain professionals: a local UIMLA-qualified professional and one from the Organix team." }
+      {
+        "title": "OrganixEvents",
+        "text": "Your organiser and single point of contact, from the first message to the last day."
+      },
+      {
+        "title": "On the mountain",
+        "text": "For a standard group, two guides: a local UIMLA guide and a guide from the Organix team."
+      }
     ],
     "image": "nm-ridge-group"
   },
@@ -145,24 +221,55 @@
     "eyebrow": "FAQ",
     "title": "Good questions.",
     "items": [
-      { "q": "What level do I need?", "a": "You should be a confident, autonomous skier on red and black runs. No previous off-piste experience is required: terrain, routes and pace are adapted to the group." },
-      { "q": "When is the season?", "a": "From late December to early April, depending on snow conditions." },
-      { "q": "Do I have to come for a full week?", "a": "No. The week is our reference format. We can build a few days, three or four days, a full week or longer, on custom dates — depending on availability." },
-      { "q": "What does the CHF 2,250 reference price include?", "a": "Per person, for a group of 8: 6 ski days, 7 days accommodation, full board, the snowcat, mountain guiding and transfers from Skopje. For other formats, we send you a tailored offer." },
-      { "q": "Who guides us?", "a": "For a standard group, two mountain professionals: a local UIMLA-qualified professional and a professional from the Organix team." },
-      { "q": "Who runs the operation on the ground?", "a": "Wild Tracks, our local operational structure developed with two local partners. It runs the hotel, logistics and local relationships. OrganixEvents organises your trip and stays your contact throughout." },
-      { "q": "How big are the groups?", "a": "The price is based on 8 guests. The ideal group is around 10, and 12 is the absolute maximum." },
-      { "q": "I'm on my own, or we're two or three. Can we join?", "a": "Yes, you can ask to join a compatible group. It depends on your level, the dates and the agreement of the group." },
-      { "q": "Do I need my own freeride equipment?", "a": "No. Freeride skis, poles, airbag packs, transceivers, shovels, probes and touring gear can be rented on site. Rental is charged separately." },
-      { "q": "Which airport do I fly to?", "a": "Transfers are organised from Skopje. Other airports and transfers can be arranged on conditions." },
-      { "q": "Is heliskiing possible?", "a": "A one- or two-day heliski extension in Albania can be arranged on request, as an option — subject to conditions, operator availability and separate pricing. It is never included or guaranteed." },
-      { "q": "How do I book?", "a": "Send us an enquiry and we'll talk it through personally. We then send you the registration form. Once confirmed, OrganixEvents invoices you directly, in CHF or EUR." }
+      {
+        "q": "What level do I need?",
+        "a": "You should ski confidently and autonomously on red and black runs. No previous off-piste experience is required: we adapt the terrain to the group."
+      },
+      {
+        "q": "When is the season?",
+        "a": "From late December to early April, depending on snow conditions."
+      },
+      {
+        "q": "Do I have to come for a full week?",
+        "a": "No. 7 nights and 6 ski days is our reference format. Shorter or longer stays and custom dates are possible, depending on availability."
+      },
+      {
+        "q": "What does the CHF 2,250 price include?",
+        "a": "Per person, for a group of 8: 7 nights, 6 ski days with the private snowcat, two guides, full board and transfers from Skopje."
+      },
+      {
+        "q": "Who guides us?",
+        "a": "For a standard group, two guides: a local UIMLA guide and a guide from the Organix team."
+      },
+      {
+        "q": "I'm on my own, or we're two or three. Can we join?",
+        "a": "Yes, you can join a compatible group, depending on dates, availability and levels."
+      },
+      {
+        "q": "Do I need my own freeride equipment?",
+        "a": "No. Freeride skis, poles, airbags, transceivers, shovels, probes and touring gear can be rented on site. Boots and helmets are not available for rent."
+      },
+      {
+        "q": "Which airport do I fly to?",
+        "a": "Transfers are organised from Skopje. Other airports are possible on conditions."
+      },
+      {
+        "q": "Is heliskiing possible?",
+        "a": "A one- or two-day heliski extension in Albania can be added as an option, subject to conditions, availability and separate pricing. It is never included or guaranteed."
+      },
+      {
+        "q": "How do I book?",
+        "a": "Send us an enquiry and we'll talk it through personally. We then send you the registration form. Once your place is confirmed, OrganixEvents invoices you directly, in CHF or EUR."
+      }
     ]
   },
   "final": {
-    "title": ["Your week.", "Your way."],
-    "lead": "Tell us your dates, your group and your level. We'll build the rest.",
-    "cta": "Enquire about North Macedonia",
+    "title": [
+      "Your week.",
+      "Your way."
+    ],
+    "lead": "Tell us your dates, your group and your level. We'll take care of the rest.",
+    "cta": "Let's make it happen",
     "image": "nm-snowcat-blue"
   }
 }

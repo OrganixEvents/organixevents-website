@@ -5,9 +5,9 @@
   },
   "hero": {
     "title": "Beyond the ordinary.",
-    "subtitle": "Expertise. Access. Human.",
+    "subtitle": "Built around you.",
     "ctaPrimary": "Entdecken",
-    "ctaSecondary": "Anfragen",
+    "ctaSecondary": "Packen wir es an",
     "image": "nm-cloudsea"
   },
   "flagship": {
@@ -22,9 +22,9 @@
       "Nordmazedonien."
     ],
     "priceLabel": "Ab",
-    "priceNote": "Basierend auf einer Gruppe von 8 · 6 Skitage · 7 Tage Unterkunft · Vollpension · Snowcat, Begleitung und Transfers ab Skopje",
+    "priceNote": "Basierend auf einer Gruppe von 8 · 7 Nächte · 6 Skitage · Vollpension · privater Snowcat, zwei Guides und Transfers ab Skopje",
     "flexNote": "Ende Dezember bis Anfang April. Flexible Dauer, keine fixen Wochen von Samstag bis Samstag.",
-    "cta": "Nordmazedonien entdecken"
+    "cta": "Erlebnis entdecken"
   },
   "winter": {
     "eyebrow": "Winter",
@@ -61,43 +61,43 @@
   "custom": {
     "eyebrow": "Massgeschneidert",
     "title": [
-      "Sie stellen es sich vor.",
-      "Wir bauen es."
+      "You imagine.",
+      "We create."
     ],
     "lead": [
       "Sie brauchen keinen Plan.",
       "Dafür sind wir da."
     ],
     "inspirationLabel": "Möglichkeiten, keine Pauschalangebote.",
-    "cta": "Ihr Abenteuer planen",
+    "cta": "Packen wir es an",
     "image": "al-sunset-sea"
   },
   "why": {
     "eyebrow": "Warum Organix",
     "items": [
       {
-        "title": "Eigener Betrieb",
-        "text": "Wir betreiben unseren eigenen Snowcat in Nordmazedonien."
+        "title": "Unser eigener Betrieb",
+        "text": "Unser eigener Snowcat und Betrieb in Nordmazedonien."
       },
       {
         "title": "Lokales Wissen",
-        "text": "Wir arbeiten mit lokalen Guides und Menschen vor Ort, denen wir vertrauen."
+        "text": "Wir arbeiten mit den Menschen, die das Gelände am besten kennen."
       },
       {
         "title": "Kleine Gruppen",
-        "text": "Kleine, private Gruppen – kein Massentourismus."
+        "text": "Kleine, private Gruppen – nie Massentourismus."
       },
       {
-        "title": "Professionelle Erfahrung",
-        "text": "Aufgebaut von Menschen aus dem Profi-Skisport."
+        "title": "Erfahrung im Gelände",
+        "text": "Berge, Sport, lokales Wissen und Organisation – aufgebaut über Jahre vor Ort."
       },
       {
         "title": "Komplette Organisation",
-        "text": "Eine Ansprechperson – von der ersten Nachricht bis zum letzten Tag."
+        "text": "Ein Kontakt von der ersten Nachricht bis zum letzten Tag."
       },
       {
         "title": "Maximale Flexibilität",
-        "text": "Daten, Dauer und Programm – auf Sie abgestimmt."
+        "text": "Daten, Dauer und Programm nach Ihren Wünschen."
       }
     ]
   },
@@ -112,7 +112,7 @@
     "image": "nm-snowcat-team"
   },
   "partners": {
-    "eyebrow": "Mit Unterstützung von"
+    "eyebrow": "The people and brands we trust along the way."
   },
   "final": {
     "title": "Wohin als Nächstes?",
@@ -120,7 +120,7 @@
       "Erzählen Sie uns, was Sie vorhaben.",
       "Um den Rest kümmern wir uns."
     ],
-    "cta": "Gespräch starten",
+    "cta": "Packen wir es an",
     "image": "nm-sunset"
   }
 }

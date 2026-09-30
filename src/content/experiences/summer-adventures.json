@@ -22,9 +22,9 @@
     "de": "Flexible Sport- & Abenteuerreisen"
   },
   "tagline": {
-    "en": "When the snow melts, we keep moving.",
-    "fr": "Quand la neige fond, on continue d'avancer.",
-    "de": "Wenn der Schnee schmilzt, bleiben wir in Bewegung."
+    "en": "Organix isn't only winter.",
+    "fr": "Organix, ce n'est pas que l'hiver.",
+    "de": "Organix ist nicht nur Winter."
   },
   "shortDescription": {
     "en": "Bike, mountain, water and multi-sport trips — shaped around the group rather than sold off the shelf.",
@@ -32,9 +32,9 @@
     "de": "Velo, Berge, Wasser und Multisport – Reisen, die rund um die Gruppe entstehen, statt ab Katalog verkauft zu werden."
   },
   "longDescription": {
-    "en": "Summer adventures stay flexible on purpose: cycling trips in North Macedonia, multi-day treks, days in the mountains, culture and multi-sport. We put them together around your group and your idea.",
-    "fr": "Nos aventures d'été restent volontairement flexibles : voyages à vélo en Macédoine du Nord, treks de plusieurs jours, journées en montagne, culture et multisport. Nous les construisons autour de votre groupe et de votre idée.",
-    "de": "Unsere Sommerabenteuer bleiben bewusst flexibel: Velotouren in Nordmazedonien, mehrtägige Trekkings, Tage in den Bergen, Kultur und Multisport. Wir gestalten sie rund um Ihre Gruppe und Ihre Idee."
+    "en": "Organix isn't only winter. In summer we build cycling trips, North Macedonia's mountains in their green season, multi-day treks, culture and multi-sport — shaped around your group rather than sold off the shelf. More ideas live on our Custom page.",
+    "fr": "Organix, ce n'est pas que l'hiver. En été, nous construisons des voyages à vélo, la Macédoine du Nord en saison verte, des treks de plusieurs jours, de la culture et du multisport — autour de votre groupe plutôt que sur catalogue. D'autres idées sont sur notre page Sur mesure.",
+    "de": "Organix ist nicht nur Winter. Im Sommer gestalten wir Velotouren, Nordmazedoniens Berge in der grünen Jahreszeit, mehrtägige Trekkings, Kultur und Multisport – rund um Ihre Gruppe statt ab Katalog. Weitere Ideen finden Sie auf unserer Seite Massgeschneidert."
   },
   "heroImage": "su-bike",
   "gallery": [
@@ -58,23 +58,26 @@
   "groupSize": null,
   "activities": {
     "en": [
-      "Cycling trips in North Macedonia",
-      "Multi-day trekking",
-      "Mountain days",
+      "Cycling trips",
+      "North Macedonia in summer",
+      "Trekking",
+      "Mountains",
       "Culture",
       "Multi-sport"
     ],
     "fr": [
-      "Voyages à vélo en Macédoine du Nord",
-      "Treks de plusieurs jours",
-      "Journées en montagne",
+      "Voyages à vélo",
+      "Macédoine du Nord en été",
+      "Trekking",
+      "Montagne",
       "Culture",
       "Multisport"
     ],
     "de": [
-      "Velotouren in Nordmazedonien",
-      "Mehrtägige Trekkings",
-      "Tage in den Bergen",
+      "Velotouren",
+      "Nordmazedonien im Sommer",
+      "Trekking",
+      "Berge",
       "Kultur",
       "Multisport"
     ]
