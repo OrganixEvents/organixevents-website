@@ -12,10 +12,10 @@ export function experiencePage(ctx, e) {
   const facts = [];
   if (e.duration) facts.push([u.common.duration, ctx.t(e.duration)]);
   if (e.groupSize?.note) facts.push([u.common.groupSize, ctx.t(e.groupSize.note)]);
-  if (e.dates?.length) facts.push([u.common.dates, e.dates.map((d) => `${ctx.t(d.label)}: ${formatDateRange(d.start, d.end, ctx.locale)}`).join(' · ')]);
+  if (e.dates?.length) facts.push([u.common.dates, e.dates.map((d) => formatDateRange(d.start, d.end, ctx.locale)).join(' · ')]);
   else if (e.seasonWindow) facts.push([u.common.season, ctx.t(e.seasonWindow)]);
   if (e.level) facts.push([u.common.level, ctx.t(e.level)]);
-  if (e.priceFrom) facts.push([u.common.price, `${u.common.from} ${formatPrice(e.priceFrom, e.currency, ctx.locale)} ${e.priceUnit ? ctx.t(e.priceUnit) : u.common.perPerson}` + (e.priceNote ? ` — ${ctx.t(e.priceNote)}` : '')]);
+  if (e.priceFrom) facts.push([u.common.price, `${u.common.from} ${formatPrice(e.priceFrom, e.currency, ctx.locale)} ${e.priceUnit ? ctx.t(e.priceUnit) : u.common.perPerson}` + (e.priceNote ? `, ${ctx.t(e.priceNote)}` : '')]);
   else if (e.priceOnRequest) facts.push([u.common.price, u.common.onRequest]);
   if (e.region) facts.push(['', ctx.t(e.region)]);
   if (e.partner) facts.push([u.common.partner, e.partner.name]);

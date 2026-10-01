@@ -7,8 +7,8 @@
  *
  * Environment:
  *   SITE_URL        absolute origin used for canonical / hreflang / sitemap
- *                   (defaults to Netlify's $URL, then site.json siteUrl)
- *   SITE_INDEXABLE  "true" to allow search engines (keep unset until launch)
+ *                   (defaults to site.json siteUrl = https://organixevents.com)
+ *   SITE_INDEXABLE  "false" to block search engines (used for Netlify deploy previews only)
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -31,8 +31,8 @@ const site = readJson('src/content/site.json');
 const media = readJson('src/content/media.json');
 const inspirations = readJson('src/content/inspirations.json');
 const mediaAlt = readJson('src/content/media-alt.json');
-const SITE_URL = (process.env.SITE_URL || process.env.URL || site.siteUrl).replace(/\/$/, '');
-const INDEXABLE = process.env.SITE_INDEXABLE === 'true';
+const SITE_URL = (process.env.SITE_URL || site.siteUrl).replace(/\/$/, '');
+const INDEXABLE = process.env.SITE_INDEXABLE !== 'false';
 const VERSION = Date.now().toString(36);
 
 const experiences = {};

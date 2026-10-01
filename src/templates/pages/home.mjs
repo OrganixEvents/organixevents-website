@@ -93,10 +93,10 @@ export function homePage(ctx) {
   </div>
 </section>`;
 
-  const about = `<section class="section about-preview" aria-labelledby="about-title">
-  <div class="wrap about-preview__grid">
-    <div class="about-preview__media reveal">${picture(ctx, c.about.image, { sizes: '(min-width: 900px) 50vw, 100vw' })}</div>
-    <div class="about-preview__copy">
+  const about = `<section class="section about-teaser" aria-labelledby="about-title">
+  <div class="wrap about-teaser__grid">
+    <div class="about-teaser__media reveal">${picture(ctx, c.about.image, { sizes: '(min-width: 900px) 50vw, 100vw' })}</div>
+    <div class="about-teaser__copy">
       <p class="eyebrow reveal">${esc(c.about.eyebrow)}</p>
       <h2 class="title reveal" id="about-title">${lines(c.about.title)}</h2>
       <p class="reveal">${esc(c.about.text)}</p>

@@ -59,15 +59,15 @@
     "de": "/ Tag"
   },
   "priceNote": {
-    "en": "Then a quote based on the programme, destination and period.",
-    "fr": "Puis devis selon le programme, la destination et la période.",
-    "de": "Danach Offerte je nach Programm, Ort und Zeitraum."
+    "en": "then a quote based on the programme, destination and period",
+    "fr": "puis devis selon le programme, la destination et la période",
+    "de": "danach Offerte je nach Programm, Ort und Zeitraum"
   },
   "currency": "CHF",
   "duration": {
-    "en": "1 day → full week / multi-day",
-    "fr": "1 jour → une semaine / plusieurs jours",
-    "de": "1 Tag → ganze Woche / mehrtägig"
+    "en": "1 day → several days or a full week",
+    "fr": "1 jour → plusieurs jours ou une semaine",
+    "de": "1 Tag → mehrere Tage oder eine ganze Woche"
   },
   "dates": [],
   "flexibleDates": true,

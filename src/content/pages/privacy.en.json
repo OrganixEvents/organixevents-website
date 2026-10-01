@@ -5,7 +5,7 @@
   },
   "eyebrow": "Legal",
   "title": "Privacy policy",
-  "updated": "Last updated: September 2026",
+  "updated": "Last updated: October 2026",
   "sections": [
     {
       "h": "Who is responsible",
@@ -23,6 +23,12 @@
       "h": "Netlify Forms and hosting",
       "p": [
         "The website is hosted by Netlify, Inc. (USA), and form submissions are processed and stored through Netlify Forms before being sent to us by email. Netlify may process technical data (such as IP address, browser type and time of access) in server logs to deliver the site securely. Data may therefore be processed outside Switzerland, including in the USA."
+      ]
+    },
+    {
+      "h": "Fonts",
+      "p": [
+        "The website uses fonts served by Google Fonts (Google Ireland Ltd. / Google LLC). To display them, your browser connects to Google's servers, which receive your IP address. No cookies are set for this purpose."
       ]
     },
     {

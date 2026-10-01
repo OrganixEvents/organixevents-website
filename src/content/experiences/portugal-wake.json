@@ -138,7 +138,7 @@
     {
       "type": "points",
       "title": {
-        "en": "What makes it",
+        "en": "What makes it special",
         "fr": "Ce qui fait la différence",
         "de": "Was es ausmacht"
       },
@@ -196,9 +196,9 @@
     {
       "type": "list",
       "title": {
-        "en": "The week includes",
-        "fr": "La semaine comprend",
-        "de": "Die Woche umfasst"
+        "en": "Included",
+        "fr": "Compris",
+        "de": "Inbegriffen"
       },
       "field": "included"
     },

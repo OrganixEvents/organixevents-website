@@ -7,7 +7,7 @@
     "eyebrow": "Über uns",
     "title": [
       "In den Bergen entstanden.",
-      "Für das Abenteuer gemacht."
+      "Fürs Abenteuer gemacht."
     ],
     "image": "nm-snowfight"
   },
@@ -56,7 +56,7 @@
       "id": "bryan",
       "role": "Mitgründer · Schneesport-Profi",
       "intro": "Bryan war über zehn Jahre im internationalen Skicross unterwegs, als Mitglied des Schweizer Skicross-Teams. Der Rennsport führte ihn in Berge auf der ganzen Welt – und lehrte ihn, was einen guten Tag am Berg ausmacht.",
-      "text": "Seither setzt er diese Erfahrung in Sport-, Berg- und Abenteuerprojekten sowie in seinen eigenen Unternehmen ein. Heute stellt er diese Praxiserfahrung in den Dienst der Organix-Abenteuer.",
+      "text": "Seither hat er eigene Sport-, Berg- und Abenteuerprojekte sowie Unternehmen aufgebaut. Heute stellt er diese Praxiserfahrung in den Dienst der Organix-Abenteuer.",
       "facts": [
         "Über 10 Jahre internationaler Skicross",
         "Ehemaliges Mitglied des Schweizer Skicross-Teams",
@@ -88,11 +88,11 @@
   "local": {
     "eyebrow": "Unser Prinzip",
     "title": "Local knowledge matters.",
-    "text": "Organix arbeitet mit den Menschen, die das Gelände wirklich kennen. Wir bringen Struktur, Organisation, Erfahrung und Netzwerk; unsere lokalen Partner bringen ihr Wissen über den Ort. Gemeinsam wird die Reise zu dem, was sie ist.",
+    "text": "Organix arbeitet mit den Menschen, die das Gelände wirklich kennen. Wir bringen Struktur, Organisation, Erfahrung und Netzwerk; unsere lokalen Partner bringen ihr Wissen über den Ort. Erst zusammen wird daraus eine gelungene Reise.",
     "image": "nm-snowcat-blue"
   },
   "final": {
-    "title": "Bauen wir das nächste.",
+    "title": "Bauen wir das nächste Abenteuer.",
     "lead": "Erzählen Sie uns, was Sie vorhaben.",
     "cta": "Packen wir es an",
     "image": "nm-sunset"

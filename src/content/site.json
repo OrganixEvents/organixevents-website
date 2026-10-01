@@ -2,7 +2,7 @@
   "_comment": "Global settings — single source for contact details and team names. Change a value here and it updates everywhere on rebuild.",
   "name": "OrganixEvents",
   "legalName": "OrganixEvents Sàrl",
-  "siteUrl": "https://organixevents.netlify.app",
+  "siteUrl": "https://organixevents.com",
   "statement": "Beyond the ordinary.",
   "contact": {
     "email": "hello@organixevents.com",
@@ -105,7 +105,7 @@
     }
   ],
   "analytics": {
-    "_comment": "GA4 loads ONLY when ga4Id is set AND the visitor accepts analytics cookies (Consent Mode v2, default denied). Put the real Measurement ID (G-XXXXXXX) here.",
+    "_comment": "GA4 loads ONLY when ga4Id is set AND the visitor accepts analytics cookies (Consent Mode v2, default denied). Put the real Measurement ID (format G-XXXXXXXXXX) in ga4Id.",
     "provider": "ga4",
     "ga4Id": null
   }

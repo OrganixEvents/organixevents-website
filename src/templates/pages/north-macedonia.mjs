@@ -134,7 +134,7 @@ export function northMacedoniaPage(ctx) {
       ${priceTag(ctx, e)}
       ${checkList(c.pricing.items, 'checks--light')}
       <p class="pricing__basis">${esc(c.pricing.basis)}</p>
-      ${c.pricing.notIncluded ? `<p class="pricing__excl"><strong>${esc(c.pricing.notIncludedTitle)}:</strong> ${esc(c.pricing.notIncluded)}</p>` : ''}
+      ${c.pricing.notIncluded ? `<p class="pricing__excl"><strong>${esc(c.pricing.notIncludedTitle)}</strong> ${esc(c.pricing.notIncluded)}</p>` : ''}
     </div>
     <div class="pricing__side reveal">
       <h3 class="pricing__tailored">${fit(c.pricing.tailoredTitle)}</h3>

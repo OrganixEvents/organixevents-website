@@ -5,7 +5,7 @@
   },
   "eyebrow": "Rechtliches",
   "title": "Datenschutzerklärung",
-  "updated": "Stand: September 2026",
+  "updated": "Stand: Oktober 2026",
   "sections": [
     {
       "h": "Verantwortliche Stelle",
@@ -23,6 +23,12 @@
       "h": "Netlify Forms und Hosting",
       "p": [
         "Die Website wird von Netlify, Inc. (USA) gehostet, und Formulareingaben werden über Netlify Forms verarbeitet und gespeichert, bevor sie uns per E-Mail zugestellt werden. Netlify kann technische Daten (etwa IP-Adresse, Browsertyp und Zugriffszeit) in Server-Logs verarbeiten, um die Website sicher bereitzustellen. Daten können daher ausserhalb der Schweiz bearbeitet werden, auch in den USA."
+      ]
+    },
+    {
+      "h": "Schriftarten",
+      "p": [
+        "Die Website verwendet Schriftarten von Google Fonts (Google Ireland Ltd. / Google LLC). Um sie anzuzeigen, verbindet sich Ihr Browser mit Servern von Google, die dabei Ihre IP-Adresse erhalten. Dafür werden keine Cookies gesetzt."
       ]
     },
     {

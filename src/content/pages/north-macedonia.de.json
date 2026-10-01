@@ -117,7 +117,7 @@
   "stay": {
     "eyebrow": "Hotel & Verpflegung",
     "title": "Einfach, herzlich, lokal.",
-    "text": "Ein kleines Familienhotel mit Sauna und Whirlpool. Doppelzimmer; Einzelzimmer gegen Zuschlag. Vollpension: Frühstück, Picknick oder Mittagessen, Abendessen und Wasser – Alkohol und Softdrinks gehen extra.",
+    "text": "Ein kleines Familienhotel mit Sauna und Whirlpool. Doppelzimmer; Einzelzimmer gegen Zuschlag. Vollpension: Frühstück, Picknick oder Mittagessen, Abendessen und Wasser – Alkohol und Softdrinks sind nicht inbegriffen.",
     "image": "nm-hotel",
     "gallery": [
       "nm-jacuzzi",
@@ -170,7 +170,7 @@
       "Die letzte Nacht kann in Skopje verbracht werden, mit dem gemeinsamen Abschlussessen – innerhalb der 7 Nächte"
     ],
     "basis": "Preis pro Person, basierend auf einer Gruppe von 8.",
-    "notIncludedTitle": "Nicht inbegriffen",
+    "notIncludedTitle": "Nicht inbegriffen:",
     "notIncluded": "Flüge · Materialmiete · Alkohol und Softdrinks · Einzelzimmerzuschlag · Reiseversicherung · Heliski-Option",
     "tailoredTitle": "Etwas anderes gewünscht?",
     "tailored": [
@@ -197,7 +197,7 @@
       },
       {
         "title": "Skifahrer und Snowboarder",
-        "text": "Beide sind willkommen. Unsicher beim Niveau? Sagen Sie es uns, wir beraten Sie ehrlich."
+        "text": "Beide sind willkommen. Unsicher, ob Ihr Niveau passt? Sagen Sie es uns, wir beraten Sie ehrlich."
       }
     ]
   },
@@ -209,10 +209,6 @@
       {
         "title": "OrganixEvents",
         "text": "Ihr Organisator und einziger Ansprechpartner, von der ersten Nachricht bis zum letzten Tag."
-      },
-      {
-        "title": "Am Berg",
-        "text": "Für eine Standardgruppe zwei Guides: ein lokaler UIMLA-Guide und ein Guide aus dem Organix-Team."
       }
     ],
     "image": "nm-ridge-group"

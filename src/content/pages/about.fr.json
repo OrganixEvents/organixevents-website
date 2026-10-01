@@ -6,7 +6,7 @@
   "hero": {
     "eyebrow": "À propos",
     "title": [
-      "Né dans les montagnes.",
+      "Né en montagne.",
       "Fait pour l'aventure."
     ],
     "image": "nm-snowfight"
@@ -56,7 +56,7 @@
       "id": "bryan",
       "role": "Cofondateur · Professionnel des sports de neige",
       "intro": "Bryan a passé plus de dix ans en ski cross international, comme membre de l'équipe de Suisse de ski cross. La compétition l'a emmené dans les montagnes du monde entier — et lui a appris ce qui fait une bonne journée en montagne.",
-      "text": "Depuis, il a mis cette expérience au service de projets sport, montagne et aventure, et de ses propres entreprises. Aujourd'hui, il met cette expérience du terrain au service des aventures Organix.",
+      "text": "Depuis, il s'est lancé dans des projets sport, montagne et aventure, ainsi que dans ses propres entreprises. Aujourd'hui, il met cette expérience du terrain au service des aventures Organix.",
       "facts": [
         "Plus de 10 ans de ski cross international",
         "Ancien membre de l'équipe de Suisse de ski cross",
@@ -68,7 +68,7 @@
       "id": "stephane",
       "role": "Cofondateur · Opérations & développement local",
       "intro": "Stéphane est le pilier d'Organix depuis une quinzaine d'années — et depuis aussi longtemps, il voyage, travaille et tisse des liens en Macédoine du Nord.",
-      "text": "Il connaît les lieux, les gens et la manière de faire fonctionner les choses sur place. Son métier de bootfitter et de semelles sur mesure est à l'origine de sa rencontre avec Bryan.",
+      "text": "Il connaît les lieux, les gens et la manière de faire fonctionner les choses sur place. C'est son métier de bootfitter, spécialiste des semelles sur mesure, qui lui a fait rencontrer Bryan.",
       "facts": [
         "Une quinzaine d'années au cœur d'Organix",
         "Une quinzaine d'années en Macédoine du Nord",
@@ -92,7 +92,7 @@
     "image": "nm-snowcat-blue"
   },
   "final": {
-    "title": "Construisons la prochaine.",
+    "title": "Construisons la prochaine aventure.",
     "lead": "Dites-nous ce que vous avez en tête.",
     "cta": "Construisons-le ensemble",
     "image": "nm-sunset"

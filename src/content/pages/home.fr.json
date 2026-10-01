@@ -54,7 +54,7 @@
     "labels": {
       "youth-camps": "Camps jeunes",
       "portugal-wake": "Wake au Portugal",
-      "summer-adventures": "Voyages sport & aventure"
+      "summer-adventures": "Aventures d'été"
     },
     "cta": "Découvrir l'été"
   },
@@ -80,16 +80,16 @@
         "text": "Notre propre snowcat et notre opération en Macédoine du Nord."
       },
       {
-        "title": "Connaissance du terrain",
-        "text": "Nous travaillons avec les personnes qui connaissent le mieux le terrain."
+        "title": "Partenaires locaux",
+        "text": "Nous travaillons avec celles et ceux qui connaissent le mieux chaque montagne."
       },
       {
         "title": "Petits groupes",
-        "text": "Des petits groupes privés — jamais de tourisme de masse."
+        "text": "De petits groupes privés — jamais de tourisme de masse."
       },
       {
-        "title": "Expérience du terrain",
-        "text": "Montagne, sport, connaissance locale et organisation — construits par des années sur le terrain."
+        "title": "Expérience",
+        "text": "Montagne, sport, connaissance locale et organisation — des années de pratique."
       },
       {
         "title": "Organisation complète",
@@ -97,7 +97,7 @@
       },
       {
         "title": "Flexibilité maximale",
-        "text": "Dates, durée et programme adaptés à vous."
+        "text": "Dates, durée et programme adaptés à vos envies."
       }
     ]
   },

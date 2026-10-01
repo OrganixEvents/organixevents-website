@@ -6,10 +6,13 @@
 
 [build.environment]
   NODE_VERSION = "20"
-  # Set SITE_INDEXABLE = "true" only at launch, once the production domain is connected.
-  # SITE_URL defaults to Netlify's $URL.
+  # Production: indexable, canonical domain https://organixevents.com (defaults in scripts/build.mjs).
 
-# Deploy previews and branch deploys are never indexable.
+[context.production.environment]
+  SITE_URL = "https://organixevents.com"
+  SITE_INDEXABLE = "true"
+
+# Deploy previews and branch deploys stay out of search engines.
 [context.deploy-preview.environment]
   SITE_INDEXABLE = "false"
 [context.branch-deploy.environment]

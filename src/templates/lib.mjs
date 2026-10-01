@@ -45,6 +45,11 @@ export function formatDateRange(start, end, locale = 'en') {
   const y = new Intl.DateTimeFormat(loc, { year: 'numeric' });
   const s = new Date(start + 'T12:00:00Z');
   const e = new Date(end + 'T12:00:00Z');
+  if (s.getUTCMonth() === e.getUTCMonth() && s.getUTCFullYear() === e.getUTCFullYear()) {
+    const m = new Intl.DateTimeFormat(loc, { month: 'long' }).format(e);
+    const d1 = s.getUTCDate(), d2 = e.getUTCDate();
+    return locale === 'de' ? `${d1}.–${d2}. ${m} ${y.format(e)}` : `${d1}–${d2} ${m} ${y.format(e)}`;
+  }
   return `${f.format(s)} – ${f.format(e)} ${y.format(e)}`;
 }
 

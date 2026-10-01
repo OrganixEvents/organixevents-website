@@ -36,9 +36,9 @@
     "de": "Eine seltene Snowcat-Freeride-Woche in Georgien, mit einem Mitglied des Organix-Teams. Nur eine Woche: 9.–16. Januar 2027."
   },
   "longDescription": {
-    "en": "Snowcat slots in Georgia are rare. For January 2027, we have secured one week in Bakhmaro, deep in the Caucasus. Organix organises the whole trip, and a member of the Organix team travels with the group from arrival to departure. We have been coming back to this destination for several years. The snowcat operation itself is run by our experienced local partner.",
-    "fr": "Les créneaux de snowcat en Géorgie sont rares. Pour janvier 2027, nous avons sécurisé une semaine à Bakhmaro, au cœur du Caucase. Organix organise tout le voyage, et un membre de l'équipe Organix accompagne le groupe de l'arrivée au départ. Nous revenons sur cette destination depuis plusieurs années. L'opération snowcat elle-même est assurée par notre partenaire local expérimenté.",
-    "de": "Snowcat-Termine in Georgien sind selten. Für Januar 2027 haben wir eine Woche in Bakhmaro, mitten im Kaukasus, gesichert. Organix organisiert die ganze Reise, und ein Mitglied des Organix-Teams begleitet die Gruppe von der Ankunft bis zur Abreise. Wir kehren seit mehreren Jahren an dieses Ziel zurück. Den Snowcat-Betrieb selbst führt unser erfahrener lokaler Partner."
+    "en": "For January 2027, we have secured one snowcat week in Bakhmaro, deep in the Caucasus. Organix organises the whole trip; the snowcat operation itself is run by our experienced local partner.",
+    "fr": "Pour janvier 2027, nous avons sécurisé une semaine de snowcat à Bakhmaro, au cœur du Caucase. Organix organise tout le voyage ; l'opération snowcat elle-même est assurée par notre partenaire local expérimenté.",
+    "de": "Für Januar 2027 haben wir eine Snowcat-Woche in Bakhmaro, mitten im Kaukasus, gesichert. Organix organisiert die ganze Reise; den Snowcat-Betrieb selbst führt unser erfahrener lokaler Partner."
   },
   "heroImage": "ge-powder",
   "gallery": [
@@ -170,9 +170,9 @@
             "de": "Nur eine Woche"
           },
           "text": {
-            "en": "9–16 January 2027, for a single small group of 12 clients at most.",
-            "fr": "Du 9 au 16 janvier 2027, pour un seul petit groupe de 12 clients au maximum.",
-            "de": "9.–16. Januar 2027, für eine einzige kleine Gruppe von höchstens 12 Gästen."
+            "en": "For a single small group of 12 clients at most.",
+            "fr": "Pour un seul petit groupe de 12 clients au maximum.",
+            "de": "Für eine einzige kleine Gruppe von höchstens 12 Gästen."
           }
         },
         {
@@ -182,9 +182,9 @@
             "de": "Mit dem Organix-Team"
           },
           "text": {
-            "en": "A member of the Organix team travels with the group. We've been coming back here for several years.",
-            "fr": "Un membre de l'équipe Organix accompagne le groupe. Nous revenons ici depuis plusieurs années.",
-            "de": "Ein Mitglied des Organix-Teams begleitet die Gruppe. Wir kommen seit mehreren Jahren hierher zurück."
+            "en": "A member of the Organix team travels with the group, on a destination we've known for several years.",
+            "fr": "Un membre de l'équipe Organix accompagne le groupe, sur une destination que nous connaissons depuis plusieurs années.",
+            "de": "Ein Mitglied des Organix-Teams begleitet die Gruppe – an ein Ziel, das wir seit mehreren Jahren kennen."
           }
         },
         {
@@ -214,9 +214,9 @@
         "de": "Unsere Reise. Ein lokaler Betrieb."
       },
       "text": {
-        "en": "In Georgia, the snowcat operation belongs to an experienced local operator. Organix organises the entire stay, and a member of our team is with the group on the ground.",
-        "fr": "En Géorgie, l'opération snowcat appartient à un opérateur local expérimenté. Organix organise tout le séjour, et un membre de notre équipe est avec le groupe sur place.",
-        "de": "In Georgien gehört der Snowcat-Betrieb einem erfahrenen lokalen Anbieter. Organix organisiert den ganzen Aufenthalt, und ein Mitglied unseres Teams ist vor Ort bei der Gruppe."
+        "en": "In Georgia, the snowcat operation belongs to an experienced local operator. Organix organises the stay and takes care of the group on the ground.",
+        "fr": "En Géorgie, l'opération snowcat appartient à un opérateur local expérimenté. Organix organise le séjour et s'occupe du groupe sur place.",
+        "de": "In Georgien gehört der Snowcat-Betrieb einem erfahrenen lokalen Anbieter. Organix organisiert den Aufenthalt und kümmert sich vor Ort um die Gruppe."
       },
       "image": "ge-snowcat-road"
     }

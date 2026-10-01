@@ -72,7 +72,7 @@ main:focus { outline: none; }
 .section-head, .flagship__copy, .hero__content, .wflag__content, .uni__copy, .xcard__body, .final__content,
 .snowcat__copy, .beyond__content, .core__grid > *, .custom-band__content, .local__content, .sarea__copy, .sarea__over,
 .sarea__head > *, .enquire-page__head, .interest__box, .plogo, .person__body, .insp__item, .insp__cta, .plain-hero .wrap,
-.one .wrap, .about-preview__copy, .option__body, .story__copy, .thanks-page .wrap, .nf-lang, .pricing__main, .pricing__side,
+.one .wrap, .about-teaser__copy, .option__body, .story__copy, .thanks-page .wrap, .nf-lang, .pricing__main, .pricing__side,
 .who__item, .numbered li, .why__item, .steps li, .milestones li, .scard__body, .camp, .partner { container-type: inline-size; }
 html[lang="de"] body, html[lang="fr"] body { hyphens: auto; -webkit-hyphens: auto; }
 h1, h2, h3, .display, .title { overflow-wrap: break-word; text-wrap: balance; }
@@ -350,12 +350,12 @@ p, li, dd, dt, label, summary { overflow-wrap: break-word; }
 .why__title { font-weight: 800; font-style: italic; text-transform: uppercase; font-size: clamp(1.3rem, 1.9vw, 1.7rem); line-height: 1.05; margin: 14px 0 10px; }
 .why__item p { color: var(--fg-2); font-size: 15px; }
 
-/* ---------- about preview ---------- */
-.about-preview { background: var(--bg-2); }
-.about-preview__grid { display: grid; gap: 48px; align-items: center; }
-.about-preview__media { aspect-ratio: 4/5; overflow: hidden; }
-.about-preview__copy p:not(.eyebrow) { color: var(--fg-2); margin-top: 24px; max-width: 52ch; }
-@media (min-width: 900px) { .about-preview__grid { grid-template-columns: 1fr 1fr; gap: 96px; } .about-preview__media { aspect-ratio: 5/6; } }
+/* ---------- about teaser ---------- */
+.about-teaser { background: var(--bg-2); }
+.about-teaser__grid { display: grid; gap: 48px; align-items: center; }
+.about-teaser__media { aspect-ratio: 4/5; overflow: hidden; }
+.about-teaser__copy p:not(.eyebrow) { color: var(--fg-2); margin-top: 24px; max-width: 52ch; }
+@media (min-width: 900px) { .about-teaser__grid { grid-template-columns: 1fr 1fr; gap: 96px; } .about-teaser__media { aspect-ratio: 5/6; } }
 
 /* ---------- partners ---------- */
 .partners { padding-block: clamp(64px, 8vw, 110px); background: var(--paper); color: var(--dark); text-align: center; }
@@ -392,7 +392,6 @@ p, li, dd, dt, label, summary { overflow-wrap: break-word; }
 .site-footer__cols a:hover { color: #fff; }
 .site-footer address { font-style: normal; margin-top: 16px; color: var(--fg-3); }
 .site-footer__bottom { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding-block: 28px; color: var(--fg-3); font-size: 13px; }
-.site-footer__preview { flex-basis: 100%; color: var(--mint); font-size: 12px; letter-spacing: .08em; }
 
 /* ==========================================================================
    North Macedonia

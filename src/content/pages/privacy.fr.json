@@ -5,7 +5,7 @@
   },
   "eyebrow": "Informations légales",
   "title": "Politique de confidentialité",
-  "updated": "Dernière mise à jour : septembre 2026",
+  "updated": "Dernière mise à jour : octobre 2026",
   "sections": [
     {
       "h": "Responsable du traitement",
@@ -23,6 +23,12 @@
       "h": "Netlify Forms et hébergement",
       "p": [
         "Le site est hébergé par Netlify, Inc. (États-Unis), et les formulaires sont traités et stockés via Netlify Forms avant de nous être transmis par e-mail. Netlify peut traiter des données techniques (adresse IP, type de navigateur, heure d'accès, etc.) dans ses journaux serveur pour assurer un service sécurisé. Les données peuvent donc être traitées hors de Suisse, notamment aux États-Unis."
+      ]
+    },
+    {
+      "h": "Polices de caractères",
+      "p": [
+        "Le site utilise des polices fournies par Google Fonts (Google Ireland Ltd. / Google LLC). Pour les afficher, votre navigateur se connecte aux serveurs de Google, qui reçoivent votre adresse IP. Aucun cookie n'est déposé à cette fin."
       ]
     },
     {

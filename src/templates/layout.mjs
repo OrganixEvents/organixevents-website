@@ -35,7 +35,7 @@ ${alternates.length ? `<link rel="alternate" hreflang="x-default" href="${ctx.ab
 ${page.preload || ''}
 <link rel="stylesheet" href="${ctx.asset(`assets/main.css?v=${ctx.version}`)}">
 ${(page.jsonLd || []).join('\n')}
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied'});window.ORGANIX_CONFIG=${JSON.stringify({ ga4Id: site.analytics?.ga4Id || null, consentDemo: !!ctx.preview && !site.analytics?.ga4Id })};</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied'});window.ORGANIX_CONFIG=${JSON.stringify(ctx.preview && !site.analytics?.ga4Id ? { ga4Id: null, consentDemo: true } : { ga4Id: site.analytics?.ga4Id || null })};</script>
 </head>`;
 }
 
@@ -124,7 +124,6 @@ function footer(ctx) {
         ${site.analytics?.ga4Id || ctx.preview ? `<li><button type="button" class="linkish" data-consent-open>${esc(ui.footer.cookies)}</button></li>` : ''}
       </ul>
       ${langSwitch(ctx, 'lang--footer')}
-      ${ctx.indexable ? '' : `<p class="site-footer__preview">${esc(ui.footer.preview)}</p>`}
     </div>
   </div>
 </footer>`;

@@ -170,8 +170,8 @@
       "The last night can be spent in Skopje, with the final group dinner — still within the 7 nights"
     ],
     "basis": "Price per person, based on a group of 8.",
-    "notIncludedTitle": "Not included",
-    "notIncluded": "Flights · equipment rental · alcohol and soft drinks · single room supplement · travel insurance · heliski option",
+    "notIncludedTitle": "Not included:",
+    "notIncluded": "flights · equipment rental · alcohol and soft drinks · single room supplement · travel insurance · heliski option",
     "tailoredTitle": "Need something different?",
     "tailored": [
       "Shorter or longer stays",
@@ -209,10 +209,6 @@
       {
         "title": "OrganixEvents",
         "text": "Your organiser and single point of contact, from the first message to the last day."
-      },
-      {
-        "title": "On the mountain",
-        "text": "For a standard group, two guides: a local UIMLA guide and a guide from the Organix team."
       }
     ],
     "image": "nm-ridge-group"
