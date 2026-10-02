@@ -107,6 +107,6 @@
   "analytics": {
     "_comment": "GA4 loads ONLY when ga4Id is set AND the visitor accepts analytics cookies (Consent Mode v2, default denied). Put the real Measurement ID (format G-XXXXXXXXXX) in ga4Id.",
     "provider": "ga4",
-    "ga4Id": null
+    "ga4Id": "G-Z1MH0NX3B6"
   }
 }

@@ -16,7 +16,8 @@
     document.head.appendChild(s);
     gtag('js', new Date());
     var dest = document.body.getAttribute('data-destination');
-    gtag('config', CFG.ga4Id, { language: document.documentElement.lang, destination: dest || undefined });
+    // No PII: page URLs are sent without query string or hash; no form field values are ever passed to GA.
+    gtag('config', CFG.ga4Id, { language: document.documentElement.lang, destination: dest || undefined, page_location: location.origin + location.pathname, page_referrer: document.referrer ? document.referrer.split(/[?#]/)[0] : undefined });
     if (dest) gtag('event', 'destination_view', { destination: dest });
   }
   function track(event, params) {
@@ -25,16 +26,29 @@
     if (window.organixDebug) console.log('[track]', event, payload);
   }
   window.organixTrack = track;
+  function disableGA() {
+    if (!CFG.ga4Id) return;
+    window['ga-disable-' + CFG.ga4Id] = true;
+    gtag('consent', 'update', { analytics_storage: 'denied' });
+    // remove existing GA cookies (first-party, set on this domain)
+    document.cookie.split(';').forEach(function (c) {
+      var n = c.split('=')[0].trim();
+      if (/^_ga/.test(n)) ['', location.hostname, '.' + location.hostname.replace(/^www\./, '')].forEach(function (d) {
+        document.cookie = n + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + (d ? '; domain=' + d : '');
+      });
+    });
+  }
   var card = document.querySelector('[data-consent]');
   function showCard(show) { if (card) card.hidden = !show; }
   if (CFG.ga4Id || CFG.consentDemo) {
     var choice = store();
     if (choice === 'granted') loadGA();
-    else if (!choice) showCard(true);
+    else if (choice === 'denied') disableGA();
+    else showCard(true);
   }
   document.addEventListener('click', function (e) {
     var b = e.target.closest('[data-consent-choice]');
-    if (b) { var v = b.getAttribute('data-consent-choice'); store(v); showCard(false); if (v === 'granted') loadGA(); else if (ga) gtag('consent', 'update', { analytics_storage: 'denied' }); }
+    if (b) { var v = b.getAttribute('data-consent-choice'); store(v); showCard(false); if (v === 'granted') { if (CFG.ga4Id) window['ga-disable-' + CFG.ga4Id] = false; loadGA(); } else { disableGA(); ga = false; } }
     if (e.target.closest('[data-consent-open]')) showCard(true);
     var l = e.target.closest('.lang a');
     if (l && !l.hasAttribute('aria-current')) track('language_change', { from: document.documentElement.lang, to: l.getAttribute('hreflang') });
