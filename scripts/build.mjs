@@ -270,7 +270,15 @@ ${INDEXABLE ? '' : '  X-Robots-Tag: noindex\n'}
   const langRules = ['fr', 'de']
     .filter((l) => fs.existsSync(path.join(ROOT, `src/content/pages/home.${l}.json`)))
     .map((l) => `/  /${l}/  302!  Language=${l}`);
-  write('_redirects', ['# Root → language (browser preference), default English', ...langRules, '/  /en/  302!', ''].join('\n'));
+  write('_redirects', [
+    '# Legacy Squarespace URLs (seen on the previous site) → closest current page',
+    '/home  /en/  301!',
+    '/macdoine-2026-anglais  /en/north-macedonia/  301!',
+    '# Root → language (browser preference), default English',
+    ...langRules,
+    '/  /en/  302!',
+    '',
+  ].join('\n'));
 }
 
 const fb = report.filter((r) => r.includes('fallback'));

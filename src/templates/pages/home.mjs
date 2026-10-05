@@ -124,7 +124,7 @@ export function homePage(ctx) {
     ogImage: nm.heroImage,
     preload: c.hero.image ? ctx.preloadHero(c.hero.image) : ctx.preloadHero(nm.heroImage, nm.heroImageMobile),
     jsonLd: [
-      jsonLd({ '@context': 'https://schema.org', '@type': 'WebSite', name: ctx.site.name, url: ctx.abs(ctx.locale, ''), inLanguage: ctx.locale }),
+      jsonLd({ '@context': 'https://schema.org', '@type': 'WebSite', name: ctx.site.name, url: ctx.absAsset(''), inLanguage: ['en', 'fr', 'de'] }),
       jsonLd({
         '@context': 'https://schema.org',
         '@type': 'TravelAgency',
@@ -132,7 +132,7 @@ export function homePage(ctx) {
         legalName: ctx.site.legalName,
         slogan: 'Beyond the ordinary.',
         founder: Object.values(ctx.site.team).map((m) => ({ '@type': 'Person', name: m.name })),
-        url: ctx.abs(ctx.locale, ''),
+        url: ctx.absAsset(''),
         logo: ctx.absAsset('brand/organix-logo-events.svg'),
         email: ctx.site.contact.email,
         ...(ctx.site.contact.phone ? { telephone: ctx.site.contact.phone } : {}),
