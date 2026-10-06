@@ -152,7 +152,13 @@
       "5–8 people",
       "9–12 people",
       "More than 12"
-    ]
+    ],
+    "fieldNames": {
+      "subject": "Subject",
+      "language": "Language",
+      "sourcePage": "Enquiry page",
+      "interest": "Interest"
+    }
   },
   "consent": {
     "title": "Cookies",

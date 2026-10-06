@@ -135,7 +135,7 @@
   if (form) {
     var params = new URLSearchParams(location.search);
     var src = form.querySelector('[data-source]');
-    if (src) src.value = document.referrer || '';
+    if (src) src.value = location.origin + location.pathname; // the enquiry page itself (not the previous page)
     var started = false;
     function start() { if (!started) { started = true; track('enquiry_started'); } }
 
@@ -155,14 +155,14 @@
       }
     }
     form.addEventListener('change', function (e) {
-      if (e.target.name === 'interest') applyInterest(e.target.value, true);
+      if (e.target.hasAttribute('data-interest')) applyInterest(e.target.value, true);
     });
     form.addEventListener('input', start, { once: true });
 
     var pre = params.get('interest');
-    var radio = pre && form.querySelector('input[name="interest"][value="' + pre + '"]');
+    var radio = pre && form.querySelector('input[data-interest][value="' + pre + '"]');
     if (radio) { radio.checked = true; applyInterest(pre, false); }
-    else { var checked = form.querySelector('input[name="interest"]:checked'); applyInterest(checked ? checked.value : '', false); }
+    else { var checked = form.querySelector('input[data-interest]:checked'); applyInterest(checked ? checked.value : '', false); }
     var option = params.get('option');
     if (option) {
       form.querySelectorAll('select').forEach(function (s) {
@@ -174,13 +174,13 @@
       var ok = true;
       var firstBad = null;
       form.querySelectorAll('[required]').forEach(function (i) {
-        var valid = i.type === 'radio' ? !!form.querySelector('input[name="' + i.name + '"]:checked') : i.checkValidity();
+        var valid = i.type === 'radio' ? !!form.querySelector('input[name="' + CSS.escape(i.name) + '"]:checked') : i.checkValidity();
         if (i.type !== 'radio') i.setAttribute('aria-invalid', String(!valid));
         if (!valid) { ok = false; firstBad = firstBad || i; }
       });
       if (!ok) { e.preventDefault(); firstBad.focus(); return; }
 
-      var interest = (form.querySelector('input[name="interest"]:checked') || {}).value;
+      var interest = (form.querySelector('input[data-interest]:checked') || {}).value;
       var eventName = { 'north-macedonia': 'north_macedonia_enquiry', winter: 'winter_enquiry', summer: 'summer_enquiry', custom: 'custom_enquiry' }[interest];
 
       // Submit to Netlify Forms via fetch; fall back to a normal POST on failure.
