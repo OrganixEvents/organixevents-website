@@ -142,14 +142,15 @@ export function enquirePage(ctx) {
 
   // One stable set of French, ASCII-safe field names for ALL languages: Netlify keeps a single field definition per form name,
   // so names must be identical on every page. Admin notifications are therefore always in French.
+  // Exceptions required by Netlify: 'subject' (sets the notification subject line) and 'email' (sets Reply-To to the client).
   // The form is registered for Netlify detection on the French page only (its labels become the notification labels);
   // EN / DE pages post the same fields with form-name=enquiry.
-  const N = { subject: 'sujet', language: 'langue', sourcePage: 'page_demande', interest: 'interet', duration: 'duree', winter: 'experience_hiver', summer: 'experience_ete', level: 'niveau', activity: 'activite', destination: 'destination', openToIdeas: 'ouvert_aux_idees', name: 'nom', email: 'email', phone: 'telephone', people: 'nombre_personnes', dates: 'dates', datesType: 'flexibilite_dates', message: 'message' };
+  const N = { subject: 'subject', language: 'langue', sourcePage: 'page_demande', interest: 'interet', duration: 'duree', winter: 'experience_hiver', summer: 'experience_ete', level: 'niveau', activity: 'activite', destination: 'destination', openToIdeas: 'ouvert_aux_idees', name: 'nom', email: 'email', phone: 'telephone', people: 'nombre_personnes', dates: 'dates', datesType: 'flexibilite_dates', message: 'message' };
   const fname = (k) => esc(N[k]);
   const netlifyAttrs = ctx.locale === 'fr' ? 'data-netlify="true" netlify-honeypot="company"' : '';
   const form = `<form class="enquiry" name="enquiry" method="${ctx.preview ? 'GET' : 'POST'}" action="${ctx.url('enquire/thanks/')}" ${ctx.preview ? 'data-preview' : netlifyAttrs} data-enquiry novalidate>
   <input type="hidden" name="form-name" value="enquiry">
-  <input type="hidden" name="${fname('subject')}" value="${esc(ctx.uiEn.enquiry.subject)} — OrganixEvents (${ctx.locale.toUpperCase()})">
+  <input type="hidden" name="${fname('subject')}" value="${esc(ctx.uiFr.enquiry.subject)} — OrganixEvents (${ctx.locale.toUpperCase()})">
   <input type="hidden" name="${fname('language')}" value="${ctx.locale}">
   <input type="hidden" name="${fname('sourcePage')}" value="" data-source>
   <p class="hp" aria-hidden="true"><label>Company <input name="company" tabindex="-1" autocomplete="off"></label></p>

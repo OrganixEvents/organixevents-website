@@ -114,6 +114,7 @@ function makeCtx(locale, route, missing) {
     indexable: INDEXABLE && !PREVIEW,
     ui: ui[locale],
     uiEn: ui.en,
+    uiFr: ui.fr,
     alt: (key) => (locale !== 'en' && mediaAlt[key]?.[locale]) || media[key]?.alt || '',
     exp: experiences,
     visible: (slugs) => slugs.filter((sl) => experiences[sl] && experiences[sl].status !== 'hidden'),
