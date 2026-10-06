@@ -140,14 +140,18 @@ export function enquirePage(ctx) {
   const field = (id, label, input, { hint, optional = true, cls = '' } = {}) =>
     `<div class="field ${cls}"><label for="${id}">${esc(label)}${optional ? ` <span class="field__opt">(${esc(e.optional)})</span>` : ''}</label>${input}${hint ? `<p class="field__hint" id="${id}-hint">${esc(hint)}</p>` : ''}</div>`;
 
-  // Field names = human-readable labels in the page language, so Netlify notifications read naturally (FR form → French field names).
-  const fname = (label) => esc(label.replace(/\s*[?:]\s*$/, '').trim());
-  const fn = e.fieldNames;
-  const form = `<form class="enquiry" name="enquiry" method="${ctx.preview ? 'GET' : 'POST'}" action="${ctx.url('enquire/thanks/')}" ${ctx.preview ? 'data-preview' : 'data-netlify="true" netlify-honeypot="company"'} data-enquiry novalidate>
+  // One stable set of French, ASCII-safe field names for ALL languages: Netlify keeps a single field definition per form name,
+  // so names must be identical on every page. Admin notifications are therefore always in French.
+  // The form is registered for Netlify detection on the French page only (its labels become the notification labels);
+  // EN / DE pages post the same fields with form-name=enquiry.
+  const N = { subject: 'sujet', language: 'langue', sourcePage: 'page_demande', interest: 'interet', duration: 'duree', winter: 'experience_hiver', summer: 'experience_ete', level: 'niveau', activity: 'activite', destination: 'destination', openToIdeas: 'ouvert_aux_idees', name: 'nom', email: 'email', phone: 'telephone', people: 'nombre_personnes', dates: 'dates', datesType: 'flexibilite_dates', message: 'message' };
+  const fname = (k) => esc(N[k]);
+  const netlifyAttrs = ctx.locale === 'fr' ? 'data-netlify="true" netlify-honeypot="company"' : '';
+  const form = `<form class="enquiry" name="enquiry" method="${ctx.preview ? 'GET' : 'POST'}" action="${ctx.url('enquire/thanks/')}" ${ctx.preview ? 'data-preview' : netlifyAttrs} data-enquiry novalidate>
   <input type="hidden" name="form-name" value="enquiry">
-  <input type="hidden" name="${fname(fn.subject)}" value="${esc(ctx.uiEn.enquiry.subject)} — OrganixEvents (${ctx.locale.toUpperCase()})">
-  <input type="hidden" name="${fname(fn.language)}" value="${ctx.locale}">
-  <input type="hidden" name="${fname(fn.sourcePage)}" value="" data-source>
+  <input type="hidden" name="${fname('subject')}" value="${esc(ctx.uiEn.enquiry.subject)} — OrganixEvents (${ctx.locale.toUpperCase()})">
+  <input type="hidden" name="${fname('language')}" value="${ctx.locale}">
+  <input type="hidden" name="${fname('sourcePage')}" value="" data-source>
   <p class="hp" aria-hidden="true"><label>Company <input name="company" tabindex="-1" autocomplete="off"></label></p>
 
   <fieldset class="enquiry__step">
@@ -156,7 +160,7 @@ export function enquirePage(ctx) {
       ${interests
         .map(
           (k, i) => `<label class="interest ${k === 'north-macedonia' ? 'interest--flag' : ''}">
-        <input type="radio" name="${fname(fn.interest)}" value="${k}" data-interest ${i === 0 ? 'required' : ''}>
+        <input type="radio" name="${fname('interest')}" value="${k}" data-interest ${i === 0 ? 'required' : ''}>
         <span class="interest__box">
           ${k === 'north-macedonia' ? `<span class="interest__badge">${esc(u.common.flagship)}</span>` : ''}
           <span class="interest__title">${fit(e.interests[k])}</span>
@@ -172,41 +176,41 @@ export function enquirePage(ctx) {
     <legend class="enquiry__legend"><span class="enquiry__n">02</span>${esc(e.step2)}</legend>
 
     <div class="enquiry__cond" data-when="north-macedonia">
-      ${field('duration', e.duration, `<select id="duration" name="${fname(e.duration)}"><option value="">—</option>${opt('durationOptions')}</select>`)}
+      ${field('duration', e.duration, `<select id="duration" name="${fname('duration')}"><option value="">—</option>${opt('durationOptions')}</select>`)}
     </div>
     <div class="enquiry__cond" data-when="winter">
-      ${field('winter_which', e.winterWhich, `<select id="winter_which" name="${fname(e.winterWhich)}"><option value="">—</option>${opt('winterOptions')}</select>`)}
+      ${field('winter_which', e.winterWhich, `<select id="winter_which" name="${fname('winter')}"><option value="">—</option>${opt('winterOptions')}</select>`)}
     </div>
     <div class="enquiry__cond" data-when="summer">
-      ${field('summer_which', e.summerWhich, `<select id="summer_which" name="${fname(e.summerWhich)}"><option value="">—</option>${opt('summerOptions')}</select>`)}
+      ${field('summer_which', e.summerWhich, `<select id="summer_which" name="${fname('summer')}"><option value="">—</option>${opt('summerOptions')}</select>`)}
     </div>
     <div class="enquiry__cond" data-when="north-macedonia winter">
-      ${field('level', e.level, `<select id="level" name="${fname(e.level)}"><option value="">—</option>${opt('levelOptions')}</select>`)}
+      ${field('level', e.level, `<select id="level" name="${fname('level')}"><option value="">—</option>${opt('levelOptions')}</select>`)}
     </div>
     <div class="enquiry__cond" data-when="custom">
-      ${field('activity', e.activity, `<input id="activity" name="${fname(e.activity)}" type="text" aria-describedby="activity-hint">`, { hint: e.activityHint })}
-      ${field('destination', e.destination, `<input id="destination" name="${fname(e.destination)}" type="text">`)}
-      <label class="check"><input type="checkbox" name="${fname(e.openToIdeas)}" value="yes"><span>${esc(e.openToIdeas)}</span></label>
+      ${field('activity', e.activity, `<input id="activity" name="${fname('activity')}" type="text" aria-describedby="activity-hint">`, { hint: e.activityHint })}
+      ${field('destination', e.destination, `<input id="destination" name="${fname('destination')}" type="text">`)}
+      <label class="check"><input type="checkbox" name="${fname('openToIdeas')}" value="yes"><span>${esc(e.openToIdeas)}</span></label>
     </div>
 
     <div class="grid-2">
-      ${field('name', e.name, `<input id="name" name="${fname(e.name)}" type="text" autocomplete="name" required>`, { optional: false })}
-      ${field('email', e.email, `<input id="email" name="${fname(e.email)}" type="email" autocomplete="email" required>`, { optional: false })}
-      ${field('phone', e.phone, `<input id="phone" name="${fname(e.phone)}" type="tel" autocomplete="tel">`)}
-      ${field('people', e.people, `<select id="people" name="${fname(e.people)}" aria-describedby="people-hint"><option value="">—</option>${opt('peopleOptions')}</select>`, { hint: e.peopleHint })}
+      ${field('name', e.name, `<input id="name" name="${fname('name')}" type="text" autocomplete="name" required>`, { optional: false })}
+      ${field('email', e.email, `<input id="email" name="${fname('email')}" type="email" autocomplete="email" required>`, { optional: false })}
+      ${field('phone', e.phone, `<input id="phone" name="${fname('phone')}" type="tel" autocomplete="tel">`)}
+      ${field('people', e.people, `<select id="people" name="${fname('people')}" aria-describedby="people-hint"><option value="">—</option>${opt('peopleOptions')}</select>`, { hint: e.peopleHint })}
     </div>
     <div class="grid-2 grid-2--dates">
-      ${field('dates', e.dates, `<input id="dates" name="${fname(e.dates)}" type="text" aria-describedby="dates-hint">`, { hint: e.datesHint })}
+      ${field('dates', e.dates, `<input id="dates" name="${fname('dates')}" type="text" aria-describedby="dates-hint">`, { hint: e.datesHint })}
       <fieldset class="field seg">
         <legend>${esc(e.datesType)}</legend>
         <div class="seg__opts">
           ${[['exact', e.datesExact], ['approximate', e.datesApprox], ['flexible', e.datesFlexible]]
-            .map(([v, l]) => `<label><input type="radio" name="${fname(e.datesType)}" value="${v}" ${v === 'flexible' ? 'checked' : ''}><span>${esc(l)}</span></label>`)
+            .map(([v, l]) => `<label><input type="radio" name="${fname('datesType')}" value="${v}" ${v === 'flexible' ? 'checked' : ''}><span>${esc(l)}</span></label>`)
             .join('')}
         </div>
       </fieldset>
     </div>
-    ${field('message', e.message, `<textarea id="message" name="${fname(e.message)}" rows="5" aria-describedby="message-hint"></textarea>`, { hint: e.messageHint })}
+    ${field('message', e.message, `<textarea id="message" name="${fname('message')}" rows="5" aria-describedby="message-hint"></textarea>`, { hint: e.messageHint })}
     <p class="enquiry__consent"><a href="${ctx.url('privacy/')}">${esc(e.consent)}</a></p>
     <p class="enquiry__error" role="alert" hidden data-error>${esc(e.error)}</p>
     <button class="btn btn--primary btn--submit" type="submit" data-sending="${esc(e.sending)}"><span>${esc(e.submit)}</span>${arrow}</button>
