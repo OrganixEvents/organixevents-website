@@ -191,9 +191,10 @@
       var original = label.textContent;
       btn.disabled = true; label.textContent = btn.getAttribute('data-sending');
       var data = new FormData(form);
-      fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(data).toString() })
+      // POST to this page's own static path: '/' is a forced language redirect (302), which would turn the POST into a GET and Netlify would never record it.
+      fetch(location.pathname, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(data).toString() })
         .then(function (r) {
-          if (!r.ok) throw new Error(r.status);
+          if (!r.ok || r.redirected) throw new Error(r.status);
           track('enquiry_submitted', { interest: interest });
           if (eventName) track(eventName);
           setTimeout(function () { location.href = form.getAttribute('action'); }, ga ? 400 : 0);
